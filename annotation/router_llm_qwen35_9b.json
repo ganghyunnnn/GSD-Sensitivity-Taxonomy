@@ -1,0 +1,2728 @@
+{
+  "direct": {
+    "agent": "Direct (qwen3.5:9b)",
+    "accuracy": 0.0317,
+    "correct": 6,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 2,
+        "total": 41,
+        "accuracy": 0.0488
+      },
+      "M1": {
+        "correct": 0,
+        "total": 38,
+        "accuracy": 0.0
+      },
+      "M2": {
+        "correct": 2,
+        "total": 57,
+        "accuracy": 0.0351
+      },
+      "M3": {
+        "correct": 1,
+        "total": 18,
+        "accuracy": 0.0556
+      },
+      "M4": {
+        "correct": 0,
+        "total": 19,
+        "accuracy": 0.0
+      },
+      "M5": {
+        "correct": 1,
+        "total": 16,
+        "accuracy": 0.0625
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the two cars parked in the driveway are not flooded; they are sitting on dry pavement."
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "22",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The right side has more water."
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "55",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "73",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "74",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "75",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "83",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "88",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "112",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "119",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are 4 cars visible in the image, and yes, they all appear to be traveling in the southwest direction."
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Based"
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "135",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the planes are facing opposite directions. The plane on the left is facing towards the top-left, while the plane in the center is facing towards the bottom-right."
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "145",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "184",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes, there is a small-"
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are 2 cars in the image. One is blue and the other is white."
+      },
+      {
+        "task_id": "189",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "[607,132,668,197]"
+      },
+      {
+        "task_id": "193",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "197",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The baseball diamond is the central playing field within the stadium structure. In this region, the proportion of grass significantly exceeds that of dirt. The dirt is confined primarily to the infiel"
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the soccer field appears to be empty."
+      },
+      {
+        "task_id": "207",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes, a soccer ball field is present in the image, and it is located on the right side."
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "230",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "232",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "233",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "249",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "257",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "263",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "272",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "281",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "282",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "285",
+        "gt_type": "M3",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "pred_type": "error",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The red rectangular area is a **long jump (or triple jump) pit**. It is used for athletes to land safely after jumping for distance during track and field events."
+      },
+      {
+        "task_id": "293",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Based on the image, there are two visible cars:\n1.  A **dark-colored car** (appearing black or dark grey) located further up the road.\n2.  A **white or light-colored car** located"
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are no destroyed buildings visible in the image; therefore, the total surveying time is 0 minutes."
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Based on the visual evidence in the image, there are no destroyed buildings visible. The structures appear intact with no signs of collapse, rubble, or significant damage. Therefore, **zero** assessor"
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M5",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M4",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": ""
+      }
+    ]
+  },
+  "mara": {
+    "agent": "MARA (qwen3.5:9b)",
+    "accuracy": 0.0212,
+    "correct": 4,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 3,
+        "total": 41,
+        "accuracy": 0.0732
+      },
+      "M1": {
+        "correct": 0,
+        "total": 38,
+        "accuracy": 0.0
+      },
+      "M2": {
+        "correct": 1,
+        "total": 57,
+        "accuracy": 0.0175
+      },
+      "M3": {
+        "correct": 0,
+        "total": 18,
+        "accuracy": 0.0
+      },
+      "M4": {
+        "correct": 0,
+        "total": 19,
+        "accuracy": 0.0
+      },
+      "M5": {
+        "correct": 0,
+        "total": 16,
+        "accuracy": 0.0
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "22",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The right side has more water."
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "55",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "73",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "74",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "75",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "83",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "88",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M4",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "112",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "119",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "135",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "145",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Based on the visual evidence in the western (left) portion of the image, the **buildings** appear to be the most impacted, showing signs of significant destruction and rubble."
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "184",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "189",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The plane with the blue fuselage is located on the runway in the upper right portion of the image."
+      },
+      {
+        "task_id": "193",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "197",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The baseball diamond is the central playing field located within the stadium structure. Upon analyzing the region, the grass area (the outfield and parts of the infield) is significantly larger than t"
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the match is not going on in the soccer field; the field appears empty."
+      },
+      {
+        "task_id": "207",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, neither of the basketball courts appears to be occupied."
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Yes, a soccer ball field is present in the image, located on the upper right side."
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "230",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "232",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "233",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "249",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "257",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "263",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "272",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "281",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "282",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "285",
+        "gt_type": "M3",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "pred_type": "error",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "293",
+        "gt_type": "M1",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M5",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "**Assessment:** 0%\n\n**Visual Evidence:**\nUpon analyzing the image, all visible structures—including the white barn-like building at the top center, the dark"
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M5",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M4",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "It is not possible to answer this question because only a single image is provided. To calculate the percentage of disappeared buildings, I would need to see both the pre-event and post-event images t"
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M5",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M5",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M4",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M4",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M5",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M5",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M5",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M4",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M5",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M4",
+        "pred_type": "D",
+        "correct": false,
+        "answer": ""
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": ""
+      }
+    ]
+  }
+}

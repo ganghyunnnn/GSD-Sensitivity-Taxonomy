@@ -1,0 +1,1008 @@
+{
+  "model": "qwen3-vl:8b",
+  "resolution_px": 1024,
+  "n_m2": 83,
+  "direct_fail_rate": 0.7952,
+  "counting_fail_rate": 0.7711,
+  "counting_effect_pp": -2.4,
+  "direct": [
+    {
+      "task_id": "2",
+      "condition": "direct",
+      "correct": false,
+      "answer": "4, yes"
+    },
+    {
+      "task_id": "15",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Three houses; yes"
+    },
+    {
+      "task_id": "19",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Approximately 20 houses and 10 cars are affected by the flood."
+    },
+    {
+      "task_id": "54",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "60",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Almost all buildings are destroyed."
+    },
+    {
+      "task_id": "76",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Land cover types: Forest, Floodwater. Disaster type: Flood. Visible human-made buildings: ~10."
+    },
+    {
+      "task_id": "93",
+      "condition": "direct",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "97",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Two white cars; yes"
+    },
+    {
+      "task_id": "99",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "100",
+      "condition": "direct",
+      "correct": true,
+      "answer": "So, let's look at the image. The question is about how many cars are moving southeast. First, I need to figure out the direction. In an aerial view of a highway, typically lanes going from northwest t"
+    },
+    {
+      "task_id": "101",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows an aerial view of a multi-lane highway with several vehicles. Counting the cars: 1 white car (top left), 1 white car (adjacent), 1 dark car, 1 white car, 1 black car, 1 white car, 1 re"
+    },
+    {
+      "task_id": "102",
+      "condition": "direct",
+      "correct": false,
+      "answer": "So, let's look at the parking lot in the Google Earth image. First, I need to determine which cars are facing northeast (NE) and which are facing southwest (SW). \n\nIn a typical parking lot, cars can b"
+    },
+    {
+      "task_id": "120",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "121",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Four cars; yes"
+    },
+    {
+      "task_id": "125",
+      "condition": "direct",
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. There are several cars on the road. Let's count them.\n\nFirst, leftmost highway (maybe a different direction): there's"
+    },
+    {
+      "task_id": "129",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "131",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "137",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Three aircraft are parked at the"
+    },
+    {
+      "task_id": "148",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Partially destroyed buildings dominate; ratio ~3:1 (partially to fully destroyed)."
+    },
+    {
+      "task_id": "176",
+      "condition": "direct",
+      "correct": false,
+      "answer": "4; No"
+    },
+    {
+      "task_id": "187",
+      "condition": "direct",
+      "correct": true,
+      "answer": "There are 2 cars in the image; one is blue and the other is white."
+    },
+    {
+      "task_id": "233",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Total vehicles: 3; All sedans: Yes"
+    },
+    {
+      "task_id": "235",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Two cars; yes, all detected cars are white (same color)."
+    },
+    {
+      "task_id": "236",
+      "condition": "direct",
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify all vehicles. The cars on the road—let's count them. There are several cars. Now, determine if they're going north or south. Wait, the image is an aerial v"
+    },
+    {
+      "task_id": "239",
+      "condition": "direct",
+      "correct": true,
+      "answer": "So, let's count the white vehicles in the image. First, look for white cars. There's a white car on the road near the center, then another one further up. Wait, also check the parking area. Oh, there "
+    },
+    {
+      "task_id": "251",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Three baseball diamonds can be identified; none currently have players on them."
+    },
+    {
+      "task_id": "253",
+      "condition": "direct",
+      "correct": true,
+      "answer": "4"
+    },
+    {
+      "task_id": "267",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Total tennis courts: 8; the closest to parking area at top left is occupied."
+    },
+    {
+      "task_id": "275",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are 5 airplanes in the image, and none have a ground support vehicle positioned directly adjacent to them."
+    },
+    {
+      "task_id": "283",
+      "condition": "direct",
+      "correct": true,
+      "answer": "1"
+    },
+    {
+      "task_id": "286",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Partially occluded; 3 parked vehicles."
+    },
+    {
+      "task_id": "289",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Dark-colored vehicles: 2, Light-colored vehicles: 3"
+    },
+    {
+      "task_id": "290",
+      "condition": "direct",
+      "correct": false,
+      "answer": "6"
+    },
+    {
+      "task_id": "298",
+      "condition": "direct",
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "301",
+      "condition": "direct",
+      "correct": false,
+      "answer": "So, let's count the empty parking spots. First, look at the grid of spots. The image shows a tarmac with marked spots. Let's identify each spot.\n\nFirst, check the rows. There are several rows of spots"
+    },
+    {
+      "task_id": "335",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2 more, which is 25% of total"
+    },
+    {
+      "task_id": "336",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the number of rescue teams required:  \n\n1. **Identify destroyed buildings (D) and total buildings (T)** from the post image.  \n   - Assume the post image shows **9 destroyed buildings** o"
+    },
+    {
+      "task_id": "337",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It's about a post-disaster image (though the image provided might not be post-disaster, but we ha"
+    },
+    {
+      "task_id": "338",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The ratio of completely destroyed to partially damaged buildings is 1:4, requiring 2 three-ton relief shipments."
+    },
+    {
+      "task_id": "339",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0%"
+    },
+    {
+      "task_id": "341",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Got it, let's figure this out. First, I need to count how many destroyed buildings there are in the image. Wait, the problem says \"destroyed buildings,\" but looking at the image, which is a satellite "
+    },
+    {
+      "task_id": "342",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0%"
+    },
+    {
+      "task_id": "343",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "344",
+      "condition": "direct",
+      "correct": true,
+      "answer": "2"
+    },
+    {
+      "task_id": "345",
+      "condition": "direct",
+      "correct": false,
+      "answer": "33.3"
+    },
+    {
+      "task_id": "346",
+      "condition": "direct",
+      "correct": true,
+      "answer": "So, let's analyze the image. First, we need to divide the image into quadrants. Assuming standard quadrant division (top-left, top-right, bottom-left, bottom-right), but wait, maybe it's based on the "
+    },
+    {
+      "task_id": "348",
+      "condition": "direct",
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "349",
+      "condition": "direct",
+      "correct": false,
+      "answer": "50"
+    },
+    {
+      "task_id": "352",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Count of no-damage and destroyed buildings: 2; Units needed: 1"
+    },
+    {
+      "task_id": "354",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "355",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "357",
+      "condition": "direct",
+      "correct": false,
+      "answer": "1/2"
+    },
+    {
+      "task_id": "358",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Top-right"
+    },
+    {
+      "task_id": "359",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0 destroyed buildings; ratio of 0 to total buildings (no destroyed buildings visible)"
+    },
+    {
+      "task_id": "360",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0%"
+    },
+    {
+      "task_id": "361",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "362",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "363",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It's about comparing buildings with major damage versus no damage in a post-flood image, and then"
+    },
+    {
+      "task_id": "365",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Insufficient information; only one image provided (no pre/post comparison)."
+    },
+    {
+      "task_id": "367",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "368",
+      "condition": "direct",
+      "correct": false,
+      "answer": "No buildings detected in the provided image; unable to determine destruction count without pre/post comparison data."
+    },
+    {
+      "task_id": "369",
+      "condition": "direct",
+      "correct": true,
+      "answer": "So, let's try to figure out this problem. The user is asking about detecting minor-damage and destroyed buildings between pre and post images, then computing the ratio of destroyed to minor-damage. Bu"
+    },
+    {
+      "task_id": "370",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0 buildings were destroyed; total labor-hours needed = 0."
+    },
+    {
+      "task_id": "371",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows a single aerial view without pre/post comparison; thus, \"change\" is not applicable. Counting distinct buildings: approximately 8 structures (e.g., commercial/industrial complexes). Wit"
+    },
+    {
+      "task_id": "373",
+      "condition": "direct",
+      "correct": false,
+      "answer": "No visible changes or damage observed between pre and post images; zero buildings are majorly damaged in the post image. Total displaced households estimated at 0 (since 0 damaged buildings × 2 famili"
+    },
+    {
+      "task_id": "376",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0 destroyed buildings; 0 teams required"
+    },
+    {
+      "task_id": "377",
+      "condition": "direct",
+      "correct": true,
+      "answer": "Top-left: No damage = 12, Minor = 0, Major = 0, Destroyed = 0 → Ratio = 0  \nTop-right: No damage = 8, Minor = 1, Major = 0, Destroyed = 0 → Ratio = 0  \nBottom-left: No damage = 6, Minor = 2, Major = 1"
+    },
+    {
+      "task_id": "378",
+      "condition": "direct",
+      "correct": false,
+      "answer": "3, 30%"
+    },
+    {
+      "task_id": "379",
+      "condition": "direct",
+      "correct": false,
+      "answer": "1/5"
+    },
+    {
+      "task_id": "381",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the number of team-days needed, we first identify the total number of damaged buildings in the image. Based on typical problem structures and common interpretations of such aerial imagery"
+    },
+    {
+      "task_id": "382",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "383",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0%"
+    },
+    {
+      "task_id": "384",
+      "condition": "direct",
+      "correct": false,
+      "answer": "60 minutes"
+    },
+    {
+      "task_id": "386",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "387",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Bottom-right"
+    },
+    {
+      "task_id": "388",
+      "condition": "direct",
+      "correct": false,
+      "answer": "2:1"
+    },
+    {
+      "task_id": "389",
+      "condition": "direct",
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "390",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "392",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Top-right quadrant, 2"
+    },
+    {
+      "task_id": "393",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0%"
+    },
+    {
+      "task_id": "395",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "396",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Got it, let's try to figure this out. First, the image is 1024x1024, so dividing into four equal quadrants would be top-left, top-right, bottom-left, bottom-right. Each quadrant is 512x512.\n\nNow, we n"
+    },
+    {
+      "task_id": "398",
+      "condition": "direct",
+      "correct": false,
+      "answer": "0%"
+    }
+  ],
+  "counting": [
+    {
+      "task_id": "2",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's try to figure out this problem step by step. First, we need to identify the cul-de-sac in the image. A cul-de-sac is a dead-end street with houses on one side and typically a circular or loo"
+    },
+    {
+      "task_id": "15",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "19",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's try to count the houses and cars in this flooded area. First, I need to identify each house. Let's look at the image.\n\nHouses: There are many houses with gray roofs. Let's go step by ste"
+    },
+    {
+      "task_id": "54",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "60",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of a residential area that seems to have been affected by fire or some disaster. The task is to count the destroyed buildings. First, I need to identif"
+    },
+    {
+      "task_id": "76",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Forest, Flood; Flood; 10"
+    },
+    {
+      "task_id": "93",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's look at the image. We need to count vehicles going the same direction. First, check the roads. On the main curved road, there are cars. Let's see: on the left side of the curved road (the on"
+    },
+    {
+      "task_id": "97",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "99",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's look at the image. The task is to count cars that are touching or overlapping the yellow road lines. First, I need to identify where the yellow lines are. In highway images, yellow lines are"
+    },
+    {
+      "task_id": "100",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's look at the image. We need to count cars moving southeast. First, identify each car and their direction.\n\nLooking at the highway lanes:\n\n- Top left lane (maybe northbound? Wait, direction is"
+    },
+    {
+      "task_id": "101",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. We need to count the cars. Let's go lane by lane.\n\nFirst, check each car:\n\n1. Top left area: There's a white car (may"
+    },
+    {
+      "task_id": "102",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's look at the image. First, I need to figure out which cars are facing northeast (NE) and which are facing southwest (SW). In an aerial view, direction matters based on their orientation.\n\nLet"
+    },
+    {
+      "task_id": "120",
+      "condition": "counting",
+      "correct": false,
+      "answer": "To determine how many cars are moving northwest, we analyze each vehicle's position and direction relative to the image:\n\n1. **Top-left white/blue taxi**: Positioned near the curved intersection, its "
+    },
+    {
+      "task_id": "121",
+      "condition": "counting",
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "125",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. First, I need to count all the cars visible.\n\nStarting from the leftmost road (the one on the far left): there are tw"
+    },
+    {
+      "task_id": "129",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "131",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "137",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Three white aircraft are parked at the terminal apron, and they have the same color (white)."
+    },
+    {
+      "task_id": "148",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's try to figure out this problem. The task is to count the destroyed buildings and estimate the ratio of partially destroyed to fully destroyed. First, I need to look at the image carefully.\n\n"
+    },
+    {
+      "task_id": "176",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's count the cars in the image. First, I need to look for all visible cars that are not just parked in spots but actually on the road or driveways. Wait, the question says \"other than parking s"
+    },
+    {
+      "task_id": "187",
+      "condition": "counting",
+      "correct": true,
+      "answer": "There are two cars in the image: one blue car and one white car."
+    },
+    {
+      "task_id": "233",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "235",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Two, all same color"
+    },
+    {
+      "task_id": "236",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify all vehicles. Let's count them.\n\nTop part of the highway (northbound? Wait, need to figure out directions). The road has multiple lanes. Let's list each ca"
+    },
+    {
+      "task_id": "239",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify white vehicles. Let's check each car.\n\nTop part of the image: There are two white cars parked on the street (the ones near the top right). Then, on the mai"
+    },
+    {
+      "task_id": "251",
+      "condition": "counting",
+      "correct": false,
+      "answer": "4, 0"
+    },
+    {
+      "task_id": "253",
+      "condition": "counting",
+      "correct": true,
+      "answer": "4"
+    },
+    {
+      "task_id": "267",
+      "condition": "counting",
+      "correct": true,
+      "answer": "8, no"
+    },
+    {
+      "task_id": "275",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's count the airplanes first. Looking at the image:\n\nTop row: two large planes (maybe bombers) – that's 2.\n\nMiddle section: one large plane (like a cargo plane) – that's 3.\n\nBottom row: two hel"
+    },
+    {
+      "task_id": "283",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's look at the image. The question is about how many airplanes have ground vehicles close by. First, I need to check each plane.\n\nLooking at the top part: there's a large plane (maybe a bomber)"
+    },
+    {
+      "task_id": "286",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Okay, let's tackle this problem. So, the user wants to know if the parking area south of the tennis courts is fully visible or partially occluded in the image, and also count the parked vehicles in th"
+    },
+    {
+      "task_id": "289",
+      "condition": "counting",
+      "correct": false,
+      "answer": "5 dark, 2 light"
+    },
+    {
+      "task_id": "290",
+      "condition": "counting",
+      "correct": false,
+      "answer": "6"
+    },
+    {
+      "task_id": "298",
+      "condition": "counting",
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "301",
+      "condition": "counting",
+      "correct": false,
+      "answer": "So, let's count the empty parking spots. First, I need to look at the grid of spots on the tarmac. The image shows a pattern with yellow lines forming rectangles. Each rectangle is a parking spot. Let"
+    },
+    {
+      "task_id": "335",
+      "condition": "counting",
+      "correct": false,
+      "answer": "To determine the number of destroyed buildings on the right half compared to the left and their percentage difference:  \n\n1. **Identify destroyed buildings**: In post"
+    },
+    {
+      "task_id": "336",
+      "condition": "counting",
+      "correct": false,
+      "answer": "To determine the required number of rescue teams, we first analyze the image for destroyed and total buildings. Based on typical disaster scenario imagery (e.g., burned structures), assume:\n\n- **Destr"
+    },
+    {
+      "task_id": "337",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about a post-disaster image (though the image provided here looks like a normal aerial vie"
+    },
+    {
+      "task_id": "338",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to count the number of completely destroyed buildings and partially damaged ones from the satellite image. Wait, but the problem says \"after"
+    },
+    {
+      "task_id": "339",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "341",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, I need to count the destroyed buildings in the image. Wait, the problem says \"destroyed buildings,\" but looking at the image, which is a satellite view of "
+    },
+    {
+      "task_id": "342",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "343",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "344",
+      "condition": "counting",
+      "correct": true,
+      "answer": "2"
+    },
+    {
+      "task_id": "345",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "346",
+      "condition": "counting",
+      "correct": true,
+      "answer": "So, let's try to figure out this problem. First, I need to understand what the image shows. It looks like an aerial view of a flooded area with some buildings and trees. The question is about identify"
+    },
+    {
+      "task_id": "348",
+      "condition": "counting",
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "349",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to look at the image and count the buildings before the event. Then, after the event, see which ones are destroyed. Wait, but the question i"
+    },
+    {
+      "task_id": "352",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "354",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "355",
+      "condition": "counting",
+      "correct": false,
+      "answer": "100"
+    },
+    {
+      "task_id": "357",
+      "condition": "counting",
+      "correct": false,
+      "answer": "1/2"
+    },
+    {
+      "task_id": "358",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, I need to divide the image into four equal quadrants. Since the image is 1024x1024, each quadrant would be 512x512 pixels. Let's define the quadrants:\n\n- T"
+    },
+    {
+      "task_id": "359",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "360",
+      "condition": "counting",
+      "correct": false,
+      "answer": "30"
+    },
+    {
+      "task_id": "361",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "362",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the percentage of buildings that were destroyed after a flood, using pre- an"
+    },
+    {
+      "task_id": "363",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about comparing buildings with major damage versus no damage in a post-flood image, and th"
+    },
+    {
+      "task_id": "365",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "367",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "368",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "369",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Insufficient data; no pre-image provided for comparison to detect changes in buildings."
+    },
+    {
+      "task_id": "370",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "371",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, the question is about counting buildings or something related to deploying rescue teams. Wait, the user says \"If two rescue team per building, then"
+    },
+    {
+      "task_id": "373",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "376",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "377",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into four quadrants. Let's assume the image is a square, so we'll split it vertically and horizontally through the cen"
+    },
+    {
+      "task_id": "378",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting \"no-damage\" buildings in the upper half of the post image and then findin"
+    },
+    {
+      "task_id": "379",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "381",
+      "condition": "counting",
+      "correct": false,
+      "answer": "To determine the number of team - days needed, we first need to count the number of damaged buildings in the image. After carefully examining the aerial view and identifying each distinct building str"
+    },
+    {
+      "task_id": "382",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "383",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "384",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "386",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "387",
+      "condition": "counting",
+      "correct": false,
+      "answer": "bottom-right"
+    },
+    {
+      "task_id": "388",
+      "condition": "counting",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. The question is about the ratio of buildings with minor damage to those with major damage in a post-event image. But first, I need to look at the image pr"
+    },
+    {
+      "task_id": "389",
+      "condition": "counting",
+      "correct": false,
+      "answer": "To determine the number of team-hours required, first count all distinct buildings in the image. After careful inspection:\n\n- **8 distinct buildings** are visible (including houses and structures like"
+    },
+    {
+      "task_id": "390",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "392",
+      "condition": "counting",
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It wants to know which quadrant of the post image has the highest number of majorly damaged build"
+    },
+    {
+      "task_id": "393",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "395",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "396",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "398",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    }
+  ]
+}

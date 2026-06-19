@@ -1,0 +1,1755 @@
+{
+  "direct": {
+    "agent": "Direct (blaifa/InternVL3_5:8b)",
+    "accuracy": 0.2116,
+    "correct": 40,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 22,
+        "total": 66,
+        "accuracy": 0.3333
+      },
+      "M1": {
+        "correct": 4,
+        "total": 40,
+        "accuracy": 0.1
+      },
+      "M2": {
+        "correct": 14,
+        "total": 83,
+        "accuracy": 0.1687
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1 building, yes."
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes"
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "Upon examining the image closely, I can identify several vehicles on what appears to be a flooded road. Here's an estimation of their types:\n\n1. **White Car (Top Left)**\n   - Type: Sedan\n\n2. **Black Car (Middle Right)**\n   - Type: SUV\n\n3. **Silver Car (Bottom Center)**\n   - Type: Sedan\n\n4. **Gray Car (Near Bottom Center)**\n   - Type: SUV\n\nThese estimations are based on the typical shapes and sizes of sedans and SUVs as seen in aerial images."
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There are two houses visible in the image. Yes, there appears to be flooding between the houses as water can be seen surrounding them."
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "gt_types": [
+          "D",
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The white house in the northwest corner of the image does appear to be surrounded by water, indicating it might be flooded. Given the ground sample distance (GSD) of 0.015 meters per pixel, a 10-meter radius around the house would cover approximately 67 pixels (since \\( \\text{radius} = 10 \\, \\text{meters} / 0.015 \\, \\text{meters/px} \\approx 666.67 \\, \\text{pixels} \\)). The visible water around the house suggests that there is likely flooding within this radius."
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The image shows a flooded residential area with multiple houses and several cars. Here's a detailed breakdown:\n\n### Number of Houses:\n- **Total Houses:** There are approximately 15 houses visible in the image.\n\n### Number of Cars:\n- **Total Cars:** There are around 9 cars visible in the image, scattered throughout the neighborhood.\n\nThe floodwater has inundated the streets and yards, affecting both the homes and vehicles."
+      },
+      {
+        "task_id": "22",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "Right"
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "No"
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "Yes, there are two cars visible between the non-flooded houses. One car is white and the other is red."
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "Yes, there are houses within a 5-meter radius of the electrical transmission tower in the image. The tower is located near several residential structures."
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "gt_types": [
+          "D",
+          "M1",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To determine if any cars are within a 10-meter radius of the red car and whether they are in water, we need to analyze the image carefully.\n\n1. **Identify the Red Car**: Locate the red car on the map.\n2. **Measure the Radius**: Expand a circle with a radius of 10 meters around the red car.\n3. **Count Cars Within Radius**: Check for any other cars within this expanded area.\n4. **Check Water Coverage**: Determine if these cars are in water.\n\n### Step-by-Step Analysis:\n\n1. **Identify the Red Car**:\n   - The red car is located near the bottom right of the image, close to a house with a white roof and a driveway leading up to it.\n\n2. **Measure the Radius**:\n   - With a radius of 10 meters, we draw a circle around the red car.\n\n3. **Count Cars Within Radius**:\n   - Visually inspecting the area within this circle, there are no other cars immediately visible within the 10-meter radius.\n\n4. **Check Water Coverage**:\n   - Since no other cars are found within the 10-meter radius, we cannot determine if they are in water.\n\n### Conclusion:\n\nThere are no other cars within a 10-meter radius of the red car. Therefore, there are no additional cars to consider for being in water based on this analysis.\n\n**Answer**: There are no other cars within a 10-meter radius of the red car, so we cannot determine if any cars are in water based on this information."
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "55",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "No"
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The image does not show any destroyed buildings. It appears to be a satellite view of an urban area with intact structures."
+      },
+      {
+        "task_id": "73",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "No-damage"
+      },
+      {
+        "task_id": "74",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "No"
+      },
+      {
+        "task_id": "75",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "No"
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The image shows a mix of forested areas with dense tree cover. There are also some clearings where structures and possibly roads or paths can be seen.\n\n**Landcover Types:**\n1. Forest/Trees (dense coverage)\n2. Clearings/Open Areas\n\n**Disaster Type:**\nThere is no visible sign of a disaster such as flooding, fire, or landslides in the image.\n\n**Human-Made Buildings:**\nSeveral small structures are visible within the clearings among the trees. The exact count is difficult to determine from this angle, but there appear to be at least 3-4 buildings.\n\nIn summary:\n- Landcover Types: Forest/Trees, Clearings/Open Areas\n- Disaster Type: None visible\n- Human-Made Buildings: At least 3-4"
+      },
+      {
+        "task_id": "83",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "The largest building damaged due to Hurricane Harvey is located centrally in the image, characterized by its large size and central position among other structures. There is no playground visible in the floodwater around this building. The area surrounding the building appears to be inundated with water, but no playground can be identified within this flooded zone."
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes"
+      },
+      {
+        "task_id": "88",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes, there is a building with a red rooftop near the waterbody on the left side of the image. The structure appears to be intact without visible signs of damage."
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The smallest car in the image is white."
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There are two white cars in the image, and they appear to be heading in different directions. One is facing left and the other is facing right."
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1",
+          "M2"
+        ],
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The image shows an aerial view of a multi-lane highway with several cars. There are 12 vehicles visible in total, spread across different lanes. The distribution suggests moderate traffic but no severe congestion."
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1 car is parked facing northeast, and 5 cars are facing southwest."
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "Yes"
+      },
+      {
+        "task_id": "112",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes"
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The two blue trucks are very close to each other, almost touching."
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The distance between the two cars on the southbound road can be estimated by measuring the number of pixels they cover and then applying the Ground Sample Distance (GSD) value provided.\n\nIf we assume that each car covers approximately 2 pixels in width, and using a GSD of 1.6310 cm per pixel:\n\nDistance = Number of Pixels × GSD\n         = 2 pixels × 1.6310 cm/pixel\n         = 3.262 cm\n\nSo, the distance between the cars is approximately 3.262 centimeters."
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "No"
+      },
+      {
+        "task_id": "119",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There are four cars, and they are not all traveling in the southwest direction. Two cars appear to be heading towards the northeast, while one is moving towards the southeast, and another seems stationary or possibly moving in a different direction."
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The image shows a road intersection with several vehicles. There are two lanes on each side of the intersection, with some cars waiting to turn or moving through the junction.\n\nCounting the cars:\n- On the left lane heading straight: 2 cars.\n- In the middle turning right: 3 cars.\n- In the middle turning left: 1 car.\n- On the right lane heading straight: 2 cars.\n- Near the bottom right, parked: 2 cars.\n\nTotal number of cars: 10."
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "No, the red car cannot safely switch lanes because there are three vehicles nearby within its vicinity."
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "Two."
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The distance between the two orange excavators can be estimated by counting the grid squares they span on the map, considering a Ground Sample Distance (GSD) of 0.9 meters per square.\n\n1. Measure the length of one excavator in terms of grid squares.\n2. Multiply the number of squares by the GSD to get the distance in meters.\n\nAssuming each excavator spans approximately 3 grid squares:\n\n\\[ \\text{Distance} = 3 \\, \\text{squares} \\times 0.9 \\, \\text{meters/square} = 2.7 \\, \\text{meters} \\]\n\nSo, the distance between the orange excavators is approximately 2.7 meters."
+      },
+      {
+        "task_id": "135",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "Three aircraft are parked at the terminal apron. They are white in color, so yes, they all have the same color."
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To detect planes with a red fuselage in the image, we identify three such planes:\n\n1. One plane near the center-right of the image.\n2. Another slightly below it to the right.\n3. A third one further down.\n\nAssuming each pixel represents 1.5 meters on the ground (GSD), we can estimate distances between these planes by counting pixels and multiplying by 1.5 meters per pixel.\n\nLet's assume the distance in pixels between the topmost red plane and the bottommost red plane is approximately 40 pixels vertically:\n\nDistance = 40 pixels * 1.5 meters/pixel = 60 meters\n\nThus, the estimated vertical distance between these planes is about 60 meters."
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "Yes, there appears to be a destroyed or damaged building near the center-right part of the image. Based on the given Ground Sample Distance (GSD) of 0.5 meters per pixel, roads are visible in close proximity to this area. Therefore, it is likely that a road lies within 30 meters of the destroyed building."
+      },
+      {
+        "task_id": "145",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The destroyed area is located in the upper right section of the image. The building within this area appears to have a brownish color due to possible dirt or debris covering its surface. The structure seems partially collapsed with visible damage and irregular shapes, indicating significant destruction. There are no clear outlines or intact walls observable, suggesting that the building has suffered extensive deterioration."
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The destroyed building is located in the upper right section of the image. It appears to be partially collapsed, with some sections still standing while others have crumbled."
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "The destroyed building in the image is located near the center-left part of the scene, identifiable by its significant damage compared to surrounding structures.\n\nTo estimate the ratio of partially destroyed to fully destroyed buildings:\n\n1. **Fully Destroyed Buildings**: These are buildings that appear completely collapsed or heavily damaged beyond repair.\n   - There seems to be 1 fully destroyed building in the image.\n\n2. **Partially Destroyed Buildings**: These are buildings with some remaining structure but significant damage.\n   - There appear to be around 5 partially destroyed buildings in the image.\n\nThe ratio of partially destroyed to fully destroyed buildings is approximately:\n\n\\[ \\text{Ratio} = \\frac{\\text{Number of Partially Destroyed Buildings}}{\\text{Number of Fully Destroyed Buildings}} = \\frac{5}{1} = 5:1 \\]\n\nSo, the estimated ratio of partially destroyed to fully destroyed buildings is **5:1**."
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "The damage patterns on both sides appear to be asymmetrical, with one side showing more extensive destruction than the other."
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The area most impacted in the west appears to be a large building or complex, which seems to have suffered significant damage. The structure shows signs of collapse or severe deterioration, with parts of it possibly having fallen apart or been heavily damaged by some form of destruction. This could indicate an event such as a natural disaster (like an earthquake or hurricane), conflict, or industrial accident that has caused extensive harm to the infrastructure in that region."
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "In the image, there are two parked vehicles:\n\n1. A red car near the house with a circular driveway.\n2. A black vehicle near the intersection.\n\nBased on their appearance and typical characteristics:\n- The red car is likely a sedan.\n- The black vehicle could be an SUV or truck, but it's difficult to determine precisely from this angle.\n\nSo, the classifications are:\n1. Sedan\n2. SUV or Truck"
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "Yes."
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There are 7 cars in the image other than parking spaces. The cars are not all going in the same direction; some appear to be moving along different paths or directions on the roads."
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The above-ground swimming pool in the image is rectangular. It can be identified by its elongated shape with straight sides, typical of a rectangle. The pool is located near the center-right part of the image, adjacent to one of the houses."
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes"
+      },
+      {
+        "task_id": "184",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There is one car in the image, which appears to be blue."
+      },
+      {
+        "task_id": "189",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The white plane is oriented with its nose pointing approximately towards 270 degrees relative to the north."
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The plane with a blue fuselage is located near the top center of the image, flying along the road."
+      },
+      {
+        "task_id": "193",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "197",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "The largest plane is located near the center of the runway. The tail-to-nose heading appears to be approximately 135 degrees relative to the north."
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The baseball diamond is located within the stadium, identifiable by its distinct infield dirt area surrounding home plate. The proportion of dirt in the baseball diamond does exceed that of grass, as the infield consists primarily of dirt with only a small portion covered in grass around the bases and pitcher's mound."
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The basketball courts in the image have a light brown or tan color. This can be inferred from the visual appearance of the courts, which typically feature this shade for their playing surfaces. The exact hue might vary slightly depending on lighting conditions and specific materials used, but generally, they appear to be in the light brown or tan range."
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes"
+      },
+      {
+        "task_id": "207",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes, there is a visible sign inside the ground track field. The sign consists of the letters \"HS\" and it is white in color."
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Yes, there is a soccer ball field present in the image. It is located on the right side of the image."
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "No, the ships are not identical in type. The two boats on the right side appear to be fishing boats, while the boat on the left seems to be a motorboat or speedboat."
+      },
+      {
+        "task_id": "230",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "The ship on the right is oriented towards the northeast, while the ship on the left is oriented towards the southeast."
+      },
+      {
+        "task_id": "232",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "No"
+      },
+      {
+        "task_id": "233",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "3, no"
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There are two cars in the image. The car at the top is white, while the car at the bottom is also white. Therefore, both detected cars are the same color. \n\nSo, the answer is:\n\\boxed{2} \n\\boxed{\\text{Yes}}"
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "In the image:\n\n- **Northbound Vehicles**: 2 (white vans on the right side)\n- **Southbound Vehicles**: 4 (white van near center-left, white truck near left edge, dark vehicle near bottom-left, and a small portion of another vehicle near the top-right)\n\nThe dominant heading is southbound with 4 vehicles."
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": true,
+        "answer": "There are three white vehicles, and they are not all moving in the same direction. Two of them appear to be heading towards the intersection while one is driving away from it."
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "gt_types": [
+          "D",
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The ground track field in the image appears to be occupied by a soccer field with markings and surrounding buildings.\n\nTo estimate the area:\n\n1. **Count Pixels**: Measure the width and height of the field in pixels.\n2. **Convert to Meters**: Multiply the pixel dimensions by the Ground Sample Distance (GSD) of 0.9 meters per pixel.\n\nAssuming the field is roughly rectangular, you can calculate the area using these steps. If specific pixel measurements are not provided, a rough estimate based on typical soccer field sizes (around 100m x 70m) would give an area of approximately 7,000 square meters."
+      },
+      {
+        "task_id": "249",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The exact wording on the field markings inside the central track reads \"FOOTBALL\" oriented along the length of the track. The degree from north for these markings would be approximately 135 degrees, assuming the track is aligned roughly east-west with the football field running north-south."
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "In the image, there are three baseball diamonds visible. None of the baseball diamonds appear to have players on them at the moment. The diamonds are located in the lower part of the image, with one diamond positioned slightly above another, and a third diamond situated further down. The fields seem empty, suggesting no active games or practices are taking place at that time."
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "Two"
+      },
+      {
+        "task_id": "257",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The largest baseball fields are oriented with the home plate facing west."
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The ground support vehicle closest to the aircraft with blue wings appears to be a baggage cart or pushback tug, typically used for transporting luggage or assisting in maneuvering aircraft on the tarmac."
+      },
+      {
+        "task_id": "263",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "Southwest"
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "25"
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": true,
+        "answer": "There are 8 tennis courts in total, and the tennis court closest to the parking area at the top left appears to be unoccupied."
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "gt_types": [
+          "D",
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The largest tree by canopy size is located near the bottom center of the image. Its canopy diameter is approximately 4 meters. The tree appears healthy with a full and dense canopy."
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The red aircraft in the center appears to be an Airbus A321. The distinctive shape, including the T-tail and winglets, along with its size relative to other planes on the apron, suggests it's an Airbus A321. This type of aircraft is commonly used for short to medium-haul flights by many airlines worldwide."
+      },
+      {
+        "task_id": "272",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The aircraft is a jet, and it appears to be facing approximately 180 degrees (south) relative to north."
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The designated large parking area is located in the bottom-left corner of the image. It appears to be **moderately occupied**."
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "There are 5 airplanes in the image. None of the airplanes have a ground support vehicle positioned directly adjacent to them."
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "The designated large parking lot area near the airport appears to be moderately occupied. There are several cars parked, but there is still a significant amount of open space available."
+      },
+      {
+        "task_id": "281",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The largest aircraft in the image appears to be a Boeing 787 Dreamliner. The nose of the aircraft is oriented towards the right side of the image. Assuming the top of the image is north, the nose would likely be facing approximately 90 degrees (east). However, without precise directional markers or additional context, this estimation may vary slightly."
+      },
+      {
+        "task_id": "282",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "All planes in the image appear to be facing forward, indicating a consistent yaw/heading direction."
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine the wingspan of the large airplane at the top of the image using the given GSD:\n\n1. Measure the width of the airplane in pixels.\n2. Multiply the number of pixels by the GSD (0.1405 meters per pixel).\n\nAssuming the airplane's width is approximately 3 pixels:\n\nWingspan = 3 pixels * 0.1405 meters/pixel ≈ 0.4215 meters\n\nRounded to the nearest integer, the wingspan is 0 meters.\n\nHowever, this seems unrealistic for an airplane. If the actual measurement in pixels was larger, adjust accordingly. For example, if it's 10 pixels:\n\nWingspan = 10 pixels * 0.1405 meters/pixel ≈ 1.405 meters\n\nRounded to the nearest integer, the wingspan is 1 meter.\n\nPlease verify the pixel measurement for accuracy."
+      },
+      {
+        "task_id": "285",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": true,
+        "answer": "The parking lot is located directly south of the tennis courts. The entrance to this parking lot is oriented towards the east."
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": true,
+        "answer": "The parking area south of the tennis courts is partially occluded by trees. There are three parked vehicles visible in the image."
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "In the parking area at the bottom right, there are 5 dark-colored vehicles and 3 light-colored vehicles."
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The track surface material appears to be synthetic rubber, commonly known as a \"red\" or \"green\" track. The advantages of using synthetic rubber for running tracks include:\n\n1. **Durability**: Synthetic surfaces are highly resistant to wear and tear, making them long-lasting.\n2. **Safety**: They provide excellent traction, reducing the risk of slips and injuries.\n3. **Comfort**: These surfaces absorb impact better than traditional materials like dirt or sand, which can reduce stress on athletes' joints.\n4. **Weather Resistance**: Synthetic tracks are not affected by rain or extreme temperatures, ensuring consistent performance conditions.\n\nThese characteristics make synthetic rubber an ideal choice for athletic facilities."
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The red rectangular area at the end of the field is a track, specifically designed for running events such as sprints or long-distance races. It is part of an athletic stadium that includes a grassy field marked for soccer or football games. The track typically surrounds the field and provides lanes for athletes to compete in various track and field events."
+      },
+      {
+        "task_id": "293",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "200 meters"
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The swimming pools appear to be in good condition, with no visible signs of damage or neglect. They are clean and well-maintained."
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The swimming pools in the image have an irregular, freeform shape. They are not rectangular or circular but instead appear to be designed with a more organic, flowing outline. This type of design is often found in residential backyards where aesthetics and personal preference play a significant role in pool construction. The pools seem to blend into the landscape, providing a visually appealing contrast against the surrounding greenery and structures."
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "There are three visible cars in the image:\n\n1. A white car near the top center.\n2. A gray car near the middle right.\n3. A blue car near the bottom center."
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "17"
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The image shows two cars on a road. The car at the top is dark-colored, possibly black or dark gray, while the car at the bottom is white."
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To evaluate the distances of the two garbage types to the big pond:\n\n1. **Identify Garbage Types**: There are two distinct areas with garbage:\n   - One area near the top left corner, close to the circular structure.\n   - Another area in the middle-left section.\n\n2. **Distance Calculation**:\n   - Measure the distance from each garbage type to the edge of the big pond using pixels.\n   - Multiply the number of pixels by the Ground Sample Distance (GSD) of 0.5 meters per pixel to get the actual distance in meters.\n\n3. **Classification**:\n   - The garbage near the top left corner is closer to the circular structure and potentially near surface water.\n   - The middle-left section garbage appears further from the pond but still within a reasonable distance.\n\n4. **Assessment of Proximity to Surface Water**:\n   - The garbage near the top left corner is closest to the big pond, indicating it is close to surface water.\n   - The other area might be slightly farther but still potentially affected by runoff or proximity to water sources.\n\n**Conclusion**: The garbage near the top left corner is closer to the big pond and thus closer to surface water."
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "No"
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The garbage is located to the left of the highway, near a small building. It appears to be a pile of debris or waste materials."
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The image shows a significant amount of construction waste, particularly in the lower right section. This waste appears to be concentrated near the trees, which could potentially affect their growth due to blockage of sunlight, contamination of soil, or physical damage from debris. However, without more detailed analysis, it's difficult to quantify the exact impact on tree health."
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "gt_types": [
+          "D"
+        ],
+        "correct": false,
+        "answer": "The image shows a densely wooded area with some buildings and open spaces. There is no visible evidence of construction waste, such as debris or piles of materials, that would directly impact tree growth. The trees appear to be thriving without noticeable signs of stress or damage from construction activities. Therefore, it does not seem that construction waste severely affects tree growth in this particular area."
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "The domestic garbage is located in the bottom left corner of the image, near the buildings on the left side.\n\nTo determine if it is within 5 meters of the road:\n\n1. Identify the pixels representing the road and the garbage.\n2. Measure the distance between these points using the GSD (0.5 meters per pixel).\n\nIf the distance in pixels is less than or equal to 10 pixels (since 5 meters / 0.5 meters per pixel = 10 pixels), then it is within 5 meters of the road.\n\nBased on the image, the garbage appears to be relatively close to the buildings and not directly adjacent to the road. However, without precise pixel measurement tools, an exact determination cannot be made visually. If you measure the distance in pixels between the garbage and the nearest part of the road, you can confirm if it is within 5 meters using the GSD provided."
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To determine the number of destroyed buildings on each side of the image and calculate the percentage difference:\n\n1. **Count Destroyed Buildings**:\n   - Left Half: Let's assume there are 5 destroyed buildings.\n   - Right Half: Assume there are 8 destroyed buildings.\n\n2. **Calculate Difference**:\n   - Difference = Number of destroyed buildings on the right half - Number of destroyed buildings on the left half\n   - Difference = 8 - 5 = 3\n\n3. **Total Destroyed Buildings**:\n   - Total = 5 (left) + 8 (right) = 13\n\n4. **Percentage Difference**:\n   - Percentage Difference = (Difference / Total) * 100\n   - Percentage Difference = (3 / 13) * 100 ≈ 23.08%\n\nSo, there are 3 more destroyed buildings on the right half than on the left, representing approximately 23.08% of the total destroyed count."
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0.14, 2"
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The bottom-right quadrant has the most buildings that are major-damage or destroyed, exceeding the next-highest count by 3."
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To determine the ratio of completely destroyed to partially damaged buildings, we need to identify the number of each type from the image. Let's assume:\n\n- Completely destroyed buildings: 5\n- Partially damaged (minor or major) buildings: 10\n\nThe ratio of completely destroyed to partially damaged buildings is therefore:\n\\[ \\text{Ratio} = \\frac{\\text{Completely Destroyed}}{\\text{Partially Damaged}} = \\frac{5}{10} = \\frac{1}{2} \\]\n\nNext, we need to calculate the number of three-ton relief shipments required. Each shipment can service five damaged structures.\n\nTotal partially damaged buildings: 10\n\nNumber of shipments needed:\n\\[ \\text{Shipments Needed} = \\frac{\\text{Partially Damaged Buildings}}{\\text{Buildings per Shipment}} = \\frac{10}{5} = 2 \\]\n\nSo, the ratio is \\(1:2\\) and 2 three-ton relief shipments are needed."
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine the average area of no-damage buildings and those that were destroyed in a post-disaster image with a Ground Sample Distance (GSD) of 1.5 meters per pixel, follow these steps:\n\n1. **Identify Buildings**: Carefully examine the image to distinguish between buildings that have sustained no damage and those that have been destroyed.\n\n2. **Measure Dimensions**:\n   - For each building identified as having no damage, measure its length and width in pixels.\n   - Similarly, for each building identified as destroyed, measure its length and width in pixels.\n\n3. **Convert Pixels to Meters**:\n   - Since the GSD is 1.5 meters per pixel, convert the dimensions from pixels to meters by multiplying the number of pixels by 1.5.\n\n4. **Calculate Area**:\n   - For each building (both no-damage and destroyed), calculate the area using the formula: \n     \\[\n     \\text{Area} = \\text{Length (meters)} \\times \\text{Width (meters)}\n     \\]\n\n5. **Compute Average Area**:\n   - Sum the areas of all no-damage buildings.\n   - Sum the areas of all destroyed buildings.\n   - Calculate the average area for each category by dividing the total area by the number of buildings in that category.\n\n6. **Final Calculation**:\n   - To find the overall average area, combine the averages from both categories if needed, depending on the specific requirements of your analysis.\n\nWithout the actual image and precise measurements, I cannot provide a numerical answer here. However, following these steps will allow you to determine the average areas accurately based on the visual data in the provided image."
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "To determine the number of response teams needed, we first need to know the total number of destroyed buildings. However, since this information is not provided in the image, I'll assume a hypothetical scenario where there are 100 destroyed buildings.\n\nIf one team can process 5 buildings per day, then:\n\n- In one day, one team processes 5 buildings.\n- To clear all 100 buildings in seven days, we need to calculate how many teams are required.\n\nFirst, find out how many buildings one team can process in seven days:\n\\[ 5 \\text{ buildings/day} \\times 7 \\text{ days} = 35 \\text{ buildings/team} \\]\n\nNext, determine the number of teams needed to clear 100 buildings:\n\\[ \\frac{100 \\text{ buildings}}{35 \\text{ buildings/team}} \\approx 2.86 \\]\n\nSince you can't have a fraction of a team, round up to the nearest whole number:\n\\[ \\boxed{3} \\]\n\nSo, three teams are needed to clear all destroyed buildings in seven days."
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To determine how many days one inspection team would need to cover all severely damaged buildings, we first need to identify the number of such sites in the image.\n\nFrom the image:\n- There is a building with red damage near the center-left (1 site).\n- There are two smaller structures at the bottom left that appear undamaged.\n- There is another structure near the bottom center that appears undamaged.\n\nAssuming only one severely damaged site, if a single response team can inspect 3 sites per day:\n\nNumber of days needed = Number of severely damaged sites / Sites inspected per day\nNumber of days needed = 1 / 3 ≈ 0.33 days\n\nSince partial days are typically rounded up in practical scenarios:\nNumber of days needed = 1 day\n\nThus, one team would need approximately 1 day to inspect all severely damaged buildings in this area."
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "100"
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "The top-left quadrant contains the highest number of damaged structures. There are two damaged structures in this quadrant."
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "100%"
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine the average ground area of the no-damage buildings compared to those that were completely destroyed, we need to follow these steps:\n\n1. **Identify and Count Buildings**:\n   - Identify the number of no-damage buildings.\n   - Identify the number of completely destroyed buildings.\n\n2. **Measure Ground Area**:\n   - Measure the ground area of each building using the given GSD (Ground Sample Distance) of 1.8769937 m/pixel.\n   - Calculate the area in square meters for each building by counting the pixels and multiplying by the GSD squared.\n\n3. **Calculate Average Area**:\n   - Compute the average ground area for no-damage buildings.\n   - Compute the average ground area for completely destroyed buildings.\n\n4. **Compare Averages**:\n   - Compare the two averages to determine the ratio or difference.\n\nSince I cannot directly analyze images, let's assume hypothetical counts and measurements:\n\n- Suppose there are 3 no-damage buildings with areas of 100 m², 120 m², and 110 m².\n- Suppose there are 2 completely destroyed buildings with areas of 80 m² and 90 m².\n\n**Calculations**:\n- Average area for no-damage buildings: \\((100 + 120 + 110) / 3 = 110\\) m²\n- Average area for completely destroyed buildings: \\((80 + 90) / 2 = 85\\) m²\n\n**Comparison**:\n- The average ground area of no-damage buildings (110 m²) is larger than that of the completely destroyed buildings (85 m²).\n\nThus, the answer would be:\n\nThe average ground area of the no-damage buildings is larger than that of the completely destroyed buildings."
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "gt_types": [
+          "D",
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine the bounding boxes of fully destroyed buildings, we need to identify any structures that appear completely damaged or missing from the image. Let's analyze the image step-by-step:\n\n1. **Identify Fully Destroyed Buildings**:\n   - Look for areas where there are no visible structures and the ground appears disturbed or cleared.\n\n2. **Bounding Box Calculation**:\n   - For each identified fully destroyed building, draw a bounding box around it.\n   - Measure the dimensions of the bounding box in pixels.\n\n3. **Convert Pixel Measurements to Square Meters**:\n   - Use the Ground Sample Distance (GSD) provided (1.8769937 meters per pixel) to convert the pixel measurements to real-world distances.\n   - Calculate the area of each bounding box in square meters using the formula: Area = width (meters) × height (meters).\n\n4. **Sum the Areas**:\n   - Add up the areas of all fully destroyed buildings to get the combined footprint area.\n\nLet's assume we have identified one fully destroyed building with a bounding box of 10 pixels by 5 pixels:\n\n- Width in meters = 10 pixels × 1.8769937 m/pixel = 18.769937 meters\n- Height in meters = 5 pixels × 1.8769937 m/pixel = 9.3849685 meters\n- Area of the bounding box = 18.769937 meters × 9.3849685 meters ≈ 176.02 square meters\n\nIf there are multiple fully destroyed buildings, repeat this process for each and sum their areas.\n\nSince I cannot directly analyze images or provide pixel measurements without visual inspection, you would need to perform these steps manually or with image processing software to get the exact bounding boxes and combined footprint area."
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "To determine the number of rescue units needed, we first need to count the number of damaged (destroyed) buildings in the image.\n\n1. **Counting Damaged Buildings**:\n   - Upon examining the image, there appears to be only one building that looks like it has been destroyed or severely damaged.\n   \n2. **Calculating Rescue Units Needed**:\n   - Each rescue unit can inspect ten damaged buildings.\n   - Since there is only 1 damaged building, we need to calculate how many units are required.\n\n\\[\n\\text{Number of rescue units needed} = \\frac{\\text{Total number of damaged buildings}}{\\text{Buildings each unit can inspect}}\n\\]\n\n\\[\n\\text{Number of rescue units needed} = \\frac{1}{10}\n\\]\n\nSince we cannot have a fraction of a rescue unit, we round up to the nearest whole number.\n\n3. **Final Calculation**:\n   - Therefore, 1 rescue unit is sufficient to cover all destroyed structures.\n\nSo, the final answer is:\n\n\\boxed{1}"
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine the total ground area destroyed and the average area lost per destroyed structure from the provided image, we need to follow these steps:\n\n1. **Identify the number of destroyed buildings**: Count the visible destroyed structures in the image.\n\n2. **Estimate the size of each building**: Use the Ground Sample Distance (GSD) to estimate the dimensions of each building. GSD is 2.8247435, which means that one pixel represents approximately 2.8247435 units on the ground.\n\n3. **Calculate the total area destroyed**: Multiply the number of buildings by the estimated average area of each building.\n\n4. **Determine the average area lost per structure**: Divide the total area destroyed by the number of destroyed structures.\n\nLet's go through these steps:\n\n### Step 1: Identify the Number of Destroyed Buildings\nAssume there are \\( N \\) destroyed buildings visible in the image.\n\n### Step 2: Estimate the Size of Each Building\nUsing GSD, if a building is approximately \\( W \\) pixels wide and \\( H \\) pixels high:\n- Width on ground = \\( W \\times 2.8247435 \\)\n- Height on ground = \\( H \\times 2.8247435 \\)\n\nThe area of one building in square units is:\n\\[ \\text{Area} = (W \\times 2.8247435) \\times (H \\times 2.8247435) \\]\n\n### Step 3: Calculate the Total Area Destroyed\nIf there are \\( N \\) buildings, and assuming each building has an average area \\( A \\):\n\\[ \\text{Total Area} = N \\times A \\]\n\n### Step 4: Determine the Average Area Lost Per Structure\n\\[ \\text{Average Area per Structure} = \\frac{\\text{Total Area}}{N} \\]\n\nSince I cannot directly analyze images, you would need to manually count the buildings and estimate their sizes using the GSD provided. Once you have these values, you can plug them into the formulas above to get your results.\n\nIf you provide specific counts or dimensions from the image, I can help with more precise calculations."
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0.0%"
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "gt_types": [
+          "D",
+          "M1"
+        ],
+        "correct": false,
+        "answer": "I'm unable to view or analyze images directly. However, if you describe the image or provide details about the buildings and their locations, I can help guide you on how to estimate the bounding box coordinates and calculate the average ground area of those structures based on your description. Let me know how you'd like to proceed!"
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1/2"
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The top right quadrant shows the highest count of buildings that were present before but no longer appear after the disaster."
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0 destroyed buildings, 0/36 = 0%"
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "10%"
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "To determine how many more buildings show major damage compared to those showing no damage, we need to analyze the image for any visible signs of damage on buildings. However, since I cannot view images directly, I'll provide a general approach to solving this problem based on typical post-flood scenarios.\n\n1. **Identify Buildings with Major Damage:**\n   - Look for buildings that have significant structural damage, such as collapsed roofs, broken walls, or other severe signs of destruction.\n\n2. **Identify Buildings Showing No Damage:**\n   - Identify buildings that appear intact and undamaged by the flood.\n\n3. **Count the Number of Damaged and Undamaged Buildings:**\n   - Count the number of buildings showing major damage.\n   - Count the number of buildings showing no damage.\n\n4. **Calculate the Difference:**\n   - Subtract the number of buildings showing no damage from the number of buildings showing major damage to find how many more buildings are damaged.\n\n5. **Determine the Fraction of Total Pre-Flood Building Count:**\n   - Calculate the total number of buildings before the flood.\n   - Divide the difference (damaged minus undamaged) by the total pre-flood building count to find the fraction.\n\nSince I cannot view the image, I'll provide a hypothetical example:\n\n- Suppose there are 10 buildings showing major damage.\n- Suppose there are 5 buildings showing no damage.\n- The difference is \\(10 - 5 = 5\\) more buildings with major damage.\n- If the total pre-flood building count was 20, then the fraction of the total pre-flood building count that this difference represents is \\(\\frac{5}{20} = \\frac{1}{4}\\).\n\nThus, the answer would be:\n\n\\[\n\\boxed{5 \\text{ more buildings with major damage compared to those showing no damage, representing } \\frac{1}{4} \\text{ of the total pre-flood building count.}}\n\\]"
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "106.78"
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "completely destroyed buildings region"
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To estimate the number of families displaced, we need to know the number of fully destroyed buildings. However, since there is no visible destruction in the image provided, it's not possible to determine the exact number of displaced families based on this image alone.\n\nIf you have additional information about the number of destroyed buildings or affected households, please provide that for a more accurate estimation."
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0.0"
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To determine the number of buildings destroyed by the wildfire and calculate the total labor-hours required for inspections, follow these steps:\n\n1. **Identify Buildings in Pre-Image and Post-Image**:\n   - Count the number of visible buildings in both the pre-image (before the wildfire) and post-image (after the wildfire).\n\n2. **Compare the Number of Buildings**:\n   - Subtract the number of buildings in the post-image from the number of buildings in the pre-image to find out how many were destroyed.\n\n3. **Calculate Labor-Hours for Inspection**:\n   - Multiply the number of destroyed buildings by 50 labor-hours per building.\n\nSince I cannot view images, I'll provide a hypothetical example:\n\n- Suppose there are 10 buildings visible in the pre-image.\n- In the post-image, only 6 buildings remain intact.\n\nNumber of destroyed buildings = 10 (pre-image) - 6 (post-image) = 4 buildings\n\nTotal labor-hours needed for inspections = 4 buildings * 50 labor-hours/building = 200 labor-hours\n\nSo, if 4 buildings were destroyed, the total labor-hours needed would be 200."
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The provided image appears to show an aerial view of a city or urban area with various buildings. However, there is no clear indication of any pre and post images related to a disaster, nor are there specific details about rescue teams per building.\n\nTo answer your question based on the information given:\n\n1. **Change in Pre and Post Images**: Since there are no visible pre and post images provided in the description, it's not possible to describe any changes that might have occurred due to a disaster.\n\n2. **Number of Rescue Teams Needed**:\n   - If two rescue teams are required per building.\n   - Assuming we can count the number of buildings in the image (though this is speculative without more specific details), let's say there are approximately 15 visible buildings.\n   - Therefore, if each building requires two rescue teams, the total number of rescue teams needed would be:\n     \\[\n     15 \\text{ buildings} \\times 2 \\text{ teams/building} = 30 \\text{ teams}\n     \\]\n\nSo, **30 rescue teams** would need to be deployed in the region to help disaster victims if two teams are required per building."
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To compute the area of the L-shaped building cluster, we need to estimate its dimensions from the image and then calculate the total area.\n\n### Step-by-Step Solution:\n\n1. **Estimate Dimensions**:\n   - Assume the length and width of the L-shape can be estimated visually.\n   - Let's assume the vertical leg (height) is approximately 40 meters, and the horizontal leg (width) is approximately 30 meters.\n\n2. **Calculate Area**:\n   - The area of an L-shaped building cluster can be calculated by summing up the areas of two rectangles minus the overlapping part.\n   - Vertical rectangle: \\( \\text{Area}_1 = \\text{height} \\times \\text{width} = 40 \\, \\text{m} \\times 30 \\, \\text{m} = 1200 \\, \\text{m}^2 \\)\n   - Horizontal rectangle: \\( \\text{Area}_2 = \\text{height} \\times \\text{width} = 40 \\, \\text{m} \\times 30 \\, \\text{m} = 1200 \\, \\text{m}^2 \\)\n   - Overlapping part: \\( \\text{Area}_{\\text{overlap}} = 30 \\, \\text{m} \\times 30 \\, \\text{m} = 900 \\, \\text{m}^2 \\)\n\n3. **Total Area**:\n   - Total area of the L-shape: \\( \\text{Area}_{\\text{total}} = \\text{Area}_1 + \\text{Area}_2 - \\text{Area}_{\\text{overlap}} \\)\n   - \\( \\text{Area}_{\\text{total}} = 1200 \\, \\text{m}^2 + 1200 \\, \\text{m}^2 - 900 \\, \\text{m}^2 = 1500 \\, \\text{m}^2 \\)\n\n### Final Answer:\nThe area of the L-shaped building cluster is approximately \\( 1500 \\) square meters."
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "gt_types": [
+          "D",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The image provided does not show any pre or post changes, nor does it depict any damage to buildings or displacement of households. Therefore, I cannot provide a description of changes or estimate the number of displaced households based on this image.\n\nIf you have another image with clear pre and post scenarios showing damaged buildings, please share that for an accurate analysis."
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To answer this question, we need to follow these steps:\n\n1. **Identify Destroyed Buildings**: Look for any signs of destroyed buildings in the post image.\n2. **Calculate Total Area of Destroyed Buildings**: Measure the area of each identified destroyed building and sum them up.\n3. **Compare with Pre Image**: Determine the total area of all buildings in the pre image.\n4. **Calculate Net Loss**: Subtract the total area of destroyed buildings from the total area of buildings in the pre image.\n\nSince I cannot directly analyze images, I'll provide a general approach to solving this problem:\n\n1. **Identify Destroyed Buildings**:\n   - Look for areas where structures are missing or severely damaged.\n   \n2. **Calculate Total Area of Destroyed Buildings**:\n   - Use the Ground Sample Distance (GSD) of 3.024613 meters to estimate the size of each building in square meters.\n   - Measure the dimensions of each destroyed building on the image and convert them to real-world measurements using GSD.\n\n3. **Compare with Pre Image**:\n   - Determine the total area of all buildings present in the pre image by measuring their dimensions similarly.\n\n4. **Calculate Net Loss**:\n   - Subtract the sum of the areas of destroyed buildings from the total area of buildings in the pre image to find the net loss in square meters.\n\nIf you provide specific measurements or details about the buildings, I can help with the calculations."
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To detect the two largest destroyed buildings in the image and calculate their average area, we need to follow a systematic approach:\n\n1. **Identify the Buildings**: Look for areas with significant destruction or damage.\n2. **Measure the Areas**: Use the Ground Sample Distance (GSD) of 3.024613 meters to estimate the size of each damaged zone.\n3. **Calculate the Average Area**.\n\n### Step-by-Step Solution:\n\n#### Step 1: Identify the Buildings\nFrom the image, we can see two large clusters of destruction:\n- Cluster A (bottom left)\n- Cluster B (bottom right)\n\n#### Step 2: Measure the Areas\nAssuming each cluster represents a destroyed building, we need to estimate their areas.\n\n##### Cluster A:\n- Estimate the dimensions using visual inspection.\n- Assume it is roughly rectangular for simplicity.\n- Length ≈ 10 units\n- Width ≈ 5 units\n\n##### Cluster B:\n- Similarly, assume it is roughly rectangular.\n- Length ≈ 8 units\n- Width ≈ 4 units\n\n#### Step 3: Calculate the Areas\nUsing the formula for the area of a rectangle (Area = Length × Width):\n\n##### Area of Cluster A:\n\\[ \\text{Area}_A = 10 \\times 5 = 50 \\, \\text{square units} \\]\n\n##### Area of Cluster B:\n\\[ \\text{Area}_B = 8 \\times 4 = 32 \\, \\text{square units} \\]\n\n#### Step 4: Calculate the Average Area\nTo find the average area:\n\n\\[ \\text{Average Area} = \\frac{\\text{Area}_A + \\text{Area}_B}{2} \\]\n\\[ \\text{Average Area} = \\frac{50 + 32}{2} = \\frac{82}{2} = 41 \\, \\text{square units} \\]\n\n### Final Answer:\nThe average area of the two largest destroyed buildings is **41 square units**."
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0 buildings are identified as destroyed. Therefore, no 4-person response teams would be required for help since there are no destroyed buildings to inspect."
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "To analyze the image and answer the question concisely:\n\n1. **Divide the Image into Four Quadrants**:\n   - Top-left (TL)\n   - Top-right (TR)\n   - Bottom-left (BL)\n   - Bottom-right (BR)\n\n2. **Identify Buildings in Each Quadrant**:\n   - **Top-left (TL)**: Appears to have no-damage buildings.\n   - **Top-right (TR)**: Contains a mix of minor and major damage buildings.\n   - **Bottom-left (BL)**: Shows some minor damage buildings.\n   - **Bottom-right (BR)**: Seems to have more minor damage buildings.\n\n3. **Classify Buildings**:\n   - **No-damage**: TL\n   - **Minor Damage**: TR, BL, BR\n   - **Major Damage**: TR\n   - **Destroyed**: None visible in the image\n\n4. **Calculate Ratio of Destroyed to No-Damage Buildings**:\n   - Since there are no destroyed buildings, the ratio is 0 for all quadrants.\n   - For no-damage buildings, TL has the highest count.\n\n5. **Conclusion**:\n   - The quadrant with the highest ratio of destroyed to no-damage buildings is not applicable as there are no destroyed buildings.\n\nThus, the answer is that none of the quadrants have a ratio of destroyed to no-damage buildings since there are no destroyed buildings visible in the image."
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "10, 52.63%"
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0.125"
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To estimate the total ground area lost due to destroyed buildings, we need to compare the pre-storm and post-storm building areas.\n\n1. **Identify Pre-Storm Building Area**: Assume there were 5 buildings before the storm.\n   - Each building has an approximate size of 20m x 30m = 600 square meters.\n   - Total pre-storm area = 5 * 600 = 3000 square meters.\n\n2. **Identify Post-Storm Building Area**: Assume only 3 buildings remain after the storm.\n   - Each remaining building still has an approximate size of 20m x 30m = 600 square meters.\n   - Total post-storm area = 3 * 600 = 1800 square meters.\n\n3. **Calculate Area Lost**: \n   - Area lost = Pre-storm area - Post-storm area\n   - Area lost = 3000 - 1800 = 1200 square meters.\n\nThus, the total ground area lost to destroyed buildings is approximately \\boxed{1200} square meters."
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "100%"
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1 hour"
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine which destroyed building has the largest estimated area, we need to analyze the image for any visible structures that appear damaged or destroyed and then estimate their areas based on the Ground Sample Distance (GSD) provided.\n\n### Step-by-Step Analysis:\n\n1. **Identify Destroyed Buildings**:\n   - Look for buildings in the image that show signs of destruction.\n   - The most obvious candidate is the building located towards the top left corner, which appears to be partially destroyed or damaged.\n\n2. **Estimate Dimensions Using GSD**:\n   - Ground Sample Distance (GSD) is 1.8769937 meters per pixel.\n   - Measure the dimensions of the identified destroyed building in pixels from the image.\n\n3. **Calculate Area**:\n   - Convert the measured dimensions from pixels to meters using the GSD.\n   - Calculate the area in square meters.\n\n### Detailed Calculation:\n\n- **Measure Dimensions**:\n  - Assume the length and width of the destroyed building are approximately \\( L \\) pixels and \\( W \\) pixels respectively.\n\n- **Convert Pixels to Meters**:\n  - Length in meters: \\( L_{\\text{m}} = L \\times 1.8769937 \\)\n  - Width in meters: \\( W_{\\text{m}} = W \\times 1.8769937 \\)\n\n- **Calculate Area**:\n  - Area in square meters: \\( A = L_{\\text{m}} \\times W_{\\text{m}} \\)\n\n### Example Calculation:\n\nAssume the destroyed building measures approximately 50 pixels by 30 pixels.\n\n- Length in meters: \\( 50 \\times 1.8769937 = 93.849685 \\) meters\n- Width in meters: \\( 30 \\times 1.8769937 = 56.309811 \\) meters\n\n- Area:\n  - \\( A = 93.849685 \\times 56.309811 \\approx 5283.5 \\) square meters\n\n### Conclusion:\n\nBased on the estimated dimensions and GSD, the destroyed building with the largest estimated area is approximately **5283.5 square meters**.\n\nAnswer: The destroyed building with the largest estimated area is approximately 5283.5 square meters."
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The bottom right quadrant of the post image contains the highest concentration of damaged buildings."
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "1:0"
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To estimate the total number of team-hours required to survey all damaged buildings, we need to know the total number of damaged buildings. Since this information is not provided in the image, I'll assume a hypothetical scenario where there are 10 damaged buildings.\n\nIf each rescue team can inspect two damaged buildings per hour, then:\n\nNumber of team-hours = Total number of damaged buildings / Number of buildings inspected per hour\n\nAssuming 10 damaged buildings:\nNumber of team-hours = 10 / 2 = 5 team-hours\n\nSo, it would take 5 team-hours to survey all the damaged buildings."
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0.0"
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1",
+          "M2"
+        ],
+        "correct": false,
+        "answer": "To determine the number of team-days required to assess the damaged area, we need to calculate the total area that needs assessment and then divide it by the coverage rate per day.\n\n1. **Calculate Total Damaged Area**:\n   - The image shows a rectangular area with dimensions approximately 200 meters by 150 meters.\n   - Total area = Length × Width = 200 m × 150 m = 30,000 square meters.\n\n2. **Coverage Rate**:\n   - Survey teams can cover 500 square meters per day.\n\n3. **Calculate Team-Days Needed**:\n   - Number of team-days = Total area / Coverage rate per day\n   - Number of team-days = 30,000 sq m / 500 sq m/day = 60 team-days\n\nTherefore, it would take 60 team-days to assess all the damaged buildings in the post image after the event."
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": true,
+        "answer": "The bottom right quadrant contains the highest number of majorly damaged buildings. There is 1 such building in that quadrant."
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "240.5"
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "The top right quadrant experienced the highest count of destroyed buildings. The count is 3."
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "To determine the mean distance from the center of the scene to the centroids of all destroyed structures, we would need specific coordinates or distances for each structure. Since this information isn't provided in the image, I can't calculate an exact answer.\n\nHowever, if you have a list of coordinates for the destroyed structures and their respective distances from the center, you could follow these steps:\n\n1. Calculate the distance from the center to each centroid.\n2. Sum all these distances.\n3. Divide by the number of destroyed structures to find the mean distance.\n\nIf you provide the necessary data, I can help with the calculation!"
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M2",
+        "gt_types": [
+          "M2"
+        ],
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "gt_types": [
+          "M1"
+        ],
+        "correct": false,
+        "answer": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3225 @@
+{
+  "model": "qwen3-vl:8b",
+  "dataset": "FloodNet-Track2-Train",
+  "method": "direct_prompting",
+  "sample_per_type": 100,
+  "accuracy": 0.5275,
+  "correct": 211,
+  "total": 400,
+  "per_taxonomy": {
+    "D": {
+      "correct": 119,
+      "total": 200,
+      "accuracy": 0.595,
+      "failure_rate": 0.405
+    },
+    "M2": {
+      "correct": 92,
+      "total": 200,
+      "accuracy": 0.46,
+      "failure_rate": 0.54
+    }
+  },
+  "results": [
+    {
+      "idx": "939",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "174",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2463",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded residential neighborhood",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2143",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1893",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded area with water covering land adjacent to residential structures.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1218",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "845",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4330",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "697",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3388",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and detailed",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "215",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "204",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "743",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1844",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2002",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded residential area",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3969",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "182",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4476",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and detailed aerial view",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1679",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4325",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3364",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved (dirt/gravel)",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1861",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded area with water covering most of the landscape, affecting nearby residential zones and vegetation.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3581",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image depicts a well-maintained, lush green park with neatly trimmed grass, scattered trees, and clear pathways, indicating an overall healthy and orderly condition.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2496",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Flooded",
+      "gt": "flooded,non flooded"
+    },
+    {
+      "idx": "50",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Paved and well-maintained",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1411",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3393",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2959",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Lush green forest",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2493",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded residential neighborhood",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1372",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unp",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1809",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2939",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved (dirt/gravel)",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "842",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "738",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved (dirt)",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3159",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "779",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3048",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Natural landscape with mixed vegetation",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2974",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2358",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "309",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3670",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4236",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1076",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3153",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear aerial view of natural terrain",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "619",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4390",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road appears to be in good condition, with no visible damage or obstructions.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2645",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3059",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Lush and dense forest landscape",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1642",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "564",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Aerial view of a flood-affected area with muddy water, rusted cylindrical structures, grassy fields, and trees.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "333",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1946",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2615",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and detailed",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "627",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved (dirt)",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2003",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "827",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3626",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Well-maintained",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3074",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1431",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3107",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3033",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Vegetated natural landscape",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1753",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Healthy",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2382",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "573",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1483",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4217",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2136",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1438",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3688",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Dirt road",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3157",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2412",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "4435",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1855",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2870",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "437",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1961",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded residential neighborhood",
+      "gt": "flooded"
+    },
+    {
+      "idx": "217",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road appears to be in good condition with a",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2819",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3274",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2390",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "541",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1764",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Well-paved",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2810",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1781",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3922",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Flooded",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3248",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3667",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image is clear and well-defined with distinct details, indicating a good overall condition.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1249",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Unpaved",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2359",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2162",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "4479",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4264",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and detailed",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2336",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3442",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3266",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Dark aerial view of a grassy field with scattered trees",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3060",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Green landscape",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1852",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Flooded residential area",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1210",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4008",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Good",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3880",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "Clear and well-defined",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "654",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the non-flooded buildings. First, look at each structure. The image shows several houses. Let's identify them:\n\n1. The large house with a dark roof near the top right (with the drivewa",
+      "gt": 4
+    },
+    {
+      "idx": "396",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "6",
+      "gt": 5
+    },
+    {
+      "idx": "769",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's try to figure out how many non-flooded buildings there are. First, I need to identify which houses are not surrounded by water. Looking at the image, some areas have water (flooded), and oth",
+      "gt": 9
+    },
+    {
+      "idx": "928",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 8
+    },
+    {
+      "idx": "4248",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 2
+    },
+    {
+      "idx": "959",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "6",
+      "gt": 6
+    },
+    {
+      "idx": "2338",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "10",
+      "gt": 16
+    },
+    {
+      "idx": "4058",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "464",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "2184",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's try to figure out how many buildings are not flooded. First, I need to look at the image and identify which houses have dry ground around them. The flooded areas are the brownish water c",
+      "gt": 3
+    },
+    {
+      "idx": "2172",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "10",
+      "gt": 21
+    },
+    {
+      "idx": "4478",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "2547",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "0",
+      "gt": 11
+    },
+    {
+      "idx": "3385",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "1474",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "3587",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "77",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "784",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the non-flooded buildings. First, look for houses that aren't surrounded by water. Let's go through each house.\n\nTop left area: There are several houses. The ones with visible yards no",
+      "gt": 13
+    },
+    {
+      "idx": "3438",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1631",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "4317",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings that aren't flooded. First, look at each house. The image shows a neighborhood with several houses. Let's list them:\n\n1. Top left: two-story house with gray roof (maybe o",
+      "gt": 6
+    },
+    {
+      "idx": "2013",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 2
+    },
+    {
+      "idx": "775",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 14
+    },
+    {
+      "idx": "1838",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. First, identify the buildings. The flooded areas are the brownish water parts. Non-flooded buildings would be those not submerged. Let's check each building.\n\nTop right: t",
+      "gt": 3
+    },
+    {
+      "idx": "2394",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. The question is how many buildings are flooded. First, I need to identify which buildings have water around them or are submerged. In the aerial view, most of the houses s",
+      "gt": 23
+    },
+    {
+      "idx": "947",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. On the right side, there are several houses. We need to count how many are not flooded. The river is on the left, and the houses are on the right bank. Let's check each ho",
+      "gt": 7
+    },
+    {
+      "idx": "2483",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. The question is how many buildings are flooded. First, I need to identify which buildings have water around them or inside. In the aerial view, some houses have floodwater",
+      "gt": 25
+    },
+    {
+      "idx": "17",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the non-flooded buildings. First, look at each building. The image shows a neighborhood with houses. Let's check each one:\n\n1. Top left: brown roof house – not flooded.\n2. Middle top: ",
+      "gt": 7
+    },
+    {
+      "idx": "1595",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. First, identify buildings that aren't flooded. On the left side, there's a house with a gray roof, some smaller structures like sheds or barns. Let's count: the main house",
+      "gt": 3
+    },
+    {
+      "idx": "2716",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "1048",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "2754",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "5",
+      "gt": 5
+    },
+    {
+      "idx": "758",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 6
+    },
+    {
+      "idx": "4239",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "1865",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "4309",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. The question is about how many buildings are not flooded. First, check if any buildings are flooded. In the image, there's a house with a pool and another with a circular ",
+      "gt": 7
+    },
+    {
+      "idx": "4346",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "4147",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "1153",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "4495",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2142",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "967",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 8
+    },
+    {
+      "idx": "3468",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "3395",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "3",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 3
+    },
+    {
+      "idx": "4100",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "1",
+      "gt": 2
+    },
+    {
+      "idx": "1960",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 1
+    },
+    {
+      "idx": "2659",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "1",
+      "gt": 3
+    },
+    {
+      "idx": "276",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "4403",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "7",
+      "gt": 10
+    },
+    {
+      "idx": "2104",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 1
+    },
+    {
+      "idx": "1895",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "0",
+      "gt": 1
+    },
+    {
+      "idx": "1390",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "446",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "1398",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 3
+    },
+    {
+      "idx": "3713",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "529",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 3
+    },
+    {
+      "idx": "621",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "2637",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "482",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 3
+    },
+    {
+      "idx": "3420",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "818",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "12",
+      "gt": 10
+    },
+    {
+      "idx": "829",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 6
+    },
+    {
+      "idx": "2580",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "5",
+      "gt": 5
+    },
+    {
+      "idx": "3565",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "991",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "1604",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 2
+    },
+    {
+      "idx": "3380",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "4136",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 4
+    },
+    {
+      "idx": "2343",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "8",
+      "gt": 10
+    },
+    {
+      "idx": "1236",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "4289",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "1163",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "1910",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 7
+    },
+    {
+      "idx": "2244",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "0",
+      "gt": 6
+    },
+    {
+      "idx": "4298",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "8",
+      "gt": 6
+    },
+    {
+      "idx": "2406",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. The question is how many buildings are flooded. First, I need to identify which buildings have water around them or are submerged. In the aerial view, some houses are surr",
+      "gt": 19
+    },
+    {
+      "idx": "2818",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "2475",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. The question is about how many flooded buildings there are. First, I need to identify which buildings are flooded. In the image, the areas with water around the houses—so ",
+      "gt": 21
+    },
+    {
+      "idx": "803",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. We need to count the buildings that aren't flooded. First, identify all buildings. The pink roof house on the right—does it have water? The area around it seems dry. Then ",
+      "gt": 4
+    },
+    {
+      "idx": "1461",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "1306",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "4471",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "2005",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "15",
+      "gt": 14
+    },
+    {
+      "idx": "288",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 6
+    },
+    {
+      "idx": "3976",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "3591",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's look at the image. First, check for buildings that aren't flooded. The main building with a green roof is visible, and it's not near water. Also, there's a blue structure on the right, maybe",
+      "gt": 3
+    },
+    {
+      "idx": "1342",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "4007",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "1280",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "55",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "6",
+      "gt": 6
+    },
+    {
+      "idx": "490",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 2
+    },
+    {
+      "idx": "450",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "1334",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the non-flooded buildings. First, look at each house. The main large house with the gray roof on the top right—no flooding there. Then the smaller house next to it? Wait, no, the one w",
+      "gt": 3
+    },
+    {
+      "idx": "477",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 5
+    },
+    {
+      "idx": "340",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "1982",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's try to figure out how many non-flooded buildings are in the image. First, I need to identify which buildings are not flooded. Flooded areas would have water covering parts of them or their s",
+      "gt": 8
+    },
+    {
+      "idx": "3968",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2786",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1380",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 3
+    },
+    {
+      "idx": "1824",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the aerial image. First, I need to identify each structure with a roof. Let's go step by step.\n\nStarting from the top left: there's a white building (maybe a shed ",
+      "gt": 21
+    },
+    {
+      "idx": "3475",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings in the image. First, look for structures with roofs. There's a large building on the left with a gray roof—maybe two parts? Wait, no, let's check each one.\n\n1. The big bu",
+      "gt": 3
+    },
+    {
+      "idx": "1303",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 2
+    },
+    {
+      "idx": "4056",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "875",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "4246",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 1
+    },
+    {
+      "idx": "4273",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "3386",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "1540",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "4477",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "1",
+      "gt": 2
+    },
+    {
+      "idx": "2502",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the image. First, I need to identify each house or structure. Let's go row by row.\n\nTop left: There are several houses. Let's list them:\n\n1. Top left corner, a hou",
+      "gt": 22
+    },
+    {
+      "idx": "1158",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "672",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 5
+    },
+    {
+      "idx": "691",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "2640",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2231",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the image. First, I need to identify each house or structure. Let's go step by step.\n\nStarting from the top left:\n- There's a building with a dark roof (maybe a ga",
+      "gt": 20
+    },
+    {
+      "idx": "2592",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2522",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "14",
+      "gt": 12
+    },
+    {
+      "idx": "2885",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "435",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "696",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Three",
+      "gt": 4
+    },
+    {
+      "idx": "455",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "2485",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the aerial image. First, I need to identify each house or structure. Let's go step by step.\n\nLooking at the image, there are multiple houses with gray roofs. Let's",
+      "gt": 25
+    },
+    {
+      "idx": "2156",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "15",
+      "gt": 14
+    },
+    {
+      "idx": "776",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings in the image. First, look at each house or structure. Let's go step by step.\n\nTop part: There are houses near the top. The first row has a few. Let's list them:\n\n1. Top l",
+      "gt": 14
+    },
+    {
+      "idx": "1571",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1171",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "4458",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "3996",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2744",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 3
+    },
+    {
+      "idx": "906",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings in the image. On the right side, near the river, there are several houses. Let's list them:\n\n1. The first house with a pool and a white roof (maybe two stories?).\n2. Next",
+      "gt": 6
+    },
+    {
+      "idx": "2591",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1125",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "4506",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "2823",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "1572",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "517",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 2
+    },
+    {
+      "idx": "2708",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "4133",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "4413",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "5",
+      "gt": 5
+    },
+    {
+      "idx": "413",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 5
+    },
+    {
+      "idx": "4061",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "257",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "668",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "1459",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1041",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "4464",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "Three",
+      "gt": 3
+    },
+    {
+      "idx": "4503",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "3441",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1296",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "2472",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the aerial image. First, I need to identify each house or structure. Let's go step by step.\n\nStarting from the top left:\n- There's a building with a gray roof (may",
+      "gt": 21
+    },
+    {
+      "idx": "448",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "1032",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2362",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the image. First, I need to identify each house or structure. Let's go row by row.\n\nTop left: There are several houses. Let's list them:\n\n1. Top left corner, maybe",
+      "gt": 17
+    },
+    {
+      "idx": "13",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "6",
+      "gt": 4
+    },
+    {
+      "idx": "2419",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "20",
+      "gt": 30
+    },
+    {
+      "idx": "1713",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2774",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "1859",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "7",
+      "gt": 14
+    },
+    {
+      "idx": "4431",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "4164",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "3481",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "984",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "5",
+      "gt": 5
+    },
+    {
+      "idx": "4376",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the image. First, I need to identify each house or structure. Let's go step by step.\n\nStarting from the left side:\n\n- There's a house with a pool (white house with",
+      "gt": 42
+    },
+    {
+      "idx": "1916",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "6",
+      "gt": 7
+    },
+    {
+      "idx": "1327",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 3
+    },
+    {
+      "idx": "447",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "4067",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "4405",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the image. First, look at the residential area on the left. There are several houses. Let's list them:\n\n1. The house with a gray roof and white trim near the botto",
+      "gt": 8
+    },
+    {
+      "idx": "2016",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the aerial image. First, I need to identify each house or structure. Let's go step by step.\n\nStarting from the top left: there are houses with gray roofs. Let's li",
+      "gt": 18
+    },
+    {
+      "idx": "443",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 2
+    },
+    {
+      "idx": "4299",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "6",
+      "gt": 6
+    },
+    {
+      "idx": "3419",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "3612",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 3
+    },
+    {
+      "idx": "3939",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "2",
+      "gt": 1
+    },
+    {
+      "idx": "997",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings in the aerial image. First, there's the large house with a brown roof and a pool—let's call that one. Then there's another house with a gray roof below it. Wait, also, th",
+      "gt": 4
+    },
+    {
+      "idx": "4142",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "4",
+      "gt": 4
+    },
+    {
+      "idx": "3644",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "540",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 5
+    },
+    {
+      "idx": "1140",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "5",
+      "gt": 6
+    },
+    {
+      "idx": "479",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "476",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 5
+    },
+    {
+      "idx": "1434",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "2489",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings in the aerial image. First, I need to identify each house or structure. Let's go step by step.\n\nLooking at the image, there are multiple houses with gray roofs. Let's lis",
+      "gt": 25
+    },
+    {
+      "idx": "834",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 6
+    },
+    {
+      "idx": "1557",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "367",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "544",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "2574",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "18",
+      "gt": 19
+    },
+    {
+      "idx": "3805",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "2",
+      "gt": 2
+    },
+    {
+      "idx": "2027",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "Got it, let's count the buildings in the aerial image. First, I need to identify each house or structure. Let's go step by step.\n\nStarting from the top left: there's a house with a gray roof (maybe tw",
+      "gt": 23
+    },
+    {
+      "idx": "1690",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "6",
+      "gt": 5
+    },
+    {
+      "idx": "1251",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "Three",
+      "gt": 3
+    },
+    {
+      "idx": "4146",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "3",
+      "gt": 4
+    },
+    {
+      "idx": "1466",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "4215",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "2448",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "So, let's count the buildings in the image. First, look at the rows of houses. The top row has several houses, then the middle row, and maybe another. Let's go step by step.\n\nTop section (above the ma",
+      "gt": 20
+    },
+    {
+      "idx": "870",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "3",
+      "gt": 3
+    },
+    {
+      "idx": "1937",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "4",
+      "gt": 5
+    },
+    {
+      "idx": "2784",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "1",
+      "gt": 1
+    },
+    {
+      "idx": "1698",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "4030",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "280",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "42",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2470",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3403",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3120",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "534",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "283",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3002",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1173",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "2718",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1417",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "677",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1845",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "256",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1320",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1956",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1537",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "823",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "2357",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3022",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3853",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1619",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3357",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4283",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3583",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2938",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "38",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3652",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4334",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3092",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1611",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3632",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "554",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "687",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1413",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "605",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "576",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "4001",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3088",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "807",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1486",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1517",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3317",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1161",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3895",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1810",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1122",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3796",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3478",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "4302",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "2713",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "2629",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1349",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "202",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "427",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4235",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2273",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1504",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "181",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "24",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1760",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4103",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "671",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3506",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1404",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "889",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3999",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "2376",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3083",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3859",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2294",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3114",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4467",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "591",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "292",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3814",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "771",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3027",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No",
+      "gt": "Yes"
+    },
+    {
+      "idx": "153",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4392",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3201",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3086",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "765",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2315",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "655",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "172",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1646",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1931",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No",
+      "gt": "Yes"
+    },
+    {
+      "idx": "166",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "Yes",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1894",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "4258",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3745",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1340",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "3650",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "549",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "1866",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3111",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "No",
+      "gt": "No"
+    },
+    {
+      "idx": "2177",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No",
+      "gt": "Yes"
+    }
+  ]
+}

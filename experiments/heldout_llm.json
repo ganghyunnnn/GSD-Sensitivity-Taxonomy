@@ -1,0 +1,260 @@
+{
+  "n": 60,
+  "m_recall": 0.55,
+  "by": {
+    "M1": [
+      12,
+      20
+    ],
+    "M2": [
+      10,
+      20
+    ],
+    "D": [
+      20,
+      20
+    ]
+  },
+  "queries": [
+    {
+      "q": "How big is that patch of woods in actual feet/meters?",
+      "exp": "M1"
+    },
+    {
+      "q": "Can you ballpark the width of the river in real-world units?",
+      "exp": "M1"
+    },
+    {
+      "q": "Roughly how many square meters does this whole parking lot take up?",
+      "exp": "M1"
+    },
+    {
+      "q": "Is that house situated more than 100 meters from the main road?",
+      "exp": "M1"
+    },
+    {
+      "q": "Could you measure the length of that fence line for me, please?",
+      "exp": "M1"
+    },
+    {
+      "q": "What's the maximum distance between those two points visible here?",
+      "exp": "M1"
+    },
+    {
+      "q": "Does this park section cover at least a hectare (or square meters)?",
+      "exp": "M1"
+    },
+    {
+      "q": "Can we get an estimate on how wide that creek bed really is?",
+      "exp": "M1"
+    },
+    {
+      "q": "How far apart are the corner markers shown in the picture?",
+      "exp": "M1"
+    },
+    {
+      "q": "Check if this sports field measures up to 100 meters across.",
+      "exp": "M1"
+    },
+    {
+      "q": "What's the approximate height of these buildings using this image?",
+      "exp": "M1"
+    },
+    {
+      "q": "Tell me, approximately what size is that whole cluster of trees?",
+      "exp": "M1"
+    },
+    {
+      "q": "Can you confirm the ground distance between those two vehicles?",
+      "exp": "M1"
+    },
+    {
+      "q": "About how many square feet/meters is the unbuilt land right here?",
+      "exp": "M1"
+    },
+    {
+      "q": "Will it be at least twenty meters from the edge to the water there?",
+      "exp": "M1"
+    },
+    {
+      "q": "Measure the side length of that rectangular lot for me.",
+      "exp": "M1"
+    },
+    {
+      "q": "Give me a rough idea of the acreage this whole section represents.",
+      "exp": "M1"
+    },
+    {
+      "q": "Is the gap between those two buildings more than fifteen meters wide?",
+      "exp": "M1"
+    },
+    {
+      "q": "How long is the perimeter of that lake shown here?",
+      "exp": "M1"
+    },
+    {
+      "q": "If I were standing in the foreground, how many meters would it be to the treeline?",
+      "exp": "M1"
+    },
+    {
+      "q": "How many houses are visible in this patch?",
+      "exp": "M2"
+    },
+    {
+      "q": "Can you tell me which field looks bigger on the left side?",
+      "exp": "M2"
+    },
+    {
+      "q": "Roughly how many trees show up in this cluster?",
+      "exp": "M2"
+    },
+    {
+      "q": "Does it look like there are more cars parked here, or less?",
+      "exp": "M2"
+    },
+    {
+      "q": "What’s the count of rooftops visible near that creek?",
+      "exp": "M2"
+    },
+    {
+      "q": "Give me a ballpark number for the solar panels I'm seeing.",
+      "exp": "M2"
+    },
+    {
+      "q": "Is the density of buildings higher on this side or that one?",
+      "exp": "M2"
+    },
+    {
+      "q": "How many empty lots do you think there are grouped together?",
+      "exp": "M2"
+    },
+    {
+      "q": "Can we figure out a ratio between the grassy area and the dirt patch?",
+      "exp": "M2"
+    },
+    {
+      "q": "Check it: Are more boats docked near the main shore, or further out?",
+      "exp": "M2"
+    },
+    {
+      "q": "Count up all the structures in this little neighborhood section.",
+      "exp": "M2"
+    },
+    {
+      "q": "Roughly what percentage of the image is covered by water?",
+      "exp": "M2"
+    },
+    {
+      "q": "Which side has the greater concentration of industrial sheds?",
+      "exp": "M2"
+    },
+    {
+      "q": "Hey, count up those utility poles for me.",
+      "exp": "M2"
+    },
+    {
+      "q": "How many patches of bare ground can you spot here?",
+      "exp": "M2"
+    },
+    {
+      "q": "Can you tell if there are more individual farming plots visible in the north or south half?",
+      "exp": "M2"
+    },
+    {
+      "q": "Tell me: Is the grouping of vehicles denser in this corner or over there?",
+      "exp": "M2"
+    },
+    {
+      "q": "Out of everything, how many distinct clusters of development do we have to deal with?",
+      "exp": "M2"
+    },
+    {
+      "q": "Just quickly, what’s the count on those specific types of buildings (like barns)?",
+      "exp": "M2"
+    },
+    {
+      "q": "Does the amount of exposed rock look more like X or more like Y?",
+      "exp": "M2"
+    },
+    {
+      "q": "What's with that patch of reddish ground over there?",
+      "exp": "D"
+    },
+    {
+      "q": "Can you tell if those houses are new builds or older?",
+      "exp": "D"
+    },
+    {
+      "q": "Does it look like there's any standing water in this field?",
+      "exp": "D"
+    },
+    {
+      "q": "Are the trees clumped together, or is it all spread out?",
+      "exp": "D"
+    },
+    {
+      "q": "Tell me what kind of crop this looks like.",
+      "exp": "D"
+    },
+    {
+      "q": "Is that roof faded or damaged anywhere?",
+      "exp": "D"
+    },
+    {
+      "q": "Can you see where the river actually starts here?",
+      "exp": "D"
+    },
+    {
+      "q": "Do those cars parked on the street look okay?",
+      "exp": "D"
+    },
+    {
+      "q": "What's going on with that grayish area in the center?",
+      "exp": "D"
+    },
+    {
+      "q": "Are there any signs of recent clearing done near the edge?",
+      "exp": "D"
+    },
+    {
+      "q": "How does this whole neighborhood generally look right now?",
+      "exp": "D"
+    },
+    {
+      "q": "Is that structure over there residential or industrial?",
+      "exp": "D"
+    },
+    {
+      "q": "Can you spot any areas that seem totally bare?",
+      "exp": "D"
+    },
+    {
+      "q": "Does the vegetation look healthy, or is it stressed out?",
+      "exp": "D"
+    },
+    {
+      "q": "Is the ground surface mostly dirt, or is it covered by something else?",
+      "exp": "D"
+    },
+    {
+      "q": "Do I see any obvious signs of a fire scar from last year?",
+      "exp": "D"
+    },
+    {
+      "q": "Where exactly does the main path run through this area?",
+      "exp": "D"
+    },
+    {
+      "q": "Are there any empty lots visible in this section?",
+      "exp": "D"
+    },
+    {
+      "q": "What's the general color scheme of all those roofs combined?",
+      "exp": "D"
+    },
+    {
+      "q": "Is that water body connected to the larger river, or is it separate?",
+      "exp": "D"
+    }
+  ]
+}

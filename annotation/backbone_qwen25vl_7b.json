@@ -1,0 +1,3886 @@
+{
+  "direct": {
+    "agent": "Direct (qwen2.5vl:7b)",
+    "accuracy": 0.254,
+    "correct": 48,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 30,
+        "total": 66,
+        "accuracy": 0.4545
+      },
+      "M1": {
+        "correct": 6,
+        "total": 40,
+        "accuracy": 0.15
+      },
+      "M2": {
+        "correct": 12,
+        "total": 83,
+        "accuracy": 0.1446
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are 3 buildings directly attached to the cul de sac in the image. Two of these buildings appear to be flooded, as the water level reaches up to the lower part of their walls. The third building ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes, the two cars parked outside the flooded house are also flooded. The water level reaches up to the bottom of the car doors, indicating that the cars are submerged in floodwater.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "In the provided aerial image, there are several cars visible on the flooded road. Here is the estimation of the car types:\n\n1. **Top Center**: A white car appears to be an SUV.\n2. **Top Right**: There",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the image, there are houses visible on the left side. The flood appears to be affecting the area between the houses, as the water level is rising and reaching the edges of the houses.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there is flooding around the 2m radius of each car in the image. The GSD (Ground Sample Distance) of 0.015 m/px indicates that each pixel in the image represents 0.015 meters on the ground. The wa",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The white house in the northwest corner of the image is not directly flooded. However, there is water visible around a 10m radius of the house. The water appears to be surrounding the house, indicatin",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the flood depicted in the aerial image, there are approximately 15 houses visible, with some partially submerged in water. There are also several cars parked in driveways and on the streets, with a",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "22",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The right side of the image has more water.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any visible trucks or swimming pools. The image shows a body of water with a shoreline and some buildings on the right side. There are no features that resemble a t",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image shows several cars parked between the non-flooded houses. The colors of the cars are not clearly distinguishable due to the resolution and lighting conditions in the image. However, there ap",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, it is not true that no house within 15m radius of the swimming pool is flooded. The image shows that the swimming pool is surrounded by water, indicating flooding. The houses near the pool are als",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there are no houses within a 5m radius of the electrical transmission tower in the image. The GSD (Ground Sample Distance) is 0.015 m/px, which means each pixel in the image represents 0.015 meter",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the red car is not parked in a dry area within 5 meters around it. The image shows the car surrounded by floodwaters, indicating that it is not in a dry area.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there is no visible route between the flooded houses in the image. The area appears to be completely submerged in water, making it impassable.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer the question, we need to expand the area around the red car by 10 meters and then count the number of cars and determine if they are in water.\n\n1. **Identify the red car**: Locate the red ca",
+        "gt_types": [
+          "D",
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the largest non-flooded house is not in the northwest corner of the image. It appears to be located in the center of the image, surrounded by other houses and some water.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the 'longest white car' cannot go to the northwest house in the image. The car is located in the bottom right corner of the image, and the northwest house is located in the top left corner. The ca",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the non-flooded houses are not all in the same area. They are scattered throughout the image, with some areas showing flooding and others not.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the non-flooded house is not in the southwest corner of the image. The image shows a flooded area with water covering most of the houses and streets. The houses that are not submerged are located ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows an aerial view of a landscape with numerous green patches that appear to be vegetation. There are no visible destroyed buildings in the image. The image primarily depicts a natural env",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "55",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No, there is no visible major damage to the house with the swimming pool in the image. The house appears to be intact, and the swimming pool is clear and undamaged.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, not all the no-damage buildings are in the northeast position on the image. The image shows a flooded area with some buildings visible, but their exact positions relative to the northeast corner a",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a large number of destroyed buildings, with the majority of the structures appearing as rubble or debris. It is difficult to provide an exact count due to the extent of the destruction",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "73",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The building near the volcanic mud activity appears to be undamaged. The area around the building shows signs of volcanic mud activity, but the structure itself does not show any visible signs of dama",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "74",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The houses on the upper side of the road appear to be in good condition. There are no visible signs of damage such as structural issues, missing roofs, or significant structural deformities. The image",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "75",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a highway surrounded by dense greenery. There is a small structure visible near the highway, which appears to be a house. However, the image does not provide en",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a dense forested area with a river running through it. There are several human-made buildings visible, which appear to be small structures, possibly huts or cabins, scattered along the",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "83",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The largest building damaged due to Hurricane Harvey appears to be the one in the center of the image, which is surrounded by floodwaters. There is no visible playground in the floodwater around this ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image shows an area affected by flooding, with water covering much of the ground and some areas of vegetation. The buildings in the top left corner appear to be above the floodwater, suggesting th",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "88",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The building with the red rooftop near the waterbody appears to be damaged. The roof seems to be missing or significantly damaged, and there are visible signs of debris and possibly structural damage ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The smallest car in the image appears to be white.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are two vehicles heading in the same direction.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are two white cars in the image. They are not all heading in the same direction. One car is parked on the left side of the image, and the other is parked on the right side of the image.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "To determine how many cars are parked within white-marked boxes, we need to follow these steps:\n\n1. **Identify the cars**: Locate the cars in the image.\n2. **Identify the white-marked boxes**: These a",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are no cars touching or overlapping the yellow road line in the image.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are three cars moving in a southeast direction in the image.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows an aerial view of a multi-lane highway. There are two sets of lanes, each with multiple vehicles. The vehicles are spread out, indicating that the traffic is not heavy. There are at le",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the image, there are 3 cars parked facing northeast and 3 cars facing southwest.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes, there is a house located within 50 meters of the red car in the image. The red car is positioned near the center of the image, and a house is visible to the right of it, within the 50-meter radiu",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "112",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there is no other car moving in the same direction as the red truck. The red truck is the only vehicle in the image moving in that direction.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a highway with several vehicles, but it does not include any blue trucks. The image shows a mix of cars and possibly a single blue vehicle, but there are no blu",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the distance between the cars traveling on the southbound road using the Ground Sample Distance (GSD) of 1.6310 meters, you would need to measure the distance between the cars in the imag",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image does not show a red car. The cars visible are white and black. Therefore, it is not possible to determine if a red car is positioned too close to a white car in this image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "119",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there are no cars traveling southbound on the road in the image. The cars visible are traveling northbound.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are two cars moving northwest in the image.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are four cars in the image. Yes, all of them appear to be traveling in the southwest direction.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows an aerial view of a highway with multiple lanes. There are several cars visible on the road, with some in the left lane and others in the right lane. The cars appear to be moving in th",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The red car cannot safely switch lanes given a clear 200-meter radius. There are two vehicles nearby in the adjacent lane.",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are two distinct roads in the image. The vehicles are oriented in two separate lanes, indicating two separate roads.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are two cars currently on the road in the image.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is a satellite view and does not provide a scale or direct measurement of distances. To determine the distance between the orange excavators using GSD (Ground Sample Distance) of 0.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "135",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the planes are not in the same direction. One plane is facing towards the top left of the image, while the other is facing towards the bottom right.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are three aircraft parked at the terminal apron in the image. The colors of the aircraft are not distinctly visible in the image, but they appear to be a mix of white and gray, which are common ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image shows several airplanes on the ground, and it is not possible to determine their categories (e.g., commercial, military, private) from the aerial view alone. However, if we assume that the p",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To detect planes with a red body (fuselage) and compute the distance between them, we need to follow these steps:\n\n1. **Identify the planes with red fuselage:**\n   - In the image, there are two planes",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There is a destroyed building in the image. Upon checking, there is a road that lies within 30 meters of the destroyed building, as the GSD is 0.5 meters per pixel, which means each pixel represents 0",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "145",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The destroyed area is located in the central part of the image, within the box marked GSD 0.5m/px. The building inside the box appears to be a large, rectangular structure with a light-colored roof an",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image shows a destroyed building in the center, which appears to be partially collapsed. The structure is surrounded by debris and rubble, indicating that it has not fully collapsed but is in a st",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a heavily damaged urban area with numerous buildings that appear to be in various states of destruction. To estimate the ratio of partially destroyed to fully destroyed buildings, a de",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The damage pattern between the two buildings appears to be asymmetrical. The building on the left shows more extensive damage, with larger gaps and irregularities, while the building on the right has ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a heavily impacted area in the center, with visible signs of destruction such as collapsed structures and debris. The most impacted area in the west appears to be the cluster of buildi",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image does not contain any parked vehicles.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the provided aerial image, the house with the above-ground pool is located in the top left section of the image. Assuming a ground sample distance (GSD) of 1 meter per pixel, the area around the po",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are two cars visible in the image, and they are not in parking spaces. They appear to be on the road, and they are not going in the same direction. One car is heading towards the top left of the",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The above-ground swimming pool in the image is oval-shaped.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "In the provided aerial image, there is one residential backyard that contains an above-ground swimming pool. However, the image does not provide information on whether the pool is currently in use. To",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "184",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Yes, there is a small vehicle visible on the northbound lane of the road in the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are two cars visible in the image. One car is blue and the other is white.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "189",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The white plane in the image is located on the tarmac, near the bottom right of the image. To estimate its orientation relative to the north, we can use the orientation of the runway and the general l",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The plane with a blue fuselage is located in the top right section of the image, flying above the runway.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "193",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the two airplanes are not in the same direction. The airplane on the left is heading towards the bottom of the image, while the airplane on the right is heading towards the top of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "197",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The largest plane on the runway is located near the center of the image. To estimate its orientation relative to the north, we need to consider the direction it is facing. The plane appears to be orie",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The baseball diamond in the image is the area with a distinct brown color, which is characteristic of the infield dirt. The surrounding area is green, indicating the grass. By analyzing the proportion",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The basketball court ground in the image appears to be a combination of blue and white. The blue color is likely the playing surface, and the white color is the boundary lines and other markings on th",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there is no visible match taking place in the soccer field. The field appears to be empty.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "207",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The basketball court in the image appears to be oriented with its baseline running approximately parallel to the north-south direction. Given the typical orientation of basketball courts, the baseline",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, none of the basketball courts in the image appear to be occupied.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Yes, there is a visible sign or letter inside the ground track field. The letter is \"S\" and it is red in color.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes, a soccer ball field is present in the image. It is located on the right side of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows two ships, but the resolution and angle do not provide enough detail to determine the type of the ships or if they are identical in type. The ships appear to be similar in size and sha",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "230",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The ships in the image appear to be oriented in a north-south direction relative to the north side of the image. The orientation can be inferred from the alignment of the ships with the water body and",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "232",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "In the image, there are three vessels visible in the water. \n\n1. The first vessel is located in the top left corner of the image. It appears to be heading towards the north.\n2. The second vessel is lo",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "233",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the provided aerial image, there are a total of 4 vehicles visible. The image does not provide enough detail to determine the specific type of each vehicle (e.g., sedan, SUV, etc.). Therefore, it i",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are two cars visible in the image. No, the detected cars are not the same color. One car appears to be white, and the other appears to be black.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the provided aerial image, the vehicles are as follows:\n\n- Northbound: 3 vehicles\n- Southbound: 4 vehicles\n\nThe dominant heading in this image is southbound, with 4 vehicles heading in that directi",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are two white vehicles in the image. Yes, these vehicles appear to be traveling in the same direction.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The ground track field in the image appears to be empty. \n\nTo estimate the square meter area of the field, we need to measure the dimensions of the field in pixels and then convert those dimensions to",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "249",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The large field markings painted on the turf inside the central track read \"STAPLES\" and \"WRECKERS\". The orientation of the text is horizontal, with \"STAPLES\" at the top and \"WRECKERS\" below it. The d",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the image, there are four baseball diamonds. None of the baseball diamonds appear to have players on them at the moment.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "There are four entry roads that feed into this roundabout.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "257",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The largest baseball field in the image is located in the center, with a north-south orientation. The home plate is oriented towards the north.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The ground support vehicle positioned closest to the aircraft with blue wings appears to be a tow tractor. This type of vehicle is used to tow aircraft on the ground, typically for moving them from on",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "263",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a row of tennis courts with the sun casting shadows to the right of the courts. This indicates that the sun is positioned to the left of the image, which corresponds to the West direct",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To calculate the distance between the two furthest tennis courts using the provided GSD (Ground Sample Distance) of 0.1368 meters, we need to follow these steps:\n\n1. **Identify the distance on the ima",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are six tennis courts in the image. The tennis court closest to the parking area at the top left appears to be occupied, as there are visible figures on the court.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The largest tree by canopy size in the provided aerial image appears to be the one located near the bottom center of the image. To determine its canopy diameter, we would need to measure the width of ",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The red aircraft in the center of the airport apron appears to be a North American P-51 Mustang. This identification is based on its distinctive shape, including the long fuselage, single-engine confi",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "272",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The aircraft on the flight deck appears to be a fighter jet, likely an F/A-18 Hornet, based on its shape and size. To determine its heading direction in degrees relative to north, we would need a refe",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The designated large parking area is located in the bottom-left section of the image. It appears to be moderately occupied, with a significant number of vehicles parked, but not completely full.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are four airplanes in the image. Two of them have a ground support vehicle positioned directly adjacent to them.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The designated large parking lot area near the airport appears to be nearly full. There are numerous vehicles parked in the lot, indicating a high level of occupancy.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "281",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the nose orientation or heading of the largest aircraft in degrees from north, we need to analyze the orientation of the aircraft in the image. The largest aircraft appears to be the one ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "282",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The directional orientation (yaw/heading) of the planes in the image can be described as follows:\n\n1. The top plane is oriented with its nose pointing to the bottom left of the image.\n2. The second pl",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are no airplane instances in the image that have ground vehicles in close proximity.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the wingspan of the large airplane at the top of the image, we need to follow these steps:\n\n1. Identify the wingspan of the large airplane in pixels.\n2. Convert the pixel value to meters ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "285",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image provided does not contain a parking lot or tennis courts. It shows an aerial view of an airport tarmac with several aircraft parked. There is no directional orientation of a parking lot or e",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "pred_type": "error",
+        "correct": false,
+        "answer": "",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image does not provide enough detail to accurately count the number of dark-colored versus light-colored vehicles in the parking area located at the bottom right quadrant. The resolution and dista",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the minimum number of ground crew required for all the airplanes in the image, we need to consider the number of airplanes and the typical requirements for ground crew at an airport.\n\n1. ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The track surface material in the facility appears to be synthetic turf, which is commonly used in sports facilities. The advantages of synthetic turf include:\n\n1. **Weather Resistance**: Synthetic tu",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The red rectangular area at the end of the field is a goal area, specifically for soccer. It is used for scoring goals in soccer matches.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "293",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a standard athletic track with a red running track and a green field in the center. The width of the track appears to be approximately 120 meters (394 feet) from the inside edge of the",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows two swimming pools in the residential area. The pool on the left appears to be in good condition with clear water and a well-maintained surrounding area. The pool on the right, however",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The swimming pools in the image are irregular in shape. One pool appears to be roughly kidney-shaped, while the other is more rectangular with a curved end.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the image, there are two visible cars. One car is white and is parked on the side of the road near the house. The other car is blue and is parked on the side of the road further down the street.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows two bridges. The bridge in the foreground has two lanes, and the bridge in the background also has two lanes. Therefore, the total number of lanes for all bridges in the image is four.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are 12 empty airplane parking spots in the image.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows two cars. The car in the top lane is dark-colored, possibly black or dark gray. The car in the bottom lane is light-colored, possibly silver or light gray.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows two types of garbage: one appears to be a large, irregularly shaped pile of debris, and the other is a smaller, more compact pile. Both are located near the edge of the big pond.\n\n1. *",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine if the garbage is dumped within an eco-sensitive agricultural zone with a 50m buffer, we need to follow these steps:\n\n1. **Identify the Eco-Sensitive Agricultural Zone**: Locate the agric",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image does not provide enough detail to identify specific types of garbage or objects on the northwest side of the road. The area appears to be a mix of agricultural fields and some structures, bu",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a mix of urban development and what appears to be a construction site with visible piles of debris and materials. The construction waste is concentrated in the lower right section of t",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "In the provided satellite image, there appears to be a concentration of construction waste in the lower central part of the image, near the bottom. This area shows signs of disturbance, with what look",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The domestic garbage appears to be located in the lower right portion of the image, near the edge of the forested area. Given the ground sampling distance (GSD) of 0.5 meters per pixel, the garbage is",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not depict a post-disaster scenario with visible destruction. It appears to be a pre-disaster aerial image of a residential area with some trees and a body of water. There are ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer the question, we need to follow these steps:\n\n1. Identify the total number of buildings in the image.\n2. Identify the number of destroyed buildings in the image.\n3. Compute the ratio of dest",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any information about post-disaster conditions or damage levels. It appears to be a pre-disaster aerial image of a residential area with a mix of houses and trees. ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a residential area with some buildings and trees. However, the image does not show any signs of a disaster or damage to the buildings. Therefore, it is not poss",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not depict a pre-disaster and post-disaster scenario. It appears to be a single aerial image of a residential area with no visible signs of destruction or damage. Therefore, it",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a residential area, not a post-disaster image. Therefore, it is not possible to determine the average area of no-damage buildings and those that were destroyed ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "To determine how many response teams are needed to clear all destroyed buildings in the post image within seven days, we need to know the total number of destroyed buildings in the image. However, sin",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings that are completely destroyed. All the structures visible appear to be intact or in good condition. Therefore, the percentage of buildings completely ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are no completely destroyed buildings visible in the upper half of the image. The buildings in the upper half appear to be intact or partially intact. In contrast, there are a few buildings in t",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To estimate how many days one response team would need to cover all severely damaged buildings in the area shown in the image, we need to know the total number of severely damaged buildings. However, ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not show any visible signs of major damage to buildings. The structures appear intact, and there are no visible signs of destruction or collapse. Therefore, the percentage of m",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any visible structures that appear to be damaged. The image shows a landscape with vegetation and a few buildings, but there are no signs of damage or destruction. ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the combined area of all buildings showing major damage in the post-disaster image, we need to follow these steps:\n\n1. **Identify the buildings**: Locate the buildings in the image that a",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine how many inspection teams are required to inspect every building flagged as damaged in the post-event image, we need to know the total number of damaged buildings. However, since the imag",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings or any indication of an event that would have destroyed buildings. It appears to be an aerial view of a rural area with scattered trees and a few stru",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer the question, we need to analyze the image and compare the ground areas of the buildings that show no damage to those that are completely destroyed. Here's a step-by-step approach:\n\n1. **Ide",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not show any fully destroyed buildings. The image appears to show a rural area with scattered trees, a few buildings, and some roads. There are no signs of destruction or damag",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image shows a rural area with scattered trees and a few buildings. Upon closer inspection, there appears to be one building that is visibly damaged, while the others seem to be in good condition. ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer the question, we need to follow these steps:\n\n1. **Identify the destroyed buildings**: Locate the areas in the image that appear to be destroyed or damaged. These areas will have a different",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not appear to be a post-disaster image. It shows a coastal area with buildings and vegetation, but there are no visible signs of destruction such as collapsed structures or deb",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings before or after an event. It shows a forested area with a road and some industrial structures, but no buildings are visible. Therefore, it is not poss",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not show any buildings that were visible before a disaster and are missing afterward. The image appears to show a forested area with a road and some industrial structures on th",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings that can be identified as intact or damaged. It appears to be an aerial view of a forested area with a road and some industrial structures, but no bui",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer this question, we need to analyze the image and divide it into four equal quadrants. However, the image provided does not show any signs of a disaster or the presence of buildings that were ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any information about buildings being classified as destroyed or the total number of buildings. It appears to be an aerial view of a landscape with some urban devel",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a landscape with various structures and vegetation. It does not depict a post-disaster scene or show any signs of destruction. Therefore, it is not possible to ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not depict a post-disaster scenario. It appears to be a pre-disaster aerial image of a rural area with scattered buildings, roads, and vegetation. There are no visible signs of",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view and does not contain pre- and post-event images for comparison. Therefore, it is not possible to determine the percentage of buildings classified as destroyed afte",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view and does not contain any information about buildings or their condition post-flood. Therefore, it is not possible to determine how many more buildings show major d",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings, either damaged or undamaged. It appears to be an aerial view of a landscape with roads, a body of water, and some vegetation. Therefore, it is not po",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a golf course and surrounding area, but it does not contain any buildings or structures that have been destroyed. Therefore, it is not possible to determine the",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "To determine which group covers more area, we need to compare the ground area of the completely destroyed buildings region and the minor-damage building region in the aerial image. However, the image ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a golf course with no visible buildings that appear to be destroyed. Therefore, it is not possible to estimate the number of families displaced and requiring emergency lodging based on",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings. It appears to be an aerial view of a landscape with agricultural fields and possibly some forested areas. There are no buildings visible in the image",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a landscape with agricultural fields and no visible buildings. Since there are no buildings present in the image, it is not possible to detect changes in the nu",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a forested area with some structures and a road. However, there is no visible evidence of a wildfire or destroyed buildings in this image. Therefore, it is not ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a commercial area with buildings, parking lots, and roads. There are no visible signs of a disaster or significant changes between pre and post images in this i",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view, and the L-shaped building cluster in the center appears to be a large commercial or industrial complex. However, without precise scale and reference points, it's ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is a single aerial image and does not have a pre-image for comparison. Therefore, it is not possible to describe the change between pre and post images. \n\nAs there is no post image ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The provided image does not show any destroyed buildings. It appears to be an aerial view of a rural area with fields, roads, and some scattered trees. There are no visible signs of destruction or dam",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided appears to be a remote sensing aerial image, but it is not clear what the specific buildings are or how they are damaged. The image shows a cluster of dark spots that could represen",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a rural area with scattered buildings and trees. Upon analyzing the image, it appears that there are no visible signs of destruction or damage to the buildings. Therefore, the number o",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "To analyze the image and divide it into four quadrants, we need to visually assess the condition of the buildings in each quadrant. Here's a step-by-step approach:\n\n1. **Divide the Image into Quadrant",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer the question, we need to identify the buildings in the upper half of the image and determine which ones are in no-damage condition. Then, we can calculate the percentage of these no-damage b",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a rural area with a mix of residential and agricultural land. There are several buildings visible, but the image does not provide enough detail to accurately id",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To estimate the total ground area lost to destroyed buildings, we need to compare the pre-storm and post-storm building areas. However, the image provided does not show any pre-storm or post-storm con",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the number of team-days needed to survey all damaged buildings in the post image, we need to follow these steps:\n\n1. Identify the number of damaged buildings in the image.\n2. Determine th",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any pre-image or post-image comparison. It is a single aerial image showing a landscape with a vineyard and some buildings. There is no information available to com",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not depict a wildfire event or any built-up area. It shows an aerial view of a forested area with a clear-cut section and some agricultural fields. There are no signs of destru",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a single destroyed building with a red roof. Therefore, the total surveying time needed for all the destroyed buildings is 30 minutes.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any visible destroyed buildings. It shows an aerial view of a vineyard surrounded by forested areas. If you have a specific image or reference to a destroyed buildi",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a rural area with fields, a body of water, and some buildings. However, the image does not show a \"pre image\" and a \"post image\" for comparison. Therefore, it i",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The bottom right quadrant of the image contains the highest concentration of damaged buildings.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings with visible damage. It shows a rural landscape with fields, a body of water, and some structures that appear to be in good condition. Therefore, it i",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a rural area with several buildings, some of which appear to be damaged. However, the image does not provide specific details about the number of damaged buildings or their locations. ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings or structures that can be classified as major damaged. The image shows a forested area with a clearing and some scattered structures, but there are no",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To estimate the number of team-days needed to assess all damaged buildings identified in the post image, we need to follow these steps:\n\n1. **Determine the total area of the damaged buildings**: The i",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any visible majorly damaged buildings. The image shows a forested area with a clearing and some structures, but there are no signs of significant damage to the buil",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any information about an event or destruction of buildings. It appears to be an aerial view of a residential area with buildings, parking lots, and solar panels. Th",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To answer the question, we need to follow these steps:\n\n1. **Identify the structures classified as completely destroyed**: This would typically involve analyzing the image and identifying areas where ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a residential area with several buildings. However, there are no visible signs of destruction or damage in the image. Therefore, it is not possible to determine the number of assessors",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine which quadrant experienced the highest count of destroyed buildings, we need to analyze the image and identify any signs of destruction. However, the image provided does not show any visi",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided does not contain any visible destroyed structures. It appears to be an aerial view of a residential area with buildings, roads, and parking lots. Therefore, it is not possible to ca",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a landscape with a river, vegetation, and some structures. There are no visible signs of structural failure or damage to buildings in the image. Therefore, it i",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To compute the total ground area covered by severely damaged structures in the image, we need to follow these steps:\n\n1. **Identify the Severely Damaged Structures**: Look for areas in the image that ",
+        "gt_types": [
+          "M1"
+        ]
+      }
+    ]
+  },
+  "mara": {
+    "agent": "MARA (qwen2.5vl:7b)",
+    "accuracy": 0.2011,
+    "correct": 38,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 30,
+        "total": 66,
+        "accuracy": 0.4545
+      },
+      "M1": {
+        "correct": 5,
+        "total": 40,
+        "accuracy": 0.125
+      },
+      "M2": {
+        "correct": 3,
+        "total": 83,
+        "accuracy": 0.0361
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 3. (TOTAL: 3)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "### Assessment:\n\nThe two cars parked outside the house appear to be partially submerged in water, indicating that the house is flooded. The water level is high enough to cover the lower part of the ho",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "In the flooded road area, there are two cars visible. One appears to be a Sedan, and the other appears to be an SUV.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine if there is no flood around the 2m radius of each car, we need to analyze the image and use the given Ground Sample Distance (GSD) to estimate the size of the area around each car.\n\n1. **",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The white house in the northwest corner of the image is flooded, and there is water around a 10m radius of the house.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "22",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "Right",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To answer the query, we need to follow these steps:\n\n1. Determine the resolution of the image using the given GSD (Ground Sample Distance).\n2. Identify the truck in the image.\n3. Calculate the area ar",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The cars parked between the non-flooded houses appear to be white and red.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine if no house within a 15-meter radius of the swimming pool is flooded, we need to follow these steps:\n\n1. **Identify the swimming pool**: Locate the swimming pool in the image.\n2. **Determ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine if there is any house within a 5m radius of the electrical transmission tower, we need to follow these steps:\n\n1. **Identify the electrical transmission tower**: The image shows a white s",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine if the red car is parked in a dry area within 5 meters around it, we need to follow these steps:\n\n1. **Identify the red car**: Locate the red car in the image.\n2. **Determine the GSD**: T",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, there is no visible route between the flooded houses.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To answer the query, we need to follow these steps:\n\n1. Determine the GSD (Ground Sample Distance) in meters per pixel.\n2. Calculate the area of 10 meters around the red car.\n3. Identify the number of",
+        "gt_types": [
+          "D",
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No. The largest non-flooded house is not in the northwest corner of the image. It is located in the center of the image, surrounded by other houses and a small pond.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the 'longest white car' cannot reach the northwest house in the image. The car is positioned on the road to the east of the northwest house, and there is a significant amount of water and debris b",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the non-flooded houses are not all in the same area. They are scattered throughout the image, with some areas showing flooding and others not.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No. The non-flooded house is not in the southwest corner of the image. It is located in the top left corner of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "55",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image shows a flooded area with water covering normally dry land and surrounding vegetation. There are visible signs of flooding, but the image does not provide enough detail to a",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "### Assessment:\n\nThe image shows an aerial view of an area that appears to be flooded. The water is covering normally dry areas, and there are visible signs of flooding in the form of waterlogged surr",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The image shows a heavily damaged area with numerous destroyed buildings. However, the image resolution and the extent of destruction make it challenging to count individual buildings accurately. The ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "73",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe building near the volcanic mud activity appears to be in the \"Minor damage\" category.\n\n### Visual Evidence Supporting the Assessment:\n\n1. **Location of the Building**: The buildin",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "74",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe houses on the upper side of the road appear to be in the \"Minor damage\" category.\n\n### Visual Evidence Supporting the Assessment:\n\n1. **Structural Integrity**: The roofs and walls",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "75",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image shows a highway with a surrounding area that appears to be forested. There is a visible area of white, which could be interpreted as either fog, clouds, or a reflection of l",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 8. (TOTAL: 8)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "83",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "### Assessment:\n\nThe image shows a large building surrounded by floodwaters, which appears to be the largest building in the area. The building shows signs of significant damage, as evidenced by the v",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The image shows a flooded area with water covering much of the ground. There are no visible buildings in the image that appear to be undamaged by Hurricane Harvey. Therefore, it is not possible to det",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "88",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe building with the red rooftop near the waterbody appears to have minor damage.\n\n### Visual Evidence:\n\n1. **Waterbody**: The waterbody is visible and appears to be a natural waterw",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The smallest car in the image is white.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To answer the query, we need to follow these steps:\n\n1. Determine the ground sample distance (GSD) of the image, which is given as 1.4326 meters per pixel.\n2. Calculate the area of a 20-meter expansio",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 5. (TOTAL: 5)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "No, there is no house located within 50 meters of the red car using GSD 0.9666.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "112",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Object(s) Mentioned in the Query:**\n   - The query asks about the direction of the red truck and whether there is another car moving in the same direction",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The blue trucks are approximately 106.71 meters apart.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The distance between the cars traveling on the southbound road, using GSD 1.6310, is 780.00 meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "No, the red car is not visible in the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "119",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "To determine if there is any car traveling southbound on the road, we need to analyze the image and the orientation of the road.\n\n1. **Identify the object(s) mentioned in the query**: The query asks a",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 7. (TOTAL: 7)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The red car cannot safely switch lanes given a clear 200-meter radius. There are 2 vehicles nearby.",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The distance between the orange excavators using gsd 0.9 is 126.42 meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "135",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Object(s) Mentioned:**\n   - The image contains two airplanes and several roads and runways.\n\n2. **Determine Orientation/Heading:**\n   - **Aircraft Orienta",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "To analyze the image systematically using a 3×3 grid scan:\n\n1. Divide the image into a 3×3 grid:\n   - Top-left: [1, 2, 3]\n   - Top-center: [4, 5, 6]\n   - Top-right: [7, 8, 9]\n   - Middle-left: [10, 11",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the planes heading towards the east do not belong to the same categories.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The distance between the planes with red body (fuselage) is 388.32 meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "No destroyed building was found in the image.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "145",
+        "gt_type": "D",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The area of the destroyed region is 213346.12 square meters.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "### Assessment:\n\nThe image shows a cluster of buildings that appear to be in a state of significant destruction. The structures are visibly damaged, with some parts of the walls and roofs missing or c",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image shows a series of buildings that appear to be in a state of disrepair, with some structures showing significant damage. However, the image does not provide enough detail to ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The damage pattern between the two buildings appears to be asymmetrical. The building on the left shows more extensive damage, with larger gaps and irregularities, while the building on the right has ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows significant destruction in the central area, with visible damage to structures and debris scattered around. The most impacted area in the west appears to be the cluster of buildings in",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "No parked vehicles are visible in the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "There is an object present within 3m safety distance around the pool.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 1. (TOTAL: 1)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The above-ground swimming pool in the image is oval-shaped.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "In the provided aerial image, there is one residential backyard that contains an above-ground swimming pool. The pool is located in the upper left quadrant of the image, surrounded by a fence and land",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "184",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Object(s) Mentioned in the Query:**\n   - The query asks about a \"small-vehicle going towards northbound.\"\n   - In the image, there are vehicles visible on",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "189",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Object:**\n   - The white plane is located on the tarmac, towards the bottom right of the image.\n\n2. **Determine the Orientation:**\n   - The nose of the pl",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The plane with a blue fuselage is located on the upper right side of the image, flying above the runway.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "193",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Object(s) Mentioned:**\n   - The image contains two airplanes.\n\n2. **Determine Their Orientation/Heading:**\n   - **Airplane 1 (top-right):**\n     - The nos",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "197",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "To determine the orientation of the largest plane on the runway, follow these steps:\n\n1. **Identify the object(s) mentioned in the query:**\n   - The query asks for the largest plane on the runway. In ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The baseball diamond is located in the center of the image, surrounded by a green field. The proportion of dirt on the diamond appears to be less than the grass surrounding it. The majority of the fie",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The basketball court ground appears to be blue with white lines.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the soccer field appears to be empty.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "207",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the orientation angle of the basketball court's baseline relative to the north in degrees, follow these steps:\n\n1. **Identify the object(s) mentioned in the query**: The object in questio",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the basketball court is not occupied.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "Yes, there is a visible sign or letter inside the ground track field. The color of the letter/sign is red.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Yes, a soccer ball field is present in the image. It is located on the right side of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows two ships, both appearing to be container ships. They are identical in type.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "230",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To estimate the orientation of the ships with respect to the north side in the image, follow these steps:\n\n1. **Identify the ships**: There are two ships visible in the image, located on the right sid",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "232",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Vessels:**\n   - There are two vessels visible in the water in the image:\n     - One is located in the top left corner.\n     - The other is located in the ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "233",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "There are 4 vehicles visible in the image. All appear to be sedans.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M2",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the object(s) mentioned in the query:**\n   - The query mentions \"vehicle,\" so we need to identify all the vehicles in the image.\n\n2. **Determine their orienta",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The ground track field is empty, and its estimated area is 41209.56 square meters.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "249",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the exact wording and orientation of the large field markings painted on the turf inside the central track, we need to analyze the image step-by-step:\n\n1. **Identify the object(s) mention",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 3. (TOTAL: 3)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "The total count is 4. (TOTAL: 4)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "257",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To identify the largest baseball fields and describe the orientation of the home plate, let's follow the steps:\n\n1. **Identify the object(s) mentioned in the query:**\n   - The image shows multiple spo",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The ground support vehicle closest to the aircraft with blue wings appears to be a baggage cart. It is typically used to transport luggage and other cargo between the aircraft and the terminal.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "263",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "To determine the current compass direction of the sun using the provided image, we need to follow these steps:\n\n1. **Identify the object(s) mentioned in the query**: The image shows a series of tennis",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The distance between the two furthest tennis courts is approximately 19 meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 4. (TOTAL: 4)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The largest tree by canopy size has a canopy diameter of approximately 11 meters. Its overall health condition cannot be assessed from the provided information.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "No, there is no red aircraft visible in the center of the airport apron in this image. The aircraft present are primarily white and gray, with some red markings, but none are predominantly red.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "272",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the heading direction of the aircraft on the flight deck in degrees relative to north, follow these steps:\n\n1. **Identify the object(s) mentioned in the query:**\n   - The query mentions \"",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The designated large parking area is located in the bottom-left of the scene. It appears to be moderately occupied.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 4. (TOTAL: 4)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The designated large parking lot area near the airport appears to be nearly full.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "281",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the nose orientation or heading of the largest aircraft in the image, follow these steps:\n\n1. **Identify the largest aircraft**: The largest aircraft in the image is the one located on th",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "282",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the directional orientation (yaw/heading) of the planes in the image, we need to analyze the orientation of each plane relative to the north direction in the image.\n\n1. **Identify the pla",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The wingspan of the large airplane located at the top of the image is 33 meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "285",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "The image provided does not contain any visible tennis courts or a parking lot. Instead, it shows an aerial view of an airport tarmac with several aircraft parked on it. The tarmac is marked with vari",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "pred_type": "error",
+        "correct": false,
+        "answer": "",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 3. (TOTAL: 3)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 3. (TOTAL: 3)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The track surface material appears to be synthetic rubber, commonly used in athletic tracks. Advantages of synthetic rubber tracks include:\n\n1. Durability: They can withstand heavy use and harsh weath",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The red rectangular area at the end of the field is a goal area, specifically for soccer. It is used for scoring goals in soccer matches.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "293",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows a standard athletic track with a red running track and a green field in the center. The width of the track appears to be approximately 120 meters (394 feet) from the inner edge of the ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The swimming pools in the residential area appear to be in good condition. The water is clear, and there are no visible signs of damage or neglect. The surrounding areas are well-maintained, with no o",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The swimming pools in the image are irregular in shape, with one appearing to be a freeform design and the other having a more defined, possibly rectangular shape.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows two cars. One is a white car parked on the driveway of a house, and the other is a blue car parked on the street.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows two cars. The car in the top lane is dark-colored, possibly black or dark gray. The car in the bottom lane is light-colored, possibly silver or light gray.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The distance of the garbage type to the big pond is 140.00 meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine if the garbage is dumped within an eco-sensitive agricultural zone with a 50m buffer, we need to follow these steps:\n\n1. **Identify the Eco-Sensitive Agricultural Zone**: The image shows ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The northwest side of the road shows a cluster of dark, irregular shapes that appear to be garbage. These shapes are dark brown and contrast with the lighter surrounding fields. They are likely to be ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows a construction site with visible piles of construction waste, particularly in the lower right quadrant. The waste appears to be concentrated and not uniformly distributed, suggesting r",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image shows construction waste in the lower center area, near the bottom of the image. The waste appears as a cluster of blue and white materials, possibly debris or construction materials. This a",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine the location of the domestic garbage and whether it is very close to the road, we need to follow these steps:\n\n1. **Identify the Road**: Locate the road in the image. It appears as a ligh",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "To compute the ratio of the destroyed buildings to the total buildings in the image and determine the number of rescue teams required, we need to follow these steps:\n\n1. **Identify the objects or regi",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 10. (TOTAL: 10)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a residential area with some buildings and trees. However, the image does not provide any information about the state of the buildings (whether they are complet",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image provided appears to be an aerial view of a residential area, likely taken before and after a disaster. However, the image provided is the same before and after image, which ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The average area of no-damage buildings and those that were destroyed in the post-disaster image is 908010.00 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image provided is an aerial view of a rural area with several buildings scattered across the landscape. The buildings appear to be residential or small-scale agricultural structur",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment and Visual Evidence:\n\n1. **Identify the Target Object(s):**\n   - The image shows a rural area with a few buildings, a pond, and surrounding vegetation. The buildings appear to be reside",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The combined area of all buildings showing major damage in the post-disaster image is 30546.12 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 1. (TOTAL: 1)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image provided does not show any buildings that appear to be missing or destroyed. The image shows a landscape with scattered trees, some vegetation, and a few structures that app",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To answer the query about the average ground area of no-damage buildings compared to those that were completely destroyed, we need to follow these steps:\n\n1. **Identify the buildings**: Locate the bui",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The combined footprint area of all fully destroyed buildings is 9776.62 square meters.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "The total count is 1. (TOTAL: 1)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The total ground area destroyed in the post image is 1059634.55 square meters. The average area lost per destroyed structure is not provided in the given result.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "To analyze the image systematically using a 3×3 grid, let's break it down:\n\n1. **Top-left (TL)**: This area appears to be the ocean, so no buildings are present.\n2. **Top-center (TC)**: This area show",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings before or after an event. It shows a forested area with a road and some industrial structures, but no buildings are present that could be compared for",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The average ground area of the destroyed structures is 4095.61 square meters.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 15. (TOTAL: 15)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a landscape with various features, including buildings, parking lots, roads, and a river. However, the image does not contain any explicit information about the",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image provided is an aerial view of a rural area with scattered buildings and vegetation. There are no visible signs of water coverage, flooding, or structural damage that would i",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify the Target Object(s) in the Image:**\n   - The image shows a rural area with a road, some vegetation, and a body of water. There are structures visible, but th",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine the smallest straight-line distance between any no-damage building and any destroyed building in the post-event scene, we need to identify the buildings and their states (damaged or undam",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image provided appears to be an aerial view of a golf course with some buildings and structures. There are no visible signs of water covering normally dry areas, no structural col",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The completely destroyed buildings region covers 4090.89 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "The provided image appears to be an aerial view of a landscape with a patterned layout, possibly a plantation or agricultural field. The image does not provide enough context or information to directl",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a commercial area with buildings, parking lots, and roads. There are no visible signs of a disaster or damage in the image. The image appears to be a pre-disast",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The area of the L-shaped building cluster in the center of the post image is 2172168.51 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The image provided is a single aerial image and does not have a pre-image for comparison. Therefore, there is no change to describe between pre and post images.\n\nSince there is no post image to compar",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The net loss in area of destroyed buildings is 24851.31 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The image provided appears to be an aerial or satellite image, but it is not clear what the objects in the image represent. The image seems to show some kind of vegetation or possibly a water body wit",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "To analyze the image and compare the quantities of no-damage, minor damage, major damage, and destroyed buildings in each quadrant, we need to follow these steps:\n\n1. **Identify the objects or regions",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 3. (TOTAL: 3)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "To calculate the ratio of the major damaged buildings in the post image to the total buildings in the post image, we need to follow these steps:\n\n1. **Identify the objects or regions to be compared:**",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To estimate the total ground area lost to destroyed buildings, we need to compare the pre-storm and post-storm building areas. However, the image provided is a single post-storm satellite image, and t",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "The image provided does not show any signs of flood or damage from a wildfire event. The image depicts an agricultural area with neatly arranged fields and a few buildings surrounded by dense greenery",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment and Visual Evidence\n\n1. **Identify the target object(s) in the image:**\n   - The image shows a rural area with a mix of forested areas and agricultural fields. There are a few buildings",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The building with the largest estimated area in square meters is 602574.32 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The image provided does not show any pre-image or post-image comparison. It is a single aerial image of a rural area with fields, a body of water, and some buildings. There is no indication of damage ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The bottom right quadrant of the image contains the highest concentration of damaged buildings.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "To answer the question, let's break down the analysis step by step:\n\n1. **Identify the objects or regions to be compared:**\n   - We need to identify buildings with minor damage and those with major da",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a forested area with a clearing and some structures. There are no visible signs of water coverage, structural collapse, or significant damage to the buildings. ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "614935.08 square meters / 500 square meters per day = 1229.87 team-days.",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment:\n\nThe image provided appears to be an aerial view of a residential area with some commercial buildings and parking lots. There are no visible signs of water coverage, structural collaps",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The average ground-area lost for each structure classified as completely destroyed is 456,713.36 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a residential area with buildings, parking lots, and some greenery. There are no visible signs of water covering normally dry areas, no structural collapses, or",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The image provided does not contain any buildings or evidence of structural failure. It shows a natural landscape with a river and vegetation. Therefore, it is not possible to determine the percentage",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "The total ground area covered by severely damaged structures is 10665.99 square meters.",
+        "gt_types": [
+          "M1"
+        ]
+      }
+    ]
+  }
+}

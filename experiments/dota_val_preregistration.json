@@ -1,0 +1,39 @@
+{
+  "title": "Pre-registration: DOTA-val detector-vs-VLM counting",
+  "frozen_before_seeing_val_results": true,
+  "date": "2026-06-15",
+  "rationale": "Non-circular, adequately-powered test of whether routing resolvable-M2 counting to an in-domain detector beats the VLM. DOTA-v1 val (458 imgs) is held out from the detector's DOTA-train training.",
+  "data": {
+    "images_dir": "E:/FP-Tag/DOTAv1/images/val",
+    "labels_dir": "E:/FP-Tag/DOTAv1/labels/val",
+    "label_format": "YOLO-OBB: class_idx x1 y1 x2 y2 x3 y3 x4 y4 (normalized)",
+    "image_sample": "200 random val images, seed=42 (bounds VLM compute; >=600 nonzero cells expected)"
+  },
+  "classes_primary": ["plane", "ship", "small vehicle", "large vehicle"],
+  "classes_secondary_robustness": "all 15 DOTA classes, aggregate only",
+  "unit_of_analysis": "(image x class) cell",
+  "ground_truth": {
+    "gt_strict": "count = number of label rows of that class",
+    "gt_resolvable": "count only instances whose OBB longer side >= 10 px (s=10) in actual pixels; ties to the paper's GSD<=d/s answerability floor",
+    "sensitivity": "s in {8,12,15}"
+  },
+  "detector": {"model": "yolo11l-obb.pt", "conf": 0.25, "imgsz": 1536,
+    "conf_sensitivity_sweep": [0.10, 0.25, 0.40, 0.50],
+    "note": "conf=0.25 is the package/pilot default, chosen a priori; reported as primary regardless of which conf minimizes error"},
+  "vlm_baseline": {"model": "qwen2.5vl:7b", "temperature": 0,
+    "prompt": "How many <class_noun> are in this image? Answer with a single integer only.",
+    "class_noun": {"plane": "airplanes", "ship": "ships",
+                   "small vehicle": "small vehicles (cars)",
+                   "large vehicle": "large vehicles (trucks or buses)"},
+    "parse": "first integer via \\b(\\d+)\\b; parse-fail = error for exact-match, excluded from MAE (report fail rate)"},
+  "metrics": ["exact_match_acc", "within1_acc", "MAE", "RMSE", "pearson_r", "mean_signed_bias"],
+  "statistics": {
+    "exact_match": "McNemar exact (paired), report 2x2 b/c",
+    "abs_error": "Wilcoxon signed-rank on (|det-GT| - |vlm-GT|)",
+    "CIs": "cluster bootstrap by image, 10000 resamples, 95% CI for MAE diff and exact-acc diff",
+    "multiple_comparisons": "Benjamini-Hochberg across the primary classes"
+  },
+  "zero_instance_cells": "kept; pred=0 correct; reported separately (false-positive test)",
+  "headline_claim_allowed": "detector-vs-VLM PAIRED only (never headline detector-vs-GT, which shares DOTA convention); claim is conditional: 'where an in-domain detector exists for the class'",
+  "validity_gate": "yolo11l-obb trained on DOTA train split (1411 imgs); val (458) held out -> non-circular"
+}

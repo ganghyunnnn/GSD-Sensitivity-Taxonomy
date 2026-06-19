@@ -1,0 +1,24 @@
+{
+  "total": 7355,
+  "correct": 7355,
+  "accuracy": 100.0,
+  "type_stats": {
+    "Condition_Recognition": {
+      "total": 3769,
+      "correct": 3769
+    },
+    "Yes_No": {
+      "total": 1421,
+      "correct": 1421
+    },
+    "Complex_Counting": {
+      "total": 1131,
+      "correct": 1131
+    },
+    "Simple_Counting": {
+      "total": 1034,
+      "correct": 1034
+    }
+  },
+  "mismatch_examples": []
+}

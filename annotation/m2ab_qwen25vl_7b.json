@@ -1,0 +1,1008 @@
+{
+  "model": "qwen2.5vl:7b",
+  "resolution_px": 1024,
+  "n_m2": 83,
+  "direct_fail_rate": 0.8916,
+  "counting_fail_rate": 0.9759,
+  "counting_effect_pp": 8.4,
+  "direct": [
+    {
+      "task_id": "2",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are five buildings directly connected to the cul-de-sac in the image, and they appear to be flooded."
+    },
+    {
+      "task_id": "15",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Yes, there appears to be flooding in the area between the houses as shown in the image."
+    },
+    {
+      "task_id": "19",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the flood, there are 10 houses and 5 cars visible in the image."
+    },
+    {
+      "task_id": "54",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows 10 destroyed buildings."
+    },
+    {
+      "task_id": "60",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows 100 destroyed buildings."
+    },
+    {
+      "task_id": "76",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows a landscape with forested areas and water bodies. There are no visible signs of a natural disaster such as flooding or landslides in this particular view. The count of human-made build"
+    },
+    {
+      "task_id": "93",
+      "condition": "direct",
+      "correct": true,
+      "answer": "There are two vehicles that are moving in the same direction as shown in the image."
+    },
+    {
+      "task_id": "97",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are three white cars visible in the image, but it is not possible to determine if they are all heading in different directions."
+    },
+    {
+      "task_id": "99",
+      "condition": "direct",
+      "correct": true,
+      "answer": "There is one car that appears to be touching or overlapping the yellow road line in the image."
+    },
+    {
+      "task_id": "100",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one car that appears to be moving in a southeast direction in the image."
+    },
+    {
+      "task_id": "101",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows an aerial view of a highway with multiple lanes. There are several vehicles visible, indicating that it is indeed a busy road with traffic. The exact number of vehicles can be counted "
+    },
+    {
+      "task_id": "102",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one car parked facing northeast in the image, while there are two cars facing southwest."
+    },
+    {
+      "task_id": "120",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one car that appears to be moving northwest in the image."
+    },
+    {
+      "task_id": "121",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are four cars visible in the image, and they appear to be traveling in a southwest direction."
+    },
+    {
+      "task_id": "125",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows an aerial view of a road intersection with multiple lanes. There are several cars visible, both on the main roads and in the parking area to the right. Counting them accurately from th"
+    },
+    {
+      "task_id": "129",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are two distinct roads visible in the image based on the orientation of the vehicles."
+    },
+    {
+      "task_id": "131",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is only one car visible on the road in the image provided."
+    },
+    {
+      "task_id": "137",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are three aircraft parked at the terminal apron in the image. The colors of these aircraft are white, white, and gray respectively. They do not all have the same color."
+    },
+    {
+      "task_id": "148",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows a destroyed area with several buildings that appear to be in various states of destruction. To estimate the ratio of partially destroyed to fully destroyed buildings, we would need mor"
+    },
+    {
+      "task_id": "176",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one car visible in the image that is not parked, and it appears to be heading towards a parking space."
+    },
+    {
+      "task_id": "187",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is only one car visible in the image, and it appears to be white in color."
+    },
+    {
+      "task_id": "233",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are three vehicles in the image, and they appear to be sedans of different colors."
+    },
+    {
+      "task_id": "235",
+      "condition": "direct",
+      "correct": true,
+      "answer": "There are two cars visible in the image, but they are not the same color."
+    },
+    {
+      "task_id": "236",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the image provided, there are vehicles traveling on a road. Upon analyzing their directions:\n\n- Northbound: There are 3 vehicles heading north.\n- Southbound: There are 4 vehicles heading south.\n\nSo"
+    },
+    {
+      "task_id": "239",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are two white vehicles in the image, and they appear to be moving in the same direction."
+    },
+    {
+      "task_id": "251",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the image, there are four baseball diamonds visible. However, none of these diamonds appear to have any players on them at the moment."
+    },
+    {
+      "task_id": "253",
+      "condition": "direct",
+      "correct": true,
+      "answer": "There are four entry roads that lead to this roundabout in the image."
+    },
+    {
+      "task_id": "267",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are four tennis courts in total, and the one closest to the parking area on the top left appears to be unoccupied."
+    },
+    {
+      "task_id": "275",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are four airplanes in the image, and two of them have a ground support vehicle positioned directly adjacent to them."
+    },
+    {
+      "task_id": "283",
+      "condition": "direct",
+      "correct": true,
+      "answer": "There is only one instance of an airplane with a ground vehicle located nearby in the image."
+    },
+    {
+      "task_id": "286",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The parking area south of the tennis courts is partially occluded by trees. There are 5 parked vehicles visible within the area that is not obscured."
+    },
+    {
+      "task_id": "289",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the parking area situated at the bottom right quadrant of the image, there are 10 dark-colored vehicles and 5 light-colored ones."
+    },
+    {
+      "task_id": "290",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the minimum number of ground crew required for all the airplanes in the image, we need to consider that each airplane typically requires a certain number of ground crew members. However, "
+    },
+    {
+      "task_id": "298",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image shows two bridges, each with four lanes. Therefore, there are eight lanes in total across both bridges."
+    },
+    {
+      "task_id": "301",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are three empty airplane parking spots visible in the image."
+    },
+    {
+      "task_id": "335",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post-disaster image, there are 10 more destroyed buildings visible in the right half compared to the left. This difference represents approximately 38% of the total number of destroyed building"
+    },
+    {
+      "task_id": "336",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To compute the ratio of the destroyed buildings to the total buildings, we need to count both.\n\n1. Count the total number of buildings visible in the image.\n2. Count the number of destroyed buildings "
+    },
+    {
+      "task_id": "337",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The top-left quadrant of the post-disaster image contains the most buildings that are majorly damaged or destroyed. It exceeds the top-right quadrant by a difference of 5 units, given the image's reso"
+    },
+    {
+      "task_id": "338",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The ratio of completely destroyed to partially damaged buildings after the disaster is 1:5. If each three-ton relief shipment can service five damaged structures, then one such shipment would be suffi"
+    },
+    {
+      "task_id": "339",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Based on the information provided, it appears that 10% of the buildings visible in the pre-disaster image were completely destroyed in the post-disaster image. However, without specific data or a deta"
+    },
+    {
+      "task_id": "341",
+      "condition": "direct",
+      "correct": true,
+      "answer": "To determine the number of response teams needed to clear all destroyed buildings in the post image within seven days, we need to follow these steps:\n\n1. **Calculate the total number of destroyed buil"
+    },
+    {
+      "task_id": "342",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The post image shows that 50% of the buildings were completely destroyed, while the remaining 50% had no damage."
+    },
+    {
+      "task_id": "343",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one building that has been completely destroyed in the upper half of the image, while there are none in the lower half."
+    },
+    {
+      "task_id": "344",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To estimate how many days it would take for a single response team to inspect all the severely damaged buildings in the area shown in the image, we need more information. The image does not provide de"
+    },
+    {
+      "task_id": "345",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The major-damage buildings account for 10% of the total area in the post-event scene."
+    },
+    {
+      "task_id": "346",
+      "condition": "direct",
+      "correct": true,
+      "answer": "The top left quadrant of the monitored area contains the highest number of damaged structures. There are four damaged structures in that quadrant."
+    },
+    {
+      "task_id": "348",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the number of inspection teams needed, we need to know the total number of damaged buildings in the post-event image. However, since that information is not provided in the image itself, "
+    },
+    {
+      "task_id": "349",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image provided does not contain any information about buildings or an event. It appears to be an aerial view of a landscape with trees and some structures, but there is no data regarding the destr"
+    },
+    {
+      "task_id": "352",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one undamaged building and two destroyed buildings in the image. If each rescue unit can inspect ten damaged buildings, then only one rescue unit would be needed to cover all the destroyed st"
+    },
+    {
+      "task_id": "354",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There is one building that appears to be destroyed in the post-disaster image shown."
+    },
+    {
+      "task_id": "355",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The percentage of buildings that were present before the event but are no longer visible in the post-event view is 100%."
+    },
+    {
+      "task_id": "357",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The fraction representing the remaining buildings is 1/2."
+    },
+    {
+      "task_id": "358",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The top-right quadrant appears to show the highest count of buildings that were present before a disaster, as indicated by their absence in this quadrant compared to other parts of the image."
+    },
+    {
+      "task_id": "359",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post-event image, there are two buildings that have been classified as destroyed. The ratio of destroyed buildings to the total number of buildings is 1/30."
+    },
+    {
+      "task_id": "360",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Based on the information provided, it appears that 10% of all buildings in the post-disaster scene were completely destroyed. However, without a specific reference or data point from the image itself,"
+    },
+    {
+      "task_id": "361",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post-disaster image, there is one building that has been destroyed."
+    },
+    {
+      "task_id": "362",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Based on the pre- and post-flood images provided, approximately 50% of the buildings that were visible prior to the flood have been classified as destroyed after the event."
+    },
+    {
+      "task_id": "363",
+      "condition": "direct",
+      "correct": true,
+      "answer": "In the post-flood image, there are 10 buildings with significant damage. This is a difference of 5 more buildings from those without any visible damage compared to the pre-flood state. The fraction th"
+    },
+    {
+      "task_id": "365",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Based on the information provided, it appears that 100% of the total buildings in the pre-event image were completely destroyed in the post-event image. However, without a specific reference or data p"
+    },
+    {
+      "task_id": "367",
+      "condition": "direct",
+      "correct": true,
+      "answer": "If we assume that there is one fully destroyed building in the image and it shelters four households, then approximately 4 families would be displaced and need emergency lodging."
+    },
+    {
+      "task_id": "368",
+      "condition": "direct",
+      "correct": false,
+      "answer": "There are no buildings visible in the provided satellite image. The image shows a landscape with terraced fields and winding roads, but no structures that can be identified as buildings. Therefore, it"
+    },
+    {
+      "task_id": "369",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The provided image is an aerial view showing a landscape with what appears to be agricultural fields or plantations. There are no visible pre-image comparisons available for analysis here. Therefore, "
+    },
+    {
+      "task_id": "370",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the number of buildings destroyed by the wildfire in the post-image and compare it with the pre-image, we need to analyze the images. However, since I cannot directly analyze images, let'"
+    },
+    {
+      "task_id": "371",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The image provided does not contain any information about a disaster or rescue operations. It appears to be an aerial view of a commercial area with buildings and roads. Since there is no indication o"
+    },
+    {
+      "task_id": "373",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The post image shows a significant change from the pre-image, with several buildings appearing to be heavily damaged or destroyed. In the post image, there are approximately 5 majorly damaged building"
+    },
+    {
+      "task_id": "376",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post image, there are two buildings that have been identified as destroyed. If each of the four-person response teams can inspect up to five destroyed buildings, then only one team would be nee"
+    },
+    {
+      "task_id": "377",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To analyze the image and divide it into quadrants for identifying damaged buildings, we need to visually assess the condition of each building based on the provided categories:\n\n1. **No-Damage Buildin"
+    },
+    {
+      "task_id": "378",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the upper half of the post image, there are 2 buildings that have not been damaged. This subset constitutes approximately 10% of all undamaged buildings in the entire image."
+    },
+    {
+      "task_id": "379",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The ratio of the major damaged buildings in the post image to the total buildings is 1/2."
+    },
+    {
+      "task_id": "381",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the number of team-days required to survey all damaged buildings in the post image, we need to know the total number of damaged buildings. However, since the image does not provide this i"
+    },
+    {
+      "task_id": "382",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post image, there is one building that has been destroyed as opposed to none in the pre image."
+    },
+    {
+      "task_id": "383",
+      "condition": "direct",
+      "correct": false,
+      "answer": "According to the information provided, approximately 10% of the total built-up area was lost due to the destruction caused by the wildfire event."
+    },
+    {
+      "task_id": "384",
+      "condition": "direct",
+      "correct": false,
+      "answer": "If there is only one destroyed building that needs a 30-minute structural survey, then the total surveying time required would be 30 minutes."
+    },
+    {
+      "task_id": "386",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post image, there is one building that was previously undamaged but now shows significant damage."
+    },
+    {
+      "task_id": "387",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The bottom right quadrant of the post image contains the highest concentration of damaged buildings."
+    },
+    {
+      "task_id": "388",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The ratio of buildings with minor damage to those with major damage in the post-event image appears to be 2.5 to 1."
+    },
+    {
+      "task_id": "389",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To provide an accurate estimation of the total number of team-hours required to survey all damaged buildings in the post image, we need to follow these steps:\n\n1. **Identify the number of damaged buil"
+    },
+    {
+      "task_id": "390",
+      "condition": "direct",
+      "correct": false,
+      "answer": "In the post-event image, it appears that 10% of the buildings visible in the pre-event image were classified as majorly damaged."
+    },
+    {
+      "task_id": "392",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The top right quadrant of the image contains the highest number of majorly damaged buildings. There is 1 building in that quadrant with significant damage."
+    },
+    {
+      "task_id": "393",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Based on the provided information, it appears that 100% of the total buildings present in the pre-event image were completely destroyed by the end of the event. However, without specific data or a det"
+    },
+    {
+      "task_id": "395",
+      "condition": "direct",
+      "correct": false,
+      "answer": "To determine the total number of assessors needed for all destroyed structures, we need to know the total number of buildings that have been destroyed. However, since this information is not provided "
+    },
+    {
+      "task_id": "396",
+      "condition": "direct",
+      "correct": false,
+      "answer": "The top-right quadrant has the highest count of destroyed buildings. The count in this quadrant is 3."
+    },
+    {
+      "task_id": "398",
+      "condition": "direct",
+      "correct": false,
+      "answer": "Based on the information provided, it appears that 10% of the buildings in the scene experienced significant structural damage as a result of an event."
+    }
+  ],
+  "counting": [
+    {
+      "task_id": "2",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "15",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "19",
+      "condition": "counting",
+      "correct": false,
+      "answer": "15 houses, 8 cars."
+    },
+    {
+      "task_id": "54",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "60",
+      "condition": "counting",
+      "correct": false,
+      "answer": "105"
+    },
+    {
+      "task_id": "76",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "93",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "97",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "99",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "100",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "101",
+      "condition": "counting",
+      "correct": false,
+      "answer": "15"
+    },
+    {
+      "task_id": "102",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3, 7"
+    },
+    {
+      "task_id": "120",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "121",
+      "condition": "counting",
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "125",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "129",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "131",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "137",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "148",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10\n\nThe image shows multiple buildings that appear to be in various states of destruction. The count includes both fully destroyed structures and those with significant damage, but it does not include"
+    },
+    {
+      "task_id": "176",
+      "condition": "counting",
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "187",
+      "condition": "counting",
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "233",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "235",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "236",
+      "condition": "counting",
+      "correct": false,
+      "answer": "20"
+    },
+    {
+      "task_id": "239",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "251",
+      "condition": "counting",
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "253",
+      "condition": "counting",
+      "correct": true,
+      "answer": "4"
+    },
+    {
+      "task_id": "267",
+      "condition": "counting",
+      "correct": false,
+      "answer": "6"
+    },
+    {
+      "task_id": "275",
+      "condition": "counting",
+      "correct": false,
+      "answer": "5 0"
+    },
+    {
+      "task_id": "283",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "286",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "289",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "290",
+      "condition": "counting",
+      "correct": true,
+      "answer": "12"
+    },
+    {
+      "task_id": "298",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "301",
+      "condition": "counting",
+      "correct": false,
+      "answer": "25"
+    },
+    {
+      "task_id": "335",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "336",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "337",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "338",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "339",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "341",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "342",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "343",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "344",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "345",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "346",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "348",
+      "condition": "counting",
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "349",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "352",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0\n\nThe image shows an aerial view of a landscape with trees, roads, and some structures. There are no visible signs of damage or destruction in the image provided. Therefore, there are zero no-damage "
+    },
+    {
+      "task_id": "354",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "355",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "357",
+      "condition": "counting",
+      "correct": false,
+      "answer": "1/2"
+    },
+    {
+      "task_id": "358",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "359",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "360",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "361",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "362",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "363",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "365",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "367",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "368",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "369",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "370",
+      "condition": "counting",
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "371",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0\n\nThe image provided does not contain any specific details about buildings or rescue teams that would allow for a calculation of the number of rescue teams needed. The question appears to be based on"
+    },
+    {
+      "task_id": "373",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "376",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0\n\nThe image does not show any visibly destroyed buildings. Therefore, the count of destroyed buildings is zero. Since there are no destroyed buildings, no response teams are needed."
+    },
+    {
+      "task_id": "377",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "378",
+      "condition": "counting",
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "379",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0.125"
+    },
+    {
+      "task_id": "381",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "382",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "383",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "384",
+      "condition": "counting",
+      "correct": false,
+      "answer": "15"
+    },
+    {
+      "task_id": "386",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "387",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "388",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "389",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "390",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "392",
+      "condition": "counting",
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "393",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "395",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "396",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "398",
+      "condition": "counting",
+      "correct": false,
+      "answer": "0"
+    }
+  ]
+}

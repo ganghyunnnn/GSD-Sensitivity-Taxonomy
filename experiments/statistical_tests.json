@@ -1,0 +1,271 @@
+{
+  "backbone": "qwen3-vl:8b",
+  "mcnemar": {
+    "overall": {
+      "chi2": 0.6957,
+      "p": 0.4042,
+      "significant": false,
+      "b": 9,
+      "c": 14,
+      "n_discordant": 23
+    },
+    "D": {
+      "chi2": 0.25,
+      "p": 0.6171,
+      "significant": false,
+      "b": 2,
+      "c": 2,
+      "n_discordant": 4,
+      "n": 41
+    },
+    "M1": {
+      "chi2": 0.0,
+      "p": 1.0,
+      "significant": false,
+      "b": 1,
+      "c": 2,
+      "n_discordant": 3,
+      "n": 38
+    },
+    "M2": {
+      "chi2": 0.0833,
+      "p": 0.7728,
+      "significant": false,
+      "b": 6,
+      "c": 6,
+      "n_discordant": 12,
+      "n": 57
+    },
+    "M3": {
+      "chi2": 0.5,
+      "p": 0.4795,
+      "significant": false,
+      "b": 0,
+      "c": 2,
+      "n_discordant": 2,
+      "n": 18
+    },
+    "M4": {
+      "chi2": 0.5,
+      "p": 0.4795,
+      "significant": false,
+      "b": 0,
+      "c": 2,
+      "n_discordant": 2,
+      "n": 19
+    },
+    "M5": {
+      "chi2": 0.0,
+      "p": 1.0,
+      "significant": false,
+      "b": 0,
+      "c": 0,
+      "note": "no discordant pairs",
+      "n": 16
+    }
+  },
+  "z_test": {
+    "overall": {
+      "z": -0.5627,
+      "p": 0.5736,
+      "significant": false,
+      "p1": 0.2857,
+      "p2": 0.3122,
+      "n1": 189,
+      "n2": 189
+    },
+    "D": {
+      "z": 0.0,
+      "p": 1.0,
+      "significant": false,
+      "p1": 0.439,
+      "p2": 0.439,
+      "n1": 41,
+      "n2": 41
+    },
+    "M1": {
+      "z": -0.3044,
+      "p": 0.7608,
+      "significant": false,
+      "p1": 0.1579,
+      "p2": 0.1842,
+      "n1": 38,
+      "n2": 38
+    },
+    "M2": {
+      "z": 0.0,
+      "p": 1.0,
+      "significant": false,
+      "p1": 0.2456,
+      "p2": 0.2456,
+      "n1": 57,
+      "n2": 57
+    },
+    "M3": {
+      "z": -0.6672,
+      "p": 0.5046,
+      "significant": false,
+      "p1": 0.4444,
+      "p2": 0.5556,
+      "n1": 18,
+      "n2": 18
+    },
+    "M4": {
+      "z": -0.8892,
+      "p": 0.3739,
+      "significant": false,
+      "p1": 0.1053,
+      "p2": 0.2105,
+      "n1": 19,
+      "n2": 19
+    },
+    "M5": {
+      "z": 0.0,
+      "p": 1.0,
+      "significant": false,
+      "p1": 0.375,
+      "p2": 0.375,
+      "n1": 16,
+      "n2": 16
+    }
+  },
+  "wilson_ci": {
+    "D": {
+      "direct": [
+        0.2989,
+        0.5896
+      ],
+      "mara": [
+        0.2989,
+        0.5896
+      ],
+      "n": 41,
+      "direct_acc": 0.439,
+      "mara_acc": 0.439,
+      "delta_pp": 0.0
+    },
+    "M1": {
+      "direct": [
+        0.0744,
+        0.3042
+      ],
+      "mara": [
+        0.0922,
+        0.3342
+      ],
+      "n": 38,
+      "direct_acc": 0.1579,
+      "mara_acc": 0.1842,
+      "delta_pp": 2.6
+    },
+    "M2": {
+      "direct": [
+        0.1523,
+        0.371
+      ],
+      "mara": [
+        0.1523,
+        0.371
+      ],
+      "n": 57,
+      "direct_acc": 0.2456,
+      "mara_acc": 0.2456,
+      "delta_pp": 0.0
+    },
+    "M3": {
+      "direct": [
+        0.2456,
+        0.6628
+      ],
+      "mara": [
+        0.3372,
+        0.7544
+      ],
+      "n": 18,
+      "direct_acc": 0.4444,
+      "mara_acc": 0.5556,
+      "delta_pp": 11.1
+    },
+    "M4": {
+      "direct": [
+        0.0294,
+        0.3139
+      ],
+      "mara": [
+        0.0851,
+        0.4333
+      ],
+      "n": 19,
+      "direct_acc": 0.1053,
+      "mara_acc": 0.2105,
+      "delta_pp": 10.5
+    },
+    "M5": {
+      "direct": [
+        0.1848,
+        0.6136
+      ],
+      "mara": [
+        0.1848,
+        0.6136
+      ],
+      "n": 16,
+      "direct_acc": 0.375,
+      "mara_acc": 0.375,
+      "delta_pp": 0.0
+    }
+  },
+  "qwen25_note": {
+    "n": 189,
+    "direct_acc": 0.254,
+    "mara_acc": 0.2011,
+    "warning": "ok"
+  },
+  "power_analysis": {
+    "b": 9,
+    "c": 14,
+    "n_total": 189,
+    "n_discordant": 23,
+    "discordant_rate": 0.1217,
+    "pi_hat": 0.6087,
+    "effect_from_null": 0.1087,
+    "n_discordant_required_80pct": 166.1,
+    "n_total_required_80pct": 1366,
+    "current_power": 0.1795,
+    "min_detectable_pp_at_current_n": 7.1
+  },
+  "cross_benchmark_cis": [
+    {
+      "benchmark": "RSVQA-LR",
+      "N": 77232,
+      "M_count": 53584,
+      "M_pct": 69.4,
+      "wilson_95ci_lo": 69.0,
+      "wilson_95ci_hi": 69.7
+    },
+    {
+      "benchmark": "FloodNet",
+      "N": 7355,
+      "M_count": 7355,
+      "M_pct": 100.0,
+      "wilson_95ci_lo": 100.0,
+      "wilson_95ci_hi": 100.0
+    },
+    {
+      "benchmark": "ThinkGeo",
+      "N": 436,
+      "M_count": 341,
+      "M_pct": 78.2,
+      "wilson_95ci_lo": 74.1,
+      "wilson_95ci_hi": 81.8
+    },
+    {
+      "benchmark": "EarthVQA",
+      "N": 208584,
+      "M_count": 6049,
+      "M_pct": 2.9,
+      "wilson_95ci_lo": 2.8,
+      "wilson_95ci_hi": 3.0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rs-taxonomy"
+version = "0.1.0"
+description = "GSD-Sensitivity Taxonomy for Measurement-Aware Failure Diagnosis in Remote Sensing VQA"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Ganghyun Park", email = "ghpark@kari.re.kr" },
+    { name = "Dongho Lee", email = "ehdgh3337@kari.re.kr" },
+]
+
+# Core dependencies — sufficient for taxonomy classification, router evaluation,
+# IAA/statistics, and Hugging Face dataset upload. ML inference and geospatial
+# extras are opt-in via the groups below.
+dependencies = [
+    "huggingface_hub>=0.22.0",
+    "numpy>=1.26.0",
+    "pillow>=10.3.0",
+    "scikit-learn>=1.4.2",
+    "scipy>=1.13.0",
+    "tqdm>=4.66.2",
+    "pydantic>=2.7.0",
+    "rich>=13.7.1",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+# Backbone VLM evaluation (Qwen-VL, InternVL, ...).
+ml = [
+    "torch>=2.2.0",
+    "torchvision>=0.17.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.28.0",
+    "timm>=0.9.16",
+]
+# Geospatial helpers used in the taxonomy classifier.
+geo = [
+    "rasterio>=1.3.9",
+    "pyproj>=3.6.1",
+    "shapely>=2.0.4",
+]
+# Router LLM backends and tool-call agents.
+agents = [
+    "openai>=1.23.0",
+    "anthropic>=0.25.0",
+    "fastmcp>=0.9.0",
+]
+# Experiment tracking.
+tracking = [
+    "wandb>=0.16.6",
+]
+# Tests.
+dev = [
+    "pytest>=8.1.1",
+    "pytest-asyncio>=0.23.6",
+]
+# Convenience: install everything.
+all = [
+    "rs-taxonomy[ml,geo,agents,tracking,dev]",
+]
+
+[project.urls]
+Repository = "https://github.com/ganghyunnnn/rs-taxonomy"
+Dataset = "https://huggingface.co/datasets/ganghyunnnn/rs-taxonomy-labels"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+markers = [
+    "slow: 전체 데이터셋 필요 또는 실행 시간이 긴 테스트 (pytest -m 'not slow' 로 제외)",
+    "integration: 실제 LLM API 키 필요 테스트",
+]

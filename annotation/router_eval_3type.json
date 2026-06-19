@@ -1,0 +1,28 @@
+{
+  "rule": {
+    "accuracy": 0.9524,
+    "correct": 180,
+    "total": 189,
+    "macro_f1": 0.9553,
+    "per_type": {
+      "D": {
+        "precision": 0.9014,
+        "recall": 0.9697,
+        "f1": 0.9343,
+        "support": 66
+      },
+      "M1": {
+        "precision": 0.975,
+        "recall": 0.975,
+        "f1": 0.975,
+        "support": 40
+      },
+      "M2": {
+        "precision": 0.9872,
+        "recall": 0.9277,
+        "f1": 0.9565,
+        "support": 83
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "M2 direct-vs-counting prompt A/B at fixed 1024px",
+  "rows": [
+    {
+      "backbone": "Qwen3-VL-8B",
+      "direct_fail": 79.5,
+      "counting_fail": 77.1,
+      "effect_pp": -2.4,
+      "mcnemar_p": 0.7518,
+      "b": 4,
+      "c": 6
+    },
+    {
+      "backbone": "Qwen2.5-VL-7B",
+      "direct_fail": 89.2,
+      "counting_fail": 97.6,
+      "effect_pp": 8.4,
+      "mcnemar_p": 0.0455,
+      "b": 8,
+      "c": 1
+    },
+    {
+      "backbone": "InternVL3.5-8B",
+      "direct_fail": 83.1,
+      "counting_fail": 85.5,
+      "effect_pp": 2.4,
+      "mcnemar_p": 0.7893,
+      "b": 8,
+      "c": 6
+    }
+  ]
+}

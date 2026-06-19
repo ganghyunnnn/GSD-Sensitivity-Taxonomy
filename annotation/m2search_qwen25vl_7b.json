@@ -1,0 +1,1262 @@
+{
+  "model": "qwen2.5vl:7b",
+  "resolution_px": 1024,
+  "fail_rates": {
+    "direct": 0.8675,
+    "grid": 0.9398,
+    "cot_count": 0.747
+  },
+  "conditions": {
+    "direct": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "There are five buildings directly connected to the cul-de-sac in the image, and they appear to be flooded."
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "Yes, there appears to be flooding in the area between the houses as shown in the image."
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "In the flood, there are 10 houses and 5 cars visible in the image."
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "The image shows 10 destroyed buildings."
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "The image shows 100 destroyed buildings."
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "The image shows a landscape with forested areas and water bodies. There are no visible signs of a natural disaster such as flooding or landslides in this particular view. The count of human-made build"
+      },
+      {
+        "task_id": "93",
+        "correct": true,
+        "answer": "There are two vehicles that are moving in the same direction as shown in the image."
+      },
+      {
+        "task_id": "97",
+        "correct": false,
+        "answer": "There are three white cars visible in the image, but it is not possible to determine if they are all heading in different directions."
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "There is one car that appears to be touching or overlapping the yellow road line in the image."
+      },
+      {
+        "task_id": "100",
+        "correct": false,
+        "answer": "There is one car that appears to be moving in a southeast direction in the image."
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "The image shows an aerial view of a highway with multiple lanes. There are several vehicles visible, indicating that it is indeed a busy road with traffic. The exact number of vehicles can be counted "
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "There is one car parked facing northeast in the image, while there are two cars facing southwest."
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "There is one car that appears to be moving northwest in the image."
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "There are four cars visible in the image, and they appear to be traveling in a southwest direction."
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "The image shows an aerial view of a road intersection with multiple lanes. There are several cars visible, both on the main roads and in the parking area to the right. Counting them accurately from th"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "There are two distinct roads visible in the image based on the orientation of the vehicles."
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "There is only one car visible on the road in the image provided."
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "There are three aircraft parked at the terminal apron in the image. The colors of these aircraft are white, white, and gray respectively. They do not all have the same color."
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "The image shows a destroyed area with several buildings that appear to be in various states of destruction. To estimate the ratio of partially destroyed to fully destroyed buildings, we would need mor"
+      },
+      {
+        "task_id": "176",
+        "correct": false,
+        "answer": "There is one car visible in the image that is not parked, and it appears to be heading towards a parking space."
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "There is only one car visible in the image, and it appears to be white in color."
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "There are three vehicles in the image, and they appear to be sedans of different colors."
+      },
+      {
+        "task_id": "235",
+        "correct": true,
+        "answer": "There are two cars visible in the image, but they are not the same color."
+      },
+      {
+        "task_id": "236",
+        "correct": false,
+        "answer": "In the image provided, there are vehicles traveling on a road. Upon analyzing their directions:\n\n- Northbound: There are 3 vehicles heading north.\n- Southbound: There are 4 vehicles heading south.\n\nSo"
+      },
+      {
+        "task_id": "239",
+        "correct": false,
+        "answer": "There are two white vehicles in the image, and they appear to be moving in the same direction."
+      },
+      {
+        "task_id": "251",
+        "correct": false,
+        "answer": "In the image, there are four baseball diamonds visible. However, none of these diamonds appear to have any players on them at the moment."
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "There are four entry roads that lead to this roundabout in the image."
+      },
+      {
+        "task_id": "267",
+        "correct": false,
+        "answer": "There are four tennis courts in total, and the one closest to the parking area on the top left appears to be unoccupied."
+      },
+      {
+        "task_id": "275",
+        "correct": false,
+        "answer": "There are four airplanes in the image, and two of them have a ground support vehicle positioned directly adjacent to them."
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "There is only one instance of an airplane with a ground vehicle located nearby in the image."
+      },
+      {
+        "task_id": "286",
+        "correct": false,
+        "answer": "The parking area south of the tennis courts is partially occluded by trees. There are 5 parked vehicles visible within the area that is not obscured."
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "In the parking area situated at the bottom right quadrant of the image, there are 10 dark-colored vehicles and 5 light-colored ones."
+      },
+      {
+        "task_id": "290",
+        "correct": true,
+        "answer": "To determine the minimum number of ground crew required for all the airplanes in the image, we need to consider that each airplane typically requires a certain number of ground crew members. However, "
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "The image shows two bridges, each with four lanes. Therefore, there are eight lanes in total across both bridges."
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "There are three empty airplane parking spots visible in the image."
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "In the post-disaster image, there are 10 more destroyed buildings visible in the right half compared to the left. This difference represents approximately 38% of the total number of destroyed building"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "To compute the ratio of the destroyed buildings to the total buildings, we need to count both.\n\n1. Count the total number of buildings visible in the image.\n2. Count the number of destroyed buildings "
+      },
+      {
+        "task_id": "337",
+        "correct": false,
+        "answer": "The top-left quadrant of the post-disaster image contains the most buildings that are either \"major-damage\" or \"destroyed.\" It exceeds the top-right quadrant by a difference of 5."
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "The ratio of completely destroyed to partially damaged buildings after the disaster is 1:5. If each three-ton relief shipment can service five damaged structures, then one such shipment would be suffi"
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "Based on the information provided, it appears that 10% of the buildings visible in the pre-disaster image were completely destroyed in the post-disaster image. However, without specific data or a deta"
+      },
+      {
+        "task_id": "341",
+        "correct": true,
+        "answer": "To determine the number of teams needed to clear all destroyed buildings in the post image within seven days, we need to follow these steps:\n\n1. **Calculate the total number of buildings that can be p"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "The post image shows that 50% of the buildings were completely destroyed, while the remaining 50% had no damage."
+      },
+      {
+        "task_id": "343",
+        "correct": false,
+        "answer": "There is one building that has been completely destroyed in the upper half of the image, while there are none in the lower half."
+      },
+      {
+        "task_id": "344",
+        "correct": false,
+        "answer": "To estimate how many days it would take for a single response team to inspect all the severely damaged buildings in the area shown in the image, we need more specific information. The image shows seve"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "The major-damage buildings account for 10% of the total area in the post-event scene."
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "The top left quadrant of the monitored area contains the highest number of damaged structures. There are four damaged structures in that quadrant."
+      },
+      {
+        "task_id": "348",
+        "correct": false,
+        "answer": "To determine the number of inspection teams needed, we need to know the total number of damaged buildings in the post-event image. However, since that information is not provided in the image itself, "
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "The image provided does not contain any information about buildings or an event. It appears to be an aerial view of a landscape with trees and some structures, but there is no data regarding the destr"
+      },
+      {
+        "task_id": "352",
+        "correct": false,
+        "answer": "There is one undamaged building and two destroyed buildings in the image. If each rescue unit can inspect ten damaged buildings, then only one rescue unit would be needed to cover all the destroyed st"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "There is one building that appears to be destroyed in the post-disaster image shown."
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "The percentage of buildings that were present before the event but are no longer visible in the post-event view is 100%."
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "The fraction representing the remaining buildings is 1/2."
+      },
+      {
+        "task_id": "358",
+        "correct": false,
+        "answer": "The top-right quadrant appears to show the highest count of buildings that were present before but are no longer visible in the image, indicating a possible area affected by a disaster."
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "In the post-event image, there are two buildings that have been classified as destroyed. The ratio of destroyed buildings to the total number of buildings is 1/30."
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "Based on the information provided, it appears that 10% of all buildings in the post-disaster scene were completely destroyed. However, without a specific reference or data point from the image itself,"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "In the post-disaster image, there is one building that has been destroyed."
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "Based on the pre- and post-flood images provided, approximately 50% of the buildings that were visible prior to the flood have been classified as destroyed after the event."
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "In the post-flood image, there are 10 buildings with significant damage. This is a difference of 5 more buildings from those without any visible damage compared to the pre-flood state. The fraction th"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "Based on the information provided, it appears that 100% of the total buildings in the pre-event image were completely destroyed in the post-event image. However, without a specific reference or data p"
+      },
+      {
+        "task_id": "367",
+        "correct": true,
+        "answer": "If we assume that there is one fully destroyed building in the image and it shelters four households, then approximately 4 families would be displaced and need emergency lodging."
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "There are no buildings visible in the provided satellite image. The image shows a landscape with terraced fields and winding roads, but no structures that can be identified as buildings. Therefore, it"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "The provided image is an aerial view of a landscape with terraced fields. It does not contain any visible buildings or structures that can be identified as either \"destroyed\" or \"minor-damaged.\" There"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "To determine the number of buildings destroyed by the wildfire in the post-image and compare it with the pre-image, we need to analyze the images. However, since I cannot directly analyze images, let'"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "The image provided does not contain any information about a disaster or rescue operations. It appears to be an aerial view of a commercial area with buildings and roads. Since there is no indication o"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "The post image shows a significant change from the pre-image, with several buildings appearing to be heavily damaged or destroyed. In the post image, there are approximately 5 majorly damaged building"
+      },
+      {
+        "task_id": "376",
+        "correct": false,
+        "answer": "In the post image, there are two buildings that have been identified as destroyed. If each of the four-person response teams can inspect up to five destroyed buildings, then only one team would be nee"
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "To analyze the image and divide it into quadrants for identifying damaged buildings, we need to visually assess the condition of each building based on the provided categories:\n\n1. **No-Damage Buildin"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "In the upper half of the post image, there are 2 buildings that have not been damaged. This subset constitutes approximately 10% of all undamaged buildings in the entire image."
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "The ratio of the major damaged buildings in the post image to the total buildings is 1/2."
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "To determine the number of team-days required to survey all damaged buildings in the post image, we need to know the total number of damaged buildings. However, since the image does not provide this i"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "In the post image, there is one building that has been destroyed as opposed to none in the pre image."
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "According to the information provided, approximately 10% of the total built-up area was lost due to the destruction caused by the wildfire event."
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "If there is only one destroyed building that needs a 30-minute structural survey, then the total surveying time required would be 30 minutes."
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "In the post image, there is one building that was previously undamaged but now shows significant damage."
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "The bottom right quadrant of the post image contains the highest concentration of damaged buildings."
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "The ratio of buildings with minor damage to those with major damage in the post-event image appears to be 2.5 to 1."
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "To estimate the total number of team-hours required to survey all damaged buildings in the post image, we need to follow these steps:\n\n1. **Identify the number of damaged buildings**: From the satelli"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "In the post-event image, it appears that 10% of the buildings visible in the pre-event image were classified as majorly damaged."
+      },
+      {
+        "task_id": "392",
+        "correct": false,
+        "answer": "The top right quadrant of the image contains the highest number of majorly damaged buildings. There is 1 building in that quadrant with significant damage."
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "Based on the provided information, it appears that 100% of the total buildings present in the pre-event image were completely destroyed by the end of the event. However, without specific data or a det"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "To determine the total number of assessors needed for all destroyed structures, we need to know the total number of buildings that have been destroyed. However, since this information is not provided "
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "The top-right quadrant has the highest count of destroyed buildings with a total of 5."
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "Based on the information provided, it appears that 10% of the buildings in the scene experienced significant structural damage as a result of an event."
+      }
+    ],
+    "grid": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "18"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "180"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "97",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "99",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "100",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "18"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "150"
+      },
+      {
+        "task_id": "176",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "235",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "236",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "239",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "251",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "267",
+        "correct": false,
+        "answer": "12"
+      },
+      {
+        "task_id": "275",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "283",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "286",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "290",
+        "correct": true,
+        "answer": "12"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "337",
+        "correct": false,
+        "answer": "35"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "341",
+        "correct": true,
+        "answer": "15"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "343",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "344",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "346",
+        "correct": false,
+        "answer": "35"
+      },
+      {
+        "task_id": "348",
+        "correct": true,
+        "answer": "15"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "15"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "358",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "363",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "367",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "1800"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "376",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "377",
+        "correct": false,
+        "answer": "105"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "180"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "35"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "392",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "35"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "0"
+      }
+    ],
+    "cot_count": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. Identify the buildings directly attached to the cul-de-sac:\n   - There are 5 buildings directly attached to the cul-de-sac.\n\n2. Determine"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "In the image provided:\n\n1. Houses (structures): There are two distinct structures visible in the bottom left corner that appear to be houses.\n2. Flooded area: The water level appears to have risen, co"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "In the image provided:\n\n1. Houses - There are multiple houses visible in the flooded area.\n2. Cars - There are several cars parked near some of the houses.\n\nTo provide a more precise count, I would ne"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "The image appears to be an aerial view of a landscape with clusters of green areas that resemble vegetation or trees. There are also some blue and white objects scattered throughout, which could repre"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "The image shows a large area that appears to be heavily damaged or destroyed. The structures are uniformly distributed across the image and appear as rubble, indicating they have been completely demol"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "In this image:\n\n1. Forested areas (green)\n2. Water bodies (dark blue)\n3. Human-made structures (various shapes and colors)\n\nThe image appears to show a flooded area, likely due to heavy rainfall or ri"
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "To determine how many vehicles are heading in the same direction:\n\n1. Identify all vehicles on the image.\n2. Determine their directions of travel.\n\nFrom the image:\n- There is one vehicle on the left s"
+      },
+      {
+        "task_id": "97",
+        "correct": true,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. Identify distinct objects:\n   - There is a house with a gray roof.\n   - There are trees surrounding the property.\n   - There are two whit"
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "To answer this question, I'll count each car that is touching or overlapping the yellow road line in the image:\n\n1. The first car from the top left corner appears to be partially on the yellow line.\n2"
+      },
+      {
+        "task_id": "100",
+        "correct": true,
+        "answer": "To determine how many cars are moving in a southeast direction:\n\n1. Identify each car on the highway.\n2. Determine the direction of travel for each car.\n\nFrom the image:\n- The first car from the top i"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "The image shows an overhead view of a multi-lane highway. There are several distinct objects that can be identified:\n\n1. Highway lanes.\n2. Vehicles traveling on the highway.\n\nTo count the vehicles, I "
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "To answer this question, let's analyze the image step by step:\n\n1. Identify all the cars in the parking lot.\n2. Determine their orientation (facing northeast or southwest).\n\nFrom the image:\n- There ar"
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "To determine how many cars are moving northwest in the image:\n\n1. Identify all vehicles on the road.\n2. Determine their direction of travel.\n\nFrom the image:\n- There is one car near the top left corne"
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "To determine the number of cars and their directions:\n\n1. There is a car on the left side of the image, heading towards the bottom right.\n2. There is another car slightly to the right of the first one"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "In the image provided:\n\n1. Cars on the road\n2. Arrows indicating directions for traffic flow\n\nCounting the distinct objects:\n- There are 9 cars visible on the roads.\n\nFinal total: 9"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "To determine the number of distinct roads in the image:\n\n1. Identify each lane as a separate road segment.\n2. Count the number of lanes visible.\n\nFrom the image:\n- There are two sets of lanes, one on "
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "To determine how many cars are currently on the road in the image:\n\n1. There is one car visible on the left side of the road, closer to the top of the image.\n2. There is another car further down the r"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "To identify distinct objects in the image:\n\n1. Airports (terminals)\n2. Runways\n3. Aprons\n4. Aircraft\n\nCounting aircraft parked at the terminal apron:\n- There are 5 aircraft visible.\n\nColor attributes "
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "In this remote-sensing image, I can identify several distinct objects that appear to be buildings. However, due to the nature of the image (satellite imagery), it's challenging to provide an exact cou"
+      },
+      {
+        "task_id": "176",
+        "correct": false,
+        "answer": "To answer this question, let's identify and count each distinct car visible in the image:\n\n1. There is a red car driving on the road.\n2. There is another red car parked near one of the houses.\n\nThese "
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "In the provided image, there is one distinct object that appears to be a car. It is located near the top right corner of the image, adjacent to the hangar.\n\nThe car in question has a blue color.\n\nFina"
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "To detect objects in this image:\n\n1. Trees\n2. Houses\n3. Roads\n4. Vehicles\n\nThere are 5 distinct target objects identified.\n\nNext, let's count the vehicles:\n- There is one vehicle visible on the right "
+      },
+      {
+        "task_id": "235",
+        "correct": true,
+        "answer": "To identify distinct objects in the image:\n\n1. Cars on the road\n2. Sidewalks\n3. Grass areas\n\nNow, let's count each type of object:\n\n1. There are 4 cars visible on the road.\n2. The cars appear to be di"
+      },
+      {
+        "task_id": "236",
+        "correct": false,
+        "answer": "### Step-by-Step Analysis:\n\n1. **Identify distinct target objects (vehicles):**\n   - There are 6 vehicles visible in the image.\n\n2. **Determine vehicle headings:**\n   - The vehicles appear to be headi"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "To answer the question, let's break down the image step by step:\n\n1. Identify all distinct objects:\n   - There is a red vehicle on the road.\n   - There are two white vehicles parked in the parking lot"
+      },
+      {
+        "task_id": "251",
+        "correct": false,
+        "answer": "In the provided image:\n\n1. There are four distinct baseball diamond fields visible.\n2. None of these baseball diamond fields appear to have any players on them.\n\nFinal total:\n- Baseball diamonds ident"
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "To determine how many entry roads feed into the roundabout in the image:\n\n1. Identify the roundabout area.\n2. Count the number of roads that lead directly to the roundabout from outside.\n\nFrom the ima"
+      },
+      {
+        "task_id": "267",
+        "correct": false,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Counting Tennis Courts**: \n   - There are 4 distinct tennis courts visible in the image.\n\n2. **Checking for Occupancy**:\n   - The tenni"
+      },
+      {
+        "task_id": "275",
+        "correct": true,
+        "answer": "In the image:\n\n1. There is one airplane at the top left corner.\n2. There is one airplane at the top right corner.\n3. There is one airplane in the center.\n4. There are two airplanes at the bottom, each"
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "To answer this question, let's analyze the image step by step:\n\n1. Identify all airplane instances:\n   - There are five airplanes visible in the image.\n\n2. Check for ground vehicles near each airplane"
+      },
+      {
+        "task_id": "286",
+        "correct": false,
+        "answer": "To answer this question accurately, I would need to see the image. However, based on typical remote-sensing images, here's how we might approach it:\n\n1. Identify distinct target objects:\n   - 1. Tenni"
+      },
+      {
+        "task_id": "289",
+        "correct": true,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Identify distinct target objects**:\n   - Tennis courts (4)\n   - Swimming pool complex (1)\n   - Parking area (1)\n   - Trees and greenery"
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "To determine the minimum number of ground crew required for all the airplanes in the image, we need to consider that each airplane typically requires at least one ground crew member. However, without "
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "To determine the number of lanes for all bridges in the image:\n\n1. Identify the bridge structure: The image shows a road overpass that spans across two lanes of traffic below it.\n\n2. Count the lanes o"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "To determine the number of empty airplane parking spots, let's follow these steps:\n\n1. Identify all the airplane parking spots on the tarmac.\n2. Count each spot that is not occupied by an airplane.\n\nF"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Identify distinct target objects**: In an overhead remote-sensing image like this one, we can identify buildings and roads. The image s"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Identify distinct target objects**:\n   - Buildings (houses)\n   - Roads\n   - Forested areas\n   - Water bodies\n\n2. **Count the buildings*"
+      },
+      {
+        "task_id": "337",
+        "correct": true,
+        "answer": "To answer this question, we need to analyze the image and identify distinct objects (buildings) in each quadrant. However, since the image is an aerial view of a residential area with some trees and w"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "To answer this question accurately, we need more specific information about the disaster's impact on the buildings in the image. However, I'll provide a general approach to solving such problems.\n\n1. "
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "The provided image is an aerial view of a residential area. There are no signs of destruction or damage that would indicate buildings being \"completely destroyed.\" The image shows a typical suburban n"
+      },
+      {
+        "task_id": "341",
+        "correct": false,
+        "answer": "To answer this question, we need to identify and count the distinct target objects that represent \"destroyed buildings\" in the remote-sensing image. However, since the image is an aerial view of a res"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "In the provided satellite image:\n\n1. A large building complex on the left side near the bottom, which appears undamaged.\n2. Another building structure towards the center-left that seems intact.\n3. A s"
+      },
+      {
+        "task_id": "343",
+        "correct": true,
+        "answer": "To answer this question, let's break down the image into two halves and count the distinct objects:\n\n1. **Upper Half**: \n   - There are no completely destroyed buildings visible in the upper half of t"
+      },
+      {
+        "task_id": "344",
+        "correct": true,
+        "answer": "To answer the question, let's break it down step by step:\n\n1. **Identify distinct target objects**: \n   - The image shows a rural landscape with several structures and roads.\n   - There are multiple b"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "In the provided image:\n\n1. A pond or water body.\n2. Several trees scattered across the area.\n3. A road running horizontally through the middle.\n4. A few structures that appear to be buildings.\n\nThe ma"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "To analyze the image for distinct objects:\n\n1. Trees (green areas)\n2. Buildings (structures in darker shades, possibly damaged or intact)\n\nThe image shows a large area of flooding with trees and some "
+      },
+      {
+        "task_id": "348",
+        "correct": false,
+        "answer": "1. Small house on the left side of the image.\n2. Larger house near the center-left.\n3. Building with a white roof at the top-center.\n\nThere are 3 distinct buildings identified in the image.\n\nTo determ"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "In the provided image, I can identify several distinct objects:\n\n1. A cluster of trees in the upper left corner.\n2. Another cluster of trees near the center-left.\n3. A third cluster of trees towards t"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "1. No-damage building (green roof)\n2. Destroyed building (red roof)\n\nThere is 1 no-damage building and 1 destroyed building.\n\nEach rescue unit can inspect ten damaged buildings, but there are only two"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "In this remote-sensing image, it appears that there are no visible signs of destruction or damage to buildings. The structures along the coastline and inland seem intact.\n\nFinal total: 0\n\nTotal: 0"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "In the provided image, I can identify several distinct objects:\n\n1. A forested area on the left side.\n2. A road curving through the middle and upper part of the image.\n3. An industrial or construction"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "In the provided overhead remote-sensing image:\n\n1. A road curve is visible on the left side.\n2. There are some structures near the top right corner of the image that appear to be buildings or industri"
+      },
+      {
+        "task_id": "358",
+        "correct": true,
+        "answer": "To analyze this image, I'll divide it into four equal quadrants and identify any distinct objects:\n\n1. Top-left quadrant: Contains a road and some greenery.\n2. Top-right quadrant: Shows an industrial "
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "In the provided remote-sensing image:\n\n1. There appears to be a large area of forested land.\n2. There are some structures that look like they could be buildings or parking lots in the upper left corne"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a landscape with various features. Here's what can be identified:\n\n1. Roads and pathways\n2. Forested areas\n3. Open land\n4. Buildings (houses, possibly)\n5. A ten"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "In the provided overhead remote-sensing image:\n\n1. Roads and pathways\n2. Forested areas\n3. Open land patches\n4. A tennis court (indicated by its distinct shape)\n5. Small structures that appear to be b"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "To answer this question accurately, we need to follow these steps:\n\n1. Identify distinct objects in the image.\n2. Count the total number of buildings (objects) present in the pre-flood image.\n3. Deter"
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "The image provided is an aerial view of a landscape. Here's how I would approach identifying distinct objects:\n\n1. Roads or pathways.\n2. Bodies of water (lake).\n3. Open land areas.\n4. Structures that "
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "In the provided satellite image:\n\n1. There is a single building visible near the center of the image, surrounded by greenery and what appears to be a golf course.\n2. The building seems intact without "
+      },
+      {
+        "task_id": "367",
+        "correct": true,
+        "answer": "In the provided image:\n\n1. There is a single structure that appears to be a building.\n2. The surrounding area includes green spaces which could represent golf courses or parks.\n\nGiven these observatio"
+      },
+      {
+        "task_id": "368",
+        "correct": true,
+        "answer": "In the provided remote-sensing image:\n\n1. The image shows a landscape with what appears to be agricultural fields.\n2. There are no distinct objects that can be identified as buildings or structures.\n\n"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "The provided image appears to be an aerial or satellite view of a landscape. Here's what can be observed:\n\n1. The image shows a patterned area that looks like agricultural fields, possibly tea plantat"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "In the provided satellite image, I can identify several distinct objects:\n\n1. A house with a red roof in the upper right section.\n2. Another house with a brown roof and a pool near it.\n3. A third hous"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "The image shows an aerial view of a commercial area with several buildings, parking lots, roads, and some green spaces. Here's a breakdown of distinct objects:\n\n1. Buildings (commercial structures)\n2."
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "The task involves identifying distinct objects in an overhead remote-sensing image, which appears to be a satellite or aerial view. Here's how we can approach it:\n\n1. **Identify distinct target object"
+      },
+      {
+        "task_id": "376",
+        "correct": true,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Identify distinct target objects**: In the image provided, we need to identify and count any structures that appear to be damaged or de"
+      },
+      {
+        "task_id": "377",
+        "correct": false,
+        "answer": "To analyze this remote-sensing image, we need to divide it into four quadrants and identify the types of damage (no-damage, minor damage, major damage, and destroyed) in each quadrant. However, since "
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Identify distinct target objects**: \n   - Buildings (structures)\n   - Roads\n   - Parking lots\n   - Trees\n\n2. **Count the buildings in t"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "To answer this question, let's break down the image and identify distinct objects:\n\n1. Houses and buildings (including those that appear damaged)\n2. Roads\n3. Fields\n4. Trees\n\nNow, let's count each typ"
+      },
+      {
+        "task_id": "381",
+        "correct": true,
+        "answer": "To answer this question, let's break it down step by step:\n\n1. **Identify distinct target objects**: \n   - Buildings (damaged or otherwise)\n   - Roads\n   - Fields\n   - Trees\n\n2. **Count the buildings*"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "In the provided remote-sensing image:\n\n1. A house with a red roof on the left side of the image.\n2. A small structure near the bottom right corner.\n\nThere are no buildings that appear to be destroyed "
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "The image provided is an aerial view of agricultural fields and some forested areas. There are no visible signs of destruction or loss due to a wildfire event, such as burned structures or debris. The"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "In the provided image:\n\n1. A house with a red roof on the left side of the image.\n2. A circular area that appears to be a pond or pool near the house.\n\nThere are no other distinct objects in the image"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "In the provided satellite image, I can identify several distinct objects:\n\n1. A body of water (lake or pond) on the left.\n2. Forested areas surrounding the water and fields.\n3. Agricultural fields wit"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "To identify distinct objects in the remote-sensing image:\n\n1. Fields (green and brown)\n2. Forested area\n3. Water body\n4. Roads\n5. Buildings\n\nThe highest concentration of damaged buildings appears to b"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "In the provided satellite image:\n\n1. Fields (multiple)\n2. Forested area\n3. Water body\n4. Roads\n5. Buildings\n\nThere are no visible signs of damage to buildings, so we cannot determine a ratio for minor"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "1. Damaged building 1 (blue roof)\n2. Damaged building 2 (red roof)\n\nFinal total: 2\n\nAssuming each rescue team can inspect two damaged buildings per hour, and there are only two damaged buildings in th"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "In the provided aerial image:\n\n1. A large open area surrounded by trees.\n2. Several small structures scattered around the edge of the open area.\n\nThere are no visible signs of damage or changes to the"
+      },
+      {
+        "task_id": "392",
+        "correct": true,
+        "answer": "To answer this question, let's break down the image into quadrants:\n\n1. Top-left quadrant (TL)\n2. Top-right quadrant (TR)\n3. Bottom-left quadrant (BL)\n4. Bottom-right quadrant (BR)\n\nNow, let's identif"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "The image provided is an aerial view of a residential area and does not contain any indication of destruction or events that would lead to the destruction of buildings. The image shows a well-maintain"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "In the provided image, there are no visible signs of destruction or damage that would indicate any buildings have been destroyed. The image shows a residential area with houses, roads, and parking lot"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "To answer this question, let's break down the image into four equal quadrants:\n\n1. Top-left quadrant (TL)\n2. Top-right quadrant (TR)\n3. Bottom-left quadrant (BL)\n4. Bottom-right quadrant (BR)\n\nNow, we"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "The image provided is an aerial view showing a landscape with a river, some vegetation, and what appears to be agricultural fields. There are no visible signs of buildings or structures that have suff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "system": "vanilla_react",
+    "overall": {
+      "total": 189,
+      "correct": 72,
+      "accuracy": 0.381
+    },
+    "by_type": {
+      "D": {
+        "total": 89,
+        "correct": 45,
+        "failure": 44,
+        "accuracy": 0.5056,
+        "failure_rate": 0.4944
+      },
+      "M1": {
+        "total": 40,
+        "correct": 9,
+        "failure": 31,
+        "accuracy": 0.225,
+        "failure_rate": 0.775
+      },
+      "M2": {
+        "total": 87,
+        "correct": 28,
+        "failure": 59,
+        "accuracy": 0.3218,
+        "failure_rate": 0.6782
+      }
+    }
+  },
+  {
+    "system": "direct_prompting",
+    "overall": {
+      "total": 189,
+      "correct": 66,
+      "accuracy": 0.3492
+    },
+    "by_type": {
+      "D": {
+        "total": 89,
+        "correct": 39,
+        "failure": 50,
+        "accuracy": 0.4382,
+        "failure_rate": 0.5618
+      },
+      "M1": {
+        "total": 40,
+        "correct": 6,
+        "failure": 34,
+        "accuracy": 0.15,
+        "failure_rate": 0.85
+      },
+      "M2": {
+        "total": 87,
+        "correct": 27,
+        "failure": 60,
+        "accuracy": 0.3103,
+        "failure_rate": 0.6897
+      }
+    }
+  }
+]

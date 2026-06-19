@@ -1,0 +1,2140 @@
+{
+  "model": "qwen2.5vl:7b",
+  "method": "taxonomy_routed",
+  "routing": {
+    "D": "direct (baseline reuse)",
+    "M1": "gsd_few_shot (ablation reuse)",
+    "M2": "counting_specific (new inference)"
+  },
+  "accuracy": 0.2116,
+  "correct": 40,
+  "total": 189,
+  "per_type": {
+    "D": {
+      "correct": 30,
+      "total": 66,
+      "accuracy": 0.4545,
+      "failure_rate": 0.5455
+    },
+    "M1": {
+      "correct": 8,
+      "total": 40,
+      "accuracy": 0.2,
+      "failure_rate": 0.8
+    },
+    "M2": {
+      "correct": 2,
+      "total": 83,
+      "accuracy": 0.0241,
+      "failure_rate": 0.9759
+    }
+  },
+  "results": [
+    {
+      "task_id": "3",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes, the two cars parked outside the flooded house are also flooded. The water level reaches up to the bottom of the car doors, indicating that the cars are submerged in floodwater."
+    },
+    {
+      "task_id": "6",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "In the provided aerial image, there are several cars visible on the flooded road. Here is the estimation of the car types:\n\n1. **Top Center**: A white car appears to be an SUV.\n2. **Top Right**: There"
+    },
+    {
+      "task_id": "22",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The right side of the image has more water."
+    },
+    {
+      "task_id": "25",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The image shows several cars parked between the non-flooded houses. The colors of the cars are not clearly distinguishable due to the resolution and lighting conditions in the image. However, there ap"
+    },
+    {
+      "task_id": "37",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, there is no visible route between the flooded houses in the image. The area appears to be completely submerged in water, making it impassable."
+    },
+    {
+      "task_id": "41",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the largest non-flooded house is not in the northwest corner of the image. It appears to be located in the center of the image, surrounded by other houses and some water."
+    },
+    {
+      "task_id": "42",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the 'longest white car' cannot go to the northwest house in the image. The car is located in the bottom right corner of the image, and the northwest house is located in the top left corner. The ca"
+    },
+    {
+      "task_id": "43",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the non-flooded houses are not all in the same area. They are scattered throughout the image, with some areas showing flooding and others not."
+    },
+    {
+      "task_id": "46",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the non-flooded house is not in the southwest corner of the image. The image shows a flooded area with water covering most of the houses and streets. The houses that are not submerged are located "
+    },
+    {
+      "task_id": "55",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "No, there is no visible major damage to the house with the swimming pool in the image. The house appears to be intact, and the swimming pool is clear and undamaged."
+    },
+    {
+      "task_id": "56",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, not all the no-damage buildings are in the northeast position on the image. The image shows a flooded area with some buildings visible, but their exact positions relative to the northeast corner a"
+    },
+    {
+      "task_id": "73",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The building near the volcanic mud activity appears to be undamaged. The area around the building shows signs of volcanic mud activity, but the structure itself does not show any visible signs of dama"
+    },
+    {
+      "task_id": "74",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The houses on the upper side of the road appear to be in good condition. There are no visible signs of damage such as structural issues, missing roofs, or significant structural deformities. The image"
+    },
+    {
+      "task_id": "75",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image provided is an aerial view of a highway surrounded by dense greenery. There is a small structure visible near the highway, which appears to be a house. However, the image does not provide en"
+    },
+    {
+      "task_id": "83",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The largest building damaged due to Hurricane Harvey appears to be the one in the center of the image, which is surrounded by floodwaters. There is no visible playground in the floodwater around this "
+    },
+    {
+      "task_id": "87",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The image shows an area affected by flooding, with water covering much of the ground and some areas of vegetation. The buildings in the top left corner appear to be above the floodwater, suggesting th"
+    },
+    {
+      "task_id": "88",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The building with the red rooftop near the waterbody appears to be damaged. The roof seems to be missing or significantly damaged, and there are visible signs of debris and possibly structural damage "
+    },
+    {
+      "task_id": "92",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The smallest car in the image appears to be white."
+    },
+    {
+      "task_id": "112",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, there is no other car moving in the same direction as the red truck. The red truck is the only vehicle in the image moving in that direction."
+    },
+    {
+      "task_id": "115",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image does not show a red car. The cars visible are white and black. Therefore, it is not possible to determine if a red car is positioned too close to a white car in this image."
+    },
+    {
+      "task_id": "119",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, there are no cars traveling southbound on the road in the image. The cars visible are traveling northbound."
+    },
+    {
+      "task_id": "135",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the planes are not in the same direction. One plane is facing towards the top left of the image, while the other is facing towards the bottom right."
+    },
+    {
+      "task_id": "140",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The image shows several airplanes on the ground, and it is not possible to determine their categories (e.g., commercial, military, private) from the aerial view alone. However, if we assume that the p"
+    },
+    {
+      "task_id": "145",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The destroyed area is located in the central part of the image, within the box marked GSD 0.5m/px. The building inside the box appears to be a large, rectangular structure with a light-colored roof an"
+    },
+    {
+      "task_id": "146",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The image shows a destroyed building in the center, which appears to be partially collapsed. The structure is surrounded by debris and rubble, indicating that it has not fully collapsed but is in a st"
+    },
+    {
+      "task_id": "150",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The damage pattern between the two buildings appears to be asymmetrical. The building on the left shows more extensive damage, with larger gaps and irregularities, while the building on the right has "
+    },
+    {
+      "task_id": "151",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows a heavily impacted area in the center, with visible signs of destruction such as collapsed structures and debris. The most impacted area in the west appears to be the cluster of buildi"
+    },
+    {
+      "task_id": "162",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image does not contain any parked vehicles."
+    },
+    {
+      "task_id": "178",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The above-ground swimming pool in the image is oval-shaped."
+    },
+    {
+      "task_id": "179",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "In the provided aerial image, there is one residential backyard that contains an above-ground swimming pool. However, the image does not provide information on whether the pool is currently in use. To"
+    },
+    {
+      "task_id": "184",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Yes, there is a small vehicle visible on the northbound lane of the road in the image."
+    },
+    {
+      "task_id": "189",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The white plane in the image is located on the tarmac, near the bottom right of the image. To estimate its orientation relative to the north, we can use the orientation of the runway and the general l"
+    },
+    {
+      "task_id": "190",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The plane with a blue fuselage is located in the top right section of the image, flying above the runway."
+    },
+    {
+      "task_id": "193",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the two airplanes are not in the same direction. The airplane on the left is heading towards the bottom of the image, while the airplane on the right is heading towards the top of the image."
+    },
+    {
+      "task_id": "197",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The largest plane on the runway is located near the center of the image. To estimate its orientation relative to the north, we need to consider the direction it is facing. The plane appears to be orie"
+    },
+    {
+      "task_id": "201",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The baseball diamond in the image is the area with a distinct brown color, which is characteristic of the infield dirt. The surrounding area is green, indicating the grass. By analyzing the proportion"
+    },
+    {
+      "task_id": "202",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The basketball court ground in the image appears to be a combination of blue and white. The blue color is likely the playing surface, and the white color is the boundary lines and other markings on th"
+    },
+    {
+      "task_id": "204",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, there is no visible match taking place in the soccer field. The field appears to be empty."
+    },
+    {
+      "task_id": "207",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The basketball court in the image appears to be oriented with its baseline running approximately parallel to the north-south direction. Given the typical orientation of basketball courts, the baseline"
+    },
+    {
+      "task_id": "210",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, none of the basketball courts in the image appear to be occupied."
+    },
+    {
+      "task_id": "214",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Yes, there is a visible sign or letter inside the ground track field. The letter is \"S\" and it is red in color."
+    },
+    {
+      "task_id": "219",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes, a soccer ball field is present in the image. It is located on the right side of the image."
+    },
+    {
+      "task_id": "229",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows two ships, but the resolution and angle do not provide enough detail to determine the type of the ships or if they are identical in type. The ships appear to be similar in size and sha"
+    },
+    {
+      "task_id": "230",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The ships in the image appear to be oriented in a north-south direction relative to the north side of the image. The orientation can be inferred from the alignment of the ships with the water body and"
+    },
+    {
+      "task_id": "232",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "In the image, there are three vessels visible in the water. \n\n1. The first vessel is located in the top left corner of the image. It appears to be heading towards the north.\n2. The second vessel is lo"
+    },
+    {
+      "task_id": "249",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The large field markings painted on the turf inside the central track read \"STAPLES\" and \"WRECKERS\". The orientation of the text is horizontal, with \"STAPLES\" at the top and \"WRECKERS\" below it. The d"
+    },
+    {
+      "task_id": "257",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The largest baseball field in the image is located in the center, with a north-south orientation. The home plate is oriented towards the north."
+    },
+    {
+      "task_id": "261",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The ground support vehicle positioned closest to the aircraft with blue wings appears to be a tow tractor. This type of vehicle is used to tow aircraft on the ground, typically for moving them from on"
+    },
+    {
+      "task_id": "263",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows a row of tennis courts with the sun casting shadows to the right of the courts. This indicates that the sun is positioned to the left of the image, which corresponds to the West direct"
+    },
+    {
+      "task_id": "269",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The red aircraft in the center of the airport apron appears to be a North American P-51 Mustang. This identification is based on its distinctive shape, including the long fuselage, single-engine confi"
+    },
+    {
+      "task_id": "272",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The aircraft on the flight deck appears to be a fighter jet, likely an F/A-18 Hornet, based on its shape and size. To determine its heading direction in degrees relative to north, we would need a refe"
+    },
+    {
+      "task_id": "273",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The designated large parking area is located in the bottom-left section of the image. It appears to be moderately occupied, with a significant number of vehicles parked, but not completely full."
+    },
+    {
+      "task_id": "280",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The designated large parking lot area near the airport appears to be nearly full. There are numerous vehicles parked in the lot, indicating a high level of occupancy."
+    },
+    {
+      "task_id": "281",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "To determine the nose orientation or heading of the largest aircraft in degrees from north, we need to analyze the orientation of the aircraft in the image. The largest aircraft appears to be the one "
+    },
+    {
+      "task_id": "282",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The directional orientation (yaw/heading) of the planes in the image can be described as follows:\n\n1. The top plane is oriented with its nose pointing to the bottom left of the image.\n2. The second pl"
+    },
+    {
+      "task_id": "285",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The image provided does not contain a parking lot or tennis courts. It shows an aerial view of an airport tarmac with several aircraft parked. There is no directional orientation of a parking lot or e"
+    },
+    {
+      "task_id": "291",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The track surface material in the facility appears to be synthetic turf, which is commonly used in sports facilities. The advantages of synthetic turf include:\n\n1. **Weather Resistance**: Synthetic tu"
+    },
+    {
+      "task_id": "292",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The red rectangular area at the end of the field is a goal area, specifically for soccer. It is used for scoring goals in soccer matches."
+    },
+    {
+      "task_id": "293",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows a standard athletic track with a red running track and a green field in the center. The width of the track appears to be approximately 120 meters (394 feet) from the inside edge of the"
+    },
+    {
+      "task_id": "294",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows two swimming pools in the residential area. The pool on the left appears to be in good condition with clear water and a well-maintained surrounding area. The pool on the right, however"
+    },
+    {
+      "task_id": "295",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The swimming pools in the image are irregular in shape. One pool appears to be roughly kidney-shaped, while the other is more rectangular with a curved end."
+    },
+    {
+      "task_id": "297",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "In the image, there are two visible cars. One car is white and is parked on the side of the road near the house. The other car is blue and is parked on the side of the road further down the street."
+    },
+    {
+      "task_id": "302",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows two cars. The car in the top lane is dark-colored, possibly black or dark gray. The car in the bottom lane is light-colored, possibly silver or light gray."
+    },
+    {
+      "task_id": "316",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image does not provide enough detail to identify specific types of garbage or objects on the northwest side of the road. The area appears to be a mix of agricultural fields and some structures, bu"
+    },
+    {
+      "task_id": "319",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The image shows a mix of urban development and what appears to be a construction site with visible piles of debris and materials. The construction waste is concentrated in the lower right section of t"
+    },
+    {
+      "task_id": "321",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "In the provided satellite image, there appears to be a concentration of construction waste in the lower central part of the image, near the bottom. This area shows signs of disturbance, with what look"
+    },
+    {
+      "task_id": "264",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.1368",
+      "correct": false,
+      "answer": "To calculate the distance between the two furthest tennis courts using the given GSD (Ground Sample Distance) of 0.1368 meters per pixel, we need to follow these steps:\n\n1. Identify the number of pixe"
+    },
+    {
+      "task_id": "18",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": false,
+      "answer": "The white house in the northwest corner of the image is not flooded. There is no water visible within a 10-meter radius of the house."
+    },
+    {
+      "task_id": "246",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "The ground track field appears to be empty. To estimate the square meter area of the field, we need to measure the length and width of the field in pixels and then convert those measurements to meters"
+    },
+    {
+      "task_id": "40",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": false,
+      "answer": "To determine the number of cars and whether they are in water, we need to analyze the image using the given GSD (Ground Sample Distance) of 0.015 m/px.\n\n1. **Identify the red car**: Locate the red car"
+    },
+    {
+      "task_id": "315",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine if the garbage is dumped within an eco-sensitive agricultural zone with a 50m buffer, we need to follow these steps:\n\n1. Identify the boundaries of the eco-sensitive agricultural zone.\n2."
+    },
+    {
+      "task_id": "305",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To evaluate the distance of both garbage types to the big pond and classify them, we need to measure the distance in pixels and then convert it to meters using the given GSD (Ground Sample Distance).\n"
+    },
+    {
+      "task_id": "31",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "No, there are no houses within a 5m radius of the electrical transmission tower."
+    },
+    {
+      "task_id": "364",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine the smallest straight-line distance between any no-damage building and any destroyed building in the post-event scene, we need to identify the buildings and their positions in the image.\n"
+    },
+    {
+      "task_id": "107",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": true,
+      "answer": "To determine if there is a house within 50 meters of the red car using the given GSD (Ground Sample Distance) of 0.9666 meters per pixel, we need to follow these steps:\n\n1. Identify the red car in the"
+    },
+    {
+      "task_id": "394",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "To determine the average ground area lost for each structure classified as completely destroyed, we need to follow these steps:\n\n1. Identify the number of structures classified as completely destroyed"
+    },
+    {
+      "task_id": "98",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.4326",
+      "correct": true,
+      "answer": "To determine how many cars are parked within white-marked boxes, we need to follow these steps:\n\n1. Identify the number of cars in the image.\n2. Determine the number of white-marked boxes.\n3. Check if"
+    },
+    {
+      "task_id": "391",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "2.0916247",
+      "correct": false,
+      "answer": "To estimate the number of team-days needed to assess all damaged buildings, we need to follow these steps:\n\n1. **Determine the area of the damaged buildings**: The image shows a cluster of buildings s"
+    },
+    {
+      "task_id": "113",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine the distance between the blue trucks using the given GSD (Ground Sample Distance) of 1.61175 meters per pixel, we need to follow these steps:\n\n1. Identify the distance between the blue tr"
+    },
+    {
+      "task_id": "23",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": false,
+      "answer": "No, there is no swimming pool around a 1m radius of the truck in the image. The image shows a body of water with houses on one side, but there are no visible structures or objects that resemble a swim"
+    },
+    {
+      "task_id": "380",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "To estimate the total ground area lost to destroyed buildings, we need to compare the pre-storm and post-storm building areas. However, the image provided does not show any pre-storm or post-storm com"
+    },
+    {
+      "task_id": "114",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine the distance between the cars traveling on the southbound road using the given GSD (Ground Sample Distance) of 1.6310 m/px, we need to follow these steps:\n\n1. Identify the number of pixel"
+    },
+    {
+      "task_id": "268",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.1402",
+      "correct": false,
+      "answer": "To identify the largest tree by canopy size in the provided aerial image, we need to measure the diameter of the tree's canopy in pixels and then convert that measurement to meters using the given GSD"
+    },
+    {
+      "task_id": "366",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.4085245",
+      "correct": true,
+      "answer": "To determine which group covers more area, we need to calculate the area of the completely destroyed buildings region and the minor-damage building region using the given GSD (Ground Sample Distance) "
+    },
+    {
+      "task_id": "399",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "2.0916247",
+      "correct": false,
+      "answer": "To compute the total ground area covered by severely damaged structures, we need to know the number of pixels that represent the severely damaged structures and the GSD (Ground Sample Distance) of the"
+    },
+    {
+      "task_id": "141",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To detect planes with red body (fuselage) and compute the distance between them, we need to follow these steps:\n\n1. Identify the planes with red fuselage in the image.\n2. Measure the distance between "
+    },
+    {
+      "task_id": "385",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "To determine which destroyed building has the largest estimated area in square meters, we need to follow these steps:\n\n1. Identify the buildings in the image.\n2. Measure the distance between the build"
+    },
+    {
+      "task_id": "284",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine the wingspan of the large airplane located at the top of the image, we need to follow these steps:\n\n1. Identify the pixel dimensions of the airplane's wingspan in the image.\n2. Use the gr"
+    },
+    {
+      "task_id": "374",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "To answer the question, we need to follow these steps:\n\n1. Identify the destroyed buildings in the image.\n2. Calculate the area of the destroyed buildings.\n3. Calculate the area of the total buildings"
+    },
+    {
+      "task_id": "356",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "To answer the question, we need to identify the buildings that were visible before the disaster but are missing afterward in the image. However, the image provided does not show any buildings that wer"
+    },
+    {
+      "task_id": "30",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "No, it is not true that no house within 15m radius of the swimming pool is flooded. The image shows that the swimming pool is surrounded by flooded areas, and there are houses within the 15m radius of"
+    },
+    {
+      "task_id": "340",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.5",
+      "correct": false,
+      "answer": "To determine the average area of no-damage buildings and those that were destroyed in a post-disaster image, we need to follow these steps:\n\n1. **Identify the buildings**: In the image, buildings are "
+    },
+    {
+      "task_id": "350",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "The image provided is an aerial view and does not contain any buildings or structures that can be measured for their ground area. Therefore, it is not possible to calculate the average ground area of "
+    },
+    {
+      "task_id": "351",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "The image provided does not contain any fully destroyed buildings. It shows a landscape with scattered trees, a few structures, and some paths. Since there are no fully destroyed buildings, the combin"
+    },
+    {
+      "task_id": "397",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine the mean distance from the center of the scene to the centroids of all destroyed structures, we need to follow these steps:\n\n1. Identify the centroids of all destroyed structures in the i"
+    },
+    {
+      "task_id": "35",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "No, the red car is not parked in a dry area within 5 meters around it. The image shows that the area around the red car is flooded, indicating that the water level is above the ground level where the "
+    },
+    {
+      "task_id": "171",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": true,
+      "answer": "To determine if there is any object within a 3-meter safety distance around the above-ground pool in the backyard, we need to follow these steps:\n\n1. Identify the above-ground pool in the image.\n2. Me"
+    },
+    {
+      "task_id": "372",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "To calculate the area of the L-shaped building cluster in the image, we need to follow these steps:\n\n1. **Identify the dimensions of the L-shaped building cluster in pixels.**\n2. **Use the Ground Samp"
+    },
+    {
+      "task_id": "132",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine the distance between the orange excavators using the given GSD (Ground Sample Distance) of 0.9 meters per pixel, follow these steps:\n\n1. Identify the distance between the orange excavator"
+    },
+    {
+      "task_id": "16",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "No, there is a flood around the 2m radius of the each car. The image shows that the water level is above the ground level of the houses and cars, indicating flooding. The GSD (Ground Sample Distance) "
+    },
+    {
+      "task_id": "327",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine if the domestic garbage is located very close to the road, we need to follow these steps:\n\n1. Identify the location of the domestic garbage in the image.\n2. Determine the distance from th"
+    },
+    {
+      "task_id": "127",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "To determine if the red car can safely switch lanes given a clear 200-meter radius, we need to calculate the distance between the red car and the vehicles nearby. The image resolution is given as 0.94"
+    },
+    {
+      "task_id": "353",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "2.8247435",
+      "correct": false,
+      "answer": "To determine the total ground area destroyed and the average area lost per destroyed structure, we need to follow these steps:\n\n1. **Identify the number of destroyed buildings**: From the image, it ap"
+    },
+    {
+      "task_id": "375",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "To calculate the average area of the two largest destroyed buildings in the image, we need to follow these steps:\n\n1. **Identify the two largest destroyed buildings**: From the image, visually identif"
+    },
+    {
+      "task_id": "347",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "To determine the combined area of all buildings showing major damage in the post-disaster image, we need to follow these steps:\n\n1. Identify the buildings showing major damage.\n2. Measure the dimensio"
+    },
+    {
+      "task_id": "144",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "The image shows a destroyed building in the center. There is a road that appears to be within 30 meters of the destroyed building. Given the GSD of 0.5 meters per pixel, the road is approximately 30 p"
+    },
+    {
+      "task_id": "2",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "15",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "19",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "15 houses, 8 cars."
+    },
+    {
+      "task_id": "54",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "60",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "105"
+    },
+    {
+      "task_id": "76",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "93",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "97",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "99",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "100",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "101",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "15"
+    },
+    {
+      "task_id": "102",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2, 7"
+    },
+    {
+      "task_id": "120",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "121",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "125",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "129",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "131",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "137",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "148",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10\n\nThe image shows multiple buildings that appear to be in various states of destruction. The count includes both fully destroyed structures and those with significant damage, but it does not include"
+    },
+    {
+      "task_id": "176",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "187",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "233",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "235",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "236",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2北向，3南向"
+    },
+    {
+      "task_id": "239",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "251",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "4"
+    },
+    {
+      "task_id": "253",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "4"
+    },
+    {
+      "task_id": "267",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "6"
+    },
+    {
+      "task_id": "275",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "5 0"
+    },
+    {
+      "task_id": "283",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "286",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "289",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "290",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "12"
+    },
+    {
+      "task_id": "298",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "301",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "25"
+    },
+    {
+      "task_id": "335",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "336",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "337",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "338",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "339",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "341",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "342",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "343",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "344",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "345",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "346",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "348",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "349",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "352",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0\n\nThe image shows an aerial view of a landscape with trees, roads, and some structures. There are no visible signs of damage or destruction in the image provided. Therefore, there are zero no-damage "
+    },
+    {
+      "task_id": "354",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "355",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "357",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "1/2"
+    },
+    {
+      "task_id": "358",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "359",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "360",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "361",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "362",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "363",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "365",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "367",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "368",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "369",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "370",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "371",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0\n\nThe image provided does not contain any specific details about buildings or rescue teams that would allow for a calculation of the number of rescue teams needed. The question appears to be based on"
+    },
+    {
+      "task_id": "373",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "376",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0\n\nThe image does not show any visibly destroyed buildings. Therefore, the count of destroyed buildings is zero. Since there are no destroyed buildings, no response teams are needed."
+    },
+    {
+      "task_id": "377",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "378",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "10"
+    },
+    {
+      "task_id": "379",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0.125"
+    },
+    {
+      "task_id": "381",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "382",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "383",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "384",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "15"
+    },
+    {
+      "task_id": "386",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "387",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "388",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "389",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "390",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "392",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "393",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "395",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "396",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "398",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    }
+  ]
+}

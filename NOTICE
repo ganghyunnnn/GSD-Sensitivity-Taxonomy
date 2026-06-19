@@ -1,0 +1,63 @@
+rs-taxonomy
+Copyright 2026 Ganghyun Park, Dongho Lee
+                Korea Aerospace Research Institute (KARI)
+
+This product includes software developed by the authors and licensed under
+the Apache License, Version 2.0 (see LICENSE).
+
+The accompanying annotations dataset, hosted at
+    https://huggingface.co/datasets/ganghyunnnn/rs-taxonomy-labels
+is licensed under Creative Commons Attribution 4.0 International
+(CC BY 4.0) for the portions authored by this project (per-task D / M1 / M2
+labels, IAA rationale, evaluation outputs, dataset card, and guidelines).
+
+------------------------------------------------------------------------
+Embedded Third-Party Content
+------------------------------------------------------------------------
+
+Some published files redistribute small portions of upstream RS-VQA
+benchmarks. These redistributions are made under the upstream licenses,
+which take precedence over the CC BY 4.0 grant for those specific
+fields. Downstream users must continue to comply with the upstream
+license when they redistribute the affected files.
+
+ThinkGeoBench (Apache License, Version 2.0)
+    Copyright Shabbir et al., MBZUAI Oryx Lab
+    https://github.com/mbzuai-oryx/ThinkGeo
+
+    The following published files contain ThinkGeoBench question text
+    and/or image filenames in addition to this project's annotations:
+        - annotation/iaa_sample.csv               (query, image columns)
+        - annotation/iaa_sample_annotator2.csv    (query, image columns)
+        - annotation/review_436.csv               (query column)
+        - annotation/iaa_sample_annotator2_rationale_ko.md
+              (Korean translations and quotations of selected questions)
+
+    A copy of the Apache License, Version 2.0 is available at
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    No modifications were made to the verbatim question text. Per-task
+    taxonomy labels and rationale notes are this project's contribution.
+
+RSVQA-LR (Creative Commons Attribution 4.0 International)
+    Copyright Lobry et al.
+    https://zenodo.org/records/6344334
+
+    Files referencing RSVQA-LR (annotation/rsvqa_*.json) store only
+    upstream `q_id` integers and model predictions; no upstream question
+    text or images are redistributed.
+
+FloodNet (MIT License)
+    Copyright Rahnemoonfar et al., BinaLab
+    https://github.com/BinaLab/FloodNet-Supervised_v1.0
+
+    Cross-benchmark distribution analysis only; no FloodNet content is
+    redistributed in this dataset.
+
+EarthVQA (Academic-only license, RSIDEA / Wuhan University)
+    Copyright Wang et al.
+    https://github.com/Junjue-Wang/EarthVQA
+
+    Cross-benchmark distribution analysis only; no EarthVQA questions or
+    images are redistributed in this dataset, in compliance with the
+    upstream academic-only restriction.

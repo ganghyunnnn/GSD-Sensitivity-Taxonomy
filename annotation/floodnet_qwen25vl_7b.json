@@ -1,0 +1,3225 @@
+{
+  "model": "qwen2.5vl:7b",
+  "dataset": "FloodNet-Track2-Train",
+  "method": "direct_prompting",
+  "sample_per_type": 100,
+  "accuracy": 0.1775,
+  "correct": 71,
+  "total": 400,
+  "per_taxonomy": {
+    "D": {
+      "correct": 13,
+      "total": 200,
+      "accuracy": 0.065,
+      "failure_rate": 0.935
+    },
+    "M2": {
+      "correct": 58,
+      "total": 200,
+      "accuracy": 0.29,
+      "failure_rate": 0.71
+    }
+  },
+  "results": [
+    {
+      "idx": "939",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "174",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in good condition, with no visible signs of damage or wear. The surface looks smooth and intact.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2463",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image depicts an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2143",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues affecting its clarity or resolution.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1893",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues affecting its clarity or resolution.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1218",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be dry.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "845",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4330",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of the objects within it. There doesn't seem to be any significant distortion or corruption affecting the image's clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "697",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3388",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues or distortions affecting its clarity or resolution.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "215",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility and no apparent distortions or issues affecting its clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "204",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for driving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "743",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1844",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2002",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3969",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "182",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear. The surface looks smooth and there are no cracks or potholes that can be seen from this aerial view.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4476",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1679",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4325",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of the objects within it. There doesn't seem to be any significant distortion or corruption affecting the image's clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3364",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for travel.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1861",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues or distortions affecting its clarity or resolution.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3581",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility and no apparent distortions or issues affecting its clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2496",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be flooded with water.",
+      "gt": "flooded,non flooded"
+    },
+    {
+      "idx": "50",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1411",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in poor condition, with visible cracks on its surface.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3393",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues affecting its clarity or resolution.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2959",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2493",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1372",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1809",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it is flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2939",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "842",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "738",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3159",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "779",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be flooded with water.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3048",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2974",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear details visible throughout. There are no signs of blurriness or distortion that would indicate poor image conditions. The lighting seems adequate fo",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2358",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be flooded with water.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "309",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3670",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4236",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be wet or damp.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1076",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of the objects within it. There doesn't seem to be any significant distortion or corruption affecting the image's clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3153",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "619",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be empty, with no vehicles or pedestrians visible on it.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4390",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be dry.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2645",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be dry.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3059",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility and no apparent distortions or issues affecting its clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1642",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "564",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues or problems affecting its clarity or content.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "333",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be tilted, which affects its overall condition.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1946",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be flooded with water.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2615",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues or problems.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "627",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for use.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2003",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "827",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3626",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3074",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be tilted, which affects its overall orientation and alignment.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1431",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3107",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for driving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3033",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear details visible throughout. There are no signs of blurriness or distortion that would indicate a poor image quality. The lighting seems adequate for",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1753",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area with trees in good health, indicating that they are well-maintained or naturally thriving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2382",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be flooded with water, making it impassable for vehicles or pedestrians.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "573",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1483",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be dry.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4217",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues or problems.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2136",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area that has been affected by flooding, with water covering parts of the ground.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1438",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3688",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be dry.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3157",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear details visible throughout. There are no signs of blurriness or distortion that would indicate a poor image quality. The lighting seems adequate and",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2412",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "4435",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for driving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1855",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2870",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "437",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1961",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "217",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2819",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be dry.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3274",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be blurry in nature.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2390",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be flooded with water, making it impassable for vehicles or pedestrians.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "541",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for driving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1764",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2810",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear details visible throughout. There are no signs of blurriness or distortion that would indicate a poor image quality. The lighting seems adequate for",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1781",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3922",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3248",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility and no apparent distortions or issues affecting its clarity.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3667",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1249",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for driving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2359",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image shows an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "2162",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image depicts an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "4479",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4264",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "2336",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": true,
+      "answer": "The road in the image appears to be submerged under water, indicating that it has been flooded.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "3442",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road in the image appears to be in good condition, with no visible signs of damage or wear.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3266",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3060",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of details such as grass and trees. There are no signs of blurriness or distortion that would indicate poor image quality.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "1852",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image depicts an area that has been affected by flooding, with water covering parts of what appears to be a residential neighborhood.",
+      "gt": "flooded"
+    },
+    {
+      "idx": "1210",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with no apparent issues such as blurriness or distortion. The details are clear and well-defined.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "4008",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The road shown in the image appears to be in good condition, with no visible signs of damage or wear. It looks well-maintained and suitable for driving.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "3880",
+      "q_type": "Condition_Recognition",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "The image appears to be in good quality, with clear visibility of its contents.",
+      "gt": "non flooded"
+    },
+    {
+      "idx": "654",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 4
+    },
+    {
+      "idx": "396",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are four buildings that are not flooded in the image provided.",
+      "gt": 5
+    },
+    {
+      "idx": "769",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be unaffected by flooding in the image provided.",
+      "gt": 9
+    },
+    {
+      "idx": "928",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 8
+    },
+    {
+      "idx": "4248",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "959",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 6
+    },
+    {
+      "idx": "2338",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are ten buildings that appear to be flooded in the image provided.",
+      "gt": 16
+    },
+    {
+      "idx": "4058",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "464",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "2184",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be non-flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "2172",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are several buildings that have been flooded in the image, but an exact number cannot be determined without more specific information or a clearer view of each building. However, it is clear tha",
+      "gt": 21
+    },
+    {
+      "idx": "4478",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "2547",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be flooded in the image.",
+      "gt": 11
+    },
+    {
+      "idx": "3385",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "1474",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "3587",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "77",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "784",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are ten buildings that are not flooded visible in the image.",
+      "gt": 13
+    },
+    {
+      "idx": "3438",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1631",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "4317",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are five buildings that are not flooded in the image provided.",
+      "gt": 6
+    },
+    {
+      "idx": "2013",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "775",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be unaffected by flooding in the image provided.",
+      "gt": 14
+    },
+    {
+      "idx": "1838",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be unaffected by flooding in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "2394",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are several buildings that have been flooded in the image, but an exact number cannot be determined without more specific information or a clearer view of each building. However, it is clear tha",
+      "gt": 23
+    },
+    {
+      "idx": "947",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 7
+    },
+    {
+      "idx": "2483",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings that appear to be flooded in the image provided.",
+      "gt": 25
+    },
+    {
+      "idx": "17",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 7
+    },
+    {
+      "idx": "1595",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "2716",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 4
+    },
+    {
+      "idx": "1048",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "2754",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 5
+    },
+    {
+      "idx": "758",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be non-flooded in the image provided.",
+      "gt": 6
+    },
+    {
+      "idx": "4239",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "1865",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 4
+    },
+    {
+      "idx": "4309",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 7
+    },
+    {
+      "idx": "4346",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "4147",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings that are not flooded visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1153",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "4495",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "2142",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to be flooded in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "967",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 8
+    },
+    {
+      "idx": "3468",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be non-flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "3395",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "3",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "4100",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "1960",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are eight buildings that appear to be flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "2659",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "276",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 4
+    },
+    {
+      "idx": "4403",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is one building that is not flooded in the image.",
+      "gt": 10
+    },
+    {
+      "idx": "2104",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to be non-flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "1895",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that has been flooded in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1390",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "446",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 4
+    },
+    {
+      "idx": "1398",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "3713",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be non-flooded in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "529",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "In the image, there is only one building that appears to not be flooded.",
+      "gt": 3
+    },
+    {
+      "idx": "621",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "2637",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "482",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "3420",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "818",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are ten buildings that appear to be flooded in the image provided.",
+      "gt": 10
+    },
+    {
+      "idx": "829",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 6
+    },
+    {
+      "idx": "2580",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are 15 buildings that appear to be flooded in the image provided.",
+      "gt": 5
+    },
+    {
+      "idx": "3565",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be non-flooded in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "991",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1604",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "3380",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "4136",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "2343",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are ten buildings that appear to be flooded in the image provided.",
+      "gt": 10
+    },
+    {
+      "idx": "1236",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "4289",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been flooded in the image provided.",
+      "gt": 4
+    },
+    {
+      "idx": "1163",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "1910",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be flooded in the image provided.",
+      "gt": 7
+    },
+    {
+      "idx": "2244",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be flooded in the image.",
+      "gt": 6
+    },
+    {
+      "idx": "4298",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 6
+    },
+    {
+      "idx": "2406",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are several buildings that have been flooded in the image, but an exact number cannot be determined without more specific information or a clearer view of each building. However, it is clear tha",
+      "gt": 19
+    },
+    {
+      "idx": "2818",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "2475",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to be flooded in the image.",
+      "gt": 21
+    },
+    {
+      "idx": "803",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1461",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to not be flooded in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1306",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "4471",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "2005",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are several flooded buildings visible in the image, but an exact count cannot be provided without more specific information or a clearer view. However, it is clear that there are multiple struct",
+      "gt": 14
+    },
+    {
+      "idx": "288",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 6
+    },
+    {
+      "idx": "3976",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is one building that is not flooded in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "3591",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "1342",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "4007",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "1280",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 2
+    },
+    {
+      "idx": "55",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 6
+    },
+    {
+      "idx": "490",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is one building that is not flooded in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "450",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "1334",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that appears to not have been affected by flooding in the image provided.",
+      "gt": 3
+    },
+    {
+      "idx": "477",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "340",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are four buildings that are not flooded visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1982",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "In the image, there is only one building that appears to be unaffected by flooding.",
+      "gt": 8
+    },
+    {
+      "idx": "3968",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that appears to not be flooded in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "2786",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building that is not flooded in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1380",
+      "q_type": "Complex_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are two buildings that are not flooded visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "1824",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are 15 buildings visible in the image.",
+      "gt": 21
+    },
+    {
+      "idx": "3475",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "1303",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "4056",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "875",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "4246",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "4273",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "3386",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "1540",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "4477",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "2502",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are 20 buildings visible in the image.",
+      "gt": 22
+    },
+    {
+      "idx": "1158",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "672",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "691",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "2640",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "2231",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty buildings visible in the image.",
+      "gt": 20
+    },
+    {
+      "idx": "2592",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "2522",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twelve buildings visible in the image.",
+      "gt": 12
+    },
+    {
+      "idx": "2885",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "435",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "696",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "455",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are four buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "2485",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 25
+    },
+    {
+      "idx": "2156",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are 15 buildings visible in the image.",
+      "gt": 14
+    },
+    {
+      "idx": "776",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twelve buildings visible in the image.",
+      "gt": 14
+    },
+    {
+      "idx": "1571",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1171",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "4458",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "3996",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "2744",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "906",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 6
+    },
+    {
+      "idx": "2591",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1125",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "4506",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "2823",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are four buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1572",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "517",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are four buildings visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "2708",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "4133",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "4413",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are six buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "413",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "4061",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "257",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "668",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1459",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1041",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "4464",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "4503",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "3441",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1296",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "2472",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 21
+    },
+    {
+      "idx": "448",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "1032",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "2362",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 17
+    },
+    {
+      "idx": "13",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are five buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "2419",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 30
+    },
+    {
+      "idx": "1713",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "2774",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "1859",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are ten buildings visible in the image.",
+      "gt": 14
+    },
+    {
+      "idx": "4431",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "4164",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are four buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "3481",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "984",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "4376",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 42
+    },
+    {
+      "idx": "1916",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are five buildings visible in the image.",
+      "gt": 7
+    },
+    {
+      "idx": "1327",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "447",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "4067",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "4405",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 8
+    },
+    {
+      "idx": "2016",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 18
+    },
+    {
+      "idx": "443",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "4299",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are five buildings visible in the image.",
+      "gt": 6
+    },
+    {
+      "idx": "3419",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "3612",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "3939",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image provided.",
+      "gt": 1
+    },
+    {
+      "idx": "997",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "4142",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "3644",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "540",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are five buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "1140",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are five buildings visible in the image.",
+      "gt": 6
+    },
+    {
+      "idx": "479",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "476",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "1434",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "2489",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 25
+    },
+    {
+      "idx": "834",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 6
+    },
+    {
+      "idx": "1557",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "367",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "544",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "2574",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 19
+    },
+    {
+      "idx": "3805",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 2
+    },
+    {
+      "idx": "2027",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are twenty-five buildings visible in the image.",
+      "gt": 23
+    },
+    {
+      "idx": "1690",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are four buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "1251",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are two buildings visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "4146",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 4
+    },
+    {
+      "idx": "1466",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "4215",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "2448",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are ten buildings visible in the image.",
+      "gt": 20
+    },
+    {
+      "idx": "870",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There is only one building visible in the image.",
+      "gt": 3
+    },
+    {
+      "idx": "1937",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": false,
+      "answer": "There are three buildings visible in the image.",
+      "gt": 5
+    },
+    {
+      "idx": "2784",
+      "q_type": "Simple_Counting",
+      "taxonomy": "M2",
+      "correct": true,
+      "answer": "There is only one building visible in the image.",
+      "gt": 1
+    },
+    {
+      "idx": "1698",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "4030",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "280",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "42",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2470",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3403",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3120",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "534",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "283",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3002",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1173",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "2718",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1417",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "677",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1845",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "256",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1320",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the image.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1956",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1537",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not the whole road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "823",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "2357",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "3022",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3853",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not the whole road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1619",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3357",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4283",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3583",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2938",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "38",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3652",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4334",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3092",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1611",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3632",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "554",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "687",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1413",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "605",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "576",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "4001",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3088",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "807",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "1486",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded. There appears to be flooding on part of it.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1517",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3317",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1161",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3895",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1810",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "1122",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3796",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3478",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the image.",
+      "gt": "No"
+    },
+    {
+      "idx": "4302",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "2713",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "2629",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1349",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "202",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "427",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4235",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2273",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not the whole road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1504",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "181",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "24",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1760",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4103",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "671",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3506",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1404",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "889",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3999",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not the whole road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "2376",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "3083",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3859",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2294",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the picture is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "3114",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4467",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "591",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "292",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3814",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "771",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3027",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "153",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "4392",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3201",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3086",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "765",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "2315",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the image is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "655",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "172",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is non-flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1646",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1931",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "166",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the picture is non-flooded.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "1894",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "4258",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road in the picture is flooded.",
+      "gt": "No"
+    },
+    {
+      "idx": "3745",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1340",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not the whole road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "3650",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "549",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "1866",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    },
+    {
+      "idx": "3111",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "No"
+    },
+    {
+      "idx": "2177",
+      "q_type": "Yes_No",
+      "taxonomy": "D",
+      "correct": false,
+      "answer": "No, not all of the road is flooded in the picture.",
+      "gt": "Yes"
+    }
+  ]
+}

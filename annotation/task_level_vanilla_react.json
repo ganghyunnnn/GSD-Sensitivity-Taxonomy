@@ -1,0 +1,1730 @@
+[
+  {
+    "task_id": "2",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "3",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "6",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "15",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "16",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "18",
+    "types": [
+      "D",
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "19",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "22",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "23",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "25",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "30",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "31",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "35",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "37",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "40",
+    "types": [
+      "D",
+      "M1",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "41",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "42",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "43",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "46",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "54",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "55",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "56",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "60",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "73",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "74",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "75",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "76",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "83",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "87",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "88",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "92",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "93",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "97",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "98",
+    "types": [
+      "M1",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "99",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "100",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "101",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "102",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "107",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "112",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "113",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "114",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "115",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "119",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "120",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "121",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "125",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "127",
+    "types": [
+      "M1",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "129",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "131",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "132",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "135",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "137",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "140",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "141",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "144",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "145",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "146",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "148",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "150",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "151",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "162",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "171",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "176",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "178",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "179",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "184",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "187",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "189",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "190",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "193",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "197",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "201",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "202",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "204",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "207",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "210",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "214",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "219",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "229",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "230",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "232",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "233",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "235",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "236",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "239",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "246",
+    "types": [
+      "D",
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "249",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "251",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "253",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "257",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "261",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "263",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "264",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "267",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "268",
+    "types": [
+      "D",
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "269",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "272",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "273",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "275",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "280",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "281",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "282",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "283",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "284",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "285",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "286",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "289",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "290",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "291",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "292",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "293",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "294",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "295",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "297",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "298",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "301",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "302",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "305",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "315",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "316",
+    "types": [
+      "D"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "319",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "321",
+    "types": [
+      "D"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "327",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "335",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "336",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "337",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "338",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "339",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "340",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "341",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "342",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "343",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "344",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "345",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "346",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "347",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "348",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "349",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "350",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "351",
+    "types": [
+      "D",
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "352",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "353",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "354",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "355",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "356",
+    "types": [
+      "D",
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "357",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "358",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "359",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "360",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "361",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "362",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "363",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "364",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "365",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "366",
+    "types": [
+      "M1"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "367",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "368",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "369",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "370",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "371",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "372",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "373",
+    "types": [
+      "D",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "374",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "375",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "376",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "377",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "378",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "379",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "380",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "381",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "382",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "383",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "384",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "385",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "386",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "387",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "388",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "389",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "390",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "391",
+    "types": [
+      "M1",
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "392",
+    "types": [
+      "M2"
+    ],
+    "correct": true,
+    "whitelist_pass": true,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "393",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "394",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "395",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "396",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "397",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "398",
+    "types": [
+      "M2"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  },
+  {
+    "task_id": "399",
+    "types": [
+      "M1"
+    ],
+    "correct": false,
+    "whitelist_pass": false,
+    "blacklist_pass": true
+  }
+]

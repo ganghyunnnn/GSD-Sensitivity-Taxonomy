@@ -1,0 +1,2140 @@
+{
+  "model": "qwen3-vl:8b",
+  "method": "taxonomy_routed",
+  "routing": {
+    "D": "direct_prompt (baseline reuse)",
+    "M1": "gsd_few_shot (ablation reuse)",
+    "M2": "counting_specific_prompt (new inference)"
+  },
+  "accuracy": 0.3228,
+  "correct": 61,
+  "total": 189,
+  "per_type": {
+    "D": {
+      "correct": 27,
+      "total": 66,
+      "accuracy": 0.4091,
+      "failure_rate": 0.5909
+    },
+    "M1": {
+      "correct": 10,
+      "total": 40,
+      "accuracy": 0.25,
+      "failure_rate": 0.75
+    },
+    "M2": {
+      "correct": 24,
+      "total": 83,
+      "accuracy": 0.2892,
+      "failure_rate": 0.7108
+    }
+  },
+  "results": [
+    {
+      "task_id": "3",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes"
+    },
+    {
+      "task_id": "6",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify the flooded roads. The main flooded areas are the streets. Now, check for cars on those roads.\n\nLooking at the right side, there's a flooded road with a fe"
+    },
+    {
+      "task_id": "22",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Right"
+    },
+    {
+      "task_id": "25",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "White, pink, blue"
+    },
+    {
+      "task_id": "37",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes"
+    },
+    {
+      "task_id": "41",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "42",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "43",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the non-flooded houses are scattered"
+    },
+    {
+      "task_id": "46",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. The southwest corner—need to check if there's a non-flooded house there. First, identify the southwest part. The image is an aerial view, so top is north, bottom is south,"
+    },
+    {
+      "task_id": "55",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "No"
+    },
+    {
+      "task_id": "56",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "73",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "no-damage"
+    },
+    {
+      "task_id": "74",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "No, the houses on the upper side of the road do not appear damaged."
+    },
+    {
+      "task_id": "75",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The house near the highway appears intact; no visible damage from hurricane activity is evident in the image."
+    },
+    {
+      "task_id": "83",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Largest building: central large structure; no playground present in flood water around it."
+    },
+    {
+      "task_id": "87",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes"
+    },
+    {
+      "task_id": "88",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Building with red rooftop near waterbody is present; it is not damaged."
+    },
+    {
+      "task_id": "92",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "blue"
+    },
+    {
+      "task_id": "112",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "115",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, there is no red car in the image."
+    },
+    {
+      "task_id": "119",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes"
+    },
+    {
+      "task_id": "135",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No, the planes are not in the same direction."
+    },
+    {
+      "task_id": "140",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify the planes heading east. In an aerial view, east is to the right (assuming standard map orientation where north is top, but wait, in satellite images, some"
+    },
+    {
+      "task_id": "145",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The destroyed area is identified as the irregularly shaped zone with fragmented structures. The building within this area exhibits a dark brown/gray color due to debris and rubble, with an irregular s"
+    },
+    {
+      "task_id": "146",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. The question is about locating a destroyed building and whether it's fully or partially collapsed. First, I need to identify areas that look like destroyed structures. In "
+    },
+    {
+      "task_id": "150",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The damage pattern between the two buildings is symmetric; they exhibit similar extent and distribution of damage, consistent with the grid-like arrangement and uniform environmental impact."
+    },
+    {
+      "task_id": "151",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Buildings/structures in the western area are most impacted, evidenced by visible rubble and damage."
+    },
+    {
+      "task_id": "162",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the aerial image. First, find parked vehicles. In the image, there's a red car near the house with the circular driveway. Wait, the question is to identify parked vehicles and classi"
+    },
+    {
+      "task_id": "178",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "{\"above-ground swimming pool\": [{\"bbox_2d\": [632, 385, 685, 450], \"label\": \"circular\"}]}"
+    },
+    {
+      "task_id": "179",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Residential backyard with above-ground pool: upper middle section (near house with satellite dish). Image does not provide evidence"
+    },
+    {
+      "task_id": "184",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Yes"
+    },
+    {
+      "task_id": "189",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "White plane detected. Orientation (nose-to-tail heading relative to north): 135°."
+    },
+    {
+      "task_id": "190",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The plane with a blue fuselage is located on the runway in the upper portion of the image."
+    },
+    {
+      "task_id": "193",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "197",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. There are two planes. The largest one is the one on the main runway, right? Let's check. The plane near the top part of the runway, maybe? Wait, the runway has markings. T"
+    },
+    {
+      "task_id": "201",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The baseball diamond is the central field with a green grass outfield and brown dirt infield. The dirt (infield) area is smaller than the grass (outfield) area. Thus, the proportion of dirt does not e"
+    },
+    {
+      "task_id": "202",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Blue"
+    },
+    {
+      "task_id": "204",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "207",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's figure out the orientation angle of the basketball courts' baseline relative to north. First, I need to identify the baseline. In a basketball court, the baseline is the line at the end "
+    },
+    {
+      "task_id": "210",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "214",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Yes, the letters \"SP\" are visible inside the ground track field, and the color of the letter/sign is red."
+    },
+    {
+      "task_id": "219",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Yes, a soccer ball field is present in the top right side of the image."
+    },
+    {
+      "task_id": "229",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The two ships in the image appear to be identical in type (likely cargo ships)."
+    },
+    {
+      "task_id": "230",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. The ships are in the water. First, I need to figure out the orientation relative to north. The image has an airport on the left with runways. Typically, in such images, th"
+    },
+    {
+      "task_id": "232",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Yes, all vessels are oriented east-west (perpendicular to north), so they share the same direction relative to the north side."
+    },
+    {
+      "task_id": "249",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "STAPLES and GROVE; 0° from north"
+    },
+    {
+      "task_id": "257",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. First, identify the baseball fields. There's a baseball diamond with a dirt infield and grass outfield. The home plate is part of the diamond. Now, check the orientation. "
+    },
+    {
+      "task_id": "261",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Tow tractor (used for towing aircraft on the ground)"
+    },
+    {
+      "task_id": "263",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure out the sun's direction. First, in tennis courts, the sun's position affects shadows. The shadows of the light poles and the court lines can help. Let's look at the image. "
+    },
+    {
+      "task_id": "269",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The red aircraft in the center is an F-104 Starfighter."
+    },
+    {
+      "task_id": "272",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. The aircraft on the flight deck—there's a jet, probably a fighter. Now, heading direction relative to north. Need to figure out the orientation. The flight deck is the lar"
+    },
+    {
+      "task_id": "273",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The large parking area is located in the bottom-left of the scene. Its occupancy level is nearly full."
+    },
+    {
+      "task_id": "280",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Completely full"
+    },
+    {
+      "task_id": "281",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "282",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "All planes in the image have a heading (yaw) oriented toward the top of the image, indicating a northward direction."
+    },
+    {
+      "task_id": "285",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The image depicts an airport tarmac with aircraft and no visible tennis courts or parking lot. Therefore, the requested elements (tennis courts, parking lot south of them) are not present in the provi"
+    },
+    {
+      "task_id": "291",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "The track surface is synthetic (typically polyurethane or rubber-based). Advantages include durability, shock absorption for athletes, low maintenance, consistent performance, and reduced injury risk."
+    },
+    {
+      "task_id": "292",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The red rectangular area at the end of the field is the **end zone**, used for scoring touchdowns in American football."
+    },
+    {
+      "task_id": "293",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's look at the image. The track is the red running track around the field. To estimate the width, I need to see how wide the track is. In standard tracks, the width of the lanes is about 1."
+    },
+    {
+      "task_id": "294",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Varied: some pools show visible water (indicating maintenance), others are covered (suggesting inactivity)."
+    },
+    {
+      "task_id": "295",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Heart-shaped and rectangular swimming pools are present."
+    },
+    {
+      "task_id": "297",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "White sedan, black sedan, blue sedan"
+    },
+    {
+      "task_id": "302",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Two cars: one dark-colored (black) and one light-colored (white)."
+    },
+    {
+      "task_id": "316",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The garbage on the northwest side of the road is a landfill."
+    },
+    {
+      "task_id": "319",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Construction waste is visible as scattered debris/piles (e.g"
+    },
+    {
+      "task_id": "321",
+      "gt_type": "D",
+      "gt_types": [
+        "D"
+      ],
+      "routed_to": "D",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Construction waste is visible in the lower central area. It does not severely affect tree growth, as surrounding trees appear healthy and not significantly impacted by the waste."
+    },
+    {
+      "task_id": "372",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "Got it, let's try to figure out the area of the L-shaped building cluster. First, I need to identify the L-shaped building in the center. Looking at the image, the L-shaped structure is probably the o"
+    },
+    {
+      "task_id": "141",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's look at the image. First, identify the planes with red fuselages. In the image, there are a few planes. Let's check each one.\n\nLooking at the planes:\n\n- The top right has a plane with re"
+    },
+    {
+      "task_id": "171",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's look at the image. First, find the house with the above-ground pool. In the image, there's a house with a circular pool in the backyard. Now, check the area around the pool for objects w"
+    },
+    {
+      "task_id": "374",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "351",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "Got it, let's look at the image. First, identify fully destroyed buildings. In the image, there's a building near the bottom left, maybe? Wait, the example says \"fully destroyed\". Let's check. The ima"
+    },
+    {
+      "task_id": "132",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "9 meters"
+    },
+    {
+      "task_id": "391",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "2.0916247",
+      "correct": false,
+      "answer": "Got it, let's try to figure this out. First, I need to identify the damaged buildings in the image. Wait, the problem says \"damaged buildings identified in the post image after the event.\" But the ima"
+    },
+    {
+      "task_id": "366",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.4085245",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, I need to understand the question. The image has a GSD (Ground Sample Distance) of 1.4085245 meters per pixel. The question is about comparing the ground a"
+    },
+    {
+      "task_id": "31",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "Got it, let's figure this out. First, the GSD is 0.015 m per pixel. The question is about a 5m radius around the electrical transmission tower. We need to find how many pixels that radius is in the im"
+    },
+    {
+      "task_id": "144",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Yes, there is a destroyed building, and a road lies within 30 meters of it."
+    },
+    {
+      "task_id": "356",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. The question is about identifying buildings that were there before the disaster but are missing now, then calculating their average ground area. But first"
+    },
+    {
+      "task_id": "340",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.5",
+      "correct": false,
+      "answer": "The average area cannot be determined without specific pixel dimensions of the buildings in the image."
+    },
+    {
+      "task_id": "113",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "16.1175 m"
+    },
+    {
+      "task_id": "98",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.4326",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, I need to identify how many cars are parked within the white-marked boxes. The white-marked boxes are probably the parking spaces or the marked areas on th"
+    },
+    {
+      "task_id": "246",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's look at the image. First, identify the track field. The image has a football field with a track around it. The question is about the ground track field—wait, the track field here is the "
+    },
+    {
+      "task_id": "380",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. The question is about estimating the total ground area lost to destroyed buildings by comparing pre-storm and post-storm building areas. But wait, the ima"
+    },
+    {
+      "task_id": "284",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's figure out the wingspan of the large airplane at the top. First, I need to measure the number of pixels across the wings. Let's look at the image. The large airplane at the top—probably "
+    },
+    {
+      "task_id": "399",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "2.0916247",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "35",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "385",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "The building with the red roof (left side of the image) is the largest structure visible, and assuming it is the destroyed building, its estimated area is calculated using the GSD. Given the image con"
+    },
+    {
+      "task_id": "350",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "Insufficient information to determine the average ground area comparison."
+    },
+    {
+      "task_id": "127",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, the question is about whether the red car can safely switch lanes with a 200-meter radius. We need to check the distance to nearby vehicles.\n\nFirst, let's "
+    },
+    {
+      "task_id": "353",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "2.8247435",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, the question is about the destroyed buildings' combined area and the average area lost per structure. The GSD is given as 2.8247435 m/px. \n\nFirst, "
+    },
+    {
+      "task_id": "375",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "Got it, let's try to figure this out. First, the problem is about detecting the two largest destroyed buildings (or damage zones) in the image and calculating their average area. The GSD is given as 3"
+    },
+    {
+      "task_id": "114",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's see. The problem is about calculating the distance between two cars on the southbound road using the given GSD. First, I need to figure out how many pixels apart the cars are. \n\nLooking "
+    },
+    {
+      "task_id": "397",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "30",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, the question is about whether any house within 15 meters of the swimming pool is flooded. The GSD is 0.015 m/px, so we need to check the pixels around the "
+    },
+    {
+      "task_id": "394",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "1.8769937",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, the question is about the average ground-area lost for each structure classified as completely destroyed. But wait, the image provided is an aerial"
+    },
+    {
+      "task_id": "40",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1",
+        "M2"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": false,
+      "answer": "Two cars, in water"
+    },
+    {
+      "task_id": "264",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.1368",
+      "correct": false,
+      "answer": "Got it, let's see. The problem is to find the distance between the two furthest tennis courts. First, I need to figure out how many pixels apart they are. Looking at the image, there are multiple tenn"
+    },
+    {
+      "task_id": "327",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "The domestic garbage is located near the road on the right side of the image. Assuming the garbage is 10 pixels from the road (10 × 0.5 = 5 meters), it is within 5 meters of the road."
+    },
+    {
+      "task_id": "16",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "No"
+    },
+    {
+      "task_id": "364",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the smallest straight-line distance between any no-damage building and any d"
+    },
+    {
+      "task_id": "305",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": false,
+      "answer": "Got it, let's try to figure this out. First, the problem says GSD is 0.5 m/px, which is different from the example's 0.3. So we need to calculate distances based on pixel count.\n\nFirst, identify the b"
+    },
+    {
+      "task_id": "23",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": false,
+      "answer": "No"
+    },
+    {
+      "task_id": "315",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, the question is about checking if garbage is dumped within an eco-sensitive agricultural zone with a 50m buffer. The GSD is given as 0.3 m/px, but the ques"
+    },
+    {
+      "task_id": "347",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "3.024613",
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "107",
+      "gt_type": "M1",
+      "gt_types": [
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.3",
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, I need to understand the problem. The GSD is 0.9666 m/px, which means each pixel represents 0.9666 meters in real life. The question is whether there's a h"
+    },
+    {
+      "task_id": "18",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.015",
+      "correct": true,
+      "answer": "flooded, yes"
+    },
+    {
+      "task_id": "268",
+      "gt_type": "M1",
+      "gt_types": [
+        "D",
+        "M1"
+      ],
+      "routed_to": "M1",
+      "gsd_used": "0.1402",
+      "correct": false,
+      "answer": "The largest tree's canopy diameter is 14 meters (rounded to nearest whole number), and it is healthy."
+    },
+    {
+      "task_id": "2",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's try to figure out this problem step by step. First, we need to identify the cul-de-sac in the image. A cul-de-sac is a dead-end street with houses on one side and typically a circular or loo"
+    },
+    {
+      "task_id": "15",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. First, identify the houses. On the left side, there are several structures. Let's count:\n\n1. The house with a red roof (bottom left).\n2. The house with a brown roof (middl"
+    },
+    {
+      "task_id": "19",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to count the houses and cars in this flooded area. First, I need to identify each house. Let's look at the image.\n\nHouses: There are many houses with gray roofs. Let's count them one"
+    },
+    {
+      "task_id": "54",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "3"
+    },
+    {
+      "task_id": "60",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of what seems to be a residential area after some disaster, probably fire. The task is to count the destroyed buildings. First, I need to identify whic"
+    },
+    {
+      "task_id": "76",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Landcover types: Forest, Floodwater. Disaster type: Flood. Count of visible human made buildings: 8"
+    },
+    {
+      "task_id": "93",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. We need to count vehicles going the same direction. First, check the roads. On the main curved road, there are cars. Let's see: on the left side of the curved road (the on"
+    },
+    {
+      "task_id": "97",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Two white cars, yes"
+    },
+    {
+      "task_id": "99",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. The task is to count cars that are touching or overlapping the yellow road lines. First, I need to identify where the yellow lines are. In the image, there are multiple la"
+    },
+    {
+      "task_id": "100",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. We need to count cars moving southeast. First, identify each car and their direction.\n\nLooking at the highway lanes:\n\n- Top left lane (maybe northbound? Wait, direction is"
+    },
+    {
+      "task_id": "101",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. We need to count the cars. Let's go lane by lane.\n\nFirst, check each car:\n\n1. Top left area: There's a white car (may"
+    },
+    {
+      "task_id": "102",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. First, I need to figure out which cars are facing northeast (NE) and which are facing southwest (SW). In an aerial view, direction matters based on their orientation.\n\nLet"
+    },
+    {
+      "task_id": "120",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "To determine how many cars are moving northwest in the image, we analyze the positions and implied directions of each vehicle:\n\n1. **Identify all cars**:  \n   - Top-left: Blue/white car (on a curved r"
+    },
+    {
+      "task_id": "121",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "4 yes"
+    },
+    {
+      "task_id": "125",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. First, I need to count all the cars visible.\n\nStarting from the leftmost road (the one with fewer lanes):\n\n- On the l"
+    },
+    {
+      "task_id": "129",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. The question is about counting distinct roads based on vehicle orientation. First, I need to see how many separate roadways there are. \n\nLooking at the image, there are mu"
+    },
+    {
+      "task_id": "131",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "2"
+    },
+    {
+      "task_id": "137",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Three white aircraft; yes, they have the same color."
+    },
+    {
+      "task_id": "148",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "ratio of partially destroyed to fully destroyed is 3:2"
+    },
+    {
+      "task_id": "176",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's count the cars in the image. First, I need to look for all visible cars that are not just parked in spots but actually on the road or driveways. Wait, the question says \"other than parking s"
+    },
+    {
+      "task_id": "187",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "There are two cars: one blue and one white."
+    },
+    {
+      "task_id": "233",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. First, count the vehicles. In the parking area on the right, there are several cars. Let's list them:\n\n- There's a white car near the top right (maybe a sedan?).\n- Then an"
+    },
+    {
+      "task_id": "235",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Two, all same color (white)"
+    },
+    {
+      "task_id": "236",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify all vehicles. Let's count them one by one.\n\nTop part of the highway (northbound? Wait, need to determine direction). The road has multiple lanes. Let's see"
+    },
+    {
+      "task_id": "239",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify white vehicles. Let's check each car.\n\nTop part of the image: There are two white cars parked on the street (the ones near the top right). Then, on the mai"
+    },
+    {
+      "task_id": "251",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's look at the image. First, identify baseball diamonds. Baseball diamonds are the rectangular fields with bases. In the lower part of the image, there are several circular or oval areas that m"
+    },
+    {
+      "task_id": "253",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "4"
+    },
+    {
+      "task_id": "267",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's count the tennis courts first. The image shows a grid of blue courts with white lines. Let's look at the layout. There are two rows of four courts each? Wait, no, let's check again. Top row "
+    },
+    {
+      "task_id": "275",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "3 airplanes and 1 with adjacent ground support vehicle"
+    },
+    {
+      "task_id": "283",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "1"
+    },
+    {
+      "task_id": "286",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Okay, let's tackle this problem. So, the user wants to know if the parking area south of the tennis courts is fully visible or partially occluded in the image, and also count the parked vehicles in th"
+    },
+    {
+      "task_id": "289",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "5 dark, 2 light"
+    },
+    {
+      "task_id": "290",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "6"
+    },
+    {
+      "task_id": "298",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's look at the image. There are two bridges here. First, the upper bridge (the one crossing over the road that goes diagonally). Let's count its lanes. The upper bridge has a section with multi"
+    },
+    {
+      "task_id": "301",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "So, let's count the empty parking spots. First, I need to look at the grid of spots on the tarmac. The image shows a pattern with yellow lines forming rectangles. Each rectangle is a parking spot. Let"
+    },
+    {
+      "task_id": "335",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to look at the image and count the destroyed buildings on the left and right halves. Wait, the question says \"post-disaster image,\" so we ne"
+    },
+    {
+      "task_id": "336",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "To determine the number of rescue teams required, follow these steps:\n\n1. **Identify Destroyed Buildings**: Based on standard disaster response scenarios and typical satellite imagery analysis for suc"
+    },
+    {
+      "task_id": "337",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about a post-disaster image (though the image provided here looks like a normal aerial vie"
+    },
+    {
+      "task_id": "338",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to count the number of completely destroyed buildings and partially damaged ones from the satellite image. Wait, but the question is about a"
+    },
+    {
+      "task_id": "339",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "341",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure this out. First, I need to count the destroyed buildings in the image. Wait, the problem says \"destroyed buildings,\" but looking at the image, which is a satellite view of "
+    },
+    {
+      "task_id": "342",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "343",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "344",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "To determine the number of days required for a single response team to inspect all severely damaged buildings, we first identify and count the distinct structures in the image that qualify as \"severel"
+    },
+    {
+      "task_id": "345",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. The question is asking for the percentage of major-damage buildings in the post-event scene. First, I need to identify what \"major-damage buildings\" are h"
+    },
+    {
+      "task_id": "346",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "So, let's try to figure out this problem. First, I need to understand what the image shows. It looks like an aerial view of a flooded area with some buildings and trees. The question is about identify"
+    },
+    {
+      "task_id": "348",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's look at the image. First, I need to identify the damaged buildings. Wait, the problem says \"every building flagged as damaged\". But in the image, what are the buildings? Let's count the "
+    },
+    {
+      "task_id": "349",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to look at the image and count the buildings before the event. Then, after the event, see which ones are destroyed. Wait, but the question i"
+    },
+    {
+      "task_id": "352",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to look at the image and count the buildings that are no-damage and destroyed. Wait, the question says \"Count the no-damage and destroyed bu"
+    },
+    {
+      "task_id": "354",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "1"
+    },
+    {
+      "task_id": "355",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. The question is about calculating the percentage of buildings that disappeared after an event, using a change report between two images. But wait, the use"
+    },
+    {
+      "task_id": "357",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "1/2"
+    },
+    {
+      "task_id": "358",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "top-right"
+    },
+    {
+      "task_id": "359",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "360",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "361",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "362",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "363",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about comparing buildings with major damage versus no damage in a post-flood image, and th"
+    },
+    {
+      "task_id": "365",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "367",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "368",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "369",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. The user is asking about detecting minor-damage and destroyed buildings between pre and post images, then computing the ratio of destroyed to minor-damage"
+    },
+    {
+      "task_id": "370",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "371",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, the question is about counting buildings or something related to deploying rescue teams. Wait, the user says \"If two rescue team per building, then"
+    },
+    {
+      "task_id": "373",
+      "gt_type": "M2",
+      "gt_types": [
+        "D",
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "The provided image contains no indication of structural damage or changes between \"pre\" and \"post\" states, as only a single aerial view is given. Without a comparative pre-image to identify damaged st"
+    },
+    {
+      "task_id": "376",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0 destroyed buildings, 0 teams required"
+    },
+    {
+      "task_id": "377",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Bottom-right quadrant"
+    },
+    {
+      "task_id": "378",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting \"no-damage\" buildings in the upper half of the post image and then findin"
+    },
+    {
+      "task_id": "379",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about calculating the ratio of major damaged buildings in the post-image to the total buil"
+    },
+    {
+      "task_id": "381",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "To determine the number of team-days needed to survey all damaged buildings, we first count the distinct structures in the image. After carefully identifying and counting each visible building (assumi"
+    },
+    {
+      "task_id": "382",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "383",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "384",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "386",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "387",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. The question is asking which quadrant of the post image has the highest concentration of damaged buildings. First, I need to recall that a standard image "
+    },
+    {
+      "task_id": "388",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "389",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's look at the image. First, I need to identify damaged buildings. Wait, the problem says \"damaged buildings,\" but maybe in this context, we need to count the buildings that are visible as "
+    },
+    {
+      "task_id": "390",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about the proportion of buildings that are \"major damaged\" in the post-event image compare"
+    },
+    {
+      "task_id": "392",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": true,
+      "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It wants to know which quadrant of the image has the highest number of majorly damaged buildings "
+    },
+    {
+      "task_id": "393",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "395",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "396",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    },
+    {
+      "task_id": "398",
+      "gt_type": "M2",
+      "gt_types": [
+        "M2"
+      ],
+      "routed_to": "M2",
+      "gsd_used": null,
+      "correct": false,
+      "answer": "0"
+    }
+  ]
+}

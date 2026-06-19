@@ -1,0 +1,35 @@
+{
+  "description": "FloodNet multi-backbone, verbosity-robust Yes/No re-scoring; Condition_Recognition and counting scoring unchanged; Qwen3-VL reproduces the published baseline.",
+  "backbones": {
+    "Qwen3-VL-8B": {
+      "D_fail": 40.5,
+      "M2_fail": 54.0,
+      "gap": 13.5,
+      "YesNo_fail": 6.0,
+      "Cond_fail": 75.0,
+      "YN_M2_gap": 48.0,
+      "nD": 200,
+      "nM2": 200
+    },
+    "Qwen2.5-VL-7B": {
+      "D_fail": 63.0,
+      "M2_fail": 71.0,
+      "gap": 8.0,
+      "YesNo_fail": 48.0,
+      "Cond_fail": 78.0,
+      "YN_M2_gap": 23.0,
+      "nD": 200,
+      "nM2": 200
+    },
+    "InternVL3.5-8B": {
+      "D_fail": 38.0,
+      "M2_fail": 47.0,
+      "gap": 9.0,
+      "YesNo_fail": 1.0,
+      "Cond_fail": 75.0,
+      "YN_M2_gap": 46.0,
+      "nD": 200,
+      "nM2": 200
+    }
+  }
+}

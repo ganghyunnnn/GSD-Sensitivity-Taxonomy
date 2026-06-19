@@ -1,0 +1,1680 @@
+{
+  "model": "qwen3-vl:8b",
+  "resolution_px": 1024,
+  "fail_rates": {
+    "direct": 0.7831,
+    "grid": 0.7349,
+    "cot_count": 0.6747,
+    "systematic": 0.7711
+  },
+  "conditions": {
+    "direct": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "4, yes"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "Three houses; yes"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "Approximately 20 houses and 10 cars are affected by the flood."
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "Almost all buildings are destroyed."
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "Land cover types: Forest, Floodwater. Disaster type: Flood. Visible human-made buildings: ~10."
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "97",
+        "correct": false,
+        "answer": "Two white cars; yes"
+      },
+      {
+        "task_id": "99",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "100",
+        "correct": true,
+        "answer": "So, let's look at the image. The question is about how many cars are moving southeast. First, I need to figure out the direction. In an aerial view of a highway, typically lanes going from northwest t"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "The image shows an aerial view of a multi-lane highway with several vehicles. Counting the cars: 1 white car (top left), 1 white car (adjacent), 1 dark car, 1 white car, 1 black car, 1 white car, 1 re"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "So, let's look at the parking lot in the Google Earth image. First, I need to determine which cars are facing northeast (NE) and which are facing southwest (SW). \n\nIn a typical parking lot, cars can b"
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "121",
+        "correct": true,
+        "answer": "Four cars; yes"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. There are several cars on the road. Let's count them.\n\nFirst, leftmost highway (maybe a different direction): there's"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "Two"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "Three aircraft are parked at the terminal apron, and they are all white. Yes, they have the same color."
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "Partially destroyed buildings dominate; ratio ~3:1 (partially to fully destroyed)."
+      },
+      {
+        "task_id": "176",
+        "correct": false,
+        "answer": "4; No"
+      },
+      {
+        "task_id": "187",
+        "correct": true,
+        "answer": "There are 2 cars in the image; one is blue and the other is white."
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "Total vehicles: 3; All sedans: Yes"
+      },
+      {
+        "task_id": "235",
+        "correct": false,
+        "answer": "Two cars; yes, all detected cars are white (same color)."
+      },
+      {
+        "task_id": "236",
+        "correct": true,
+        "answer": "So, let's look at the image. First, identify all vehicles. The cars on the road—let's count them. There are several cars. Now, determine if they're going north or south. Wait, the image is an aerial v"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "So, let's count the white vehicles in the image. First, look for white cars. There's a white car on the road near the center, then another one further up. Wait, also check the parking area. Oh, there "
+      },
+      {
+        "task_id": "251",
+        "correct": true,
+        "answer": "Three baseball diamonds can be identified; none currently have players on them."
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "267",
+        "correct": false,
+        "answer": "8 total tennis courts; yes"
+      },
+      {
+        "task_id": "275",
+        "correct": false,
+        "answer": "There are 5 airplanes in the image, and none have a ground support vehicle positioned directly adjacent to them."
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "Partially occluded; 3"
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "Dark-colored vehicles count as 5, light-colored vehicles count as 4."
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "So, let's count the empty parking spots. First, look at the grid of spots. The image shows a tarmac with marked spots. Let's identify each spot.\n\nFirst, check the rows. There are several rows of spots"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "4, 33.3%"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "To determine the number of rescue teams required, first identify the count of destroyed buildings and total buildings from the image. Assuming standard problem context where **6 buildings are destroye"
+      },
+      {
+        "task_id": "337",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It's about a post-disaster image (though the image provided here looks like a normal aerial view,"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "The ratio of completely destroyed to partially damaged buildings is 1:5, and 2 three-ton relief shipments are needed."
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "341",
+        "correct": true,
+        "answer": "Got it, let's figure this out. First, I need to count how many destroyed buildings there are in the image. Wait, the problem says \"destroyed buildings,\" but looking at the image, which is a satellite "
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "343",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "344",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "So, let's analyze the image. First, we need to divide the image into quadrants. Assuming standard quadrant division (top-left, top-right, bottom-left, bottom-right), but wait, maybe it's based on the "
+      },
+      {
+        "task_id": "348",
+        "correct": true,
+        "answer": "To determine the number of teams required, first count the damaged buildings in the image:  \n- A large white rectangular building (barn) near the top center.  \n- Two dark houses to the left of the bar"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is asking for the percentage of buildings that are missing (destroyed) after an event. First, I need to look at the image and count the build"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "So, let's look at the image. First, identify buildings. There are a few structures. Let's check for damage. The question is about \"no-damage and destroyed buildings\"—wait, maybe it's asking for damage"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "1/2"
+      },
+      {
+        "task_id": "358",
+        "correct": false,
+        "answer": "Top-Right"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "0 destroyed buildings; ratio of destroyed to total buildings is 0."
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It's about comparing buildings with major damage versus no damage in a post-flood image, and then"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "Insufficient data; no pre-event/post-event comparison provided in the single image."
+      },
+      {
+        "task_id": "367",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "No buildings detected in either pre or post images; thus, 0 buildings were destroyed."
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "0 buildings were destroyed; total labor-hours needed is 0."
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "The image depicts a commercial/industrial zone with distinct building structures. Counting visible buildings (e.g., large flat-roofed complexes and smaller adjacent structures), there are **10 buildin"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. First, the problem is about comparing pre and post images, but wait—the user provided only one image. Oh, maybe there's a mistake? Wait, no, the question says \"Lo"
+      },
+      {
+        "task_id": "376",
+        "correct": true,
+        "answer": "4 and 1"
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into four quadrants. Assuming the image is a standard aerial view with streets forming a grid, the quadrants would be "
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "3, 30%"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "Bottom-right"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "Got it, let's look at the problem. The user provided an aerial image and asks for the ratio of buildings with minor damage to major damage. But wait, first I need to check if there are any buildings v"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "Got it, let's look at the image. First, I need to identify the damaged buildings. Wait, the question is about \"damaged buildings\" but maybe in this context, we need to count how many buildings are the"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "392",
+        "correct": false,
+        "answer": "Top-right; 2"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. First, the image is 1024x1024, so dividing into four equal quadrants would be top-left, top-right, bottom-left, bottom-right. Each quadrant is 512x512.\n\nNow, we n"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "0%"
+      }
+    ],
+    "grid": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what a cul-de-sac is—it's a dead-end street with houses on one side. The task is to count buildings directly attached to the"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with a large body of water (flooded area), so"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a flooded residential area with houses and"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what the question is asking. The user wants me to count the number of destroyed buildings in an overhead remote-sensing imag"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's imagine the image is split into nine equal parts: top-left (TL), top-middle (TM), top-"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the cells from top-left (TL) to bottom-right (BR) as follows:\n\n1. Top row: TL, T"
+      },
+      {
+        "task_id": "93",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image. The main road is curved, with some vehicles on it. There are als"
+      },
+      {
+        "task_id": "97",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image. The image is an aerial view of a residential area with streets, "
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image: it's an overhead view of a highway with multiple lanes, some yel"
+      },
+      {
+        "task_id": "100",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the image: it's an overhead view of a highway with multiple lanes, and there"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the overhead view of the highway. The image shows multiple lanes of a highw"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the parking lot and surrounding areas. The image is an overhead view from G"
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the image: it's an overhead view of a street intersection with several cars."
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the image: there's a road with cars, trees on both sides, and some fields.\n\n"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "11"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the cells from top-left (TL) to bottom-right (BR) as follows:\n\n1. Top row: TL, T"
+      },
+      {
+        "task_id": "176",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image. The image is an overhead view of a residential neighborhood with"
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "235",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "236",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the overhead image. The main road is a multi-lane highway with cars. Let's d"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image. The main road runs vertically, with buildings on the left and pa"
+      },
+      {
+        "task_id": "251",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's figure out where each cell is.\n\nThe image has various fields and parking lots. Let's i"
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "267",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's figure out how to split the image into nine equal parts. The image has various element"
+      },
+      {
+        "task_id": "275",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the grid:\n\nTop row (cells 1-3): left, center, right\nMiddle row (cells 4-6): "
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of an airfield with several airplanes. The gr"
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "First, I need to understand the task. I'm counting objects in an overhead remote-sensing image, but the question is about whether the parking area south of tennis courts is fully visible or partially "
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image. The main elements are the roads and bridges.\n\nFirst, identify th"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let me visualize the image: there's an airport with a runway on the right and parking spots "
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the rows from top to bottom as Row 1, Row 2, Row 3, and columns left to right as"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "337",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to mentally divide the image into a 3x3 grid. Let's label the quadrants from top-left (TL) to bottom-right (BR), so:\n\n1. Top row: TL (0-342,"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "341",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about finding the percentage of buildings that were completely destroyed compared to no-"
+      },
+      {
+        "task_id": "343",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the rows from top to bottom as Row 1 (upper third), Row 2 (middle third), and Ro"
+      },
+      {
+        "task_id": "344",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about computing the percentage of major-damage buildings in a post-event scene using an ov"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the quadrants from top-left (TL) to bottom-right (BR), so:\n\n1. Top-Left (TL): Ro"
+      },
+      {
+        "task_id": "348",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out how many damaged buildings there are in the image. The question says to divide the image into a 3x3 grid and count objects i"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the fraction of buildings that were present before an event but are missing "
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting \"no-damage and destroyed buildings\" in an overhead image, then figuring o"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the rows from top to bottom as Row 1, Row 2, Row 3, and columns left to right as"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about calculating the percentage of buildings that disappeared between two images using a change report. But wait, the user provide"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The task is about counting intact buildings in a post-event image compared to pre-event, then express the "
+      },
+      {
+        "task_id": "358",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting destroyed buildings in a post-event image and finding the ratio of destro"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "35"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the rows from top to bottom as Row 1, Row 2, Row 3, and columns left to right as"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the percentage of buildings that were destroyed after a flood, using pre- an"
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about counting buildings with major damage versus no damage in a post-flood image, then fi"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about counting buildings in a pre-event and post-event image, but wait, the user provided an overhead remote-sensing image. Wait, t"
+      },
+      {
+        "task_id": "367",
+        "correct": false,
+        "answer": "8"
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "150"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. First, the problem is about counting objects in a 3x3 grid of an overhead image, then determining how many rescue teams are needed if two per building. But wait, "
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "376",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting destroyed buildings in an overhead image and then determining how many 4-"
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into four quadrants. Since it's an overhead image, a standard way is to split it into top-left (TL), top-right (TR), b"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand the task. The user wants me to count \"no-damage\" buildings in the upper half of the post image (which is a satellite image),"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem step by step. First, I need to understand what's being asked. The question is about calculating the ratio of major damaged buildings in a \"post image\" to t"
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting destroyed buildings in an overhead image and then calculating the survey "
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the image into a 3x3 grid. Let's label the rows from top to bottom (1st row, 2nd row, 3rd row) and columns left to righ"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to mentally divide the 1024x1024 image into a 3x3 grid. Each cell would be roughly 341x341 pixels (since 1024/3 ≈ 341). Let's label the quad"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about the ratio of buildings with minor damage to those with major damage in a post-event "
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting damaged buildings in an overhead remote-sensing image and then calculatin"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the proportion of buildings that were major damaged in the post-event image "
+      },
+      {
+        "task_id": "392",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to mentally divide the 1024x1024 image into a 3x3 grid. Each cell will be roughly one-third of the width and height. Let's label the quadr"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "0"
+      }
+    ],
+    "cot_count": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "1. Building with gray roof at top of cul-de-sac  \n2. Building with gray roof next to it along the loop"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "1. House with red roof  \n2. House with brown roof  \n3. House with light-colored roof (top left)  \n\nHouses counted: 3. Flood is present between the houses as water covers the ground between them.  \n\nTo"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "Got it, let's look at the image. First, identify houses and cars. \n\nHouses: Let's count each distinct house. The image shows a residential area with many houses. Let's list them:\n\n1. Top left near the"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "1. Blue marker near top-left  \n2. Blue marker in middle-left area  \n3. Blue marker lower-left area  \n4. Blue marker center-right area  \n\nTotal: 4"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "So, let's look at the image. It's an aerial view of a residential area that seems to have been affected by fire or some disaster. The main thing here is identifying destroyed buildings. \n\nFirst, I nee"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "Landcover types identified: Forest (dense green vegetation), Water (dark flooded regions), Built-up areas (human-made structures).  \nDisaster type: Flood (evidenced by extensive submerged land and wat"
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "1. White car on the lower left of the curved road  \n2. White car further up the curved road  \n\nTotal: 2"
+      },
+      {
+        "task_id": "97",
+        "correct": false,
+        "answer": "1. White car on the upper road (top left area)  \n2. White car on the lower road (middle-right area)  \n\nTotal: 2"
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "So, let's look at the image. The task is to count cars touching or overlapping yellow road lines. First, identify the yellow lines—those are probably lane dividers. Now check each car:\n\n1. On the left"
+      },
+      {
+        "task_id": "100",
+        "correct": true,
+        "answer": "So, let's look at the image. We need to count cars moving southeast. First, identify each car.\n\n1. Top left lane (upper part of the highway): there's a blue car. Let's check direction—southeast would "
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "The image depicts an aerial view of a multi-lane highway with visible vehicle traffic. Enumerating distinct target objects (vehicles):  \n1. White car (topmost in middle section)  \n2. White car below #"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "So, let's look at the image. First, identify all cars. Let's count them:\n\n1. Top left parking spot: white car (facing northeast? Wait, need to check direction. In overhead images, facing northeast wou"
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "1. Blue/white car near top-left intersection  \n2. Blue/white car on curved road below first car  \n\nTotal: 2"
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "1. Car near bottom left (white with blue top)  \n2. Car above first car (white with blue top)  \n3. Car in middle lane (white with blue top)  \n4. Car near top right (white with blue top)  \n\nAll four car"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. First, I need to identify all the cars.\n\nStarting from the leftmost road (the one with fewer lanes): there are two ca"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "1. Top-left white car  \n2. Top-middle white car  \n3. Upper-right lane white car  \n4. Rightmost lane white car  \n5. Lower-left road white car  \n6. Lower-middle road white car  \n\nTotal: 2"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "1. Red car on the main curved road  \n2. Dark-colored car further along the main curved road  \n\nTotal: 2"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "1. White aircraft parked at terminal apron  \n2. White aircraft parked at terminal apron  \n3. White aircraft parked at terminal apron  \n\nAll three aircraft are white and have the same color. Total: 3"
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "So, let's look at the image. First, identify distinct target objects. The main thing here is buildings—some are destroyed. Let's count the destroyed ones.\n\n1. Top left area: a large building complex t"
+      },
+      {
+        "task_id": "176",
+        "correct": true,
+        "answer": "Got it, let's count the cars in the image. First, I need to look for vehicles that are not just parked in spots but actual cars. Let's go through each part.\n\nStarting from the top left: there's a car "
+      },
+      {
+        "task_id": "187",
+        "correct": true,
+        "answer": "1. Blue car  \n2. White car  \n\nTotal: 2"
+      },
+      {
+        "task_id": "233",
+        "correct": true,
+        "answer": "Got it, let's look at the image. First, identify vehicles. In the parking area on the right, there are several cars. Let's count:\n\n1. A white car near the top right (maybe a sedan)\n2. Another white ca"
+      },
+      {
+        "task_id": "235",
+        "correct": false,
+        "answer": "1. White car on upper road  \n2. White car near bottom road  \n\nAll detected cars are white, so they are the same color.  \nTotal: 2"
+      },
+      {
+        "task_id": "236",
+        "correct": true,
+        "answer": "Got it, let's look at the image. First, identify all vehicles. Let's count them.\n\n1. Top left area: there's a car near the top left, maybe on the road. Wait, the image is an overhead view of a street "
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "So, let's look at the image. First, identify white vehicles. There's a white car on the road (the one near the center), then two white cars parked in the upper part of the image (the parking lot area)"
+      },
+      {
+        "task_id": "251",
+        "correct": true,
+        "answer": "1. Baseball diamond in upper left of lower section  \n2. Baseball diamond in upper right of lower section  \n3. Baseball diamond in bottom center  \n\nNone of these have visible players in the image.  \n\nT"
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "1. Top road entering the roundabout  \n2. Left road entering the roundabout  \n3. Right road entering the roundabout  \n4. Bottom road entering the roundabout  \n\nTotal: 4"
+      },
+      {
+        "task_id": "267",
+        "correct": false,
+        "answer": "1. Tennis courts (8 total)  \n2. Parking area (top left)  \n3. Road separating parking and courts  \n4. People on some tennis courts  \n\nTotal: 8"
+      },
+      {
+        "task_id": "275",
+        "correct": true,
+        "answer": "1. Top-left jet aircraft  \n2. Top-right jet aircraft  \n3. Middle cargo aircraft  \n4. Bottom-left helicopter  \n5. Bottom-right helicopter  \n\nTotal: 5"
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "So, let's look at the image. We need to count airplanes that have ground vehicles nearby. First, identify each plane.\n\n1. Top left: a large plane (maybe a bomber) – check if there are ground vehicles "
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "We are counting objects in an overhead remote-sensing image. The question is about a parking area south of tennis courts.\n However, note that the problem does not provide an actual image. Therefore, w"
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "1. Dark-colored vehicles in parking area  \n2. Light-colored vehicles in parking area  \n\nDark-colored: 3 | Light-colored: 4  \nTotal: 7"
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "1. Airplane  \n2. Airplane  \n3. Airplane  \n4. Airplane  \n5. Airplane  \n\nTotal: 5"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "So, let's look at the image. There are two bridges here. First, the upper bridge (the one crossing over the road that's more towards the top). Let's count its lanes. The upper bridge has a section whe"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "So, let's look at the image. The task is to count empty airplane parking spots. First, I need to identify each spot where an airplane could park but isn't occupied by a plane.\n\nLooking at the tarmac a"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to identify destroyed buildings in the right half versus the left half of the image. Wait, but the question is about a post-disaster image, "
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem step by step. First, I need to understand what's being asked. The question is about counting destroyed buildings in a post-image (which I assume is the giv"
+      },
+      {
+        "task_id": "337",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about identifying which quadrant of the post-disaster image has the most buildings that ar"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to count the objects in the image. The question is about disaster impact on buildings and relief shipments.\n\nFirst step: Enumerate distinct "
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "1. Residential buildings  \n2. Trees and vegetation  \n3. Roads and streets  \n4. Parking lots (right side)  \n\nTotal: 0"
+      },
+      {
+        "task_id": "341",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem. First, I need to figure out how many destroyed buildings there are in the image. Wait, but the question is about counting destroyed buildings. However, looking at th"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "1. Blue pool house complex (top left)  \n2. Orange-roofed house (middle lower)  \n3. White building with solar panels (bottom left)  \n4. Small house with pool (bottom center)  \n\nAll buildings appear int"
+      },
+      {
+        "task_id": "343",
+        "correct": true,
+        "answer": "1. Upper half structures: houses with pools, winding road buildings – all appear intact.  \n2. Lower half structures: orange-roofed villa, white building with solar panels, pool house – all appear inta"
+      },
+      {
+        "task_id": "344",
+        "correct": true,
+        "answer": "Got it, let's look at the image. First, identify distinct target objects. The question is about severely damaged buildings. Let's check each building.\n\n1. The house with the red roof near the bottom c"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "1. White building (top center)  \n2. Dark house (left side)  \n3. Small structure near top left  \n4. White building on right  \n\nPercentage of major-damage buildings: 0% (no visible major damage in the i"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "So, let's analyze the image. First, identify distinct target objects. The main elements are buildings (structures) and possibly flooded areas, but we need damaged structures. Let's look for houses or "
+      },
+      {
+        "task_id": "348",
+        "correct": true,
+        "answer": "1. Dark house on left  \n2. Small dark structure near it  \n3. White rectangular building (barn)  \n4. Circular silo next to barn  \n5. Small white building top right  \n\nTotal: 1"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "Got it, let's analyze the image. First, identify the buildings. In the overhead view, there are two main building clusters. Let's count them:\n\n1. The cluster near the bottom left with several structur"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "Got it, let's look at the image. First, identify buildings. There are a few structures. Let's check:\n\n1. The house with a dark roof and some smaller structures nearby (maybe a barn or shed) on the lef"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "1. Building near the rocky outcrop by the water  \n2. Building in the sandy coastal area  \n\nTotal: 2"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about calculating the percentage of buildings that disappeared between two images using a "
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to identify the distinct target objects in the overhead image. The question is about buildings, so I should look for structures that are lik"
+      },
+      {
+        "task_id": "358",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about dividing the image into four equal quadrants and finding which quadrant has the hi"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "Got it, let's look at the image. First, I need to identify buildings. The question is about destroyed buildings in a post-event image. Wait, but the user says \"counting objects\" and then asks about de"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to count the buildings in the image and then determine how many are completely destroyed. But wait, the question is about a \"post scene\" dis"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "1. No distinct destroyed buildings identified in the image; all visible structures appear intact or show no clear signs of destruction from a post-disaster perspective.  \nTotal: 0"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about finding the percentage of buildings that were destroyed after a flood by comparing pre- and post-event images. But wait, the user pr"
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about counting buildings in a post-flood image and comparing those with major damage versu"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "Got it, let's look at the problem. The question is about counting buildings and finding the percentage destroyed between pre-event and post-event images. But wait, the user provided an overhead remote"
+      },
+      {
+        "task_id": "367",
+        "correct": true,
+        "answer": "1. Golf fairways  \n2. Sand traps/bunkers  \n3. Forested areas  \n4. Water bodies  \n5. Buildings  \n\nTotal: 12"
+      },
+      {
+        "task_id": "368",
+        "correct": true,
+        "answer": "1. No distinct building structures visible in the image; terraced agricultural fields and paths dominate the scene with no identifiable buildings.  \nTotal: 0"
+      },
+      {
+        "task_id": "369",
+        "correct": true,
+        "answer": "Got it, let's try to figure out what's going on here. The user is asking about detecting minor-damage and destroyed buildings in a post image compared to pre, but wait—the problem says \"consider chang"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. First, I need to look at the image and identify buildings. Wait, the problem is about comparing pre and post images to find destroyed buildings. But the user prov"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the user is asking about counting objects in an overhead image and then describing changes between pre and post images. But wait, the question ment"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify all distinct target objects in the overhead remote-sensing image. The question mentions counting buildings and assessing damag"
+      },
+      {
+        "task_id": "376",
+        "correct": true,
+        "answer": "So, let's tackle this problem step by step. First, I need to identify the destroyed buildings in the image. Wait, but the user says \"post image identifies as destroyed\"—but looking at the image, it's "
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into four quadrants. Let's assume the image is divided by two lines: one horizontal and one vertical through the cente"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify all the buildings in the upper half of the post image and check which ones are no-damage. Then, find the total number of no-da"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to identify all the buildings in the image and then determine which ones are \"major damaged\" as per the question. Wait, but the user mention"
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "1. Damaged building at top left (red roof)  \n2. Damaged building near center-left (white house)  \n3. Damaged building near bottom (blue structure)  \n\nTotal: 1"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "1. Red-roofed house with blue pool (top-left)  \n2. Small building complex (bottom-right)  \n\nTotal: 0"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "1. Red-roofed building complex (left side)  \n2. Small structures near bottom right  \n\nNo visible destruction of buildings is evident in the image; all identified built-up areas appear intact. Thus, th"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "1. Red-roofed villa (top left)  \n2. Small structure adjacent to the villa  \n3. House in bottom right  \n\nTotal: 90"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "1. Blue-roofed building  \n2. White-roofed house  \n3. Red-roofed structure  \n4. Dark-roofed house (lower right)  \n5. House with white roof and dark base (middle bottom)  \n6. Small house on left side of"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about identifying which quadrant of the post image has the highest concentration of damage"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "Got it, let's look at the problem. The user wants the ratio of buildings with minor damage to major damage in a post-event image. But first, I need to check if there are any buildings visible in the s"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "1. Blue-roofed building  \n2. White-roofed building  \n3. Red-roofed structure  \n4. Small dark-roofed building  \n5. Dark-roofed house (lower left)  \n6. Light-roofed house (middle lower)  \n7. Brown-roofe"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about the proportion of buildings that were major damaged in the post-event image compared"
+      },
+      {
+        "task_id": "392",
+        "correct": true,
+        "answer": "Got it, let's analyze this aerial image. First, I need to identify the quadrants. Since the image is 1024x1024, the quadrants would be top-left (TL), top-right (TR), bottom-left (BL), bottom-right (BR"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "1. Residential houses  \n2. Commercial building (large white structure)  \n3. Parking lots with vehicles  \n4. Solar panel array  \n5. Tennis court  \n6. Swimming pool  \n7. Trees and greenery  \n8. Roads/st"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "1. Residential houses  \n2. Parking lots  \n3. Solar panel arrays  \n4. Large commercial building (white roof)  \n5. Tennis court  \n6. Swimming pool  \n7. Trees and vegetation  \n8. Roads/highways  \n\nTotal:"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. The user wants me to count destroyed buildings in each quadrant of the image (divided into four e"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "1. Agricultural fields  \n2. River  \n3. Forested areas (trees)  \n4. Buildings  \n\nTotal: 0"
+      }
+    ],
+    "systematic": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "Got it, let's analyze this aerial image step by step. First, I need to count the houses and cars in the flooded area.\n\nStarting with houses: Let's scan row by row. The image shows a residential neighb"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "So, let's look at the problem. The task is to count destroyed buildings in the aerial image. First, I need to identify what constitutes a destroyed building here. In such imagery, sometimes destroyed "
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "So, let's analyze this aerial image. The task is to count destroyed buildings. First, I need to identify which structures are destroyed. In disaster imagery like wildfires, destroyed buildings often a"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify the landcover types, assess the disaster type, and count the visible human-made buildings in the aerial image.\n\nStarting with "
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "So, let's look at the image. We need to count vehicles going the same direction. First, identify the roads and which cars are on them.\n\nLooking at the main road that curves—there are several cars. Let"
+      },
+      {
+        "task_id": "97",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "Got it, let's analyze this image step by step. First, I need to identify which cars are touching or overlapping the yellow road lines. Let's look at each lane and check for yellow lines.\n\nFirst, let's"
+      },
+      {
+        "task_id": "100",
+        "correct": true,
+        "answer": "So, let's analyze this aerial image step by step. First, I need to identify which cars are moving southeast. In an overhead view, southeast would be from top-left to bottom-right (since the image is o"
+      },
+      {
+        "task_id": "101",
+        "correct": true,
+        "answer": "So, let's analyze this aerial image step by step. First, I need to identify all the vehicles in the highway lanes. Let's scan row by row from top to bottom.\n\nStarting with the topmost lane (left side "
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "Got it, let's analyze this aerial image step by step. First, I need to identify all the parked cars and determine their orientation—whether they're facing northeast or southwest.\n\nStarting from the to"
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "So, let's analyze this aerial image. First, I need to identify which cars are moving northwest. Northwest direction would be from southeast to northwest, so looking at the orientation of the vehicles."
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "So, let's analyze the image step by step. First, I need to identify all the cars in the aerial view. Let's start from the top row (the highway on the left) and move down.\n\nTop-left highway (leftmost r"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The task is to identify destroyed buildings in the aerial image and then estimate the ratio of partially"
+      },
+      {
+        "task_id": "176",
+        "correct": true,
+        "answer": "Got it, let's analyze this aerial image step by step. First, I need to identify all cars that are not parked (so not in driveways or garages) and check their directions.\n\nFirst, scan the image row by "
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "So, let's analyze the image step by step. First, I need to count the vehicles. Let's look at the parking areas and roads.\n\nStarting from the top: there's a road with some trees. Then, on the right sid"
+      },
+      {
+        "task_id": "235",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "236",
+        "correct": true,
+        "answer": "Got it, let's analyze this aerial image step by step. First, I need to identify all vehicles. Let's look at the roadways.\n\nStarting from the top (north side of the image), there's a multi-lane road. L"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "So, let's analyze the image step by step. First, I need to identify all white vehicles. Let's look at each car.\n\nStarting from the top part of the image: There are some cars parked on the street. The "
+      },
+      {
+        "task_id": "251",
+        "correct": false,
+        "answer": "40"
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "267",
+        "correct": true,
+        "answer": "So, let's analyze the image step by step. First, I need to count the tennis courts. Looking at the aerial view, there are multiple blue courts with white lines. Let's count them row by row.\n\nTop secti"
+      },
+      {
+        "task_id": "275",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "So, let's analyze this image step by step. First, I need to look for airplanes and check if there are ground vehicles near them. Let's scan from top to bottom.\n\nTop row: There's a large plane (maybe a"
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "Okay, let me tackle this problem step by step. The user wants to know if the parking area south of the tennis courts is fully visible or partially occluded in the aerial image, and also how many parke"
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "So, let's look at the image. There are two bridges here. First, I need to check each bridge's lanes.\n\nTop bridge: Let's see the road above. The bridge has multiple lanes. Wait, the top bridge (the one"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "Got it, let's try to figure out how many empty airplane parking spots there are. First, I need to understand what an \"empty airplane parking spot\" means here. In the image, there are marked spots on t"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out which part is the right half and left half of the image. The image is an aerial view, so we can split it vertically down the"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "337",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem. First, I need to understand what's being asked. The question is about identifying which quadrant of a post-disaster aerial image has the most buildings with major da"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out how many completely destroyed buildings there are and how many partially damaged ones. Then find the ratio of destroyed to d"
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "341",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "343",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "344",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out how many severely damaged buildings are in the image. Wait, but the question is about \"severely damaged sites.\" Hmm, the use"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It wants to know which quadrant has the highest number of damaged structures and how many that qu"
+      },
+      {
+        "task_id": "348",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to identify how many damaged buildings there are in the aerial image. The question is about counting damaged buildings, so I have to look fo"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the fraction of buildings that are missing (destroyed) after an event, expre"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out what the question is asking. It says \"Count the no-damage and destroyed buildings?\" Wait, maybe there's a typo or misstateme"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. Wait, the user provided an aerial image and asked about calculating the percentage of buildings that disappeared between two images using a change report."
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "1/2"
+      },
+      {
+        "task_id": "358",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about dividing the image into four equal quadrants and finding which quadrant has the hi"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out how many buildings are destroyed in the aerial image. The question mentions \"post-event image,\" so we're looking for structu"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about finding the percentage of buildings that were destroyed after a flood, using pre- an"
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about comparing buildings with major damage versus no damage in a post-flood image, and th"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about the percentage of total buildings in a pre-event image that were completely destroye"
+      },
+      {
+        "task_id": "367",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem. First, I need to figure out how many buildings were destroyed by the wildfire. But wait, the question is about comparing post and pre images, but the user provided o"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about counting rescue teams based on buildings. The user says \"if two rescue team per building, then how many teams need to be depl"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out what the question is asking. Wait, the user provided an aerial image and wants me to count buildings, but then there's a par"
+      },
+      {
+        "task_id": "376",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into four quadrants. Since it's an aerial view, I'll assume the image is divided by two perpendicular lines through th"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about counting \"no-damage\" buildings in the upper half of the post image and then findin"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about calculating the ratio of major damaged buildings in a \"post image\" to the total bu"
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "To determine the number of team - days needed to survey all damaged buildings, we first need to count the number of damaged buildings in the aerial image.\n\nBy analyzing the image row by row from top t"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "Bottom-Right"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about finding the ratio of buildings with minor damage to those with major damage in a post-event image. But wait, first I need to check i"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to figure out how many damaged buildings there are in the aerial image. The question is about rescue teams inspecting damaged buildings, s"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about the proportion of buildings that were major damaged in the post-event image compared"
+      },
+      {
+        "task_id": "392",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The question is about identifying which quadrant of the image has the highest number of majorly damaged bu"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about dividing the image into four equal quadrants and finding which quadrant has the hi"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "0"
+      }
+    ]
+  }
+}

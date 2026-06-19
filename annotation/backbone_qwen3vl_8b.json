@@ -1,0 +1,3886 @@
+{
+  "direct": {
+    "agent": "Direct (qwen3-vl:8b)",
+    "accuracy": 0.2857,
+    "correct": 54,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 27,
+        "total": 66,
+        "accuracy": 0.4091
+      },
+      "M1": {
+        "correct": 7,
+        "total": 40,
+        "accuracy": 0.175
+      },
+      "M2": {
+        "correct": 20,
+        "total": 83,
+        "accuracy": 0.241
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. First, identify the cul de sac. A cul de sac is a dead-end street, so we need to find the circular or looped street. In the image, there's a circular area where the street",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. First, identify the flooded roads. The main flooded areas are the streets. Now, check for cars on those roads.\n\nLooking at the right side, there's a flooded road with a fe",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Houses: 3. Yes, flood exists between the houses.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The white house in the northwest corner is flooded, and there is water within a 10m radius of the house.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. First, count the houses. There are many houses, but I need to estimate. Let's see: the image shows a residential area with flooded streets. From the aerial view, there are",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "22",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Right",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "White, pink, blue",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's look at the image. First, find the red car. There's a red car near the center-right, maybe near the house with the gray roof. Now, expand 10m around it. GSD is 0.015 m/px, so 10m / 0.015",
+        "gt_types": [
+          "D",
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the non-flooded houses are scattered",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. The southwest corner—need to check if there's a non-flooded house there. First, identify the southwest part. The image is an aerial view, so top is north, bottom is south,",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "55",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image shows a large number of destroyed buildings, with most residential structures in the area severely damaged or completely destroyed.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "73",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "no-damage",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "74",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No, the houses on the upper side of the road do not appear damaged.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "75",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The house near the highway appears intact; no visible damage from hurricane activity is evident in the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's analyze the image. First, landcover types: there's dense forest (green areas), water bodies (dark areas, probably flooded), and some human-made structures. \n\nDisaster type: The dark areas ar",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "83",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Largest building: central large structure; no playground present in flood water around it.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "88",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Building with red rooftop near waterbody is present; it is not damaged.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "blue",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. We need to count vehicles going the same direction. First, check the roads. There's a curved road with cars. Let's see: on the main road, there are two white cars and mayb",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "There are two white cars in the image, and they are heading in different directions.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's try to figure this out. First, the question is about counting cars parked within white-marked boxes when expanding a 20-meter area around each car. Wait, no—wait, the question says: \"If ",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. The yellow road lines are the ones that might have cars touching or overlapping. Let's check each car. \n\nFirst, the yellow lines—there are some lanes with yellow lines. Le",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. First, determine the direction. Southeast would be from the top-left to bottom-right, but wait, in the image, the roads are laid out. Let's check each car's position.\n\nFir",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The image is an aerial",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the parking lot in the image. First, I need to determine the direction each car is facing. The question is about cars facing northeast (NE) and southwest (SW). \n\nLet's count the cars",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "112",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's see. The question is about checking how close the blue trucks are using GSD 1.61175. First, I need to identify the blue trucks in the image. Looking at the aerial view, there are two blu",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "16.31 meters",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, there is no red car in the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "119",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "2",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Four cars; yes, all are traveling in the southwest direction.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. It's an aerial view of a highway with multiple lanes. There are cars on the highway, some in the left lanes (maybe going straight or turning), and on the right side, there",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No, the red car cannot safely switch lanes due to nearby vehicles. There are 3 vehicles in adjacent lanes.",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Two",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Two",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out the distance between the orange excavators. First, I need to locate the orange excavators in the image. Looking at the right side of the image, there are a couple of or",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "135",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No, the planes are not in the same direction.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Three aircraft are parked at the terminal apron, and all are white. They have the same color.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. First, identify the planes heading east. In an aerial view, east is to the right (assuming standard map orientation where north is top, but wait, in satellite images, some",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. First, identify planes with red fuselages. There are a few. Let's check each:\n\n1. The plane at the top right, near the top, has a red section. Let's see its position.\n2. A",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes, there is a destroyed building, and a road lies within 30 meters of it.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "145",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The destroyed area is identified as the irregularly shaped zone with fragmented structures. The building within this area exhibits a dark brown/gray color due to debris and rubble, with an irregular s",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. The question is about locating a destroyed building and whether it's fully or partially collapsed. First, I need to identify areas that look like destroyed structures. In ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The destroyed building is the central structure with significant rubble/impact crater. Partially destroyed buildings (with visible structural remnants) outnumber fully destroyed (rubble/no structure) ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The damage pattern between the two buildings is symmetric; they exhibit similar extent and distribution of damage, consistent with the grid-like arrangement and uniform environmental impact.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Buildings/structures in the western area are most impacted, evidenced by visible rubble and damage.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the aerial image. First, find parked vehicles. In the image, there's a red car near the house with the circular driveway. Wait, the question is to identify parked vehicles and classi",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. First, count the cars that are not in parking spaces. Wait, parking spaces are driveways or garages, but the question says \"other than parking spaces\"—so cars on the road ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "{\"above-ground swimming pool\": [{\"bbox_2d\": [632, 385, 685, 450], \"label\": \"circular\"}]}",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Residential backyard with above-ground pool: upper middle section (near house with satellite dish). Image does not provide evidence",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "184",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Yes",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Two cars are visible: one blue and one white.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "189",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "White plane detected. Orientation (nose-to-tail heading relative to north): 135°.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The plane with a blue fuselage is located on the runway in the upper portion of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "193",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "197",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. There are two planes. The largest one is the one on the main runway, right? Let's check. The plane near the top part of the runway, maybe? Wait, the runway has markings. T",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The baseball diamond is the central field with a green grass outfield and brown dirt infield. The dirt (infield) area is smaller than the grass (outfield) area. Thus, the proportion of dirt does not e",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Blue",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "207",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's figure out the orientation angle of the basketball courts' baseline relative to north. First, I need to identify the baseline. In a basketball court, the baseline is the line at the end ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "No",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Yes, the letters \"SP\" are visible inside the ground track field, and the color of the letter/sign is red.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Yes, a soccer ball field is present in the top right side of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The two ships in the image appear to be identical in type (likely cargo ships).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "230",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. The ships are in the water. First, I need to figure out the orientation relative to north. The image has an airport on the left with runways. Typically, in such images, th",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "232",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Yes, all vessels are oriented east-west (perpendicular to north), so they share the same direction relative to the north side.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "233",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. First, count the vehicles. There are several cars. Let's see: on the right side, there's a parking area with a few. Let's list them. There's a white car, another white car",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Two cars; no, they are not the same color (one white, one light gray/silver).",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the aerial image. First, identify all vehicles. The image shows a road with several cars. Let's count them. There are cars on the road: let's see, top right has two cars, then middle",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Three white vehicles; not in the same direction.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. The ground track field is the oval-shaped area around the football field. Wait, the question is about the ground track field. Let's check: the image has a football field (",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "249",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "STAPLES and GROVE; 0° from north",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Four baseball diamonds; 0 currently have players on them.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Four",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "257",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. First, identify the baseball fields. There's a baseball diamond with a dirt infield and grass outfield. The home plate is part of the diamond. Now, check the orientation. ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Tow tractor (used for towing aircraft on the ground)",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "263",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's try to figure out the sun's direction. First, in tennis courts, the sun's position affects shadows. The shadows of the light poles and the court lines can help. Let's look at the image. ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's figure out the distance between the two furthest tennis courts. First, I need to identify which courts are the furthest apart. Looking at the image, the tennis courts are in a row. The f",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Total tennis courts: 8. The tennis court closest to the parking area at top left is occupied.",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The largest tree by canopy size is located in the lower middle area of the image. Its canopy diameter is approximately 14 meters (rounded to the nearest whole number). The tree exhibits dense green fo",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The red aircraft in the center is an F-104 Starfighter.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "272",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's look at the image. The aircraft on the flight deck—there's a jet, probably a fighter. Now, heading direction relative to north. Need to figure out the orientation. The flight deck is the lar",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The large parking area is located in the bottom-left of the scene. Its occupancy level is nearly full.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's count the airplanes first. Looking at the image: there are two large planes at the top (maybe transport planes), one in the middle (another transport plane), and two helicopters at the botto",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Completely full",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "281",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "282",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "All planes in the image have a heading (yaw) oriented toward the top of the image, indicating a northward direction.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "1",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "56",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "285",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The image depicts an airport tarmac with aircraft and no visible tennis courts or parking lot. Therefore, the requested elements (tennis courts, parking lot south of them) are not present in the provi",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "pred_type": "error",
+        "correct": false,
+        "answer": "",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Light-colored vehicles: 2, Dark-colored vehicles: 3",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "5",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "The track surface is synthetic (typically polyurethane or rubber-based). Advantages include durability, shock absorption for athletes, low maintenance, consistent performance, and reduced injury risk.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The red rectangular area at the end of the field is the **end zone**, used for scoring touchdowns in American football.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "293",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's look at the image. The track is the red running track around the field. To estimate the width, I need to see how wide the track is. In standard tracks, the width of the lanes is about 1.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Varied: some pools show visible water (indicating maintenance), others are covered (suggesting inactivity).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Heart-shaped and rectangular swimming pools are present.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "White sedan, black sedan, blue sedan",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Two bridges, each with 2 lanes.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's count the empty parking spots. First, look at the grid of spots. The image shows a parking area with marked spots. Let's count each spot that doesn't have an airplane.\n\nFirst, the grid: let'",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Two cars: one dark-colored (black) and one light-colored (white).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Garbage Type 1 (open waste, middle debris area): 5m from pond (10 pixels × 0.5m/pixel).  \nGarbage Type 2 (covered waste, triangular dark area): 10m from pond (20 pixels × 0.5m/pixel).  \nClassification",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's tackle this problem. First, I need to understand what's being asked. The question is whether garbage is dumped within an eco-sensitive agricultural zone with a 50m buffer. The GSD is 0.5m, w",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The garbage on the northwest side of the road is a landfill.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Construction waste is visible as scattered debris/piles (e.g",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Construction waste is visible in the lower central area. It does not severely affect tree growth, as surrounding trees appear healthy and not significantly impacted by the waste.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Domestic garbage is located near the road (adjacent to the visible road in the lower right area of the image). Given a GSD of 0.5 m/pixel, the distance from the garbage to the road is less than 5 mete",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "4 more destroyed buildings on the right half than the left, representing 40% of the total destroyed count.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Ratio of destroyed buildings to total buildings: 3/20. Rescue teams required: 1.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about a post-disaster aerial image, and we need to find which quadrant has the most buildings with major damage or destroyed, and h",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Ratio of completely destroyed to partially damaged buildings is 1:2; 1 three-ton relief shipment is needed.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about finding the average area of no-damage buildings and those that were destroyed in a post-disaster image, with a GSD of 1.5 meters per",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's see. The problem is about figuring out how many teams are needed to process destroyed buildings. First, I need to know how many destroyed buildings there are. Wait, the question says \"po",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "2",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Top-left quadrant, 3",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about finding the combined area of all buildings with major damage in a post-disaster image. But wait, the user provided an aerial ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "To determine the number of teams required, first count the damaged buildings in the image. The image shows **five distinct buildings** (e.g., houses, barns) that are flagged as damaged. Since one team",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's look at the image. First, identify the buildings before the event. Wait, the question is about what fraction of buildings are missing (destroyed) afterward. But the image is an aerial vi",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about the average ground area of no-damage buildings compared to completely destroyed ones. First, I need to recall what GSD (Ground Sampl",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No fully destroyed buildings detected. Combined footprint area: 0 square meters.",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "So, let's look at the image. First, identify buildings. There are a few structures. Let's check for damaged vs. no-damage. Wait, the question says \"no-damage and destroyed buildings\"—wait, maybe it's ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. First, the problem is about calculating the total destroyed ground area and the average area lost per destroyed structure. But wait, the user mentioned \"destroyed",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The question requires analyzing a change report between two images to determine the percentage of buildings that disappeared. However, only one image is provided, and no pre-event image or change repo",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. The problem is about identifying buildings that were there before the disaster but are missing now, and then estimating their average ground area. First, I need t",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "2/3",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Top-right quadrant",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0 destroyed buildings; ratio 0:total (no destroyed buildings identified in the image).",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about determining the percentage of buildings that were destroyed after a flood, using pre- and post-event images. But wait, the user prov",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what the question is asking. It's about a post-flood image, comparing buildings with major damage to those with no damage, and",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "100 meters",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Insufficient information; no pre-event image provided for comparison.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "minor-damage building region",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "4",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "No buildings detected in the provided image; thus, total buildings in pre/post images are 0, and destroyed buildings are 0.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Insufficient information: Pre-image not provided to detect changes and quantify damaged/destroyed buildings.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The question lacks pre-image data to determine destroyed buildings, making the count impossible. Without pre-image comparison, the number of destroyed buildings cannot be established, so the labor-hou",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem. First, the question is about describing pre and post images, but the provided image is just one aerial image. Wait, the user says \"if two rescue team per building, t",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out the area of the L-shaped building cluster. First, I need to identify the L-shaped building in the center. Looking at the image, the L-shaped structure is probably the o",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "The provided image shows a rural area with no visible damage (e.g., collapsed structures, fires, or debris). Assuming this is the post-image and there is no pre-image comparison, **no majorly damaged ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "So, let's tackle this problem step by step. First, I need to understand what's being asked. The task is to detect destroyed buildings in the post-image, calculate their total area, compare with the pr",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about detecting the two largest destroyed buildings in the post-image and calculating the average area of these two damage zones. T",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0 destroyed buildings; 0 teams required",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Divide the image into four quadrants (top-left, top-right, bottom-left, bottom-right). Analyze each quadrant for building damage types:  \n- **Top-left**: 12 no-damage, 1 minor, 0 major, 0 destroyed → ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "2, 20%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about estimating the total ground area lost to destroyed buildings by comparing pre-storm and post-storm building areas. But wait, the use",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "1",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out which building is destroyed and has the largest area. First, I need to look at the image. The question mentions \"destroyed building,\" so I need to identify any structur",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Bottom-right",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's look at the image. First, identify damaged buildings. Wait, the question is about damaged buildings, but the image is an aerial view of a rural area with fields, trees, a lake, and some ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure this out. First, I need to identify the damaged buildings in the image. Wait, the problem says \"damaged buildings identified in the post image after the event.\" But the ima",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": true,
+        "answer": "Got it, let's analyze the image. First, the image is 1024x1024, so quadrants are top-left (TL), top-right (TR), bottom-left (BL), bottom-right (BR). Let's check each quadrant for damaged buildings.\n\nL",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is asking for the average ground-area lost per completely destroyed structure. First, I need to recall what GSD (Ground Sample Distance) is. ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The question is about dividing the image into four equal quadrants and finding which quadrant has the highest count of destroyed buildings. First, I need ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M2",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "0%",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "pred_type": "direct",
+        "correct": false,
+        "answer": "Got it, let's try to figure out how to compute the total ground area covered by severely damaged structures. First, I need to recall what GSD is. GSD stands for Ground Sample Distance, which is the di",
+        "gt_types": [
+          "M1"
+        ]
+      }
+    ]
+  },
+  "mara": {
+    "agent": "MARA (qwen3-vl:8b)",
+    "accuracy": 0.3122,
+    "correct": 59,
+    "total": 189,
+    "per_type": {
+      "D": {
+        "correct": 30,
+        "total": 66,
+        "accuracy": 0.4545
+      },
+      "M1": {
+        "correct": 9,
+        "total": 40,
+        "accuracy": 0.225
+      },
+      "M2": {
+        "correct": 20,
+        "total": 83,
+        "accuracy": 0.241
+      }
+    },
+    "results": [
+      {
+        "task_id": "2",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's define the grid cells:\n\n- Top-left: upper left quadrant\n- Top-center: upper middle\n- Top-right:",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "3",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To assess whether the two cars parked outside a flooded house are also flooded, we analyze the visual evidence in the aerial image:  \n\n1. **Identify the target**: Locate the house with two parked cars",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "6",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "On the flooded road, two white cars (sedans) and two dark cars (SUVs) are visible.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "15",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with a large body of water (probably a river or lake) ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "16",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine if there is no flood around a 2m radius of each car, we analyze the image using the provided Ground Sample Distance (GSD) of **0.015 m/px**.  \n\n### Step 1: Convert 2m radius to pixels  \nT",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "18",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "Got it, let's try to figure this out. First, the query is about a white house in the northwest corner. Wait, looking at the image, the northwest corner—let's check the top left. There's a house with a",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "19",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a flooded neighborhood. The grid cells will be top-",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "22",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "Right",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "23",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To answer the query, we analyze the image and the given parameters:  \n\n### Step 1: Check for the presence of a truck  \nThe image shows a flooded residential area with houses, yards, trees, and small v",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "25",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "White, pink, and blue.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "30",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine if the statement *\"no house within 15m radius of the swimming pool is flooded\"* is true, we analyze the image using the given Ground Sample Distance (GSD) of **0.015 m/px**.  \n\n### Step 1",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "31",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "Got it, let's try to figure this out. First, the query is asking if there's a house within a 5m radius of the electrical transmission tower. The GSD is 0.015 m per pixel, which means each pixel repres",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "35",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine if the red car is parked in a dry area within 5 meters, follow these steps:  \n\n1. **Locate the red car**: In the aerial image, the red car is visible on a flooded street (near the center-",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "37",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the roads between the houses are submerged in floodwater, indicating no dry route exists.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "40",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the query is about expanding the area of 10m around a red car, then counting how many cars there are and if they're in water. The GSD is 0.015 m pe",
+        "gt_types": [
+          "D",
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "41",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "So, let's look at the image. The northwest corner—first, identify the northwest area. The image is an aerial view, so top-left is northwest. Now, check the houses there. The question is about the larg",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "42",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No. The area is flooded, and the roads are submerged with brown water, preventing vehicle movement to the northwest house.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "43",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the non-flooded houses are not all in the same area. Some non-flooded houses are located on the right side of the image (near the dry road), while others are in the upper-left corner (e.g., the",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "46",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "So, let's look at the image. The southwest corner—need to check if there's a house there that's not flooded. First, identify the southwest area. The image is an aerial view, so top is north, bottom is",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "54",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with brown water (probably flooded area) and green pat",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "55",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To assess whether there is any house with a swimming pool that is majorly-damaged, follow these steps:  \n\n### 1. Identify target objects  \n- Locate houses with swimming pools: In the lower portion of ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "56",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "So, let's tackle this problem step by step. First, I need to understand the image and the question. The question is asking if all the no-damage buildings in the northeast position on the image. Wait, ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "60",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 10. (TOTAL: 10)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "73",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step 1: Identify the target object  \nThe target object is the **group of buildings with white roofs** (visible in the lower-left portion of the image) located near the brownish, muddy terrain (int",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "74",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step 1: Identify the target object(s)  \nThe \"houses on the upper side of the road\" refer to the **building complex with a red roof** located near the top of the image (adjacent to the major road r",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "75",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step 1: Identify the target object  \nThe target object is the small structure (likely a house or cabin) located on the left side of the highway, surrounded by dense greenery. It is visible as a di",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "76",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 1. (TOTAL: 1)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "83",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "So, let's tackle this problem step by step. First, I need to understand the image. It's an aerial view of a flooded area, likely from Hurricane Harvey. The question is about the largest building damag",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "87",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The buildings in the top-left corner (with parking lots) appear undamaged by Hurricane Harvey. Among these, at least one parking lot has no visible cars. Thus, the statement is true.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "88",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "### Step 1: Identify the target object  \nThe building with a **red rooftop** near the waterbody is located in the lower-left portion of the image, adjacent to the shoreline. It is a distinct structure",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "92",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Blue",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "93",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image shows a road intersection with some vehicles. Let's define the g",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "97",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image is an aerial view of a neighborhood with streets, houses, trees,",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "98",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, the query is about expanding a 20-meter area around each car and checking how many are parked within white-marked boxes. But wait, the image is a s",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "99",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a highway with multiple lanes, some cars. The yello",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "100",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a highway overpass with multiple lanes. The grid ce",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "101",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a multi-lane highway with several cars. The grid ce",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "102",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the parking lot and surrounding areas. The image is an aerial view, so we need to def",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "107",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what GSD is. GSD stands for Ground Sample Distance, which is the distance on the ground represented by one pixel in the image.",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "112",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "Got it, let's analyze this image. First, the question is about whether there's another car moving in the same direction as the red truck. So I need to look at the red truck's direction and check other",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "113",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's see. The user wants to know how close the blue trucks are using GSD 1.61175. First, I need to identify the blue trucks in the image. Looking at the image, there are two blue trucks on th",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "114",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out the distance between the cars on the southbound road. First, I need to identify which road is southbound. In the image, the roads are divided by a median. Let's assume ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "115",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No red car is visible in the image; only white and blue vehicles are present. Thus, the question cannot be answered as posed.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "119",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "To determine if there is a car traveling southbound, we analyze the **road orientation** and **car direction** using the given coordinate system (North = up in the image):  \n\n### Step 1: Identify the ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "120",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image is an aerial view of a street with cars. Let's define the grid c",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "121",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a road with cars. The grid cells are top-left, top-",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "125",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a highway with multiple lanes, some cars, and a sid",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "127",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "Got it, let's try to figure this out. First, the query is about whether the red car can safely switch lanes with a 200-meter radius, and if not, how many vehicles are nearby. We have a GSD (Ground Sam",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "129",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of multiple roads with cars. The grid cells are top-le",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "131",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image has a road running through it, with some areas on the left (near",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "132",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out the distance between the orange excavators using the GSD of 0.9. First, I need to locate the orange excavators in the image. Looking at the image, there are a couple of",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "135",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "Got it, let's look at the image. There are two planes visible. First, the one on the left: it's on the tarmac, and its nose is pointing towards the top-left, but wait, let's check the orientation. The",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "137",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 1. (TOTAL: 1)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "140",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the planes heading east (the four in the lower row) include different categories (e.g., a military jet vs. commercial jets).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "141",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem. First, I need to identify the planes with red fuselages in the image. Let's look at the image. There are several planes. Let's check each one:\n\n1. The plane at the t",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "144",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's tackle this remote sensing query step by step. First, I need to identify if there's a destroyed building in the image. Then, check if any road is within 30 meters of it, using a GSD of 0",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "145",
+        "gt_type": "D",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this remote sensing problem. First, the query is about locating a destroyed area and describing a building inside a box with GSD 0.5m/px. Wait, the image is a bit blurr",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "146",
+        "gt_type": "D",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "So, let's analyze this image. First, I need to identify the target objects, which are buildings. The question is about destroyed buildings—so looking for structures that are completely collapsed or ha",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "148",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": true,
+        "answer": "So, let's analyze this remote sensing image. First, I need to identify the target objects, which are buildings. The question is about destroyed buildings and estimating the ratio of partially destroye",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "150",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The damage",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "151",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The west side of the image shows significant destruction to built structures (buildings) adjacent to the road, with visible rubble and damaged infrastructure. The most impacted elements in the west ar",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "162",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "One parked vehicle: sedan (located near the house with the circular driveway).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "171",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify the house with an above-ground pool. Looking at the satellite image, there's a house with a circular blue structure in the bac",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "176",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image is an aerial view of a residential area with houses, roads, tree",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "178",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Above-ground swimming pool: rectangular",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "179",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "One residential backyard contains an above-ground swimming pool (visible as a blue rectangular structure). Utilization cannot be determined from the static aerial image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "184",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "So, let's tackle this problem step by step. First, I need to understand the image. It's an aerial view of a roundabout (traffic circle) with roads. The question is about small vehicles heading northbo",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "187",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "189",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify the white plane in the image. Looking at the aerial view, there's a white airplane on the tarmac. The task is to find its nose",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "190",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The plane with a blue fuselage is located on the runway in the upper portion of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "193",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "Got it, let's analyze this aerial image. First, I need to identify the two airplanes. Looking at the image, there are two planes: one near the top right on the runway, and another lower down in the mi",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "197",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify the largest plane on the runway. Looking at the image, there are two planes visible. One is on the main runway, and another is",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "201",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The baseball diamond is the central field with a grass outfield and dirt infield. The dirt area (infield) is smaller than the grass area (outfield), so the proportion of dirt does not exceed that of g",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "202",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "Blue",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "204",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, there is no visible activity (e.g., players, equipment) indicating a match is in progress on the soccer field.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "207",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the orientation angle of the basketball courts' baseline relative to North, follow these steps:  \n\n### Step 1: Identify the object  \nThe basketball courts are the rectangular area with a ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "210",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "No, the basketball court is not occupied.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "214",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "Yes, the visible sign inside the ground track field is \"BP\", and the color of the letter/sign is red.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "219",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Yes, soccer ball fields are present on the right side of the image.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "229",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The two ships in the image appear to be identical in type, as they share similar structural characteristics (e.g., length, shape) from the aerial perspective.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "230",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem. First, I need to look at the image. The question is about the orientation of ships relative to North. Let's identify the ships first. In the image, there are two shi",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "232",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "So, let's analyze the image. First, identify the vessels. There are several ships in the water. Let's list them:\n\n1. Top left: A long, narrow vessel (maybe a cargo ship or tanker). Let's check its ori",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "233",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Total vehicles: 5. Not all vehicles are sedan type (at least one vehicle appears to be a hatchback/SUV).",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "235",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a road intersection with some cars. Let's define th",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "236",
+        "gt_type": "M2",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify all the vehicles in the aerial image and determine their heading relative to North. The problem states that North is up in the",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "239",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image is an aerial view with a road, buildings, parked cars, and some ",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "246",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify the ground track field in the image. Looking at the aerial view, there's a large oval-shaped area with a track around a footba",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "249",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "To determine the exact wording and orientation of the large field markings on the turf inside the central track, follow this analysis:  \n\n### Step 1: Identify the object(s)  \nThe \"large field markings",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "251",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The top part has a track and field, then parking lots, and the bottom has ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "253",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of a roundabout with roads. The roundabout is in the c",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "257",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "So, let's tackle this problem. First, I need to identify the largest baseball field in the image. Looking at the aerial view, there's a baseball diamond. Let me check the elements: home plate, bases, ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "261",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Type: Tow tractor; Function: To move aircraft on the ground.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "263",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "To determine the sun’s compass direction, we analyze **shadows** in the aerial image, as shadows are cast opposite to the sun’s position. Here’s the step-by-step reasoning:  \n\n1. **Image Orientation**",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "264",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out how to solve this problem. First, I need to understand what GSD means. GSD is Ground Sample Distance, which is the distance on the ground represented by one pixel in th",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "267",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The top left is the parking lot with cars, top center is the area above th",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "268",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to identify the largest tree by canopy size in the image. The GSD is 0.1402 meters per pixel, so each pixel represents 0.1402 meters in re",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "269",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "No red aircraft is prominently visible in the center of the apron. The image shows various aircraft, but none with distinct red coloring in the central area.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "272",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "So, let's tackle this problem step by step. First, I need to identify the aircraft on the flight deck of the aircraft carrier. Looking at the image, the aircraft carrier is the large ship in the water",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "273",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The designated large parking area is located in the bottom-left section of the scene. Its current occupancy level is nearly full.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "275",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of an airport tarmac with several aircraft. The grid c",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "280",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The designated large parking lot near the airport is completely full, as it contains numerous parked vehicles with no visible open spaces.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "281",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "So, let's tackle this problem step by step. First, I need to identify the largest aircraft in the image. Looking at the aerial view of the airport, there are several planes. The largest one is probabl",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "282",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": false,
+        "answer": "So, let's tackle this problem step by step. First, I need to identify all the planes in the aerial image. Let's look at the image:\n\n1. Top section: There's a large aircraft (maybe a B-52 or similar) a",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "283",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of an airfield with several planes. The grid cells are",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "284",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine the wingspan of the large airplane at",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "285",
+        "gt_type": "D",
+        "pred_type": "M3",
+        "correct": true,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about identifying a parking lot south of the tennis courts and the orientation of its entrance. But wait, the image provided is an ",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "286",
+        "gt_type": "M2",
+        "pred_type": "error",
+        "correct": false,
+        "answer": "",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "289",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: the bottom right quadrant is where the parking lot is. Let's define the gr",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "290",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of an airport with several planes and ground service v",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "291",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": true,
+        "answer": "The track surface is synthetic (likely polyurethane-based). Advantages include shock absorption to reduce injury risk, durability, consistent performance, and lower maintenance compared to natural sur",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "292",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The red rectangular area is an end zone, used for scoring touchdowns in American football.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "293",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "So, let's look at the image. The track is the red running lanes around the field. To estimate the width, I need to see how many lanes there are and the spacing. Typically, standard tracks have lanes a",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "294",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Mixed condition: some pools show water (indicating maintained status), while others are covered (not in use).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "295",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The swimming pools in the image include a heart - shaped pool and rectangular pools.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "297",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Visible cars: white, dark (black/dark blue), blue.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "298",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with a bridge crossing over a road, and there are two ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "301",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view of an airport with parking spots and a runway. The par",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "302",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Two cars are visible: one dark-colored (black) and one light-colored (white).",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "305",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The query is about evaluating the distance of both garbage types to the big pond, classifying them, and as",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "315",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The query is about checking if garbage is dumped within an eco-sensitive agricultural zone with a 50m buff",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "316",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Garbage is located on the northwest side of the dirt road and appears as scattered debris.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "319",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Construction waste is visible as a large debris area in the lower-middle section of the image. This waste is adjacent to tree clusters, suggesting potential soil occupation or contamination, which may",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "321",
+        "gt_type": "D",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Construction waste is visible in the lower central area (brownish debris patch). Trees adjacent to this area show normal green foliage, indicating no severe impact on tree growth.",
+        "gt_types": [
+          "D"
+        ]
+      },
+      {
+        "task_id": "327",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out where the domestic garbage is in this satellite image. First, I need to recall what GSD means—Ground Sampling Distance, which is the distance between adjacent pixels on",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "335",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 1. (TOTAL: 1)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "336",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about a remote sensing aerial image, but wait, the user mentioned \"post image\"—maybe there's a pre and post image? But the image pr",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "337",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the 1024x1024 image into a 3x3 grid. Each quadrant (cell) will be roughly 1/9 of the image. Let's define the grid:\n\n- Top-left (",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "338",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "Got it, let's try to tackle this problem step by step. First, I need to understand what's being asked. The question is about a disaster scenario, so we need to identify destroyed and damaged buildings",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "339",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Assessment of Building Destruction  \n\n#### Step 1: Target Object Identification  \nThe target objects are **residential buildings** within the aerial image. The image depicts a suburban neighborhoo",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "340",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The user is asking about the average area of no-damage buildings and destroyed buildings in a post-disaster image, with a GSD of 1.5 meters per pixel. Fir",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "341",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "342",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "So, let's tackle this problem step by step. First, I need to identify the buildings in the image. Let's look at the aerial view. There are several structures:\n\n1. The house with the orange roof near t",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "343",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "344",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "345",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To assess the percentage of major-damage buildings in the post-event scene, follow these steps:  \n\n### Step 1: Identify Target Objects  \nThe target objects are **buildings** visible in the aerial imag",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "346",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the 1024x1024 image into a 3x3 grid. Each quadrant (cell) will be roughly 1/3 of the image in both dimensions. Let's define the ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "347",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine the combined area of all buildings with major damage in the provided post - disaster image, we first analyze the visual content of the image. The image depicts a rural landscape with seve",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "348",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 2. (TOTAL: 2)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "349",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step 1: Identify Target Objects  \nThe target objects are **buildings** visible in the aerial image. After examining the image, the following structures are identified as potential buildings:  \n- A",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "350",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The query is about the average ground area of no-damage buildings versus completely destroyed ones, using ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "351",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "So, let's tackle this problem. First, I need to identify fully destroyed buildings in the image. Let's look at the image. \n\nFirst, check the buildings. There's a cluster of buildings near the bottom l",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "352",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with fields, trees, roads, and some buildings. The tas",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "353",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what's being asked. The query is about destroyed buildings in the post-image, calculating the total ground area destroyed and ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "354",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "355",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "The question requires comparison between two images to determine building disappearance, but only one image is provided. Without the pre-event image for reference, the percentage cannot be calculated.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "356",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the query is about identifying buildings that were visible before the disaster but missing afterward, then estimating their average ground area usi",
+        "gt_types": [
+          "D",
+          "M1"
+        ]
+      },
+      {
+        "task_id": "357",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with a forested area, a winding road, and some constru",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "358",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the 1024x1024 image into a 3x3 grid. Each quadrant (cell) will be roughly 341x341 pixels since 1024/3 ≈ 341.33. Let's define the",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "359",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the question is about counting destroyed buildings in a post-event image and finding the ratio. But wait, the image provided is an aerial view. Let",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "360",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To determine the percentage of buildings completely destroyed, we analyze the aerial image using the provided domain criteria: **\"Destroyed\" = complete structural collapse with no intact walls/roof**.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "361",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "362",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about determining the percentage of buildings that were destroyed after a flood, using p",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "363",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's define the grid cells:\n\n- Top-left: upper left quadrant\n- Top-center: upper middle\n- Top-right:",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "364",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, I need to understand what the query is asking. It's about finding the smallest straight-line distance between any no-damage building and any destro",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "365",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step 1: Identify Target Objects  \nThe target objects are **buildings** visible in the aerial image. Upon inspection, the image contains multiple structures (e.g., houses or small buildings) scatte",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "366",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": true,
+        "answer": "To determine which group covers more area, we analyze the **completely destroyed buildings region** and **minor-damage building region** based on the provided satellite image and the given Ground Samp",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "367",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "368",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem. First, I need to understand what the task is asking. The user wants me to count buildings in a pre and post image, but wait, the image provided is just one image. Wa",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "369",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "To address the task, we first analyze the provided remote sensing image:  \n\n### Step 1: Identify Objects/Regions  \nThe image depicts a **hilly, agricultural landscape** with terraced fields (likely fo",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "370",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to analyze the aerial image by dividing it into a 3x3 grid. The task is to count the number of buildings destroyed by wildfire, but wait—a",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "371",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 5. (TOTAL: 5)",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "372",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out how to solve this problem. First, I need to identify the L-shaped building cluster in the center of the image. Let's look at the image description. The user mentioned t",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "373",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, the task is to count buildings in a 3x3 grid. Wait, but the user mentioned \"pre and post images\" but the provided image is just one image. Hmm, m",
+        "gt_types": [
+          "D",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "374",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out how to approach this problem. First, the query is about detecting destroyed buildings in the post image, calculating their total area, comparing with pre-image total bu",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "375",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. First, the task is to detect the two largest destroyed buildings in the post-image and calculate the average area of these two damage zones. The GSD (Grou",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "376",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "377",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into four quadrants. Since it's an aerial image, I'll assume the standard division: top-left (TL), top-right (TR), bot",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "378",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's define the grid cells:\n\n- Top-left: upper left quadrant\n- Top-center: upper middle\n- Top-right:",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "379",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about calculating the ratio of major damaged buildings in the post image to the total bu",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "380",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out how to approach this problem. The query is about estimating the total ground area lost to destroyed buildings by comparing pre-storm and post-storm building areas. But ",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "381",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: the left side has a residential area with houses, trees, and some structur",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "382",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with forests, fields, and some buildings.\n\nTop-left ce",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "383",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To assess the percentage of built - up area lost due to destroyed buildings from a wildfire event, we follow the steps below:  \n\n### Step 1: Identify target objects  \nThe target objects are **built - ",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "384",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "### Step 1: Identify Target Objects  \nThe target objects are **buildings** in the aerial image. Key structures visible include:  \n- A cluster of houses with red roofs (top-left area).  \n- Smaller stru",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "385",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "We are given a query: \"Which destroyed building has the largest estimated area in square meters? Given GSD=1.8769937\"\n And the computed result: 39458.78 square meters\n\n However, note that the query as",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "386",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image. The image has a mix of fields, trees, a body of water, and some buildings.",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "387",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "Bottom-right",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "388",
+        "gt_type": "M2",
+        "pred_type": "M5",
+        "correct": false,
+        "answer": "To determine the ratio of buildings with minor damage to those with major damage in the provided post - event aerial image, we first analyze the image for signs of damage.  \n\n### Step 1: Identify obje",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "389",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the image into a 3x3 grid. Let's visualize the image: it's an aerial view with fields, trees, a road, and some buildings. The ta",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "390",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "So, let's tackle this problem step by step. First, I need to understand what's being asked. The question is about determining the proportion of buildings classified as \"major damaged\" in the post-even",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "391",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem step by step. First, I need to understand what's being asked. The query is about estimating the number of team-days needed to assess all damaged buildings.",
+        "gt_types": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "task_id": "392",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": true,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to divide the 1024x1024 image into a 3x3 grid. Let's define the quadrants:\n\n- Top-left (TL): Rows 0-341, Columns 0-341 (approx, since 1024",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "393",
+        "gt_type": "M2",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To determine the percentage of completely destroyed buildings, we analyze the aerial image using the provided domain criteria:  \n\n### Step 1: Identify Target Objects  \nThe target objects are **residen",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "394",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "Got it, let's try to figure out this problem. The query is asking for the average ground-area lost per structure that was completely destroyed. First, I need to recall what GSD is. GSD stands for Grou",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "395",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "The total count is 0. (TOTAL: 0)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "396",
+        "gt_type": "M2",
+        "pred_type": "M2",
+        "correct": false,
+        "answer": "Got it, let's tackle this problem step by step. First, I need to understand the task: divide the image into four equal quadrants (so top-left, top-right, bottom-left, bottom-right), count the destroye",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "397",
+        "gt_type": "M1",
+        "pred_type": "M4",
+        "correct": false,
+        "answer": "To determine the mean distance from the center of the scene to the centroids of all destroyed structures, we first analyze the image for **destroyed structures** (defined as *complete structural colla",
+        "gt_types": [
+          "M1"
+        ]
+      },
+      {
+        "task_id": "398",
+        "gt_type": "M2",
+        "pred_type": "D",
+        "correct": false,
+        "answer": "0% (no visible structural damage to buildings in the image)",
+        "gt_types": [
+          "M2"
+        ]
+      },
+      {
+        "task_id": "399",
+        "gt_type": "M1",
+        "pred_type": "M1",
+        "correct": false,
+        "answer": "To determine the total ground area covered by severely damaged structures, we first analyze the image and the provided Ground Sample Distance (GSD).  \n\n### Key Steps:  \n1. **Interpret GSD**: The GSD (",
+        "gt_types": [
+          "M1"
+        ]
+      }
+    ]
+  }
+}

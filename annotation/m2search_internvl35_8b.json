@@ -1,0 +1,1262 @@
+{
+  "model": "blaifa/InternVL3_5:8b",
+  "resolution_px": 1024,
+  "fail_rates": {
+    "direct": 0.8193,
+    "grid": 0.8675,
+    "cot_count": 0.7108
+  },
+  "conditions": {
+    "direct": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "There are 2 buildings directly attached to the cul-de-sac, and they appear to be partially flooded."
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "There are two visible houses in the image. The area between them appears to be flooded, as evidenced by the water covering the ground and extending towards the buildings."
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "The aerial view shows a residential area heavily impacted by flooding. There are approximately 15 houses visible, all surrounded by water to varying degrees. Additionally, there are numerous cars scat"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "The image shows a densely populated urban area with numerous buildings. It appears that many structures have been damaged or completely destroyed, likely due to conflict or disaster. The exact number "
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "The image shows a dense forest area with several water bodies. The land cover is primarily forested, with some clearings that include small structures or buildings.\n\nDisaster Type: Floods (indicated b"
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "97",
+        "correct": true,
+        "answer": "There are two white cars in the image, and they are not heading in the same direction. One is facing left while the other is facing right."
+      },
+      {
+        "task_id": "99",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "100",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "The image shows an aerial view of a multi-lane highway with several cars. There are 13 vehicles visible on the road, indicating moderate traffic flow. The lanes appear to be moving in both directions,"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "2 cars are parked facing northeast, and 5 cars are facing southwest."
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "There are four cars, and they are not all traveling in the southwest direction. Two cars are heading towards the northwest, while one is going towards the northeast, and another appears to be stationa"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "The image shows an aerial view of a road intersection with several vehicles. There are 14 cars visible on the roads. The cars appear to be moving along the lanes, some turning at the intersection."
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "There are two distinct roads."
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "There are three cars on the road in this image."
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "Three aircraft are parked at the terminal apron. They are white in color and all have the same color attribute."
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "The destroyed buildings in the image are located towards the center-left part of the aerial view. They appear to have significant structural damage, with exposed interiors and collapsed sections.\n\nEst"
+      },
+      {
+        "task_id": "176",
+        "correct": false,
+        "answer": "There are 8 cars in the image other than parking spaces. The cars are not all going in the same direction; some appear to be moving along different paths or intersections."
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "There are three cars in the image. The colors of the cars are white, black, and blue."
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "4 cars, 2 vans"
+      },
+      {
+        "task_id": "235",
+        "correct": true,
+        "answer": "There are two cars in the image. The detected cars are not the same color; one is white and the other appears to be a different color."
+      },
+      {
+        "task_id": "236",
+        "correct": false,
+        "answer": "In the image:\n\n- **Northbound Vehicles**: 3 (white car near top right, white van near center left, black car near top)\n- **Southbound Vehicles**: 4 (black car near bottom left, white car near bottom c"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "There are three white vehicles, and they are not all moving in the same direction. One is on a perpendicular road while the other two are on parallel roads."
+      },
+      {
+        "task_id": "251",
+        "correct": true,
+        "answer": "In the image, there are three baseball diamonds visible. None of the baseball diamonds appear to have players on them at the moment. The fields seem to be empty, suggesting that no games or practices "
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "267",
+        "correct": true,
+        "answer": "There are 8 tennis courts in total, and the tennis court closest to the parking area at the top left appears to be unoccupied."
+      },
+      {
+        "task_id": "275",
+        "correct": false,
+        "answer": "There are five airplanes in the image. None of the airplanes have a ground support vehicle positioned directly adjacent to them."
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "The parking area south of the tennis courts is partially occluded by trees. There are three parked vehicles visible in the image."
+      },
+      {
+        "task_id": "289",
+        "correct": true,
+        "answer": "In the parking area at the bottom right, there are 5 dark-colored vehicles and 3 light-colored vehicles."
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "13"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "In the image, there are 3 more destroyed buildings on the right half compared to the left. This represents a 40% difference in the total destroyed count."
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "1:50, 2 rescue teams required"
+      },
+      {
+        "task_id": "337",
+        "correct": false,
+        "answer": "The bottom-right quadrant has the most buildings in a state of major damage or destroyed, exceeding the next-highest count by 3."
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "The image shows an aerial view of a residential area with various buildings. To determine the ratio of completely destroyed to partially damaged buildings:\n\n1. **Completely Destroyed Buildings**: Thes"
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "341",
+        "correct": false,
+        "answer": "14"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "343",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "344",
+        "correct": true,
+        "answer": "To determine how many days one team would need to cover all severely damaged buildings, we first identify the number of severely damaged sites in the image.\n\nFrom the image, there are two visibly seve"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "0.0"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "The top-left quadrant contains the highest number of damaged structures, with one damaged structure."
+      },
+      {
+        "task_id": "348",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "100.0"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "In the image, there is one building that appears to be intact (no damage) and another structure that seems to have been destroyed. If each rescue unit can inspect ten damaged buildings, then only one "
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "0.0%"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "1/2"
+      },
+      {
+        "task_id": "358",
+        "correct": false,
+        "answer": "Top Right"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "0 destroyed buildings, 0."
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "10%"
+      },
+      {
+        "task_id": "363",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "367",
+        "correct": false,
+        "answer": "8"
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "0.0"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "To determine the number of buildings destroyed by the wildfire and calculate the total labor-hours needed for inspections, follow these steps:\n\n1. **Identify Destroyed Buildings**: Compare the pre-ima"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "The provided image appears to show an aerial view of a region with various buildings and roads. There is no clear indication of a disaster or any immediate need for rescue teams based on this image al"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "The image appears to be an aerial view of a rural area with various buildings, roads, and fields. There is no clear indication of damage or changes between \"pre\" and \"post\" images as only one image is"
+      },
+      {
+        "task_id": "376",
+        "correct": false,
+        "answer": "In the image, there are no visibly destroyed buildings. Therefore, no teams would be required for inspection. \n\nNumber of destroyed buildings: 0  \nNumber of 4-person response teams needed: 0"
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "To analyze the image and divide it into four quadrants, let's first establish a basic framework:\n\n1. **Top-Left Quadrant**: This area includes several houses with visible swimming pools and green spac"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "In the upper half of the image, there are 2 buildings with no damage. These buildings constitute approximately 16.7% of all no-damage buildings in the entire image (assuming a total of 12 undamaged bu"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "381",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "100%"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "1 hour"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "The bottom right quadrant of the post image contains the highest concentration of damaged buildings."
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "To estimate the total number of team-hours required to survey all damaged buildings, we need to know how many damaged buildings are visible in the image.\n\n1. **Counting Damaged Buildings**: Let's assu"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "0.0"
+      },
+      {
+        "task_id": "392",
+        "correct": true,
+        "answer": "The bottom right quadrant contains the highest number of majorly damaged buildings, with 1 building visible."
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "0%"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "The bottom left quadrant experienced the highest count of destroyed buildings. The count is 35."
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "0."
+      }
+    ],
+    "grid": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "To determine the total number of houses and cars in the flood from the overhead image, we will divide the image into a 3x3 grid and count the objects in each cell.\n\n### Houses:\n1. **Top-left (Cells 1-"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "132"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "12"
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "97",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "To determine how many cars are touching or overlapping the yellow road line in the overhead image, we will divide the image into a 3x3 grid and count the objects in each cell.\n\n1. **Top-left cell (cel"
+      },
+      {
+        "task_id": "100",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "14"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "To determine the number of cars parked facing northeast and southwest in each cell, we need to analyze the image. However, since I can't view images directly, I'll provide a general approach based on "
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "15"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "12"
+      },
+      {
+        "task_id": "176",
+        "correct": true,
+        "answer": "To determine the number of cars in each cell, we'll divide the image into a 3x3 grid and count the cars:\n\n1. Top-left cell (0-1): 2 cars\n2. Top-center cell (0-2): 1 car\n3. Top-right cell (0-3): 1 car\n"
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "<think>\nI need to count the vehicles in each of the 3x3 grid cells and determine if they are all sedans. Let's start by dividing the image into a 3x3 grid.\n\nTop-left cell (1,1): No vehicles visible.\nT"
+      },
+      {
+        "task_id": "235",
+        "correct": true,
+        "answer": "<think>\nSo, I need to count the cars in this overhead image by dividing it into a 3x3 grid. Let me visualize that.\n\nFirst, I'll divide the image into nine equal parts:\n\n1. Top-left cell\n2. Top-center "
+      },
+      {
+        "task_id": "236",
+        "correct": false,
+        "answer": "7"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "To determine the number of white vehicles and their direction, we will divide the image into a 3x3 grid and count the objects in each cell.\n\n1. **Top-left cell (0-1/3 width, 0-1/3 height):**\n   - No v"
+      },
+      {
+        "task_id": "251",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "253",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "task_id": "267",
+        "correct": false,
+        "answer": "<think>\nSo, I need to count the tennis courts in each cell of a 3x3 grid based on the overhead image. Let me start by dividing the image into nine equal parts.\n\nFirst, I'll look at the top-left cell ("
+      },
+      {
+        "task_id": "275",
+        "correct": true,
+        "answer": "<think>\nSo, I need to count the airplanes in this overhead image. Let me divide it into a 3x3 grid mentally.\n\nStarting from the top-left cell (1,1): There's one airplane here.\n\nMoving to the top-middl"
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "To accurately determine the visibility of the parking area south of the tennis courts and count the parked vehicles, we would need to visually inspect the image. Since I cannot view images directly, I"
+      },
+      {
+        "task_id": "289",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "task_id": "301",
+        "correct": false,
+        "answer": "21"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "337",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "<think>\nFirst, I need to divide the image into a 3x3 grid mentally. Then, I'll count the completely destroyed buildings and the partially damaged buildings in each cell.\n\nAfter counting:\n- Completely "
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "341",
+        "correct": true,
+        "answer": "5"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "343",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "344",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "346",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "348",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "<think>\nSo, looking at the image divided into a 3x3 grid, let's count the intact buildings:\n\n1. Top-left cell: 0 buildings\n2. Top-center cell: 0 buildings\n3. Top-right cell: 0 buildings\n4. Middle-left"
+      },
+      {
+        "task_id": "358",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "10"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "100"
+      },
+      {
+        "task_id": "363",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "367",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "368",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "200"
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "18"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "376",
+        "correct": true,
+        "answer": "To determine the number of destroyed buildings, we need to divide the image into a 3x3 grid and count any buildings that appear damaged or partially collapsed.\n\n1. **Top-left cell (0-33% horizontally,"
+      },
+      {
+        "task_id": "377",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "381",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "8"
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "392",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "0"
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "5"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "0"
+      }
+    ],
+    "cot_count": [
+      {
+        "task_id": "2",
+        "correct": false,
+        "answer": "1. Buildings\n2. Cars\n3. Trees\n4. Flooded areas\n\nThe building directly attached to the cul de sac is 1.\n\nThe building is partially flooded as parts of its foundation and surrounding area are submerged "
+      },
+      {
+        "task_id": "15",
+        "correct": false,
+        "answer": "1. House on the left side near the road.\n2. House on the right side with a red roof.\n\nThere appears to be flooding between the houses and along the roads.\n\nTotal: 2"
+      },
+      {
+        "task_id": "19",
+        "correct": false,
+        "answer": "In the overhead remote-sensing image:\n\n1. Houses\n2. Cars\n\nCounting each distinct target object:\n- Number of houses: 16\n- Number of cars: 14\n\nFinal total:\nTotal: 30"
+      },
+      {
+        "task_id": "54",
+        "correct": false,
+        "answer": "I'm unable to determine or count objects like \"destroyed buildings\" in this overhead remote-sensing image. The image primarily shows natural features such as trees and water bodies, without any clear "
+      },
+      {
+        "task_id": "60",
+        "correct": false,
+        "answer": "I'm unable to provide a detailed analysis or count of objects in an overhead remote-sensing image. However, I can help you understand how to approach this task if you have specific criteria or feature"
+      },
+      {
+        "task_id": "76",
+        "correct": false,
+        "answer": "1. Forested Areas\n2. Water Bodies\n3. Human-Made Buildings\n\nDisaster Type: None apparent (no clear signs of recent disasters such as floods or fires).\n\nCount of Visible Human-Made Buildings:\n1. Small s"
+      },
+      {
+        "task_id": "93",
+        "correct": false,
+        "answer": "1. White vehicle near the bottom left corner.\n2. White vehicle slightly above and to the right of the first white vehicle.\n3. White vehicle further up and to the right.\n\nTotal: 3"
+      },
+      {
+        "task_id": "97",
+        "correct": true,
+        "answer": "1. White car at the top left of the image.\n2. White car on the right side of the image.\n\nThere are two white cars, and they are not heading in the same direction; one is facing towards the bottom-left"
+      },
+      {
+        "task_id": "99",
+        "correct": true,
+        "answer": "1. Car 1 is in the leftmost lane, slightly overlapping the yellow road line.\n2. Car 2 is in the second lane from the left, not touching or overlapping the yellow road line.\n3. Car 3 is in the third la"
+      },
+      {
+        "task_id": "100",
+        "correct": false,
+        "answer": "1. Car 1: Top left lane, heading down towards the bottom right corner.\n2. Car 2: Middle left lane, heading down towards the bottom right corner.\n3. Car 3: Bottom middle lane, heading up towards the to"
+      },
+      {
+        "task_id": "101",
+        "correct": false,
+        "answer": "The overhead remote-sensing image shows a multi-lane highway with several vehicles. Here is the enumeration of each distinct target object (vehicle):\n\n1. White car in the top left lane.\n2. Black car i"
+      },
+      {
+        "task_id": "102",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Car 1 (facing northeast)\n2. Car 2 (facing northeast)\n3. Car 3 (facing northeast)\n4. Car 4 (facing southwest)\n5. Car 5 (facing southwest)\n6. Car "
+      },
+      {
+        "task_id": "120",
+        "correct": false,
+        "answer": "1. Car 1: White car near the top left corner.\n2. Car 2: White car slightly below and to the right of Car 1.\n3. Car 3: Red car towards the center-right.\n4. Car 4: White car further down the road from C"
+      },
+      {
+        "task_id": "121",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Car on the road near the bottom left (white)\n2. Car on the road near the bottom left (gray)\n3. Car further up the road from the bottom left (whi"
+      },
+      {
+        "task_id": "125",
+        "correct": false,
+        "answer": "In the overhead remote-sensing image:\n\n1. Car on the leftmost lane heading towards the bottom-left corner.\n2. Car on the leftmost lane further back, also heading towards the bottom-left corner.\n3. Car"
+      },
+      {
+        "task_id": "129",
+        "correct": false,
+        "answer": "Based on the orientation of the vehicles, we can identify two distinct roads:\n\n1. The upper road where three vehicles are traveling.\n2. The lower road where four vehicles are traveling.\n\nFinal count o"
+      },
+      {
+        "task_id": "131",
+        "correct": false,
+        "answer": "1. Car on the left side near the building.\n2. Car on the right side of the road near the bottom.\n3. Red car on the main road towards the top.\n\nTotal: 3"
+      },
+      {
+        "task_id": "137",
+        "correct": false,
+        "answer": "1. Three airplanes are parked at the terminal apron.\n2. The airplanes appear to be white in color.\n\nSince all three airplanes are white, they have the same color attribute.\n\nTotal: 3"
+      },
+      {
+        "task_id": "148",
+        "correct": false,
+        "answer": "In the image, I can identify several distinct target objects:\n\n1. Fully intact buildings\n2. Partially destroyed buildings\n3. Fully destroyed buildings\n\nUpon closer inspection, here are the observation"
+      },
+      {
+        "task_id": "176",
+        "correct": false,
+        "answer": "1. Car on road near top left (driving towards bottom right)\n2. Car parked near building at top left\n3. Car parked near trees at top left\n4. Car on road near center-left (driving towards bottom right)\n"
+      },
+      {
+        "task_id": "187",
+        "correct": false,
+        "answer": "1. Car 1: Near the top right, white.\n2. Car 2: Near the center-right, black.\n\nTotal: 2"
+      },
+      {
+        "task_id": "233",
+        "correct": false,
+        "answer": "1. White vehicle near the building on the right side of the image.\n2. Black vehicle near the white vehicle on the right side of the image.\n3. White vehicle further to the right on the road.\n4. Sedan-t"
+      },
+      {
+        "task_id": "235",
+        "correct": false,
+        "answer": "1. Car 1: White car on the upper road near the center-left of the image.\n2. Car 2: White car on the lower road towards the bottom-center of the image.\n\nBoth cars are white in color.\n\nTotal: 2"
+      },
+      {
+        "task_id": "236",
+        "correct": true,
+        "answer": "1. White car on the left side of the image (near the bottom).\n2. Black car to the right of the white car.\n3. White van near the center-left of the image.\n4. White truck on the top left part of the roa"
+      },
+      {
+        "task_id": "239",
+        "correct": true,
+        "answer": "1. White vehicle on the road near the intersection.\n2. Two white vehicles parked side by side at the top of the image.\n\nThe white vehicles are not all moving in the same direction; one is on a road, w"
+      },
+      {
+        "task_id": "251",
+        "correct": true,
+        "answer": "1. Baseball diamond\n2. Parking lot\n3. Track field\n4. Trees\n5. Water body\n\nBaseball diamonds identified:\n- There are 3 baseball diamonds in the image.\n\nBaseball diamonds currently having players:\n- Non"
+      },
+      {
+        "task_id": "253",
+        "correct": false,
+        "answer": "1. Road from the top-left corner leading to the roundabout.\n2. Road from the bottom-right corner leading to the roundabout.\n\nFinal count of entry roads feeding into the roundabout:\n\nTotal: 2"
+      },
+      {
+        "task_id": "267",
+        "correct": true,
+        "answer": "First, let's identify each distinct target object in the image:\n\n1. Tennis Courts (8)\n2. Cars (4)\n\nNext, we count the number of tennis courts and check if the tennis court closest to the parking area "
+      },
+      {
+        "task_id": "275",
+        "correct": true,
+        "answer": "1. Large airplane (top left)\n2. Large airplane (center top)\n3. Large airplane (bottom center)\n4. Small airplane (bottom left)\n5. Small airplane (bottom right)\n\nThere are 5 airplanes in total.\n\nRegardi"
+      },
+      {
+        "task_id": "283",
+        "correct": true,
+        "answer": "1. Large airplane at the top center.\n2. Small airplane near the large airplane at the top center.\n3. Large airplane at the bottom left.\n4. Large airplane at the bottom right.\n\nUpon examining the image"
+      },
+      {
+        "task_id": "286",
+        "correct": true,
+        "answer": "1. Tennis Courts\n2. Parking Area South of Tennis Courts\n3. Parked Vehicles\n\nThe parking area south of tennis courts is partially occluded in the given imagery.\n\nCount of parked vehicles:\n- 5 vehicles "
+      },
+      {
+        "task_id": "289",
+        "correct": true,
+        "answer": "1. Tennis courts\n2. Swimming pools\n3. Buildings\n4. Trees\n5. Vehicles\n\nIn the parking area located at the bottom right quadrant of the image:\n- Dark-colored vehicles: 6\n- Light-colored vehicles: 3\n\nFin"
+      },
+      {
+        "task_id": "290",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Airplane (bottom left)\n2. Airplane (middle left)\n3. Airplane (center)\n4. Airplane (right side)\n\nNow, for the minimum number of ground crew requi"
+      },
+      {
+        "task_id": "298",
+        "correct": false,
+        "answer": "1. Identify and count the lanes on each bridge.\n\n- The first bridge has two lanes.\n- The second bridge also has two lanes.\n\n2. Sum the total number of lanes from both bridges.\n\nFirst bridge lanes: 2  "
+      },
+      {
+        "task_id": "301",
+        "correct": true,
+        "answer": "1. Enumerate each distinct target object:\n   - Empty airplane parking spot 1\n   - Empty airplane parking spot 2\n   - Empty airplane parking spot 3\n   - Empty airplane parking spot 4\n   - Empty airplan"
+      },
+      {
+        "task_id": "335",
+        "correct": false,
+        "answer": "First, let's identify distinct target objects in the overhead remote-sensing image:\n\n1. Buildings (intact or partially destroyed)\n2. Roads\n3. Trees\n4. Water bodies\n\nNext, we will count the number of d"
+      },
+      {
+        "task_id": "336",
+        "correct": false,
+        "answer": "First, let's identify and count the distinct target objects:\n\n1. Buildings (intact)\n2. Destroyed Buildings\n\nNext, we'll compute the ratio of destroyed buildings to total buildings in the post image.\n\n"
+      },
+      {
+        "task_id": "337",
+        "correct": false,
+        "answer": "First, let's identify distinct target objects in the image:\n\n1. Buildings\n2. Trees\n3. Roads\n4. Water bodies\n\nNow, to determine which quadrant contains the most buildings that are major-damage or destr"
+      },
+      {
+        "task_id": "338",
+        "correct": false,
+        "answer": "First, let's identify and count the distinct target objects in the image:\n\n1. Completely Destroyed Buildings:\n   - 2 at the top left (near the small structure)\n   - 1 near the center-right (small buil"
+      },
+      {
+        "task_id": "339",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Buildings\n2. Trees\n3. Roads\n4. Vehicles\n\nNext, we need to determine what percentage of all buildings visible were completely destroyed in the po"
+      },
+      {
+        "task_id": "341",
+        "correct": true,
+        "answer": "First, let's identify and count each distinct target object:\n\n1. Destroyed Buildings\n\nNext, we need to determine the number of destroyed buildings in the image.\n\nUpon examining the image closely, I ca"
+      },
+      {
+        "task_id": "342",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Buildings at the bottom left (near the white structure)\n2. Small building near the swimming pool on the upper left side\n3. Cluster of structures"
+      },
+      {
+        "task_id": "343",
+        "correct": true,
+        "answer": "In the overhead remote-sensing image:\n\n1. Completely destroyed building in the upper half: 1 (near the left side, close to the road).\n2. Completely destroyed buildings in the lower half: 0.\n\nFinal cou"
+      },
+      {
+        "task_id": "344",
+        "correct": true,
+        "answer": "1. Severely damaged building (bottom left)\n2. Severely damaged building (center left)\n\nFinal total of severely damaged buildings: 2\n\nIf a single response team can inspect 3 severely damaged sites per "
+      },
+      {
+        "task_id": "345",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. A building at the top left (near coordinates 200, 200).\n2. A small structure near the center-left of the image.\n3. A rectangular area that appea"
+      },
+      {
+        "task_id": "346",
+        "correct": true,
+        "answer": "First, let's identify each distinct target object in the image:\n\n1. A small building near the top left.\n2. Another small structure or shed near the top center-left.\n3. A larger rectangular area that m"
+      },
+      {
+        "task_id": "348",
+        "correct": true,
+        "answer": "First, let's identify and count each distinct target object in the image:\n\n1. Small house near the top left.\n2. Large white structure near the top center.\n3. Pond or water body near the middle left.\n4"
+      },
+      {
+        "task_id": "349",
+        "correct": false,
+        "answer": "First, let's identify and count each distinct target object in the image:\n\n1. Buildings near the bottom left corner.\n2. Trees scattered throughout the image.\n\nNow, focusing on the buildings:\n- There i"
+      },
+      {
+        "task_id": "352",
+        "correct": true,
+        "answer": "1. No-damage building: 1 (bottom left)\n2. Destroyed building: 1 (near the center)\n\nFinal total of buildings:\n- No-damage buildings: 1\n- Destroyed buildings: 1\n\nNumber of rescue units needed:\nEach resc"
+      },
+      {
+        "task_id": "354",
+        "correct": false,
+        "answer": "1. Small building near the top center-right.\n2. Medium-sized structure near the bottom right.\n\nTotal: 2"
+      },
+      {
+        "task_id": "355",
+        "correct": false,
+        "answer": "First, let's identify and count each distinct target object:\n\n1. Forested area (large green region)\n2. Roadways (curved paths through forest)\n3. Construction site (area with machinery and structures)\n"
+      },
+      {
+        "task_id": "357",
+        "correct": false,
+        "answer": "First, let's identify each distinct target object:\n\n1. Forested area\n2. Roadways\n3. Construction site\n\nNow, for counting intact buildings:\n\n- There are no visible buildings in the image.\n\nSince there "
+      },
+      {
+        "task_id": "358",
+        "correct": true,
+        "answer": "First, let's divide the scene into four equal quadrants:\n\n1. **Top-left Quadrant (0-512, 0-512)**\n2. **Top-right Quadrant (512-1024, 0-512)**\n3. **Bottom-left Quadrant (0-512, 512-1024)**\n4. **Bottom-"
+      },
+      {
+        "task_id": "359",
+        "correct": false,
+        "answer": "In the provided overhead remote-sensing image, I can identify several distinct target objects:\n\n1. Buildings\n2. Roads\n3. Trees/Foliage\n4. Parking Lots\n5. Water Bodies\n\nTo answer the question about des"
+      },
+      {
+        "task_id": "360",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Buildings\n2. Trees\n3. Roads\n4. Swimming pools\n5. Tennis court\n\nNext, we need to count the number of buildings and determine how many were comple"
+      },
+      {
+        "task_id": "361",
+        "correct": false,
+        "answer": "In the provided overhead remote-sensing image, I can identify several distinct target objects:\n\n1. Buildings\n2. Roads\n3. Trees\n4. Pools (swimming pools)\n5. Tennis court\n\nTo determine how many building"
+      },
+      {
+        "task_id": "362",
+        "correct": false,
+        "answer": "To determine the percentage of buildings classified as destroyed after the flood, follow these steps:\n\n1. Identify and count all distinct building objects in the pre-flood image.\n2. Compare this list "
+      },
+      {
+        "task_id": "363",
+        "correct": true,
+        "answer": "In this overhead remote-sensing image, I can identify several distinct target objects:\n\n1. A large body of water (likely a lake or river).\n2. A road running horizontally across the middle.\n3. An indus"
+      },
+      {
+        "task_id": "365",
+        "correct": false,
+        "answer": "In the provided overhead remote-sensing image, I can identify the following distinct target objects:\n\n1. Golf course fairways and greens.\n2. Trees surrounding the golf course.\n3. A small building near"
+      },
+      {
+        "task_id": "367",
+        "correct": true,
+        "answer": "First, let's identify the distinct target objects in the image:\n\n1. Golf course (green areas with paths)\n2. Forested areas (dark green patches surrounding the golf course)\n3. Buildings/shelters (white"
+      },
+      {
+        "task_id": "368",
+        "correct": true,
+        "answer": "In this overhead remote-sensing image, I can identify distinct target objects such as:\n\n1. Forested areas\n2. Agricultural fields\n3. Paths or roads\n\nThere are no visible buildings in the provided image"
+      },
+      {
+        "task_id": "369",
+        "correct": false,
+        "answer": "I'm unable to analyze or count objects in an overhead remote-sensing image directly. However, I can guide you on how to approach this task:\n\n1. **Identify Distinct Target Objects**:\n   - Look for patt"
+      },
+      {
+        "task_id": "370",
+        "correct": false,
+        "answer": "1. Identify distinct target objects:\n   - Buildings (pre and post-fire)\n   - Swimming pools\n   - Roads\n\n2. Count the number of buildings before and after the wildfire:\n   - Pre-fire: 4 buildings\n   - "
+      },
+      {
+        "task_id": "371",
+        "correct": false,
+        "answer": "First, let's identify distinct target objects:\n\n1. Buildings\n2. Roads\n3. Vehicles\n\nNow, let's count each type of object.\n\n### Counting Objects:\n1. **Buildings**: There are numerous buildings scattered"
+      },
+      {
+        "task_id": "373",
+        "correct": false,
+        "answer": "First, let's identify and enumerate the distinct target objects:\n\n1. Buildings\n2. Roads\n3. Trees\n4. Fields\n\nNow, let's count them:\n\n1. **Buildings**: There are multiple buildings scattered throughout "
+      },
+      {
+        "task_id": "376",
+        "correct": true,
+        "answer": "1. Identify distinct target objects:\n   - Buildings\n   - Trees\n   - Roads\n   - Swimming pools\n\n2. Count the number of destroyed buildings:\n   - By examining the image, it appears that there are no vis"
+      },
+      {
+        "task_id": "377",
+        "correct": true,
+        "answer": "First, let's enumerate the distinct target objects:\n\n1. Houses/Buildings\n2. Trees\n3. Roads\n4. Swimming Pools\n\nNow, dividing the image into four quadrants and identifying the types of buildings:\n\n**Qua"
+      },
+      {
+        "task_id": "378",
+        "correct": false,
+        "answer": "1. Identify distinct target objects:\n   - Buildings (no damage)\n   - Trees\n   - Roads\n   - Parking lots\n   - Small structures\n\n2. Count the no-damage buildings in the upper half of the image:\n   - 3 b"
+      },
+      {
+        "task_id": "379",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Small building near the bottom left (white structure).\n2. Baseball field at the bottom left.\n3. Cluster of small structures and trees on the lef"
+      },
+      {
+        "task_id": "381",
+        "correct": true,
+        "answer": "First, let's identify and count the distinct target objects in the overhead remote-sensing image:\n\n1. Small building at the top left (near coordinates 20, 5).\n2. Cluster of small buildings near coordi"
+      },
+      {
+        "task_id": "382",
+        "correct": false,
+        "answer": "In the provided overhead remote-sensing image, I can identify the following distinct target objects:\n\n1. Forested areas\n2. Agricultural fields\n3. Buildings\n\nNow, let's analyze the buildings in compari"
+      },
+      {
+        "task_id": "383",
+        "correct": false,
+        "answer": "First, let's identify and count each distinct target object:\n\n1. Buildings (with red roofs)\n2. Swimming pool\n\nNext, we need to determine the percentage of the overall built-up area that was lost due t"
+      },
+      {
+        "task_id": "384",
+        "correct": false,
+        "answer": "First, let's identify and count the distinct target objects in the image:\n\n1. Buildings (destroyed or intact)\n2. Agricultural fields\n\nUpon examining the image:\n- There is one building on the left side"
+      },
+      {
+        "task_id": "386",
+        "correct": false,
+        "answer": "First, let's enumerate each distinct target object:\n\n1. Large green forested area on the left side of the image.\n2. Agricultural fields to the right of the forest.\n3. Small building near the bottom ce"
+      },
+      {
+        "task_id": "387",
+        "correct": false,
+        "answer": "First, let's identify and enumerate each distinct target object in the image:\n\n1. Forested area (upper part)\n2. Open field (middle-right)\n3. Damaged buildings (bottom-left corner)\n4. Small structures "
+      },
+      {
+        "task_id": "388",
+        "correct": false,
+        "answer": "First, let's identify and count each distinct target object:\n\n1. Buildings with minor damage (e.g., small structures near the bottom left)\n2. Buildings with major damage (e.g., larger structures near "
+      },
+      {
+        "task_id": "389",
+        "correct": false,
+        "answer": "1. Forested Area\n2. Open Field (Agricultural Land)\n3. Damaged Buildings\n\nThere are 4 damaged buildings visible in the image.\n\nEach rescue team can inspect two damaged buildings per hour. Therefore, to"
+      },
+      {
+        "task_id": "390",
+        "correct": false,
+        "answer": "First, let's identify and count each distinct target object:\n\n1. Buildings:\n   - 1 building at the bottom right (near the road)\n   - 1 small structure near the center-right edge of the clearing\n   - 1"
+      },
+      {
+        "task_id": "392",
+        "correct": false,
+        "answer": "In this overhead remote-sensing image:\n\n1. Large forested area (top-left)\n2. Open field with small structures and vehicles (right side)\n3. Cluster of trees in the center\n4. Buildings near the open fie"
+      },
+      {
+        "task_id": "393",
+        "correct": false,
+        "answer": "First, let's identify and count each distinct target object:\n\n1. Buildings\n2. Trees\n3. Parking lot vehicles\n4. Tennis court\n5. Swimming pool\n\nNext, we need to determine what percentage of the total bu"
+      },
+      {
+        "task_id": "395",
+        "correct": false,
+        "answer": "First, let's identify and count the distinct target objects:\n\n1. Buildings - There are numerous buildings scattered throughout the image.\n2. Cars - Many cars are visible on roads and parking lots.\n3. "
+      },
+      {
+        "task_id": "396",
+        "correct": false,
+        "answer": "First, let's identify distinct target objects in the image:\n\n1. Buildings\n2. Trees\n3. Roads\n4. Parking lot vehicles\n5. Tennis court\n\nNow, we'll divide the scene into four equal quadrants and count the"
+      },
+      {
+        "task_id": "398",
+        "correct": false,
+        "answer": "I'm unable to determine percentages or specific details about building conditions from this image. However, I can help you count distinct objects if needed.\n\n1. Buildings\n2. Trees\n\nTotal: 2"
+      }
+    ]
+  }
+}

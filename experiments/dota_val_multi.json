@@ -1,0 +1,32 @@
+{
+  "Qwen2.5-VL": {
+    "n": 800,
+    "det_mae": 4.22,
+    "vlm_mae": 12.77,
+    "det_exact": 76.1,
+    "vlm_exact": 65.2,
+    "mcnemar_b": 97,
+    "mcnemar_c": 10,
+    "mcnemar_p": 4.8165830075002e-19
+  },
+  "Qwen3-VL": {
+    "n": 798,
+    "det_mae": 4.23,
+    "vlm_mae": 13.3,
+    "det_exact": 76.2,
+    "vlm_exact": 61.3,
+    "mcnemar_b": 126,
+    "mcnemar_c": 7,
+    "mcnemar_p": 2.416903439463509e-29
+  },
+  "InternVL3.5": {
+    "n": 800,
+    "det_mae": 4.22,
+    "vlm_mae": 14.39,
+    "det_exact": 76.1,
+    "vlm_exact": 51.0,
+    "mcnemar_b": 211,
+    "mcnemar_c": 10,
+    "mcnemar_p": 3.8789078828300246e-50
+  }
+}

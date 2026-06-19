@@ -1,0 +1,104 @@
+{
+  "total_tasks": 436,
+  "type_distribution": {
+    "M1": 167,
+    "M2": 107,
+    "D": 95,
+    "M4": 23,
+    "M5": 22,
+    "M3": 22
+  },
+  "type_ratio": {
+    "M1": 0.383,
+    "M2": 0.2454,
+    "D": 0.2179,
+    "M4": 0.0528,
+    "M5": 0.0505,
+    "M3": 0.0505
+  },
+  "description_count": 95,
+  "measurement_count": 341,
+  "measurement_ratio": 0.7821,
+  "confidence_distribution": {
+    "high": 306,
+    "medium": 116,
+    "low": 14
+  },
+  "top_multi_type_combos": [
+    {
+      "types": [
+        "M1",
+        "M2"
+      ],
+      "count": 37
+    },
+    {
+      "types": [
+        "M2",
+        "M4"
+      ],
+      "count": 27
+    },
+    {
+      "types": [
+        "M1",
+        "M4"
+      ],
+      "count": 24
+    },
+    {
+      "types": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "count": 13
+    },
+    {
+      "types": [
+        "M2",
+        "M3"
+      ],
+      "count": 12
+    },
+    {
+      "types": [
+        "M1",
+        "M5"
+      ],
+      "count": 11
+    },
+    {
+      "types": [
+        "M2",
+        "M5"
+      ],
+      "count": 5
+    },
+    {
+      "types": [
+        "M2",
+        "M4",
+        "M5"
+      ],
+      "count": 5
+    },
+    {
+      "types": [
+        "D",
+        "M4",
+        "M5"
+      ],
+      "count": 4
+    },
+    {
+      "types": [
+        "M1",
+        "M3"
+      ],
+      "count": 3
+    }
+  ]
+}
