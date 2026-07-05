@@ -68,7 +68,7 @@ Copy `.env.example` to `.env` and add API keys before running LLM-dependent scri
 > distributed** here; images also fall under Google Earth Terms of Use.
 
 Backbones: Qwen3-VL-8B, Qwen2.5-VL-7B, InternVL3.5-8B (Apache-2.0). Detector:
-YOLO26-OBB (`yolo26l-obb.pt`, DOTA-v1.0 pretrained, AGPL-3.0). LLM classifiers:
+YOLO26l-OBB (`yolo26l-obb.pt`, DOTA-v1.0 pretrained, AGPL-3.0). LLM classifiers:
 Qwen3.5-9B, gpt-oss-20b. Download instructions: `data/README.md`.
 
 ## Annotations Dataset

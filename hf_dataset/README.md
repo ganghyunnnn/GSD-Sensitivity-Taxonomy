@@ -56,8 +56,8 @@ physically unanswerable while the value stays the same (M2)?*
 |------|------|-------------|
 | `thinkgeo_taxonomy_labels.json`   | labels      | ThinkGeoBench task → list of D/M1/M2 labels (multi-label) |
 | `thinkgeo_taxonomy_summary.json`  | aggregate   | Distribution summary over ThinkGeo |
-| `iaa_sample.csv`                  | IAA seed    | 50 stratified ThinkGeo tasks (annotator 1) |
-| `iaa_sample_annotator2.csv`       | IAA         | Same 50 tasks labeled by annotator 2 |
+| `iaa_sample.csv`                  | IAA seed    | 88 stratified ThinkGeo tasks (annotator 1) |
+| `iaa_sample_annotator2.csv`       | IAA         | Same 88 tasks labeled by annotator 2 |
 | `iaa_annotator2.json`             | IAA         | Annotator 2 labels in JSON form |
 | `iaa_sample_annotator2_rationale_ko.md` | IAA notes | Per-task rationale (Korean) |
 | `iaa_guideline.md`                | docs        | Annotation guideline |
@@ -185,7 +185,7 @@ python src/eval/run_all_experiments.py
 ## Annotation Process
 
 - Annotator 1 (lead, paper author): labeled all ThinkGeoBench tasks.
-- Annotator 2: independently labeled a 50-task stratified sample for IAA.
+- Annotator 2: independently labeled an 88-task stratified sample for IAA.
 - Multi-label scheme: a task may carry multiple D/M tags when the answer
   requires more than one capability (e.g., `D+M2` = identify + count).
 - IAA computed as Cohen's κ and macro-F1 per label.
