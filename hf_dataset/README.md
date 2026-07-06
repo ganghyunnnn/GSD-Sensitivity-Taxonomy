@@ -126,7 +126,7 @@ distribution figures were computed locally from the academic release.
 | File pattern | Provenance | Upstream license |
 |---|---|---|
 | `thinkgeo_taxonomy_labels.json`, `thinkgeo_taxonomy_summary.json` | Our labels keyed by upstream `task_id` (no question text) | n/a (our work) |
-| `iaa_sample.csv`, `iaa_sample_annotator2.csv` | Our labels + **verbatim ThinkGeoBench question text and image filenames** for the 50-task IAA sample | ThinkGeoBench, Apache-2.0 |
+| `iaa_sample.csv`, `iaa_sample_annotator2.csv` | Our labels + **verbatim ThinkGeoBench question text and image filenames** for the 88-task IAA sample | ThinkGeoBench, Apache-2.0 |
 | `iaa_annotator2.json` | Our labels keyed by `task_id` only | n/a (our work) |
 | `iaa_sample_annotator2_rationale_ko.md` | Our rationale + Korean translations/quotations of selected questions | quoted text: ThinkGeoBench, Apache-2.0 |
 | `iaa_guideline.md` | Our annotation guideline | n/a (our work) |
