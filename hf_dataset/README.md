@@ -54,21 +54,25 @@ physically unanswerable while the value stays the same (M2)?*
 
 | File | Type | Description |
 |------|------|-------------|
-| `thinkgeo_taxonomy_labels.json`   | labels      | ThinkGeoBench task → list of D/M1/M2 labels (multi-label) |
+| `thinkgeo_taxonomy_labels.json`   | labels      | Per-task record: D/M1/M2 labels (multi-label) + verbatim question text and image filename |
 | `thinkgeo_taxonomy_summary.json`  | aggregate   | Distribution summary over ThinkGeo |
 | `iaa_sample.csv`                  | IAA seed    | 88 stratified ThinkGeo tasks (annotator 1) |
 | `iaa_sample_annotator2.csv`       | IAA         | Same 88 tasks labeled by annotator 2 |
 | `iaa_annotator2.json`             | IAA         | Annotator 2 labels in JSON form |
 | `iaa_sample_annotator2_rationale_ko.md` | IAA notes | Per-task rationale (Korean) |
 | `iaa_guideline.md`                | docs        | Annotation guideline |
-| `router_eval*.json`               | results     | Rule/LLM/hybrid router evaluation |
-| `llm_router_preds*.json`          | results     | Per-task LLM router predictions |
-| `backbone_*.json`                 | results     | Backbone VLM evaluation traces |
-| `rsvqa_*.json`                    | results     | RSVQA-LR evaluation traces |
-| `gsd_ablation.json`               | results     | GSD-prompt ablation |
+| `review_436.csv`                  | labels      | Full 436-task review with verbatim question text |
+| `router_eval_3type.json`          | results     | Rule-based classifier metrics on the 189-task split (Table IV) |
+| `backbone_*.json`                 | results     | Backbone VLM evaluation traces (ThinkGeo, Table II) |
+| `rsvqa_*.json`                    | results     | RSVQA-LR full-split evaluation traces |
+| `floodnet_*.json`                 | results     | FloodNet Track-2 evaluation traces |
+| `gsd_ablation.json`               | results     | GSD prompt-injection ablation (M1) |
+| `m2ab_*.json`                     | results     | M2 direct-vs-counting prompt decomposition |
+| `m2search_*.json`                 | results     | M2 counting-prompt search across conditions |
+| `routed_eval_*.json`              | results     | Taxonomy-routed prompting evaluation |
 | `bootstrap_sensitivity.json`      | results     | Bootstrap CI sensitivity |
 | `failure_analysis_by_type.json`   | results     | Failure rates by D/M type |
-| `task_level_*.json`               | results     | Task-level prompting comparisons |
+| `task_level_*.json`               | results     | ThinkGeo agent baselines (Vanilla ReAct, Direct Prompting) |
 
 ## Source Benchmarks
 
@@ -125,31 +129,49 @@ distribution figures were computed locally from the academic release.
 
 | File pattern | Provenance | Upstream license |
 |---|---|---|
-| `thinkgeo_taxonomy_labels.json`, `thinkgeo_taxonomy_summary.json` | Our labels keyed by upstream `task_id` (no question text) | n/a (our work) |
+| `thinkgeo_taxonomy_labels.json` | Our labels + **verbatim ThinkGeoBench question text and image filenames**, keyed by `task_id` | ThinkGeoBench, Apache-2.0 |
+| `thinkgeo_taxonomy_summary.json` | Aggregate distribution counts only | n/a (our work) |
 | `iaa_sample.csv`, `iaa_sample_annotator2.csv` | Our labels + **verbatim ThinkGeoBench question text and image filenames** for the 88-task IAA sample | ThinkGeoBench, Apache-2.0 |
 | `iaa_annotator2.json` | Our labels keyed by `task_id` only | n/a (our work) |
 | `iaa_sample_annotator2_rationale_ko.md` | Our rationale + Korean translations/quotations of selected questions | quoted text: ThinkGeoBench, Apache-2.0 |
 | `iaa_guideline.md` | Our annotation guideline | n/a (our work) |
 | `review_436.csv` | Our labels + **verbatim ThinkGeoBench question text** | ThinkGeoBench, Apache-2.0 |
-| `router_eval*.json`, `llm_router_preds*.json`, `router_llm_qwen35_9b.json` | Router accuracy and predictions | n/a (our work) |
-| `backbone_*.json`, `gsd_ablation.json`, `task_level_*.json` | Model predictions on ThinkGeoBench tasks (model outputs are ours; questions referenced by `task_id`) | n/a (our work) |
+| `router_eval_3type.json` | Rule-based classifier metrics on the 189-task split | n/a (our work) |
+| `backbone_*.json`, `gsd_ablation.json`, `task_level_*.json`, `m2ab_*.json`, `m2search_*.json`, `routed_eval_*.json` | Model predictions / derived metrics on ThinkGeoBench tasks (model outputs are ours; questions referenced by `task_id`) | n/a (our work) |
 | `rsvqa_*.json` | Model predictions on RSVQA-LR (only upstream `q_id` integers retained) | n/a (our work) |
+| `floodnet_*.json` | Model predictions on FloodNet Track-2 (questions referenced by image id) | n/a (our work) |
 | `bootstrap_sensitivity.json`, `failure_analysis_by_type.json` | Aggregate statistics | n/a (our work) |
 
 ## Schema
 
 ### `thinkgeo_taxonomy_labels.json`
 ```json
-{ "<task_id>": ["D"], "<task_id>": ["M1", "M2"], ... }
+{
+  "<task_id>": {
+    "task_id": "0",
+    "query": "<verbatim ThinkGeo question>",
+    "image": "image/<filename>",
+    "tools_used": ["..."],
+    "tools_available": ["..."],
+    "annotation": {
+      "confidence": "high|medium|low",
+      "evidence": ["<matched lexical pattern>", "..."],
+      "notes": null,
+      "reviewed": true,
+      "types": ["D"]
+    }
+  }, ...
+}
 ```
-Multi-label list per task. `task_id` is the integer index into ThinkGeoBench.
+Per-task record; `annotation.types` is the multi-label D/M1/M2 list. `task_id` is the
+integer index into ThinkGeoBench.
 
 ### `iaa_sample.csv` / `iaa_sample_annotator2.csv`
 Columns: `task_id, image, query, type_annotator, notes`
 where `type_annotator` ∈ `{D, M1, M2, D+M1, D+M2, M1+M2, D+M1+M2, ...}`.
 
-### `router_eval*.json`
-Aggregated router accuracy / per-class precision-recall.
+### `router_eval_3type.json`
+Rule-based classifier accuracy and per-class precision/recall/F1 on the 189-task split.
 
 ### `backbone_*.json`, `rsvqa_*.json`
 Per-task records: `{task_id, type, prompt, prediction, reference, correct, ...}`.
@@ -216,7 +238,8 @@ question text and/or image filenames from upstream RS-VQA benchmarks
 license takes precedence:
 
 - **ThinkGeoBench question text and image filenames** in
-  `iaa_sample.csv`, `iaa_sample_annotator2.csv`, `review_436.csv`, and
+  `thinkgeo_taxonomy_labels.json`, `iaa_sample.csv`,
+  `iaa_sample_annotator2.csv`, `review_436.csv`, and
   `iaa_sample_annotator2_rationale_ko.md` remain under
   **Apache License 2.0** (Shabbir et al., MBZUAI Oryx Lab).
   Downstream redistribution must preserve the upstream attribution; see

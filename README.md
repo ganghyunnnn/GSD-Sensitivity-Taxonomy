@@ -86,7 +86,7 @@ Each paper result maps to a script + an output file. Run the full pipeline with
 | Paper artifact | Script |
 |---|---|
 | Cross-benchmark distribution (Table I) | `src/taxonomy/cross_benchmark_analysis.py` |
-| Classifier metrics + IAA (Table IV) | `src/router/eval_router.py`, `annotation/iaa_measurement.py` |
+| Classifier metrics + IAA (Table IV) | `src/router/eval_router_3type.py`, `annotation/iaa_measurement.py` |
 | Backbone VLM failure rates (Table II) | `src/eval/run_backbone_eval.py` |
 | GSD-injection ablation | `src/eval/run_gsd_ablation.py` |
 | Bootstrap CIs | `src/eval/bootstrap_sensitivity.py` |
