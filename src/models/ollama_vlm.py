@@ -40,6 +40,7 @@ class OllamaVLM(VLMBase):
                 "temperature": temperature,
                 "num_predict": max_tokens,
                 "num_gpu": 99,   # 모든 레이어를 GPU에 올림
+                "num_ctx": 8192, # KV 캐시 상한 (기본 대용량 컨텍스트 시 VRAM 폭증 방지)
             },
         }
         if image_path is not None:
@@ -103,6 +104,7 @@ class OllamaVLM(VLMBase):
                 "temperature": temperature,
                 "num_predict": max_tokens,
                 "num_gpu": 99,
+                "num_ctx": 8192, # KV 캐시 상한 (기본 대용량 컨텍스트 시 VRAM 폭증 방지)
             },
         }
         t0 = time.monotonic()
