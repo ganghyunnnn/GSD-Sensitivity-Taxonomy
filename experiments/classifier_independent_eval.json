@@ -1,0 +1,87 @@
+{
+ "n_tasks": 88,
+ "n_single_label_ann2": 75,
+ "n_multi_label_ann2": 13,
+ "vs_annotator2": {
+  "collapsed": {
+   "k": 84,
+   "n": 88,
+   "pct": 95.5,
+   "wilson95": [
+    88.9,
+    98.2
+   ]
+  },
+  "lenient_in_set": {
+   "k": 84,
+   "n": 88,
+   "pct": 95.5,
+   "wilson95": [
+    88.9,
+    98.2
+   ]
+  },
+  "single_label_only": {
+   "k": 71,
+   "n": 75,
+   "pct": 94.7,
+   "wilson95": [
+    87.1,
+    97.9
+   ]
+  },
+  "kappa_collapsed": 0.932
+ },
+ "vs_curated_same88": {
+  "collapsed": {
+   "k": 85,
+   "n": 88,
+   "pct": 96.6,
+   "wilson95": [
+    90.5,
+    98.8
+   ]
+  },
+  "kappa_collapsed": 0.949
+ },
+ "disagreements_vs_ann2": [
+  {
+   "task_id": "33",
+   "query": "Is red car and black cars are parked together? GSD is 0.015m/px.",
+   "pred": "M1",
+   "ann2_set": [
+    "D"
+   ]
+  },
+  {
+   "task_id": "123",
+   "query": "What is the area of the swimming pool in the image, based on ground sample distance of 1.6958243?",
+   "pred": "D",
+   "ann2_set": [
+    "M1"
+   ]
+  },
+  {
+   "task_id": "198",
+   "query": "Detect all planes and storage tanks, and plot the distribution?",
+   "pred": "D",
+   "ann2_set": [
+    "M2"
+   ]
+  },
+  {
+   "task_id": "209",
+   "query": "Detect tennis court and basketball court, Plot the distribution.",
+   "pred": "D",
+   "ann2_set": [
+    "M2"
+   ]
+  }
+ ],
+ "notes": [
+  "annotator-2 blind to algorithm output (iaa_sample.csv had no label columns)",
+  "shared author-written guideline -> bounds anchoring bias, not rule-level circularity",
+  "88 tasks stratified from all 436; the 95.2% figure is on the 189-task eval split (different population)"
+ ],
+ "circularity_inflation_pp": 1.1
+}

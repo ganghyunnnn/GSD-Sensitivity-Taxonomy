@@ -1,0 +1,63 @@
+{
+ "image/369.jpg": {
+  "small vehicle": 3
+ },
+ "image/384.jpg": {
+  "small vehicle": 2
+ },
+ "image/387.jpg": {
+  "small vehicle": 6
+ },
+ "image/392.jpg": {
+  "small vehicle": 5,
+  "large vehicle": 2
+ },
+ "image/6.png": {
+  "small vehicle": 9
+ },
+ "image/P0010.png": {
+  "plane": 3
+ },
+ "image/P0044.png": {
+  "small vehicle": 2
+ },
+ "image/P0051.png": {
+  "small vehicle": 4
+ },
+ "image/P0069.png": {
+  "small vehicle": 8
+ },
+ "image/P0070.png": {
+  "small vehicle": 6
+ },
+ "image/P0105.png": {
+  "small vehicle": 13
+ },
+ "image/P0110.png": {
+  "small vehicle": 8
+ },
+ "image/P0213.png": {
+  "small vehicle": 7
+ },
+ "image/P0214.png": {
+  "small vehicle": 4
+ },
+ "image/P0239.png": {
+  "small vehicle": 13
+ },
+ "image/P0298.png": {
+  "small vehicle": 6,
+  "large vehicle": 1
+ },
+ "image/P0327.png": {
+  "ship": 8,
+  "small vehicle": 7
+ },
+ "image/P0478.png": {
+  "plane": 11,
+  "small vehicle": 2
+ },
+ "image/P0660.png": {
+  "small vehicle": 9
+ }
+}

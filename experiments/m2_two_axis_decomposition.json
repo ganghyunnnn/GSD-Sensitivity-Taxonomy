@@ -1,0 +1,885 @@
+{
+ "framing": "pre-committed two-axis decomposition (sensor vs pipeline vs model)",
+ "s_floor_px": 10,
+ "n_failures": 63,
+ "n_gsd_known_with_image": 54,
+ "n_unclassified": 9,
+ "measured_object_sizes_dota_val": {
+  "plane": {
+   "n": 2421,
+   "median_m": 17.9,
+   "p25_m": 12.0,
+   "p75_m": 41.0
+  },
+  "ship": {
+   "n": 8724,
+   "median_m": 10.8,
+   "p25_m": 8.9,
+   "p75_m": 13.1
+  },
+  "small vehicle": {
+   "n": 5435,
+   "median_m": 4.9,
+   "p25_m": 4.5,
+   "p75_m": 5.3
+  },
+  "large vehicle": {
+   "n": 4375,
+   "median_m": 11.8,
+   "p25_m": 9.6,
+   "p75_m": 13.1
+  }
+ },
+ "nominal_sizes_used": {
+  "vehicle": 4.5,
+  "car": 4.5,
+  "truck": 6.0,
+  "bus": 12.0,
+  "motorcycle": 2.0,
+  "building": 15.0,
+  "house": 12.0,
+  "structure": 15.0,
+  "aircraft": 30.0,
+  "plane": 25.0,
+  "airplane": 25.0,
+  "helicopter": 10.0,
+  "person": 1.8,
+  "human": 1.8,
+  "pedestrian": 1.8,
+  "pool": 8.0,
+  "swimming": 8.0,
+  "road": 10.0
+ },
+ "by_budget": {
+  "448": {
+   "all": {
+    "sensor_limited": 37,
+    "pipeline_limited": 6,
+    "model_error": 11,
+    "n": 54,
+    "sensor_limited_pct": 68.5,
+    "sensor_limited_wilson95": [
+     55.3,
+     79.3
+    ],
+    "pipeline_limited_pct": 11.1,
+    "pipeline_limited_wilson95": [
+     5.2,
+     22.2
+    ],
+    "model_error_pct": 20.4,
+    "model_error_wilson95": [
+     11.8,
+     32.9
+    ]
+   },
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 5,
+    "model_error": 0,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 12.2,
+    "pipeline_limited_wilson95": [
+     5.3,
+     25.5
+    ],
+    "model_error_pct": 0.0,
+    "model_error_wilson95": [
+     0.0,
+     8.6
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 1,
+    "model_error": 11,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 7.7,
+    "pipeline_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "model_error_pct": 84.6,
+    "model_error_wilson95": [
+     57.8,
+     95.7
+    ]
+   }
+  },
+  "672": {
+   "all": {
+    "sensor_limited": 37,
+    "pipeline_limited": 5,
+    "model_error": 12,
+    "n": 54,
+    "sensor_limited_pct": 68.5,
+    "sensor_limited_wilson95": [
+     55.3,
+     79.3
+    ],
+    "pipeline_limited_pct": 9.3,
+    "pipeline_limited_wilson95": [
+     4.0,
+     19.9
+    ],
+    "model_error_pct": 22.2,
+    "model_error_wilson95": [
+     13.2,
+     34.9
+    ]
+   },
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 5,
+    "model_error": 0,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 12.2,
+    "pipeline_limited_wilson95": [
+     5.3,
+     25.5
+    ],
+    "model_error_pct": 0.0,
+    "model_error_wilson95": [
+     0.0,
+     8.6
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "896": {
+   "all": {
+    "sensor_limited": 37,
+    "pipeline_limited": 5,
+    "model_error": 12,
+    "n": 54,
+    "sensor_limited_pct": 68.5,
+    "sensor_limited_wilson95": [
+     55.3,
+     79.3
+    ],
+    "pipeline_limited_pct": 9.3,
+    "pipeline_limited_wilson95": [
+     4.0,
+     19.9
+    ],
+    "model_error_pct": 22.2,
+    "model_error_wilson95": [
+     13.2,
+     34.9
+    ]
+   },
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 5,
+    "model_error": 0,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 12.2,
+    "pipeline_limited_wilson95": [
+     5.3,
+     25.5
+    ],
+    "model_error_pct": 0.0,
+    "model_error_wilson95": [
+     0.0,
+     8.6
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "1024": {
+   "all": {
+    "sensor_limited": 37,
+    "pipeline_limited": 0,
+    "model_error": 17,
+    "n": 54,
+    "sensor_limited_pct": 68.5,
+    "sensor_limited_wilson95": [
+     55.3,
+     79.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     6.6
+    ],
+    "model_error_pct": 31.5,
+    "model_error_wilson95": [
+     20.7,
+     44.7
+    ]
+   },
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 0,
+    "model_error": 5,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 12.2,
+    "model_error_wilson95": [
+     5.3,
+     25.5
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "1280": {
+   "all": {
+    "sensor_limited": 37,
+    "pipeline_limited": 0,
+    "model_error": 17,
+    "n": 54,
+    "sensor_limited_pct": 68.5,
+    "sensor_limited_wilson95": [
+     55.3,
+     79.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     6.6
+    ],
+    "model_error_pct": 31.5,
+    "model_error_wilson95": [
+     20.7,
+     44.7
+    ]
+   },
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 0,
+    "model_error": 5,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 12.2,
+    "model_error_wilson95": [
+     5.3,
+     25.5
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "native": {
+   "all": {
+    "sensor_limited": 37,
+    "pipeline_limited": 0,
+    "model_error": 17,
+    "n": 54,
+    "sensor_limited_pct": 68.5,
+    "sensor_limited_wilson95": [
+     55.3,
+     79.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     6.6
+    ],
+    "model_error_pct": 31.5,
+    "model_error_wilson95": [
+     20.7,
+     44.7
+    ]
+   },
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 0,
+    "model_error": 5,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 12.2,
+    "model_error_wilson95": [
+     5.3,
+     25.5
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  }
+ },
+ "dota_prior_sensitivity": {
+  "p25_0.132": {
+   "native": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   },
+   "1024": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   },
+   "448": {
+    "sensor_limited": 1,
+    "pipeline_limited": 1,
+    "model_error": 11,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 7.7,
+    "pipeline_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "model_error_pct": 84.6,
+    "model_error_wilson95": [
+     57.8,
+     95.7
+    ]
+   }
+  },
+  "median_0.253": {
+   "native": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   },
+   "1024": {
+    "sensor_limited": 1,
+    "pipeline_limited": 1,
+    "model_error": 11,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 7.7,
+    "pipeline_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "model_error_pct": 84.6,
+    "model_error_wilson95": [
+     57.8,
+     95.7
+    ]
+   },
+   "448": {
+    "sensor_limited": 1,
+    "pipeline_limited": 9,
+    "model_error": 3,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 69.2,
+    "pipeline_limited_wilson95": [
+     42.4,
+     87.3
+    ],
+    "model_error_pct": 23.1,
+    "model_error_wilson95": [
+     8.2,
+     50.3
+    ]
+   }
+  },
+  "p75_0.522": {
+   "native": {
+    "sensor_limited": 10,
+    "pipeline_limited": 0,
+    "model_error": 3,
+    "n": 13,
+    "sensor_limited_pct": 76.9,
+    "sensor_limited_wilson95": [
+     49.7,
+     91.8
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 23.1,
+    "model_error_wilson95": [
+     8.2,
+     50.3
+    ]
+   },
+   "1024": {
+    "sensor_limited": 10,
+    "pipeline_limited": 0,
+    "model_error": 3,
+    "n": 13,
+    "sensor_limited_pct": 76.9,
+    "sensor_limited_wilson95": [
+     49.7,
+     91.8
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 23.1,
+    "model_error_wilson95": [
+     8.2,
+     50.3
+    ]
+   },
+   "448": {
+    "sensor_limited": 10,
+    "pipeline_limited": 0,
+    "model_error": 3,
+    "n": 13,
+    "sensor_limited_pct": 76.9,
+    "sensor_limited_wilson95": [
+     49.7,
+     91.8
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 23.1,
+    "model_error_wilson95": [
+     8.2,
+     50.3
+    ]
+   }
+  },
+  "legacy_0.135": {
+   "native": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   },
+   "1024": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   },
+   "448": {
+    "sensor_limited": 1,
+    "pipeline_limited": 1,
+    "model_error": 11,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 7.7,
+    "pipeline_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "model_error_pct": 84.6,
+    "model_error_wilson95": [
+     57.8,
+     95.7
+    ]
+   }
+  }
+ },
+ "s_sweep_at_1024": {
+  "8": {
+   "xBD": {
+    "sensor_limited": 34,
+    "pipeline_limited": 0,
+    "model_error": 7,
+    "n": 41,
+    "sensor_limited_pct": 82.9,
+    "sensor_limited_wilson95": [
+     68.7,
+     91.5
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 17.1,
+    "model_error_wilson95": [
+     8.5,
+     31.3
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "10": {
+   "xBD": {
+    "sensor_limited": 36,
+    "pipeline_limited": 0,
+    "model_error": 5,
+    "n": 41,
+    "sensor_limited_pct": 87.8,
+    "sensor_limited_wilson95": [
+     74.5,
+     94.7
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 12.2,
+    "model_error_wilson95": [
+     5.3,
+     25.5
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "12": {
+   "xBD": {
+    "sensor_limited": 41,
+    "pipeline_limited": 0,
+    "model_error": 0,
+    "n": 41,
+    "sensor_limited_pct": 100.0,
+    "sensor_limited_wilson95": [
+     91.4,
+     100.0
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 0.0,
+    "model_error_wilson95": [
+     0.0,
+     8.6
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  },
+  "15": {
+   "xBD": {
+    "sensor_limited": 41,
+    "pipeline_limited": 0,
+    "model_error": 0,
+    "n": 41,
+    "sensor_limited_pct": 100.0,
+    "sensor_limited_wilson95": [
+     91.4,
+     100.0
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     8.6
+    ],
+    "model_error_pct": 0.0,
+    "model_error_wilson95": [
+     0.0,
+     8.6
+    ]
+   },
+   "DOTA": {
+    "sensor_limited": 1,
+    "pipeline_limited": 0,
+    "model_error": 12,
+    "n": 13,
+    "sensor_limited_pct": 7.7,
+    "sensor_limited_wilson95": [
+     1.4,
+     33.3
+    ],
+    "pipeline_limited_pct": 0.0,
+    "pipeline_limited_wilson95": [
+     0.0,
+     22.8
+    ],
+    "model_error_pct": 92.3,
+    "model_error_wilson95": [
+     66.7,
+     98.6
+    ]
+   }
+  }
+ }
+}

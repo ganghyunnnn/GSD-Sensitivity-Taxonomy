@@ -49,6 +49,8 @@ archive/
 
 # ── Local-only artifacts ─────────────────────────────────────────────────────
 annotation/*.bak
+annotation/blind_sample_100*
+src/eval/make_blind_annotation_sample.py
 experiments/logs/
 
 # ── Detector experiment: large data/weights (local only) ─────────────────────

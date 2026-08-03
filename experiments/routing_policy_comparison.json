@@ -1,0 +1,565 @@
+{
+ "pools": {
+  "thinkgeo_full_189": {
+   "qwen3vl": {
+    "taxonomy": {
+     "n": 189,
+     "flagged": 45,
+     "acc_strict_pct": 24.3,
+     "acc_selective_pct": 31.9
+    },
+    "allcount": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 21.7,
+     "acc_selective_pct": 21.7
+    },
+    "keyword": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 21.7,
+     "acc_selective_pct": 21.7
+    },
+    "classbased": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 28.6,
+     "acc_selective_pct": 28.6
+    },
+    "random": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 25.1,
+     "acc_selective_pct": 25.1
+    },
+    "flag_counterfactual": {
+     "n_flagged": 45,
+     "vlm_would_be_correct_pct": 17.8,
+     "det_would_be_correct_pct": 0.0
+    }
+   },
+   "qwen25vl": {
+    "taxonomy": {
+     "n": 189,
+     "flagged": 45,
+     "acc_strict_pct": 23.8,
+     "acc_selective_pct": 31.2
+    },
+    "allcount": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 22.8,
+     "acc_selective_pct": 22.8
+    },
+    "keyword": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 22.2,
+     "acc_selective_pct": 22.2
+    },
+    "classbased": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 24.9,
+     "acc_selective_pct": 24.9
+    },
+    "random": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 24.1,
+     "acc_selective_pct": 24.1
+    },
+    "flag_counterfactual": {
+     "n_flagged": 45,
+     "vlm_would_be_correct_pct": 6.7,
+     "det_would_be_correct_pct": 0.0
+    }
+   },
+   "internvl35": {
+    "taxonomy": {
+     "n": 189,
+     "flagged": 45,
+     "acc_strict_pct": 19.6,
+     "acc_selective_pct": 25.7
+    },
+    "allcount": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 17.5,
+     "acc_selective_pct": 17.5
+    },
+    "keyword": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 19.0,
+     "acc_selective_pct": 19.0
+    },
+    "classbased": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 22.8,
+     "acc_selective_pct": 22.8
+    },
+    "random": {
+     "n": 189,
+     "flagged": 0,
+     "acc_strict_pct": 19.3,
+     "acc_selective_pct": 19.3
+    },
+    "flag_counterfactual": {
+     "n_flagged": 45,
+     "vlm_would_be_correct_pct": 13.3,
+     "det_would_be_correct_pct": 0.0
+    }
+   }
+  },
+  "thinkgeo_m2_83": {
+   "qwen3vl": {
+    "taxonomy": {
+     "n": 83,
+     "flagged": 45,
+     "acc_strict_pct": 14.5,
+     "acc_selective_pct": 31.6
+    },
+    "allcount": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 8.4,
+     "acc_selective_pct": 8.4
+    },
+    "keyword": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 8.4,
+     "acc_selective_pct": 8.4
+    },
+    "classbased": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 24.1,
+     "acc_selective_pct": 24.1
+    },
+    "random": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 16.3,
+     "acc_selective_pct": 16.3
+    },
+    "flag_counterfactual": {
+     "n_flagged": 45,
+     "vlm_would_be_correct_pct": 17.8,
+     "det_would_be_correct_pct": 0.0
+    }
+   },
+   "qwen25vl": {
+    "taxonomy": {
+     "n": 83,
+     "flagged": 45,
+     "acc_strict_pct": 10.8,
+     "acc_selective_pct": 23.7
+    },
+    "allcount": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 8.4,
+     "acc_selective_pct": 8.4
+    },
+    "keyword": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 7.2,
+     "acc_selective_pct": 7.2
+    },
+    "classbased": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 13.3,
+     "acc_selective_pct": 13.3
+    },
+    "random": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 11.4,
+     "acc_selective_pct": 11.4
+    },
+    "flag_counterfactual": {
+     "n_flagged": 45,
+     "vlm_would_be_correct_pct": 6.7,
+     "det_would_be_correct_pct": 0.0
+    }
+   },
+   "internvl35": {
+    "taxonomy": {
+     "n": 83,
+     "flagged": 45,
+     "acc_strict_pct": 13.3,
+     "acc_selective_pct": 28.9
+    },
+    "allcount": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 8.4,
+     "acc_selective_pct": 8.4
+    },
+    "keyword": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 12.0,
+     "acc_selective_pct": 12.0
+    },
+    "classbased": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 20.5,
+     "acc_selective_pct": 20.5
+    },
+    "random": {
+     "n": 83,
+     "flagged": 0,
+     "acc_strict_pct": 12.7,
+     "acc_selective_pct": 12.7
+    },
+    "flag_counterfactual": {
+     "n_flagged": 45,
+     "vlm_would_be_correct_pct": 13.3,
+     "det_would_be_correct_pct": 0.0
+    }
+   }
+  },
+  "dota_800": {
+   "qwen3vl": {
+    "taxonomy": {
+     "n": 800,
+     "flagged": 56,
+     "acc_strict_pct": 69.2,
+     "acc_selective_pct": 74.5
+    },
+    "allcount": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "keyword": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "classbased": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "random": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 68.6,
+     "acc_selective_pct": 68.6
+    },
+    "flag_counterfactual": {
+     "n_flagged": 56,
+     "vlm_would_be_correct_pct": 76.8,
+     "det_would_be_correct_pct": 98.2
+    }
+   },
+   "qwen25vl": {
+    "taxonomy": {
+     "n": 800,
+     "flagged": 56,
+     "acc_strict_pct": 69.2,
+     "acc_selective_pct": 74.5
+    },
+    "allcount": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "keyword": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "classbased": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "random": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 70.7,
+     "acc_selective_pct": 70.7
+    },
+    "flag_counterfactual": {
+     "n_flagged": 56,
+     "vlm_would_be_correct_pct": 71.4,
+     "det_would_be_correct_pct": 98.2
+    }
+   },
+   "internvl35": {
+    "taxonomy": {
+     "n": 800,
+     "flagged": 56,
+     "acc_strict_pct": 69.2,
+     "acc_selective_pct": 74.5
+    },
+    "allcount": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "keyword": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "classbased": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 76.1,
+     "acc_selective_pct": 76.1
+    },
+    "random": {
+     "n": 800,
+     "flagged": 0,
+     "acc_strict_pct": 63.6,
+     "acc_selective_pct": 63.6
+    },
+    "flag_counterfactual": {
+     "n_flagged": 56,
+     "vlm_would_be_correct_pct": 35.7,
+     "det_would_be_correct_pct": 98.2
+    }
+   }
+  },
+  "combined": {
+   "qwen3vl": {
+    "taxonomy": {
+     "n": 989,
+     "flagged": 101,
+     "acc_strict_pct": 60.7,
+     "acc_selective_pct": 67.6
+    },
+    "allcount": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 65.7,
+     "acc_selective_pct": 65.7
+    },
+    "keyword": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 65.7,
+     "acc_selective_pct": 65.7
+    },
+    "classbased": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 67.0,
+     "acc_selective_pct": 67.0
+    },
+    "random": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 60.3,
+     "acc_selective_pct": 60.3
+    },
+    "flag_counterfactual": {
+     "n_flagged": 101,
+     "vlm_would_be_correct_pct": 50.5,
+     "det_would_be_correct_pct": 54.5
+    }
+   },
+   "qwen25vl": {
+    "taxonomy": {
+     "n": 989,
+     "flagged": 101,
+     "acc_strict_pct": 60.6,
+     "acc_selective_pct": 67.5
+    },
+    "allcount": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 65.9,
+     "acc_selective_pct": 65.9
+    },
+    "keyword": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 65.8,
+     "acc_selective_pct": 65.8
+    },
+    "classbased": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 66.3,
+     "acc_selective_pct": 66.3
+    },
+    "random": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 61.8,
+     "acc_selective_pct": 61.8
+    },
+    "flag_counterfactual": {
+     "n_flagged": 101,
+     "vlm_would_be_correct_pct": 42.6,
+     "det_would_be_correct_pct": 54.5
+    }
+   },
+   "internvl35": {
+    "taxonomy": {
+     "n": 989,
+     "flagged": 101,
+     "acc_strict_pct": 59.8,
+     "acc_selective_pct": 66.6
+    },
+    "allcount": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 64.9,
+     "acc_selective_pct": 64.9
+    },
+    "keyword": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 65.2,
+     "acc_selective_pct": 65.2
+    },
+    "classbased": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 65.9,
+     "acc_selective_pct": 65.9
+    },
+    "random": {
+     "n": 989,
+     "flagged": 0,
+     "acc_strict_pct": 55.1,
+     "acc_selective_pct": 55.1
+    },
+    "flag_counterfactual": {
+     "n_flagged": 101,
+     "vlm_would_be_correct_pct": 25.7,
+     "det_would_be_correct_pct": 54.5
+    }
+   }
+  }
+ },
+ "notes": [
+  "detector on ThinkGeo images: YOLO26l-OBB imgsz=1536 conf=0.25 (cached in thinkgeo_m2_detector_counts.json)",
+  "uncovered classes (buildings, comparisons) -> detector cannot answer -> incorrect if routed there",
+  "taxonomy FLAG on unresolvable: strict = incorrect; selective = excluded with coverage",
+  "random = per-question expectation at p=0.5",
+  "question mix pre-registered as the observed ThinkGeo eval-split distribution (D 66 / M1 40 / M2 83)",
+  "cost_dominance: taxonomy utility exceeds every gateless policy for any error cost c > max breakeven (0.216, qwen3vl vs classbased); vs allcount/keyword the breakeven is negative (dominates even at c=0)"
+ ],
+ "thinkgeo_m2_composition": {
+  "covered": 20,
+  "gt_count_parseable": 79,
+  "unresolvable": 45,
+  "unknown_gsd": 12
+ },
+ "cost_dominance_thinkgeo_m2": {
+  "qwen3vl": {
+   "taxonomy": {
+    "correct": 12,
+    "wrong": 26,
+    "flagged": 45
+   },
+   "allcount": {
+    "correct": 7,
+    "wrong": 76,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": -0.1
+   },
+   "keyword": {
+    "correct": 7,
+    "wrong": 76,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": -0.1
+   },
+   "classbased": {
+    "correct": 20,
+    "wrong": 63,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": 0.216
+   },
+   "random": {
+    "correct": 14,
+    "wrong": 69,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": 0.047
+   }
+  },
+  "qwen25vl": {
+   "taxonomy": {
+    "correct": 9,
+    "wrong": 29,
+    "flagged": 45
+   },
+   "allcount": {
+    "correct": 7,
+    "wrong": 76,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": -0.043
+   },
+   "keyword": {
+    "correct": 6,
+    "wrong": 77,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": -0.062
+   },
+   "classbased": {
+    "correct": 11,
+    "wrong": 72,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": 0.047
+   },
+   "random": {
+    "correct": 9,
+    "wrong": 74,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": 0.0
+   }
+  },
+  "internvl35": {
+   "taxonomy": {
+    "correct": 11,
+    "wrong": 27,
+    "flagged": 45
+   },
+   "allcount": {
+    "correct": 7,
+    "wrong": 76,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": -0.082
+   },
+   "keyword": {
+    "correct": 10,
+    "wrong": 73,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": -0.022
+   },
+   "classbased": {
+    "correct": 17,
+    "wrong": 66,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": 0.154
+   },
+   "random": {
+    "correct": 11,
+    "wrong": 72,
+    "flagged": 0,
+    "breakeven_cost_vs_taxonomy": 0.0
+   }
+  }
+ }
+}
