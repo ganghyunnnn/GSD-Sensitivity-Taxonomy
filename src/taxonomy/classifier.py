@@ -1,5 +1,5 @@
 """
-MARA Taxonomy Classifier
+GSD-Sensitivity Taxonomy Classifier
 ThinkGeo 태스크 쿼리를 D / M1 / M2로 분류하는 규칙 기반 분류기.
 
 분류 기준:

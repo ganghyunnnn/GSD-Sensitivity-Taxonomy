@@ -4,7 +4,7 @@
 - LLM: gpt-oss:20b, qwen3.5:9b
 
 사용법:
-    cd A:/rs-taxonomy
+    cd <repo root>
     python src/router/eval_router_3type.py
 """
 

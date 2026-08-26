@@ -5,8 +5,8 @@ Prerequisites:
     huggingface-cli login   # or set HF_TOKEN env var
 
 Usage:
-    python hf_dataset/upload.py --repo ganghyunnnn/rs-taxonomy-labels
-    python hf_dataset/upload.py --repo ganghyunnnn/rs-taxonomy-labels --dry-run
+    python hf_dataset/upload.py --repo ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels
+    python hf_dataset/upload.py --repo ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels --dry-run
 """
 from __future__ import annotations
 

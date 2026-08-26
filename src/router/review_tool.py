@@ -5,7 +5,7 @@
 진행 상황은 자동 저장되므로 중간에 종료해도 이어서 할 수 있다.
 
 사용법:
-    cd A:/MARA
+    cd <repo root>
     python src/router/review_tool.py
     python src/router/review_tool.py --show-all   # 전체 현황 보기
     python src/router/review_tool.py --summary    # 완료 후 결과 요약

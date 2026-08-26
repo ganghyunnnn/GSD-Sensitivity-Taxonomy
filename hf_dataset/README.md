@@ -2,7 +2,7 @@
 license: cc-by-4.0
 language:
 - en
-pretty_name: "RS-Taxonomy: GSD-Sensitive Task Labels for Remote Sensing VQA"
+pretty_name: "GSD-Sensitivity Taxonomy: Task Labels for Remote Sensing VQA"
 size_categories:
 - 1K<n<10K
 task_categories:
@@ -24,14 +24,14 @@ configs:
   data_files: iaa_annotator2.json
 ---
 
-# RS-Taxonomy: GSD-Sensitive Task Labels for Remote Sensing VQA
+# GSD-Sensitivity Taxonomy: Task Labels for Remote Sensing VQA
 
 Per-task **D / M1 / M2** taxonomy labels, inter-annotator agreement (IAA) data, and
 evaluation traces for four public RS-VQA benchmarks.
 
 > Companion to **G. Park and D.-H. Lee, "Identifying the Measurement Gap in Remote
 > Sensing VQA with a GSD-Sensitive Taxonomy," *IEEE Geosci. Remote Sens. Lett.*, 2026**
-> — accepted, DOI to follow. Code: [github.com/ganghyunnnn/rs-taxonomy](https://github.com/ganghyunnnn/rs-taxonomy)
+> — accepted, DOI to follow. Code: [github.com/ganghyunnnn/GSD-Sensitivity-Taxonomy](https://github.com/ganghyunnnn/GSD-Sensitivity-Taxonomy)
 
 > ⚠️ This dataset contains **annotations and evaluation artifacts only**. The
 > underlying benchmark images and questions are *not* redistributed — download them
@@ -82,10 +82,10 @@ ThinkGeoBench); `annotation.types` holds the multi-label D/M1/M2 list. IAA CSVs 
 import json, urllib.request
 from datasets import load_dataset
 
-url = "https://huggingface.co/datasets/ganghyunnnn/rs-taxonomy-labels/resolve/main/thinkgeo_taxonomy_labels.json"
+url = "https://huggingface.co/datasets/ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels/resolve/main/thinkgeo_taxonomy_labels.json"
 labels = json.loads(urllib.request.urlopen(url).read())
 
-ds = load_dataset("ganghyunnnn/rs-taxonomy-labels", name="iaa_sample", split="train")
+ds = load_dataset("ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels", name="iaa_sample", split="train")
 ```
 
 To reproduce the paper, download the source benchmarks and run
@@ -125,14 +125,14 @@ outputs, guideline and this card — are released under **CC BY 4.0**.
 embed verbatim ThinkGeoBench question text and/or image filenames, which remain under
 **Apache-2.0** (Shabbir et al., MBZUAI Oryx Lab); redistribution must preserve that
 attribution. `rsvqa_*.json` retains only upstream `q_id` integers. Full details:
-[`NOTICE`](https://github.com/ganghyunnnn/rs-taxonomy/blob/master/NOTICE).
+[`NOTICE`](https://github.com/ganghyunnnn/GSD-Sensitivity-Taxonomy/blob/master/NOTICE).
 
 Benchmark images are not redistributed and remain under their original licenses.
 
 ## Citation
 
 ```bibtex
-@article{park2026rstaxonomy,
+@article{park2026gsdtaxonomy,
   title   = {Identifying the Measurement Gap in Remote Sensing {VQA} with a {GSD}-Sensitive Taxonomy},
   author  = {Park, Ganghyun and Lee, Dong-Ho},
   journal = {IEEE Geoscience and Remote Sensing Letters},

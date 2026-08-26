@@ -1,5 +1,5 @@
 """
-MARA 모델 인터페이스 추상 기반 클래스.
+GSD-Sensitivity-Taxonomy 모델 인터페이스 추상 기반 클래스.
 Ollama / HuggingFace 백엔드를 동일하게 사용할 수 있도록 추상화.
 """
 

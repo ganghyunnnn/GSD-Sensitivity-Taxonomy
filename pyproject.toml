@@ -3,7 +3,7 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rs-taxonomy"
+name = "gsd-sensitivity-taxonomy"
 version = "0.1.0"
 description = "GSD-Sensitivity Taxonomy for Measurement-Aware Failure Diagnosis in Remote Sensing VQA"
 readme = "README.md"
@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 license = { file = "LICENSE" }
 authors = [
     { name = "Ganghyun Park", email = "ghpark@kari.re.kr" },
-    { name = "Dongho Lee", email = "ehdgh3337@kari.re.kr" },
+    { name = "Dong-Ho Lee", email = "ehdgh3337@kari.re.kr" },
 ]
 
 # Core dependencies — sufficient for taxonomy classification, router evaluation,
@@ -61,12 +61,12 @@ dev = [
 ]
 # Convenience: install everything.
 all = [
-    "rs-taxonomy[ml,geo,agents,tracking,dev]",
+    "gsd-sensitivity-taxonomy[ml,geo,agents,tracking,dev]",
 ]
 
 [project.urls]
-Repository = "https://github.com/ganghyunnnn/rs-taxonomy"
-Dataset = "https://huggingface.co/datasets/ganghyunnnn/rs-taxonomy-labels"
+Repository = "https://github.com/ganghyunnnn/GSD-Sensitivity-Taxonomy"
+Dataset = "https://huggingface.co/datasets/ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels"
 
 [tool.setuptools.packages.find]
 where = ["src"]

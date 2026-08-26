@@ -1,4 +1,4 @@
-# MARA Taxonomy Module
+# GSD-Sensitivity Taxonomy Module
 from .definitions import TaskType, TAXONOMY_DEFINITIONS
 from .classifier import TaxonomyClassifier
 

@@ -3,7 +3,7 @@ VLM backbone direct prompting 평가 스크립트.
 새 3-type taxonomy 레이블 기준으로 per_type 통계를 생성한다.
 
 사용법:
-    cd A:/rs-taxonomy
+    cd <repo root>
     python src/eval/run_backbone_eval.py --model blaifa/InternVL3_5:8b --out annotation/backbone_internvl35_8b.json
 """
 

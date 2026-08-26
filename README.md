@@ -1,4 +1,4 @@
-# rs-taxonomy
+# GSD-Sensitivity-Taxonomy
 
 A three-category **GSD-Sensitivity Taxonomy** (D / M1 / M2) for remote sensing VQA,
 with a deterministic rule-based classifier and the artifacts that reproduce the paper.
@@ -63,13 +63,13 @@ Models: Qwen3-VL-8B, Qwen2.5-VL-7B, InternVL3.5-8B backbones; YOLO26l-OBB detect
 
 Per-task D/M1/M2 labels, IAA data and evaluation traces are released on the Hugging
 Face Hub under CC BY 4.0:
-**[ganghyunnnn/rs-taxonomy-labels](https://huggingface.co/datasets/ganghyunnnn/rs-taxonomy-labels)**.
+**[ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels](https://huggingface.co/datasets/ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels)**.
 Benchmark images are not redistributed; join on `task_id`.
 
 ## Citation
 
 ```bibtex
-@article{park2026rstaxonomy,
+@article{park2026gsdtaxonomy,
   title   = {Identifying the Measurement Gap in Remote Sensing {VQA} with a {GSD}-Sensitive Taxonomy},
   author  = {Park, Ganghyun and Lee, Dong-Ho},
   journal = {IEEE Geoscience and Remote Sensing Letters},

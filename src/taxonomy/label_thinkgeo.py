@@ -120,7 +120,7 @@ def main():
     parser.add_argument("--out", default="annotation/thinkgeo_taxonomy_labels.json")
     args = parser.parse_args()
 
-    root = Path(__file__).parent.parent.parent  # MARA/
+    root = Path(__file__).parent.parent.parent  # repo root
 
     bench_path = root / args.bench
     out_path = root / args.out

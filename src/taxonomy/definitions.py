@@ -1,5 +1,5 @@
 """
-MARA Taxonomy Definitions
+GSD-Sensitivity Taxonomy Definitions
 RS 태스크를 D / M1 / M2 세 유형으로 분류하는 기준 정의
 
 핵심 기준:
