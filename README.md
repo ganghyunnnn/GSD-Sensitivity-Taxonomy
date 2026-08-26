@@ -51,6 +51,8 @@ Models: Qwen3-VL-8B, Qwen2.5-VL-7B, InternVL3.5-8B backbones; YOLO26l-OBB detect
 | Task-type distribution (Table I) | `src/taxonomy/cross_benchmark_analysis.py` |
 | Per-type failure rates (Table II) | `src/eval/run_backbone_eval.py` |
 | Resolvable-M2 detector routing (Table III) | `src/eval/run_dota_val_counting.py`, `update_detector_yolo26.py`, `analyze_dota_val_multi.py` |
+
+> The detector-routing scripts need DOTA-v1 val at `data/DOTAv1/`, or set `DOTA_ROOT` to point elsewhere.
 | Classifier agreement + IAA | `src/router/eval_router_3type.py`, `annotation/iaa_measurement.py` |
 | Classifier held-out robustness | `src/eval/test_classifier_heldout.py` |
 | M2 failure-cause decomposition | `src/eval/analyze_m2_resolution.py` |

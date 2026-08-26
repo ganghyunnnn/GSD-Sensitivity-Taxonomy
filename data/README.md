@@ -32,6 +32,11 @@ data/
 > ~10 m/px) release used throughout this project. Record `6344367` is RSVQA-HR and is
 > not used.
 
+> **DOTA-v1 (detector routing, Table III).** The counting experiments additionally
+> need the DOTA-v1 validation split in YOLO-OBB format at `data/DOTAv1/{images,labels}/val`.
+> If it lives elsewhere, point at it with the `DOTA_ROOT` environment variable:
+> `DOTA_ROOT=/path/to/DOTAv1 python src/eval/run_dota_val_counting.py`.
+
 > **EarthVQA** is restricted to academic use (RSIDEA, Wuhan University) and its images
 > additionally fall under the Google Earth Terms of Use.
 

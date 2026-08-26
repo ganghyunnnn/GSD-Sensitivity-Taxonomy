@@ -10,6 +10,7 @@ import io
 import json
 import re
 import sys
+import os
 from pathlib import Path
 
 import requests
@@ -20,7 +21,10 @@ except AttributeError:
     pass
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-IMG_DIR = Path("E:/FP-Tag/DOTAv1/images/val")
+# DOTA-v1 val root. Defaults to data/DOTAv1 under the repo; override with
+# the DOTA_ROOT environment variable to point at an external copy.
+DOTA_ROOT = Path(os.environ.get("DOTA_ROOT", ROOT / "data" / "DOTAv1"))
+IMG_DIR = DOTA_ROOT / "images" / "val"
 DATA = ROOT / "experiments/dota_val_counting.json"
 NOUN = {"plane": "airplanes", "ship": "ships",
         "small vehicle": "small vehicles (cars)",

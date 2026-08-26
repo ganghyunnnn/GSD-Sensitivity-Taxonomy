@@ -16,6 +16,7 @@ import math
 import random
 import re
 import sys
+import os
 from pathlib import Path
 
 import requests
@@ -28,8 +29,11 @@ except AttributeError:
     pass
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-IMG_DIR = Path("E:/FP-Tag/DOTAv1/images/val")
-LBL_DIR = Path("E:/FP-Tag/DOTAv1/labels/val")
+# DOTA-v1 val root. Defaults to data/DOTAv1 under the repo; override with
+# the DOTA_ROOT environment variable to point at an external copy.
+DOTA_ROOT = Path(os.environ.get("DOTA_ROOT", ROOT / "data" / "DOTAv1"))
+IMG_DIR = DOTA_ROOT / "images" / "val"
+LBL_DIR = DOTA_ROOT / "labels" / "val"
 OUT = ROOT / "experiments/dota_val_counting.json"
 
 DOTA = {0: "plane", 1: "ship", 2: "storage tank", 3: "baseball diamond", 4: "tennis court",

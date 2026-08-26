@@ -2,13 +2,17 @@
 YOLO11) on the same DOTA-val cells, updating the 'det' field in dota_val_counting.json
 while keeping the three VLM columns. Pre-reg conf=0.25, imgsz=1536 unchanged."""
 import io, json, sys
+import os
 from pathlib import Path
 try:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 except AttributeError:
     pass
 ROOT = Path(__file__).resolve().parent.parent.parent
-IMG_DIR = Path("E:/FP-Tag/DOTAv1/images/val")
+# DOTA-v1 val root. Defaults to data/DOTAv1 under the repo; override with
+# the DOTA_ROOT environment variable to point at an external copy.
+DOTA_ROOT = Path(os.environ.get("DOTA_ROOT", ROOT / "data" / "DOTAv1"))
+IMG_DIR = DOTA_ROOT / "images" / "val"
 DATA = ROOT / "experiments/dota_val_counting.json"
 DOTA = {0:"plane",1:"ship",2:"storage tank",3:"baseball diamond",4:"tennis court",
         5:"basketball court",6:"ground track field",7:"harbor",8:"bridge",9:"large vehicle",
