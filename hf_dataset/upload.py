@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from fnmatch import fnmatch
 from pathlib import Path
 
 from huggingface_hub import HfApi, create_repo
@@ -20,10 +21,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ANNOTATION_DIR = REPO_ROOT / "annotation"
 HF_DIR = REPO_ROOT / "hf_dataset"
 
-# Files to publish. Python source files are intentionally excluded — the
-# code lives in the companion GitHub repo.
+# Files to publish. Python source files are excluded implicitly — the code
+# lives in the companion GitHub repo.
 INCLUDE_PATTERNS = ("*.json", "*.csv", "*.md")
-EXCLUDE_NAMES = {"compute_iaa.py", "generate_iaa_csv.py", "iaa_measurement.py"}
+
+# Local-only artifacts that must never be published. These mirror the
+# annotation/ rules in .gitignore; .gitignore does not apply here because
+# this script reads the directory directly. blind_sample_100_key.json is the
+# answer key for the blind independent-annotation check, and publishing it
+# would undermine the very claim that check supports.
+EXCLUDE_PATTERNS = ("blind_sample_100*", "*.bak")
 
 
 def collect_files() -> list[tuple[Path, str]]:
@@ -32,7 +39,7 @@ def collect_files() -> list[tuple[Path, str]]:
 
     for pattern in INCLUDE_PATTERNS:
         for src in sorted(ANNOTATION_DIR.glob(pattern)):
-            if src.name in EXCLUDE_NAMES:
+            if any(fnmatch(src.name, ex) for ex in EXCLUDE_PATTERNS):
                 continue
             pairs.append((src, src.name))
 
