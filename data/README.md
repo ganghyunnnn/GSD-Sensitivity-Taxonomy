@@ -1,28 +1,40 @@
 # Datasets
 
-The datasets used in this project are not included in this repository due to size and licensing constraints.
-Download them from the official sources and place them under this directory as shown below.
+Benchmarks are not bundled with this repository due to size and licensing constraints.
+Download them from the official sources and place them under this directory as below.
 
-## Directory Structure
+## Layout
 
 ```
 data/
-├── EarthVL/
-│   └── EarthVQA/          # EarthVQA benchmark
+├── thinkgeo/
+│   ├── ThinkGeoBench.json
+│   └── image/
+├── RSVQA-LR/
+│   ├── Images_LR/
+│   └── LR_split_test_{questions,answers,images}.json
 ├── FloodNet/
-│   ├── Track1/
-│   └── Track2/            # FloodNet VQA benchmark
-└── resisc45/              # NWPU-RESISC45 scene classification
+│   └── Track2/            # FloodNet VQA
+└── EarthVL/
+    └── EarthVQA/
 ```
 
-## Download Links
+## Sources
 
-| Dataset | Source |
-|---------|--------|
-| **EarthVQA** | https://github.com/Junjue-Wang/EarthVQA |
-| **FloodNet** | https://github.com/BinaLab/FloodNet-Supervised_v1.0 |
-| **RSVQA-LR** | https://zenodo.org/record/6344367 |
-| **ThinkGeo** | https://github.com/thinkgeo (request access) |
+| Dataset | License | Download |
+|---|---|---|
+| **ThinkGeo** | Apache-2.0 | [mbzuai-oryx/ThinkGeo](https://github.com/mbzuai-oryx/ThinkGeo) · [MBZUAI/ThinkGeo](https://huggingface.co/datasets/MBZUAI/ThinkGeo) |
+| **RSVQA-LR** | CC BY 4.0 | [zenodo.org/records/6344334](https://zenodo.org/records/6344334) |
+| **FloodNet** | MIT | [BinaLab/FloodNet-Supervised_v1.0](https://github.com/BinaLab/FloodNet-Supervised_v1.0) |
+| **EarthVQA** | Academic use only | [Junjue-Wang/EarthVQA](https://github.com/Junjue-Wang/EarthVQA) |
 
-> **Note**: ThinkGeo images require separate access from the original authors.
-> Taxonomy annotations for ThinkGeo tasks are provided in `../annotation/thinkgeo_taxonomy_labels.json`.
+> **RSVQA-LR, not HR.** Zenodo record `6344334` is the *low resolution* (Sentinel-2,
+> ~10 m/px) release used throughout this project. Record `6344367` is RSVQA-HR and is
+> not used.
+
+> **EarthVQA** is restricted to academic use (RSIDEA, Wuhan University) and its images
+> additionally fall under the Google Earth Terms of Use.
+
+Taxonomy annotations for ThinkGeo tasks ship with this repository at
+[`../annotation/thinkgeo_taxonomy_labels.json`](../annotation/thinkgeo_taxonomy_labels.json);
+`task_id` is the integer index into `ThinkGeoBench.json`.

@@ -26,236 +26,117 @@ configs:
 
 # RS-Taxonomy: GSD-Sensitive Task Labels for Remote Sensing VQA
 
-This dataset accompanies the paper *"Identifying the Measurement Gap in
-Remote Sensing VQA with a GSD-Sensitive Taxonomy"* (IEEE GRSL, under review).
-It provides per-task **D / M1 / M2** taxonomy labels, inter-annotator agreement
-(IAA) data, and reproducibility artifacts for four public RS-VQA benchmarks.
+Per-task **D / M1 / M2** taxonomy labels, inter-annotator agreement (IAA) data, and
+evaluation traces for four public RS-VQA benchmarks.
 
-The taxonomy partitions tasks via a single counterfactual: *if the GSD were
-doubled, would the answer value change (M1) or would the question become
-physically unanswerable while the value stays the same (M2)?*
+> Companion to **G. Park and D.-H. Lee, "Identifying the Measurement Gap in Remote
+> Sensing VQA with a GSD-Sensitive Taxonomy," *IEEE Geosci. Remote Sens. Lett.*, 2026**
+> — accepted, DOI to follow. Code: [github.com/ganghyunnnn/rs-taxonomy](https://github.com/ganghyunnnn/rs-taxonomy)
 
-| Type | Name | Definition |
-|------|------|------------|
-| **D**  | Descriptive    | GSD-invariant; visual–semantic interpretation only. *E.g.,* "What is the land use type?", "Is there an airport?" |
-| **M1** | Spatial Metric | Output value scales with GSD (real-world distance / area). *E.g.,* "Distance between the two hangars? (GSD = 0.3 m/px)" |
-| **M2** | Cardinality    | Counting tasks; values are GSD-invariant but **answerability is resolution-conditioned** (counting feasible only when GSD ≤ d/s for target size d, resolvability threshold s ≈ 10–15 px). *E.g.,* "How many vehicles are in the parking lot?" |
+> ⚠️ This dataset contains **annotations and evaluation artifacts only**. The
+> underlying benchmark images and questions are *not* redistributed — download them
+> from the original sources and join on `task_id`.
 
-**Boundary rules.** (1) Proximity queries with a numeric distance threshold are M1, otherwise D. (2) Bounding-box drawing is always D (output is pixel coordinates). (3) Comparisons inherit the underlying operation: counting-based comparisons → M2; GSD-based spatial comparisons → M1.
+## Taxonomy
 
-**Headline results from the paper.** Across 293,607 questions in four benchmarks, M-type prevalence ranges from 2.9% to 70.4%. Measurement tasks fail 19–31 pp more often than descriptive tasks across two agent baselines and three VLM backbones, robust to BH multiple-comparison correction. A GSD prompt-injection ablation on 161 M1 tasks shows no significant improvement after correction. Inter-annotator agreement: **Cohen's κ = 0.95**. Rule-based classifier accuracy: **95.2%**.
+One counterfactual: *if the GSD were doubled, would the answer value change (M1), or
+would the question become physically unanswerable while the value stays the same (M2)?*
 
-> **Important**: This dataset contains **only the taxonomy annotations and
-> evaluation artifacts**. The underlying RS-VQA benchmark images and questions
-> are *not* redistributed here — download them from the original sources and
-> join on `task_id`.
-
-## Dataset Summary
-
-| File | Type | Description |
-|------|------|-------------|
-| `thinkgeo_taxonomy_labels.json`   | labels      | Per-task record: D/M1/M2 labels (multi-label) + verbatim question text and image filename |
-| `thinkgeo_taxonomy_summary.json`  | aggregate   | Distribution summary over ThinkGeo |
-| `iaa_sample.csv`                  | IAA seed    | 88 stratified ThinkGeo tasks (annotator 1) |
-| `iaa_sample_annotator2.csv`       | IAA         | Same 88 tasks labeled by annotator 2 |
-| `iaa_annotator2.json`             | IAA         | Annotator 2 labels in JSON form |
-| `iaa_sample_annotator2_rationale_ko.md` | IAA notes | Per-task rationale (Korean) |
-| `iaa_guideline.md`                | docs        | Annotation guideline |
-| `review_436.csv`                  | labels      | Full 436-task review with verbatim question text |
-| `router_eval_3type.json`          | results     | Rule-based classifier metrics on the 189-task split (Table IV) |
-| `backbone_*.json`                 | results     | Backbone VLM evaluation traces (ThinkGeo, Table II) |
-| `rsvqa_*.json`                    | results     | RSVQA-LR full-split evaluation traces |
-| `floodnet_*.json`                 | results     | FloodNet Track-2 evaluation traces |
-| `gsd_ablation.json`               | results     | GSD prompt-injection ablation (M1) |
-| `m2ab_*.json`                     | results     | M2 direct-vs-counting prompt decomposition |
-| `m2search_*.json`                 | results     | M2 counting-prompt search across conditions |
-| `routed_eval_*.json`              | results     | Taxonomy-routed prompting evaluation |
-| `bootstrap_sensitivity.json`      | results     | Bootstrap CI sensitivity |
-| `failure_analysis_by_type.json`   | results     | Failure rates by D/M type |
-| `task_level_*.json`               | results     | ThinkGeo agent baselines (Vanilla ReAct, Direct Prompting) |
-
-## Source Benchmarks
-
-| Benchmark | License | Where to download |
-|-----------|---------|-------------------|
-| ThinkGeo  | Apache-2.0 | https://github.com/mbzuai-oryx/ThinkGeo |
-| RSVQA-LR  | CC BY 4.0  | https://zenodo.org/records/6344334 |
-| FloodNet  | MIT        | https://github.com/BinaLab/FloodNet-Supervised_v1.0 |
-| EarthVQA  | Academic only* | https://github.com/Junjue-Wang/EarthVQA |
-
-\* EarthVQA images are restricted to academic use (RSIDEA, Wuhan University).
-This dataset does **not** redistribute EarthVQA content; cross-benchmark
-distribution figures were computed locally from the academic release.
-
-### Citations for Source Benchmarks
-
-```bibtex
-@misc{thinkgeo,
-  author    = {Shabbir, Akashah and Munir, Muhammad Akhtar and Dudhane, Akshay and
-               Sheikh, Muhammad Umer and Khan, Muhammad Haris and Fraccaro, Paolo and
-               Moreno, Juan Bernabe and Khan, Fahad Shahbaz and Khan, Salman},
-  title     = {{ThinkGeo}: Evaluating Tool-Augmented Agents for Remote Sensing Tasks},
-  year      = {2025},
-  eprint    = {2505.23752},
-  archivePrefix = {arXiv}
-}
-
-@article{rsvqa,
-  author  = {Lobry, Sylvain and Marcos, Diego and Murray, Jesse and Tuia, Devis},
-  title   = {{RSVQA}: Visual Question Answering for Remote Sensing Data},
-  journal = {IEEE Trans. Geosci. Remote Sens.},
-  year    = {2020}, volume = {58}, number = {12}, pages = {8555--8566},
-  doi     = {10.1109/TGRS.2020.2988782}
-}
-
-@article{floodnet,
-  author  = {Rahnemoonfar, Maryam and Chowdhury, Tashnim and Sarkar, Argho and
-             Varshney, Debvrat and Yari, Masoud and Murphy, Robin R.},
-  title   = {{FloodNet}: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding},
-  journal = {IEEE Access}, year = {2021}, volume = {9}, pages = {89644--89654},
-  doi     = {10.1109/ACCESS.2021.3090981}
-}
-
-@inproceedings{earthvqa,
-  author    = {Wang, Junjue and Zheng, Zhuo and Chen, Zihang and Ma, Ailong and Zhong, Yanfei},
-  title     = {{EarthVQA}: Towards Queryable Earth via Relational Reasoning-Based Remote Sensing Visual Question Answering},
-  booktitle = {Proc. AAAI Conf. Artificial Intelligence},
-  year      = {2024}, volume = {38}, number = {6}, pages = {5481--5489},
-  doi       = {10.1609/aaai.v38i6.28357}
-}
-```
-
-## File Provenance
-
-| File pattern | Provenance | Upstream license |
+| | Type | Definition |
 |---|---|---|
-| `thinkgeo_taxonomy_labels.json` | Our labels + **verbatim ThinkGeoBench question text and image filenames**, keyed by `task_id` | ThinkGeoBench, Apache-2.0 |
-| `thinkgeo_taxonomy_summary.json` | Aggregate distribution counts only | n/a (our work) |
-| `iaa_sample.csv`, `iaa_sample_annotator2.csv` | Our labels + **verbatim ThinkGeoBench question text and image filenames** for the 88-task IAA sample | ThinkGeoBench, Apache-2.0 |
-| `iaa_annotator2.json` | Our labels keyed by `task_id` only | n/a (our work) |
-| `iaa_sample_annotator2_rationale_ko.md` | Our rationale + Korean translations/quotations of selected questions | quoted text: ThinkGeoBench, Apache-2.0 |
-| `iaa_guideline.md` | Our annotation guideline | n/a (our work) |
-| `review_436.csv` | Our labels + **verbatim ThinkGeoBench question text** | ThinkGeoBench, Apache-2.0 |
-| `router_eval_3type.json` | Rule-based classifier metrics on the 189-task split | n/a (our work) |
-| `backbone_*.json`, `gsd_ablation.json`, `task_level_*.json`, `m2ab_*.json`, `m2search_*.json`, `routed_eval_*.json` | Model predictions / derived metrics on ThinkGeoBench tasks (model outputs are ours; questions referenced by `task_id`) | n/a (our work) |
-| `rsvqa_*.json` | Model predictions on RSVQA-LR (only upstream `q_id` integers retained) | n/a (our work) |
-| `floodnet_*.json` | Model predictions on FloodNet Track-2 (questions referenced by image id) | n/a (our work) |
-| `bootstrap_sensitivity.json`, `failure_analysis_by_type.json` | Aggregate statistics | n/a (our work) |
+| **D**  | Descriptive    | GSD-invariant; visual–semantic interpretation only. *"What is the land use type?"* |
+| **M1** | Spatial Metric | Value scales with GSD (real-world distance / area). *"Distance between the two hangars? (GSD = 0.3 m/px)"* |
+| **M2** | Cardinality    | Counting; the value is GSD-invariant but **answerability is resolution-conditioned** (feasible only when GSD ≤ d/s for target size d, threshold s ≈ 10–15 px). *"How many vehicles are in the parking lot?"* |
 
-## Schema
+**Boundary rules.** Proximity queries are M1 with a numeric distance threshold, D
+without. Bounding-box drawing is D (pixel-coordinate output). Comparisons inherit
+their operation: counting-based → M2, GSD-based spatial → M1.
 
-### `thinkgeo_taxonomy_labels.json`
-```json
-{
-  "<task_id>": {
-    "task_id": "0",
-    "query": "<verbatim ThinkGeo question>",
-    "image": "image/<filename>",
-    "tools_used": ["..."],
-    "tools_available": ["..."],
-    "annotation": {
-      "confidence": "high|medium|low",
-      "evidence": ["<matched lexical pattern>", "..."],
-      "notes": null,
-      "reviewed": true,
-      "types": ["D"]
-    }
-  }, ...
-}
-```
-Per-task record; `annotation.types` is the multi-label D/M1/M2 list. `task_id` is the
-integer index into ThinkGeoBench.
+**Headline results.** Across 293,607 questions, M-type prevalence ranges 2.9–70.4%.
+Measurement tasks fail 19–31 pp more often than descriptive tasks across two agent
+baselines and three VLM backbones, robust to Benjamini–Hochberg correction.
+IAA: Cohen's κ = 0.95. Rule-based classifier: 95.2% agreement.
 
-### `iaa_sample.csv` / `iaa_sample_annotator2.csv`
-Columns: `task_id, image, query, type_annotator, notes`
-where `type_annotator` ∈ `{D, M1, M2, D+M1, D+M2, M1+M2, D+M1+M2, ...}`.
+## Files
 
-### `router_eval_3type.json`
-Rule-based classifier accuracy and per-class precision/recall/F1 on the 189-task split.
+| File | Contents |
+|---|---|
+| `thinkgeo_taxonomy_labels.json` | Per-task D/M1/M2 labels (multi-label) + verbatim question text and image filename |
+| `review_436.csv` | Full 436-task human review with verbatim question text |
+| `thinkgeo_taxonomy_summary.json` | Distribution summary over ThinkGeo |
+| `iaa_sample.csv`, `iaa_sample_annotator2.csv`, `iaa_annotator2.json`, `iaa_guideline.md`, `iaa_sample_annotator2_rationale_ko.md` | 88-task stratified IAA sample: both annotators, guideline, per-task rationale (Korean) |
+| `router_eval_3type.json` | Rule-based classifier metrics on the 189-task split |
+| `backbone_*.json`, `rsvqa_*.json`, `floodnet_*.json` | VLM evaluation traces (ThinkGeo / RSVQA-LR / FloodNet Track-2) |
+| `task_level_*.json` | ThinkGeo agent baselines (Vanilla ReAct, Direct Prompting) |
+| `gsd_ablation.json`, `m2ab_*.json`, `m2search_*.json`, `routed_eval_*.json` | Prompt-level interventions: GSD injection, M2 direct-vs-counting decomposition, counting-prompt search, taxonomy-routed prompting |
+| `failure_analysis_by_type.json`, `bootstrap_sensitivity.json` | Failure rates by D/M type; bootstrap CI sensitivity |
 
-### `backbone_*.json`, `rsvqa_*.json`
-Per-task records: `{task_id, type, prompt, prediction, reference, correct, ...}`.
+`thinkgeo_taxonomy_labels.json` is keyed by `task_id` (integer index into
+ThinkGeoBench); `annotation.types` holds the multi-label D/M1/M2 list. IAA CSVs use
+`task_id, image, query, type_annotator, notes`. Evaluation traces are per-task
+`{task_id, type, prompt, prediction, reference, correct, ...}`.
 
 ## Loading
 
 ```python
-from datasets import load_dataset
 import json, urllib.request
+from datasets import load_dataset
 
-# Single file
 url = "https://huggingface.co/datasets/ganghyunnnn/rs-taxonomy-labels/resolve/main/thinkgeo_taxonomy_labels.json"
 labels = json.loads(urllib.request.urlopen(url).read())
 
-# IAA CSV via datasets
-ds = load_dataset(
-    "ganghyunnnn/rs-taxonomy-labels",
-    name="iaa_sample",
-    split="train",
-)
+ds = load_dataset("ganghyunnnn/rs-taxonomy-labels", name="iaa_sample", split="train")
 ```
 
-## Reproducing Paper Results
+To reproduce the paper, download the source benchmarks and run
+`python src/eval/run_all_experiments.py` from the GitHub repository.
 
-Code lives in the companion GitHub repository:
-**https://github.com/ganghyunnnn/rs-taxonomy**
+## Source Benchmarks
 
-After downloading the source benchmarks, run:
-```bash
-python src/eval/run_all_experiments.py
-```
+[ThinkGeo](https://github.com/mbzuai-oryx/ThinkGeo) (Apache-2.0) ·
+[RSVQA-LR](https://zenodo.org/records/6344334) (CC BY 4.0) ·
+[FloodNet](https://github.com/BinaLab/FloodNet-Supervised_v1.0) (MIT) ·
+[EarthVQA](https://github.com/Junjue-Wang/EarthVQA) (academic-only, RSIDEA / Wuhan
+University). EarthVQA and FloodNet appear in cross-benchmark distribution counts only;
+no content from either is redistributed here.
 
 ## Annotation Process
 
-- Annotator 1 (lead, paper author): labeled all ThinkGeoBench tasks.
-- Annotator 2: independently labeled an 88-task stratified sample for IAA.
-- Multi-label scheme: a task may carry multiple D/M tags when the answer
-  requires more than one capability (e.g., `D+M2` = identify + count).
-- IAA computed as Cohen's κ and macro-F1 per label.
+Annotator 1 (lead author) labeled all ThinkGeoBench tasks; Annotator 2 independently
+labeled an 88-task stratified sample from question text and a written guideline alone.
+A task may carry multiple tags when the answer needs more than one capability
+(e.g. `D+M2` = identify + count). IAA is reported as Cohen's κ and macro-F1 per label.
 
 ## Limitations
 
-- Multi-label annotation introduces label-set ambiguity; rationale notes
-  document marginal cases.
-- The eval split's M1 under-representation is mitigated by bootstrap analysis
-  in the paper.
-- The RSVQA-LR replication is confined to D/M2 (no M1 questions exist in
-  that benchmark at 10 m/px Sentinel-2 resolution).
-- The GSD injection ablation (N=161) is powered only for effects ≥12 pp;
-  smaller improvements would require a larger sample.
-- ThinkGeo `task_id` indexing must match the upstream JSON release used
-  at the time of annotation; see `data/README.md` in the GitHub repo.
+- Multi-label annotation introduces label-set ambiguity; rationale notes document marginal cases.
+- M1 is under-represented in the evaluation split; the paper mitigates this with bootstrap analysis.
+- The RSVQA-LR replication covers D/M2 only — no M1 questions exist at 10 m/px Sentinel-2 resolution.
+- The GSD-injection ablation (N=161) is powered only for effects ≥12 pp.
+- ThinkGeo `task_id` indexing must match the upstream JSON release used at annotation time.
 
 ## License
 
-Portions authored by this project — per-task D / M1 / M2 labels, IAA
-rationale, evaluation outputs, this dataset card, and the annotation
-guideline — are released under
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Portions authored by this project — the D/M1/M2 labels, IAA rationale, evaluation
+outputs, guideline and this card — are released under **CC BY 4.0**.
 
-A subset of the published files additionally redistributes verbatim
-question text and/or image filenames from upstream RS-VQA benchmarks
-(see *File Provenance* above). For those embedded portions the upstream
-license takes precedence:
+`thinkgeo_taxonomy_labels.json`, `review_436.csv`, `iaa_sample.csv`,
+`iaa_sample_annotator2.csv` and `iaa_sample_annotator2_rationale_ko.md` additionally
+embed verbatim ThinkGeoBench question text and/or image filenames, which remain under
+**Apache-2.0** (Shabbir et al., MBZUAI Oryx Lab); redistribution must preserve that
+attribution. `rsvqa_*.json` retains only upstream `q_id` integers. Full details:
+[`NOTICE`](https://github.com/ganghyunnnn/rs-taxonomy/blob/master/NOTICE).
 
-- **ThinkGeoBench question text and image filenames** in
-  `thinkgeo_taxonomy_labels.json`, `iaa_sample.csv`,
-  `iaa_sample_annotator2.csv`, `review_436.csv`, and
-  `iaa_sample_annotator2_rationale_ko.md` remain under
-  **Apache License 2.0** (Shabbir et al., MBZUAI Oryx Lab).
-  Downstream redistribution must preserve the upstream attribution; see
-  the `NOTICE` file in the companion GitHub repository for the full text.
-
-The underlying benchmark *images* are not redistributed and remain under
-their original licenses.
+Benchmark images are not redistributed and remain under their original licenses.
 
 ## Citation
 
 ```bibtex
 @article{park2026rstaxonomy,
-  title   = {Identifying the Measurement Gap in Remote Sensing VQA with a GSD-Sensitive Taxonomy},
-  author  = {Park, Ganghyun and Lee, Dongho},
+  title   = {Identifying the Measurement Gap in Remote Sensing {VQA} with a {GSD}-Sensitive Taxonomy},
+  author  = {Park, Ganghyun and Lee, Dong-Ho},
   journal = {IEEE Geoscience and Remote Sensing Letters},
   year    = {2026},
-  note    = {Under review}
+  note    = {Accepted for publication}
 }
 ```
