@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this taxonomy, its labels, or this code, please cite the paper below."
+title: "GSD-Sensitivity-Taxonomy"
+abstract: >-
+  A GSD-sensitive task taxonomy (D / M1 / M2) for remote sensing visual question
+  answering, with taxonomy labels for ThinkGeo, RSVQA-LR, FloodNet and EarthVQA,
+  and the evaluation code accompanying the IEEE GRSL letter.
+type: software
+authors:
+  - family-names: Park
+    given-names: Ganghyun
+    orcid: "https://orcid.org/0009-0002-0837-0412"
+    affiliation: "Korea Aerospace Research Institute"
+  - family-names: Lee
+    given-names: Dong-Ho
+    orcid: "https://orcid.org/0000-0002-7360-3027"
+    affiliation: "Korea Aerospace Research Institute"
+license: Apache-2.0
+repository-code: "https://github.com/ganghyunnnn/GSD-Sensitivity-Taxonomy"
+url: "https://huggingface.co/datasets/ganghyunnnn/GSD-Sensitivity-Taxonomy-Labels"
+keywords:
+  - remote sensing
+  - visual question answering
+  - ground sample distance
+  - vision-language models
+  - benchmark taxonomy
+preferred-citation:
+  type: article
+  title: "Identifying the Measurement Gap in Remote Sensing VQA with a GSD-Sensitive Taxonomy"
+  authors:
+    - family-names: Park
+      given-names: Ganghyun
+      orcid: "https://orcid.org/0009-0002-0837-0412"
+    - family-names: Lee
+      given-names: Dong-Ho
+      orcid: "https://orcid.org/0000-0002-7360-3027"
+  journal: "IEEE Geoscience and Remote Sensing Letters"
+  year: 2026
+  # doi: to be added once IEEE issues it (Early Access)
