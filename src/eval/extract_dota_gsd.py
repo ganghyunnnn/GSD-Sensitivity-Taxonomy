@@ -1,8 +1,9 @@
 """
 Extract per-image GSD (and image source) from DOTA-v1 original label headers.
 
-Source: data/DOTAv1.zip -> DOTAv1/labels/{val,train}_original/*.txt
-        (override the location with the DOTA_ZIP environment variable)
+Source: the original DOTA-v1 label headers in labels/{val,train}_original/*.txt,
+        read from the extracted tree at DOTA_ROOT, or from the release archive at
+        DOTA_ZIP when only the archive is available.
 Header format:
     imagesource:GoogleEarth
     gsd:0.125266546447
@@ -27,8 +28,10 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-# DOTA-v1 release archive, needed for the original label headers that carry gsd.
-# Defaults to data/DOTAv1.zip alongside the other benchmarks; override with DOTA_ZIP.
+# Original label headers carry the per-image gsd. They are read from the extracted
+# tree the counting scripts already use; the release archive is the fallback for a
+# checkout that only has the zip. Both locations are overridable.
+DOTA_ROOT = Path(os.environ.get("DOTA_ROOT", ROOT / "data" / "DOTAv1"))
 ZIP = Path(os.environ.get("DOTA_ZIP", ROOT / "data" / "DOTAv1.zip"))
 OUT = ROOT / "experiments/dota_val_gsd_map.json"
 
@@ -38,14 +41,23 @@ CANON = {"plane": "plane", "ship": "ship",
          "small-vehicle": "small vehicle", "large-vehicle": "large vehicle"}
 
 
-def parse_split(z, split):
-    out = {}
+def iter_labels(split):
+    """Yield (stem, text) for each original label file in `split`."""
+    d = DOTA_ROOT / "labels" / f"{split}_original"
+    if d.is_dir():
+        for f in sorted(d.glob("*.txt")):
+            yield f.stem, f.read_text(encoding="utf-8", errors="replace")
+        return
     prefix = f"DOTAv1/labels/{split}_original/"
-    for name in z.namelist():
-        if not name.startswith(prefix) or not name.endswith(".txt"):
-            continue
-        stem = Path(name).stem
-        text = z.read(name).decode("utf-8", errors="replace")
+    with zipfile.ZipFile(ZIP) as z:
+        for name in z.namelist():
+            if name.startswith(prefix) and name.endswith(".txt"):
+                yield Path(name).stem, z.read(name).decode("utf-8", errors="replace")
+
+
+def parse_split(split):
+    out = {}
+    for stem, text in iter_labels(split):
         gsd = None
         src = None
         inst = {c: [] for c in CANON.values()}
@@ -89,8 +101,7 @@ def parse_split(z, split):
 
 
 def main():
-    z = zipfile.ZipFile(ZIP)
-    val = parse_split(z, "val")
+    val = parse_split("val")
     flags = {}
     gsds = []
     for v in val.values():
