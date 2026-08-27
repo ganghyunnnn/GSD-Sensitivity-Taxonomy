@@ -1,7 +1,8 @@
 """
 Extract per-image GSD (and image source) from DOTA-v1 original label headers.
 
-Source: datasets/DOTAv1.zip -> DOTAv1/labels/{val,train}_original/*.txt
+Source: data/DOTAv1.zip -> DOTAv1/labels/{val,train}_original/*.txt
+        (override the location with the DOTA_ZIP environment variable)
 Header format:
     imagesource:GoogleEarth
     gsd:0.125266546447
@@ -20,12 +21,15 @@ matched-pair GT) can use measured instance sizes instead of nominal ones.
 """
 import json
 import math
+import os
 import sys
 import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-ZIP = ROOT / "datasets/DOTAv1.zip"
+# DOTA-v1 release archive, needed for the original label headers that carry gsd.
+# Defaults to data/DOTAv1.zip alongside the other benchmarks; override with DOTA_ZIP.
+ZIP = Path(os.environ.get("DOTA_ZIP", ROOT / "data" / "DOTAv1.zip"))
 OUT = ROOT / "experiments/dota_val_gsd_map.json"
 
 PRIMARY = {"plane", "ship", "small-vehicle", "large-vehicle"}

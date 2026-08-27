@@ -36,6 +36,8 @@ data/
 > need the DOTA-v1 validation split in YOLO-OBB format at `data/DOTAv1/{images,labels}/val`.
 > If it lives elsewhere, point at it with the `DOTA_ROOT` environment variable:
 > `DOTA_ROOT=/path/to/DOTAv1 python src/eval/run_dota_val_counting.py`.
+> `extract_dota_gsd.py` additionally reads the release archive at `data/DOTAv1.zip`
+> (override with `DOTA_ZIP`) for the original label headers that carry per-image GSD.
 
 > **EarthVQA** is restricted to academic use (RSIDEA, Wuhan University) and its images
 > additionally fall under the Google Earth Terms of Use.

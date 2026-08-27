@@ -53,8 +53,7 @@ annotation/blind_sample_100*
 src/eval/make_blind_annotation_sample.py
 experiments/logs/
 
-# ── Detector experiment: large data/weights (local only) ─────────────────────
-datasets/
+# ── Detector experiment: large weights (local only) ──────────────────────────
 *.pt
 *.zip
 experiments/*.log
